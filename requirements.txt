@@ -1,7 +1,7 @@
-yfinance==0.2.32
-pandas==2.1.0
-sqlalchemy==2.0.20
-psycopg2-binary==2.9.9
-python-dotenv==1.0.0
-pytest==7.4.0
-pytest-mock==3.11.1
+yfinance>=0.2.32
+pandas>=2.2.0
+sqlalchemy>=2.0.20
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+pytest>=7.4.0
+pytest-mock>=3.11.1
