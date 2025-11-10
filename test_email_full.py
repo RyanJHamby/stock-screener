@@ -24,14 +24,15 @@ fundamentals_df, prices_df = fetcher.fetch_multiple(tickers, period="5y")
 if not fundamentals_df.empty:
     print(f"\nSaving {len(fundamentals_df)} stocks to database...")
     for _, row in fundamentals_df.iterrows():
-        db.save_stock_fundamentals(row.to_dict())
+        ticker = row['ticker']
+        db.save_stock_fundamentals(ticker, row.to_dict())
 
     # Save price history
     for ticker in tickers:
         ticker_prices = prices_df[prices_df['ticker'] == ticker].copy()
         if not ticker_prices.empty:
             ticker_prices = ticker_prices.drop('ticker', axis=1)
-            db.save_stock_price_history(ticker, ticker_prices)
+            db.save_price_history(ticker, ticker_prices)
 
     print("Data saved successfully!")
 else:
