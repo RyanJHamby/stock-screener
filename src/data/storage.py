@@ -147,6 +147,40 @@ class PriceHistory(Base):
         return f"<PriceHistory(stock_id={self.stock_id}, date='{self.date}', close={self.close})>"
 
 
+class DataQualityLog(Base):
+    """Data quality check log table storing quality check results.
+
+    Attributes:
+        id: Primary key.
+        ticker: Stock ticker symbol.
+        check_date: Date when quality check was performed.
+        overall_score: Overall quality score (0-100).
+        has_critical_issues: Whether critical issues were found.
+        needs_refresh: Whether data needs to be refreshed.
+        num_issues: Total number of issues found.
+        issue_summary: Summary of issues (first 5).
+    """
+
+    __tablename__ = 'data_quality_log'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    ticker = Column(String(10), nullable=False, index=True)
+    check_date = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    overall_score = Column(Float)
+    has_critical_issues = Column(Integer)  # SQLite doesn't have Boolean, use 0/1
+    needs_refresh = Column(Integer)  # SQLite doesn't have Boolean, use 0/1
+    num_issues = Column(Integer)
+    issue_summary = Column(String(1000))
+
+    # Composite index for efficient queries
+    __table_args__ = (
+        Index('ix_quality_log_ticker_date', 'ticker', 'check_date'),
+    )
+
+    def __repr__(self) -> str:
+        return f"<DataQualityLog(ticker='{self.ticker}', score={self.overall_score}, date='{self.check_date}')>"
+
+
 class StockDatabase:
     """Database interface for storing and querying stock data.
 
