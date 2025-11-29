@@ -31,7 +31,7 @@ from src.screening.benchmark import (
     should_generate_signals
 )
 from src.screening.signal_engine import score_buy_signal, score_sell_signal
-from src.data.fundamentals_fetcher import create_fundamental_snapshot
+from src.data.enhanced_fundamentals import EnhancedFundamentalsFetcher
 
 logging.basicConfig(
     level=logging.INFO,
@@ -169,6 +169,7 @@ def main():
     parser.add_argument('--test-mode', action='store_true', help='Test with 100 stocks')
     parser.add_argument('--min-price', type=float, default=5.0, help='Min price')
     parser.add_argument('--min-volume', type=int, default=100000, help='Min volume')
+    parser.add_argument('--use-fmp', action='store_true', help='Use FMP for enhanced fundamentals on buy signals')
 
     args = parser.parse_args()
 
@@ -184,6 +185,13 @@ def main():
 
     effective_tps = args.workers / args.delay
     logger.info(f"Configuration: {args.workers} workers × {1/args.delay:.1f} TPS = ~{effective_tps:.1f} TPS effective")
+
+    # Initialize enhanced fundamentals fetcher
+    fundamentals_fetcher = EnhancedFundamentalsFetcher()
+    if args.use_fmp and fundamentals_fetcher.fmp_available:
+        logger.info("FMP enabled - will use for buy signal fundamentals")
+    elif args.use_fmp:
+        logger.warning("--use-fmp specified but FMP_API_KEY not set. Using yfinance only.")
 
     try:
         # Fetch universe
@@ -242,9 +250,11 @@ def main():
                         fundamentals=analysis.get('fundamental_analysis')
                     )
                     if signal['is_buy']:
-                        signal['fundamental_snapshot'] = create_fundamental_snapshot(
+                        # Use FMP for enhanced snapshot if requested and available
+                        signal['fundamental_snapshot'] = fundamentals_fetcher.create_snapshot(
                             analysis['ticker'],
-                            analysis.get('quarterly_data', {})
+                            quarterly_data=analysis.get('quarterly_data', {}),
+                            use_fmp=args.use_fmp
                         )
                         buy_signals.append(signal)
 
@@ -269,6 +279,18 @@ def main():
 
         # Report
         save_report(results, buy_signals, sell_signals, spy_analysis, breadth)
+
+        # Show FMP usage if enabled
+        if args.use_fmp:
+            usage = fundamentals_fetcher.get_api_usage()
+            logger.info("="*60)
+            logger.info("FMP API USAGE")
+            logger.info(f"Calls used: {usage['fmp_calls_used']}/{usage['fmp_daily_limit']}")
+            logger.info(f"Calls remaining: {usage['fmp_calls_remaining']}")
+            if 'bandwidth_used_mb' in usage:
+                logger.info(f"Bandwidth used: {usage['bandwidth_used_mb']:.1f} MB / {usage['bandwidth_limit_gb']:.1f} GB ({usage['bandwidth_pct_used']:.1f}%)")
+                logger.info(f"Earnings season: {'Yes' if usage['is_earnings_season'] else 'No'} (cache: {usage['cache_hours']}h)")
+            logger.info("="*60)
 
         logger.info("="*60)
         logger.info("SCAN COMPLETE")

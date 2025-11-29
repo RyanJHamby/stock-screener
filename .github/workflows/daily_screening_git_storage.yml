@@ -1,0 +1,173 @@
+name: Daily Stock Screening (Git-Based Storage)
+
+on:
+  schedule:
+    # Run at 8am EST (13:00 UTC) on weekdays
+    - cron: '0 13 * * 1-5'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      force_full_refresh:
+        description: 'Force refresh all fundamentals (ignore cache)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  screen-stocks:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to commit fundamental cache
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Shallow clone for speed
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "time=$(date +'%H:%M:%S')" >> $GITHUB_OUTPUT
+
+      - name: Check existing fundamental cache
+        id: cache-check
+        run: |
+          if [ -d "data/fundamentals_cache" ]; then
+            CACHE_COUNT=$(ls data/fundamentals_cache/*_fundamentals.json 2>/dev/null | wc -l | tr -d ' ')
+            echo "✓ Found existing fundamental cache"
+            echo "cached_stocks=$CACHE_COUNT" >> $GITHUB_OUTPUT
+            echo "  Cached stocks: $CACHE_COUNT"
+
+            # Show cache age distribution
+            echo "  Cache age distribution:"
+            find data/fundamentals_cache -name "*_fundamentals.json" -mtime -7 -type f | wc -l | xargs echo "    <7 days:"
+            find data/fundamentals_cache -name "*_fundamentals.json" -mtime +7 -mtime -30 -type f | wc -l | xargs echo "    7-30 days:"
+            find data/fundamentals_cache -name "*_fundamentals.json" -mtime +30 -mtime -90 -type f | wc -l | xargs echo "    30-90 days:"
+            find data/fundamentals_cache -name "*_fundamentals.json" -mtime +90 -type f | wc -l | xargs echo "    >90 days (stale):"
+          else
+            echo "⚠ No existing cache, will create"
+            mkdir -p data/fundamentals_cache
+            echo "cached_stocks=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run optimized stock screening
+        env:
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_SMTP_SERVER: ${{ secrets.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
+          EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT || '587' }}
+          FORCE_FULL_REFRESH: ${{ github.event.inputs.force_full_refresh || 'false' }}
+          CACHED_STOCKS: ${{ steps.cache-check.outputs.cached_stocks }}
+        run: |
+          echo "Starting screening with:"
+          echo "  - Fresh price data for all stocks (1 year history)"
+          echo "  - Smart fundamental refresh (earnings-aware)"
+          echo "  - Cached fundamentals: $CACHED_STOCKS stocks"
+          echo ""
+
+          # Conservative mode to avoid rate limits
+          # --git-storage flag enables Git-based fundamental storage
+          python run_optimized_scan.py --conservative --git-storage
+
+      - name: Show fundamental refresh stats
+        if: always()
+        run: |
+          echo "=== Fundamental Cache Statistics ==="
+          if [ -f "data/fundamentals_cache/metadata.json" ]; then
+            echo "Latest updates:"
+            python3 << 'EOF'
+import json
+from datetime import datetime
+
+try:
+    with open('data/fundamentals_cache/metadata.json', 'r') as f:
+        metadata = json.load(f)
+
+    # Show last 10 updated stocks
+    updates = [(ticker, data['last_updated']) for ticker, data in metadata.items()]
+    updates.sort(key=lambda x: x[1], reverse=True)
+
+    print(f"Total tracked: {len(updates)} stocks")
+    print(f"\nLast 10 updates:")
+    for ticker, timestamp in updates[:10]:
+        dt = datetime.fromisoformat(timestamp)
+        print(f"  {ticker}: {dt.strftime('%Y-%m-%d %H:%M')}")
+except Exception as e:
+    print(f"Could not read metadata: {e}")
+EOF
+          else
+            echo "No metadata file found"
+          fi
+
+      - name: Commit updated fundamental cache
+        id: commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add fundamental cache directory
+          git add data/fundamentals_cache/
+
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No fundamental cache changes to commit"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            CHANGED_FILES=$(git diff --staged --name-only | wc -l)
+            echo "Committing $CHANGED_FILES updated fundamental files"
+            git commit -m "chore: update fundamental cache ($CHANGED_FILES stocks) - ${{ steps.date.outputs.date }}"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Push changes
+        if: steps.commit.outputs.has_changes == 'true'
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
+      - name: Upload screening results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screening-results-${{ steps.date.outputs.date }}
+          path: |
+            data/daily_scans/latest_optimized_scan.txt
+            data/daily_scans/optimized_scan_*.txt
+            data/logs/*.log
+          retention-days: 90  # Keep screening results for 90 days
+
+      - name: Cache size report
+        if: always()
+        run: |
+          echo "=== Git Repository Impact ==="
+          if [ -d "data/fundamentals_cache" ]; then
+            CACHE_SIZE=$(du -sh data/fundamentals_cache | cut -f1)
+            CACHE_FILES=$(find data/fundamentals_cache -name "*.json" | wc -l | tr -d ' ')
+
+            echo "Fundamental cache directory size: $CACHE_SIZE"
+            echo "Total files: $CACHE_FILES"
+            echo ""
+            echo "Today's commit impact:"
+            if [ "${{ steps.commit.outputs.has_changes }}" == "true" ]; then
+              git show --stat | tail -5
+            else
+              echo "  No changes committed"
+            fi
+          fi

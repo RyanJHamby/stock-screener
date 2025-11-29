@@ -1,8 +1,19 @@
-# Optimized Full Market Scanner - 10-25x Faster
+# Optimized Full Market Scanner - 10-25x Faster + Enhanced Fundamentals
 
 ## 🚀 Performance Upgrade
 
 I've created an **optimized version** that's **10-25x faster** than the original scanner using parallel processing.
+
+## 📊 New Feature: Enhanced Fundamentals (FMP Integration)
+
+The scanner now supports **enhanced quarterly fundamentals** via Financial Modeling Prep:
+- ✅ **Net margins** (not available in yfinance!)
+- ✅ **Operating margins** (not available in yfinance!)
+- ✅ **Detailed inventory analysis**
+- ✅ Free tier: 250 requests/day
+- ✅ Smart usage: Only fetches for buy signals (~50-100 stocks)
+
+**See**: `ENHANCED_FUNDAMENTALS_USAGE.md` for setup and usage details.
 
 ### Speed Comparison
 

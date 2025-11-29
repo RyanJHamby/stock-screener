@@ -1,0 +1,122 @@
+name: Daily Stock Screening (Optimized with Smart Caching)
+
+on:
+  schedule:
+    # Run at 8am EST (13:00 UTC) on weekdays
+    - cron: '0 13 * * 1-5'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      force_full_fetch:
+        description: 'Force full data fetch (ignore cache)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  screen-stocks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "week=$(date +'%Y-W%U')" >> $GITHUB_OUTPUT
+
+      - name: Restore stock data cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/cache/price_history/
+            data/cache/fundamentals/
+          # Primary key: today's date (will only match if run already today)
+          key: stock-data-v1-${{ steps.date.outputs.date }}
+          # Fallback keys: yesterday, this week, any recent
+          restore-keys: |
+            stock-data-v1-${{ steps.date.outputs.week }}
+            stock-data-v1-
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Display cache status
+        run: |
+          if [ "${{ steps.cache-restore.outputs.cache-hit }}" == "true" ]; then
+            echo "✓ Cache hit! Using cached data for incremental update"
+            echo "Cache key: ${{ steps.cache-restore.outputs.cache-matched-key }}"
+          else
+            echo "⚠ Cache miss. Will perform full fetch"
+          fi
+
+          # Show cache size if it exists
+          if [ -d "data/cache" ]; then
+            echo "Cache directory size:"
+            du -sh data/cache/ || echo "Cache directory empty"
+            echo "Cached stocks:"
+            find data/cache/price_history -name "*_prices.pkl" 2>/dev/null | wc -l || echo "0"
+          fi
+
+      - name: Run optimized stock screening
+        env:
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_SMTP_SERVER: ${{ secrets.EMAIL_SMTP_SERVER || 'smtp.gmail.com' }}
+          EMAIL_SMTP_PORT: ${{ secrets.EMAIL_SMTP_PORT || '587' }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          CACHE_HIT: ${{ steps.cache-restore.outputs.cache-hit }}
+          FORCE_FULL_FETCH: ${{ github.event.inputs.force_full_fetch || 'false' }}
+        run: |
+          # Run with conservative settings to avoid rate limits
+          # --incremental flag enables smart caching
+          python run_optimized_scan.py --conservative --incremental
+
+      - name: Save stock data cache
+        uses: actions/cache/save@v4
+        if: always()  # Save cache even if screening fails
+        with:
+          path: |
+            data/cache/price_history/
+            data/cache/fundamentals/
+          key: stock-data-v1-${{ steps.date.outputs.date }}
+
+      - name: Upload screening results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screening-results-${{ steps.date.outputs.date }}
+          path: |
+            data/daily_scans/latest_optimized_scan.txt
+            data/daily_scans/optimized_scan_*.txt
+            data/logs/*.log
+          retention-days: 30
+
+      - name: Cache statistics
+        if: always()
+        run: |
+          echo "=== Final Cache Statistics ==="
+          if [ -d "data/cache" ]; then
+            echo "Total cache size:"
+            du -sh data/cache/
+            echo ""
+            echo "Price cache:"
+            find data/cache/price_history -name "*_prices.pkl" 2>/dev/null | wc -l | xargs echo "  Stocks cached:"
+            echo ""
+            echo "Fundamental cache:"
+            find data/cache/fundamentals -name "*_fundamentals.pkl" 2>/dev/null | wc -l | xargs echo "  Stocks cached:"
+          fi
