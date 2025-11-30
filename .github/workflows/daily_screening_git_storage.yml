@@ -91,26 +91,26 @@ jobs:
           echo "=== Fundamental Cache Statistics ==="
           if [ -f "data/fundamentals_cache/metadata.json" ]; then
             echo "Latest updates:"
-            python3 << 'EOF'
-import json
-from datetime import datetime
+            python3 -c '
+          import json
+          from datetime import datetime
 
-try:
-    with open('data/fundamentals_cache/metadata.json', 'r') as f:
-        metadata = json.load(f)
+          try:
+              with open("data/fundamentals_cache/metadata.json", "r") as f:
+                  metadata = json.load(f)
 
-    # Show last 10 updated stocks
-    updates = [(ticker, data['last_updated']) for ticker, data in metadata.items()]
-    updates.sort(key=lambda x: x[1], reverse=True)
+              # Show last 10 updated stocks
+              updates = [(ticker, data["last_updated"]) for ticker, data in metadata.items()]
+              updates.sort(key=lambda x: x[1], reverse=True)
 
-    print(f"Total tracked: {len(updates)} stocks")
-    print(f"\nLast 10 updates:")
-    for ticker, timestamp in updates[:10]:
-        dt = datetime.fromisoformat(timestamp)
-        print(f"  {ticker}: {dt.strftime('%Y-%m-%d %H:%M')}")
-except Exception as e:
-    print(f"Could not read metadata: {e}")
-EOF
+              print(f"Total tracked: {len(updates)} stocks")
+              print(f"\nLast 10 updates:")
+              for ticker, timestamp in updates[:10]:
+                  dt = datetime.fromisoformat(timestamp)
+                  print(f"  {ticker}: {dt.strftime(\"%Y-%m-%d %H:%M\")}")
+          except Exception as e:
+              print(f"Could not read metadata: {e}")
+          '
           else
             echo "No metadata file found"
           fi
