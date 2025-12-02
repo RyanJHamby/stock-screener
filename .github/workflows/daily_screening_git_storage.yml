@@ -81,6 +81,10 @@ jobs:
           echo "  - Cached fundamentals: $CACHED_STOCKS stocks"
           echo ""
 
+          # Create output directories
+          mkdir -p data/daily_scans
+          mkdir -p data/logs
+
           # Conservative mode to avoid rate limits
           # --git-storage flag enables Git-based fundamental storage
           python run_optimized_scan.py --conservative --git-storage
@@ -91,7 +95,7 @@ jobs:
           echo "=== Fundamental Cache Statistics ==="
           if [ -f "data/fundamentals_cache/metadata.json" ]; then
             echo "Latest updates:"
-            python3 -c '
+            python3 << 'PYTHON_SCRIPT'
           import json
           from datetime import datetime
 
@@ -104,13 +108,14 @@ jobs:
               updates.sort(key=lambda x: x[1], reverse=True)
 
               print(f"Total tracked: {len(updates)} stocks")
-              print(f"\nLast 10 updates:")
+              print("\nLast 10 updates:")
               for ticker, timestamp in updates[:10]:
                   dt = datetime.fromisoformat(timestamp)
-                  print(f"  {ticker}: {dt.strftime(\"%Y-%m-%d %H:%M\")}")
+                  formatted = dt.strftime("%Y-%m-%d %H:%M")
+                  print(f"  {ticker}: {formatted}")
           except Exception as e:
               print(f"Could not read metadata: {e}")
-          '
+          PYTHON_SCRIPT
           else
             echo "No metadata file found"
           fi
@@ -148,9 +153,9 @@ jobs:
         with:
           name: screening-results-${{ steps.date.outputs.date }}
           path: |
-            data/daily_scans/latest_optimized_scan.txt
-            data/daily_scans/optimized_scan_*.txt
-            data/logs/*.log
+            data/daily_scans/
+            data/logs/
+          if-no-files-found: warn  # Don't fail if no files found
           retention-days: 90  # Keep screening results for 90 days
 
       - name: Cache size report
