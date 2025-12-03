@@ -32,17 +32,17 @@ def score_buy_signal(
     rs_series: pd.Series,
     fundamentals: Optional[Dict] = None
 ) -> Dict[str, any]:
-    """Score a buy signal based on Phase 1->2 transition or Phase 2 breakout.
+    """Score a buy signal for swing/position trading (NOT day trading).
+
+    Based on Weinstein/O'Neil/Minervini Stage 2 methodology with gradual scoring.
 
     Scoring Components (0-100):
-    - Trend structure: 40 points
-    - Volume confirmation: 20 points
-    - Relative strength slope: 20 points
-    - Volatility contraction quality: 20 points
+    - Trend structure/Stage quality: 50 points (NOT binary!)
+    - Fundamentals: 30 points (growth, margins, inventory)
+    - Volume behavior: 10 points (directional context matters!)
+    - Relative strength: 10 points (gradual slope)
 
-    Fundamental contradiction: -10 points
-
-    Only output scores >= 70
+    Threshold: >= 60 for signals (NOT 70!)
 
     Args:
         ticker: Stock ticker
@@ -50,7 +50,7 @@ def score_buy_signal(
         current_price: Current price
         phase_info: Phase classification
         rs_series: Relative strength series
-        fundamentals: Optional fundamental snapshot
+        fundamentals: Optional fundamental analysis
 
     Returns:
         Dict with buy signal score and details
@@ -71,157 +71,251 @@ def score_buy_signal(
     details = {}
     reasons = []
 
-    # 1. TREND STRUCTURE (40 points)
+    # ========================================================================
+    # 1. TREND STRUCTURE / STAGE QUALITY (50 points) - GRADUAL, NOT BINARY
+    # ========================================================================
     trend_score = 0
 
-    # Check if in Phase 2 or transitioning from Phase 1 to Phase 2
-    if phase == 2:
-        trend_score += 30
-        reasons.append('In Phase 2 (Uptrend)')
-    elif phase == 1:
-        # Check if about to transition to Phase 2
-        sma_50 = phase_info.get('sma_50', 0)
-        sma_200 = phase_info.get('sma_200', 0)
-        slope_50 = phase_info.get('slope_50', 0)
-
-        if (current_price > sma_50 * 0.98 and  # Within 2% of 50 SMA
-            sma_50 > sma_200 and
-            slope_50 > 0):
-            trend_score += 25
-            reasons.append('Transitioning Phase 1 -> Phase 2')
-        else:
-            trend_score += 10
-            reasons.append('In Phase 1 (Base Building)')
-
-    # Detect breakout
-    breakout_info = detect_breakout(price_data, current_price, phase_info)
-    if breakout_info['is_breakout']:
-        trend_score += 10
-        reasons.append(f"{breakout_info['breakout_type']} at {breakout_info['breakout_level']}")
-        details['breakout'] = breakout_info
-
-    # Check SMA alignment
     sma_50 = phase_info.get('sma_50', 0)
     sma_200 = phase_info.get('sma_200', 0)
     slope_50 = phase_info.get('slope_50', 0)
     slope_200 = phase_info.get('slope_200', 0)
-
-    if slope_50 > slope_200:
-        reasons.append(f'50 SMA slope ({slope_50:.4f}) > 200 SMA slope ({slope_200:.4f})')
-
-    # Check not over-extended
     distance_50 = phase_info.get('distance_from_50sma', 0)
-    if distance_50 > 25:
+    distance_200 = phase_info.get('distance_from_200sma', 0)
+
+    # A) Base Stage 2 quality (30 points max) - GRADUAL based on strength
+    if phase == 2:
+        # Not all Stage 2 stocks are equal! Grade by strength
+        stage2_quality = 0
+
+        # How far above SMAs? (15 pts)
+        if distance_50 >= 5 and distance_200 >= 10:
+            stage2_quality += 15  # Strong uptrend
+            reasons.append('Strong Stage 2: well above SMAs')
+        elif distance_50 >= 2 and distance_200 >= 5:
+            stage2_quality += 12  # Good uptrend
+            reasons.append('Good Stage 2: above SMAs')
+        elif distance_50 >= 0 and distance_200 >= 0:
+            stage2_quality += 8   # Weak Stage 2
+            reasons.append('Weak Stage 2: barely above SMAs')
+        else:
+            stage2_quality += 3   # Very weak
+            reasons.append('Very weak Stage 2')
+
+        # SMA slopes - are SMAs rising? (15 pts)
+        if slope_50 > 0.05 and slope_200 > 0.03:
+            stage2_quality += 15  # Strong rising SMAs
+            reasons.append(f'SMAs rising strongly (50:{slope_50:.3f}, 200:{slope_200:.3f})')
+        elif slope_50 > 0.02 and slope_200 > 0.01:
+            stage2_quality += 10  # Moderate
+            reasons.append(f'SMAs rising moderately')
+        elif slope_50 > 0 and slope_200 > 0:
+            stage2_quality += 5   # Weak
+            reasons.append(f'SMAs rising weakly')
+        else:
+            stage2_quality += 0   # Flat/declining
+            reasons.append('Warning: SMAs not rising')
+
+        trend_score += stage2_quality
+
+    elif phase == 1:
+        # Stage 1 → Stage 2 transition potential (graded 0-25 points)
+        transition_score = 0
+
+        # How close to breaking out? (12 pts)
+        if distance_50 >= -2 and distance_50 < 5:
+            transition_score += 12  # Near 50 SMA
+            reasons.append(f'Near 50 SMA ({distance_50:.1f}% away)')
+        elif distance_50 >= -5:
+            transition_score += 8
+            reasons.append(f'Approaching 50 SMA')
+        else:
+            transition_score += 3
+            reasons.append('Far from 50 SMA')
+
+        # SMA setup - golden cross territory? (13 pts)
+        if sma_50 > sma_200 and slope_50 > 0:
+            transition_score += 13
+            reasons.append('50 SMA > 200 SMA (golden cross)')
+        elif sma_50 > sma_200 * 0.98:
+            transition_score += 8
+            reasons.append('Approaching golden cross')
+        else:
+            transition_score += 3
+
+        trend_score += transition_score
+
+    # B) Breakout detection (10 points)
+    breakout_info = detect_breakout(price_data, current_price, phase_info)
+    if breakout_info['is_breakout']:
+        trend_score += 10
+        reasons.append(f"Breakout: {breakout_info['breakout_type']}")
+        details['breakout'] = breakout_info
+
+    # C) Over-extension check (10 points penalty)
+    if distance_50 > 30:
         trend_score -= 10
-        reasons.append(f'Over-extended: {distance_50:.1f}% above 50 SMA')
-    elif distance_50 < 10:
-        reasons.append(f'Good distance from 50 SMA: {distance_50:.1f}%')
+        reasons.append(f'⚠ Over-extended: {distance_50:.1f}% above 50 SMA')
+    elif distance_50 > 20:
+        trend_score -= 5
+        reasons.append(f'Moderately extended above 50 SMA')
 
-    score += min(trend_score, 40)
-    details['trend_score'] = min(trend_score, 40)
+    score += min(trend_score, 50)
+    details['trend_score'] = min(trend_score, 50)
 
-    # 2. VOLUME CONFIRMATION (20 points)
+    # ========================================================================
+    # 2. FUNDAMENTALS (30 points) - MOST IMPORTANT FOR POSITION TRADING
+    # ========================================================================
+    fundamental_score = 0
+
+    if fundamentals:
+        # A) Growth trends (15 points)
+        revenue_trend = fundamentals.get('revenue_trend', 'unknown')
+        eps_trend = fundamentals.get('eps_trend', 'unknown')
+
+        if revenue_trend == 'accelerating' and eps_trend == 'accelerating':
+            fundamental_score += 15
+            reasons.append('✓ Revenue & EPS accelerating')
+        elif revenue_trend == 'accelerating' or eps_trend == 'accelerating':
+            fundamental_score += 12
+            reasons.append('Revenue or EPS accelerating')
+        elif revenue_trend == 'growing' and eps_trend == 'growing':
+            fundamental_score += 10
+            reasons.append('Revenue & EPS growing')
+        elif revenue_trend == 'growing' or eps_trend == 'growing':
+            fundamental_score += 7
+            reasons.append('Some growth present')
+        elif revenue_trend == 'flat' and eps_trend == 'flat':
+            fundamental_score += 3
+            reasons.append('Growth stalled')
+        else:
+            fundamental_score += 0
+            reasons.append('⚠ Revenue or EPS deteriorating')
+
+        # B) Inventory signal (10 points)
+        inventory_signal = fundamentals.get('inventory_signal', 'neutral')
+        if inventory_signal == 'neutral' or inventory_signal == 'unknown':
+            fundamental_score += 10
+            reasons.append('Inventory: neutral')
+        elif inventory_signal == 'caution':
+            fundamental_score += 5
+            reasons.append('⚠ Inventory building moderately')
+        else:  # negative
+            fundamental_score += 0
+            reasons.append('⚠ Inventory building rapidly (demand concern)')
+
+        # C) Profit margins expansion (5 points bonus)
+        # TODO: Add when margin data available
+        fundamental_score += 5  # Placeholder - assume neutral
+
+        details['fundamental_score'] = fundamental_score
+    else:
+        # No fundamentals available - neutral score
+        fundamental_score = 15  # Half of 30
+        reasons.append('No fundamental data available')
+        details['fundamental_score'] = fundamental_score
+
+    score += fundamental_score
+
+    # ========================================================================
+    # 3. VOLUME BEHAVIOR (10 points) - DIRECTIONAL CONTEXT MATTERS!
+    # ========================================================================
     volume_score = 0
 
-    if 'Volume' in price_data.columns and len(price_data) >= 20:
-        volume_ratio = calculate_volume_ratio(price_data['Volume'], 20)
+    if 'Volume' in price_data.columns and len(price_data) >= 30:
+        # Look at last 5 days to understand volume context
+        recent_prices = price_data['Close'].iloc[-6:]  # 6 days to get 5 changes
+        recent_volume = price_data['Volume'].iloc[-5:]
+        avg_volume = price_data['Volume'].iloc[-30:-5].mean()
 
-        if volume_ratio >= 1.5:
-            volume_score = 20
-            reasons.append(f'Strong volume: {volume_ratio:.1f}x average')
-        elif volume_ratio >= 1.3:
-            volume_score = 15
-            reasons.append(f'Good volume: {volume_ratio:.1f}x average')
-        elif volume_ratio >= 1.1:
+        # Calculate price change context
+        up_days = 0
+        down_days = 0
+        volume_on_up_days = 0
+        volume_on_down_days = 0
+
+        for i in range(1, len(recent_prices)):
+            price_change = recent_prices.iloc[i] - recent_prices.iloc[i-1]
+            vol = recent_volume.iloc[i-1]
+
+            if price_change > 0:
+                up_days += 1
+                volume_on_up_days += vol
+            else:
+                down_days += 1
+                volume_on_down_days += vol
+
+        # Average volume on up vs down days
+        avg_vol_up = (volume_on_up_days / up_days) if up_days > 0 else 0
+        avg_vol_down = (volume_on_down_days / down_days) if down_days > 0 else 0
+
+        # Score based on volume behavior
+        if avg_vol_up > avg_vol_down * 1.3:
+            # Heavy volume on up days = institutions accumulating
             volume_score = 10
-            reasons.append(f'Moderate volume: {volume_ratio:.1f}x average')
-        else:
+            reasons.append(f'✓ Volume heavier on up days ({avg_vol_up/1e6:.1f}M vs {avg_vol_down/1e6:.1f}M)')
+        elif avg_vol_up > avg_vol_down:
+            volume_score = 7
+            reasons.append('Volume slightly heavier on up days')
+        elif avg_vol_down > avg_vol_up * 1.3:
+            # Heavy volume on down days = distribution
             volume_score = 0
-            reasons.append(f'Low volume: {volume_ratio:.1f}x average')
+            reasons.append('⚠ Volume heavier on down days (distribution)')
+        else:
+            volume_score = 4
+            reasons.append('Volume pattern neutral')
 
-        details['volume_ratio'] = round(volume_ratio, 2)
+        details['avg_vol_up'] = round(avg_vol_up, 0)
+        details['avg_vol_down'] = round(avg_vol_down, 0)
+        details['volume_score'] = volume_score
+    else:
+        volume_score = 5  # Neutral if no data
+        details['volume_score'] = volume_score
 
     score += volume_score
-    details['volume_score'] = volume_score
 
-    # 3. RELATIVE STRENGTH SLOPE (20 points)
+    # ========================================================================
+    # 4. RELATIVE STRENGTH (10 points) - GRADUAL SLOPE
+    # ========================================================================
     rs_score = 0
 
-    if len(rs_series) >= 15:
-        rs_slope = calculate_rs_slope(rs_series, 15)
+    if len(rs_series) >= 20:
+        # Use 20-day RS slope for swing trading
+        rs_slope = calculate_rs_slope(rs_series, 20)
 
-        if rs_slope > 0:
-            if rs_slope > 2.0:
-                rs_score = 20
-                reasons.append(f'Excellent RS momentum: {rs_slope:.2f}')
-            elif rs_slope > 1.0:
-                rs_score = 15
-                reasons.append(f'Strong RS momentum: {rs_slope:.2f}')
-            elif rs_slope > 0.5:
-                rs_score = 10
-                reasons.append(f'Positive RS momentum: {rs_slope:.2f}')
-            else:
-                rs_score = 5
-                reasons.append(f'Weak RS momentum: {rs_slope:.2f}')
+        # Gradual scoring curve
+        if rs_slope >= 3.0:
+            rs_score = 10
+            reasons.append(f'Excellent RS: {rs_slope:.2f} (outperforming SPY)')
+        elif rs_slope >= 2.0:
+            rs_score = 8
+            reasons.append(f'Strong RS: {rs_slope:.2f}')
+        elif rs_slope >= 1.0:
+            rs_score = 6
+            reasons.append(f'Good RS: {rs_slope:.2f}')
+        elif rs_slope >= 0.5:
+            rs_score = 4
+            reasons.append(f'Positive RS: {rs_slope:.2f}')
+        elif rs_slope >= 0:
+            rs_score = 2
+            reasons.append(f'Weak RS: {rs_slope:.2f}')
         else:
             rs_score = 0
-            reasons.append(f'Negative RS: {rs_slope:.2f}')
+            reasons.append(f'⚠ Negative RS: {rs_slope:.2f} (underperforming)')
 
         details['rs_slope'] = round(rs_slope, 3)
+        details['rs_score'] = rs_score
+    else:
+        rs_score = 5  # Neutral if insufficient data
+        details['rs_score'] = rs_score
 
     score += rs_score
-    details['rs_score'] = rs_score
-
-    # 4. VOLATILITY CONTRACTION QUALITY (20 points)
-    vol_data = detect_volatility_contraction(price_data['Close'], 20)
-    vol_score = 0
-
-    if vol_data['is_contracting']:
-        vol_quality = vol_data['contraction_quality']
-        vol_score = min(vol_quality * 0.2, 20)  # Scale to max 20 points
-        reasons.append(f'Volatility contraction: {vol_quality:.0f}% quality')
-    else:
-        vol_score = 5  # Some points for attempting to contract
-        reasons.append('No significant volatility contraction')
-
-    details['volatility_data'] = vol_data
-    score += vol_score
-    details['volatility_score'] = round(vol_score, 1)
-
-    # 5. FUNDAMENTAL CONTRADICTION CHECK
-    fundamental_penalty = 0
-    if fundamentals:
-        # Check for fundamental red flags
-        contradictions = []
-
-        eps_trend = fundamentals.get('eps_trend', 'unknown')
-        revenue_trend = fundamentals.get('revenue_trend', 'unknown')
-
-        if eps_trend == 'deteriorating':
-            contradictions.append('EPS deteriorating')
-            fundamental_penalty += 5
-
-        if revenue_trend == 'deteriorating':
-            contradictions.append('Revenue declining')
-            fundamental_penalty += 5
-
-        inventory_signal = fundamentals.get('inventory_signal', 'neutral')
-        if inventory_signal == 'negative':
-            contradictions.append('Inventory building')
-            fundamental_penalty += 5
-
-        if contradictions:
-            reasons.append(f'Fundamental concerns: {", ".join(contradictions)}')
-            details['fundamental_concerns'] = contradictions
-
-    score -= fundamental_penalty
-    details['fundamental_penalty'] = fundamental_penalty
 
     # Final score
     final_score = max(0, min(score, 100))
 
-    # Determine if this is a valid buy signal (>= 70)
-    is_buy = final_score >= 70
+    # Determine if this is a valid buy signal (>= 60, not 70!)
+    is_buy = final_score >= 60
 
     return {
         'ticker': ticker,

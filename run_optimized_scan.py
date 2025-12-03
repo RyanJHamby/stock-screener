@@ -73,7 +73,7 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     # Buy signals
     output.append("="*80)
-    output.append(f"TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
+    output.append(f"TOP BUY SIGNALS (Score >= 60) - {len(buy_signals)} Total")
     output.append("="*80)
     output.append("")
 
