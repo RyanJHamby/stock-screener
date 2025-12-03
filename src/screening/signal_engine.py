@@ -468,29 +468,45 @@ def score_buy_signal(
     extension_score = max(0, 3 - (max(0, distance_50) / 10.0) * 3)
     entry_score += extension_score
 
-    # B) Near logical entry point (2 pts)
+    # B) Near logical entry point (2 pts) - LINEAR
     if phase == 2:
-        # Stage 2: Best entry near 50 SMA or after shallow pullback
-        if distance_50 >= 0 and distance_50 <= 5:
-            entry_score += 2  # Near 50 SMA = ideal
-            reasons.append(f'✓ Good entry zone: {distance_50:.1f}% above 50 SMA')
-        elif distance_50 > 5 and distance_50 <= 10:
-            entry_score += 1  # Slightly extended
-            reasons.append(f'Moderate entry: {distance_50:.1f}% above 50 SMA')
+        # Stage 2: Best entry near 50 SMA (0-5% above) = 2 pts, scaling down to 15% = 0 pts
+        # Formula: max(0, 2 - (distance_50 / 15) * 2), range 0-2
+        # 0% above 50 SMA = 2 pts (ideal pullback to support)
+        # 5% above 50 SMA = 1.33 pts (still good)
+        # 10% above 50 SMA = 0.67 pts (getting extended)
+        # 15%+ above 50 SMA = 0 pts (too extended)
+        proximity_score = max(0, 2 - (max(0, distance_50) / 15.0) * 2)
+        entry_score += proximity_score
+
+        if distance_50 <= 3:
+            reasons.append(f'✓ Excellent entry zone: {distance_50:.1f}% above 50 SMA (near support)')
+        elif distance_50 <= 7:
+            reasons.append(f'Good entry zone: {distance_50:.1f}% above 50 SMA')
+        elif distance_50 <= 12:
+            reasons.append(f'Moderate entry: {distance_50:.1f}% above 50 SMA (getting extended)')
         else:
-            entry_score += 0  # Too extended
             reasons.append(f'⚠ Extended entry: {distance_50:.1f}% above 50 SMA (wait for pullback)')
     else:  # Phase 1
-        # Stage 1: Best entry on breakout or just before
-        if distance_50 >= -3 and distance_50 <= 5:
-            entry_score += 2  # Near breakout zone
-            reasons.append(f'✓ Good entry zone: near breakout point')
-        elif distance_50 >= -5:
-            entry_score += 1
-            reasons.append(f'Approaching entry zone')
+        # Stage 1: Best entry near breakout zone (-3% to +5% from 50 SMA) = 2 pts
+        # Formula: max(0, 2 - abs(distance_50 - 1) / 5 * 2), range 0-2
+        # Target zone is -3% to +5%, with ideal at +1%
+        # +1% from 50 SMA = 2 pts (perfect breakout positioning)
+        # -3% or +5% from 50 SMA = 0.4 pts (edge of ideal zone)
+        # Beyond that = 0 pts
+        ideal_position = 1.0  # 1% above 50 SMA is ideal for breakout
+        deviation = abs(distance_50 - ideal_position)
+        proximity_score = max(0, 2 - (deviation / 6.0) * 2)
+        entry_score += proximity_score
+
+        if distance_50 >= -1 and distance_50 <= 3:
+            reasons.append(f'✓ Excellent breakout zone: {distance_50:.1f}% from 50 SMA')
+        elif distance_50 >= -4 and distance_50 <= 6:
+            reasons.append(f'Good entry zone: {distance_50:.1f}% from 50 SMA')
+        elif distance_50 >= -7 and distance_50 <= 9:
+            reasons.append(f'Approaching entry zone: {distance_50:.1f}% from 50 SMA')
         else:
-            entry_score += 0
-            reasons.append(f'Early - wait for better entry')
+            reasons.append(f'Outside ideal entry zone: {distance_50:.1f}% from 50 SMA')
 
     score += entry_score
     details['entry_score'] = round(entry_score, 2)
