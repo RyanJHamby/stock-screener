@@ -9,3 +9,4 @@ requests>=2.31.0
 slack-sdk>=3.26.0
 pyyaml>=6.0
 numpy>=1.24.0
+robin-stocks>=3.0.0  # Read-only position tracking (optional)
