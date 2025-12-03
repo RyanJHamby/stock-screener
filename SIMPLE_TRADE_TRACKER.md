@@ -122,4 +122,69 @@ When you get a buy signal, copy these directly:
 
 ---
 
-That's it. Track every trade. 13 columns is all you need.
+## Performance vs Market (Separate Sheet)
+
+**Sheet 2: "Performance Tracker"**
+
+Track your portfolio value and compare to SPY over time.
+
+### Columns (A-G) - 7 Columns
+
+| Column | Header | Type | How to Fill |
+|--------|--------|------|-------------|
+| **A** | Date | Date | End of week/month |
+| **B** | Portfolio Value | $ | Your total account value |
+| **C** | Portfolio % Change | `=(B2-B1)/B1*100` | Your % return |
+| **D** | SPY Price | $ | Look up SPY closing price |
+| **E** | SPY % Change | `=(D2-D1)/D1*100` | SPY % return |
+| **F** | Outperformance | `=C2-E2` | Your return - SPY return |
+| **G** | Cumulative Edge | Running sum | `=SUM(F$2:F2)` |
+
+### Example
+
+| Date | Portfolio $ | Portfolio % | SPY $ | SPY % | Out-performance | Cumulative |
+|------|-------------|-------------|-------|-------|-----------------|------------|
+| 12/01/25 | $50,000 | - | $600.00 | - | - | - |
+| 12/08/25 | $51,200 | +2.4% | $603.00 | +0.5% | **+1.9%** | +1.9% |
+| 12/15/25 | $52,100 | +1.8% | $605.50 | +0.4% | **+1.4%** | +3.3% |
+| 12/22/25 | $51,800 | -0.6% | $602.00 | -0.6% | **0.0%** | +3.3% |
+| 12/29/25 | $53,500 | +3.3% | $608.00 | +1.0% | **+2.3%** | +5.6% |
+
+### How to Use
+
+1. **Weekly or Monthly updates**: Record your portfolio value and SPY price
+2. **Calculate returns**: Formulas do this automatically
+3. **Track cumulative edge**: Column G shows your total outperformance vs market
+4. **Goal**: Stay positive in Column G over rolling 6-12 months
+
+### Quick Chart (Google Sheets)
+
+1. Select columns A, C, E (Date, Your %, SPY %)
+2. Insert → Chart → Line chart
+3. This shows your performance vs market visually
+
+### What Good Looks Like
+
+- **Winning**: Cumulative edge trending upward (you're beating SPY)
+- **Neutral**: Cumulative edge flat (matching the market)
+- **Losing**: Cumulative edge negative (underperforming - stop trading or adjust strategy)
+
+### When to Review
+
+- **Monthly minimum**: Check if you're beating or matching SPY
+- **Quarterly deep dive**: If underperforming for 2+ months, review:
+  - Are you following the scanner signals?
+  - Are you respecting stop losses?
+  - Are you taking only high-score trades (75+)?
+  - Is the market in Phase 3/4? (If yes, stop trading or go shorter term)
+
+---
+
+**Reality check**:
+- If SPY returns +15% in a year and you return +12%, you're losing
+- If SPY returns -8% in a year and you're flat, you're winning +8%
+- Your goal: Beat SPY by 3-10% annually (realistic for swing trading)
+
+---
+
+That's it. Track every trade. 13 columns for trades + 7 columns for performance tracking.
