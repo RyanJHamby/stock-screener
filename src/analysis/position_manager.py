@@ -105,113 +105,99 @@ class PositionManager:
             result['sma_50'] = round(sma_50, 2)
             result['recent_low'] = round(recent_low, 2)
 
-            # STOP LOSS ADJUSTMENT LOGIC
-            # Based on gain and technical structure
+            # STOP LOSS ADJUSTMENT LOGIC - LINEAR FORMULAS (NO BUCKETS)
+            # Based on continuous gain percentage scaling
 
             if gain_pct < 5:
                 # Small gain - don't adjust yet
                 result['action'] = 'hold'
-                result['rationale'] = f"Position up {gain_pct:.1f}% - hold initial stop. Wait for 5-10% gain before adjusting."
+                result['rationale'] = f"Position up {gain_pct:.1f}% - hold initial stop. Wait for 5%+ gain before adjusting."
 
-            elif gain_pct >= 5 and gain_pct < 10:
-                # 5-10% gain - Move to breakeven
+            else:
+                # Gains of 5%+ trigger stop adjustments
                 result['should_adjust_stop'] = True
-                result['action'] = 'trail_to_breakeven'
 
-                # Stop just below breakeven (entry - 0.5%)
-                result['recommended_stop'] = round(entry_price * 0.995, 2)
+                # CALCULATE PROFIT-BASED STOP (scales linearly with gain)
+                # Formula: entry * (1 + min(gain_pct - 3, gain_pct * 0.5) / 100)
+                # - At 5% gain → lock in ~1% profit (entry * 1.01)
+                # - At 10% gain → lock in ~3.5% profit (entry * 1.035)
+                # - At 20% gain → lock in ~8.5% profit (entry * 1.085)
+                # - At 40% gain → lock in ~18.5% profit (entry * 1.185)
+                # This scales smoothly - bigger gains = more profit locked in
 
-                result['rationale'] = (
-                    f"Position up {gain_pct:.1f}% - TRAIL TO BREAKEVEN.\n"
-                    f"  Move stop to ${result['recommended_stop']:.2f} (just below entry).\n"
-                    f"  Locks in risk-free position. If it pulls back, you exit at breakeven."
-                )
+                locked_profit_pct = min(gain_pct - 3, gain_pct * 0.5)
+                profit_based_stop = entry_price * (1 + locked_profit_pct / 100)
 
-            elif gain_pct >= 10 and gain_pct < 20:
-                # 10-20% gain - Trail to +5% profit or 50 SMA
-                result['should_adjust_stop'] = True
-                result['action'] = 'trail_to_profit'
-
-                # Option 1: Trail to +5% locked profit
-                profit_stop = entry_price * 1.05
-
-                # Option 2: Trail to 50 SMA (if above and close)
+                # CALCULATE SMA-BASED STOP (if applicable)
+                sma_based_stop = None
                 if sma_50 > 0 and sma_50 < current_price:
-                    sma_stop = sma_50 * 0.99  # Just below 50 SMA
+                    # Distance below 50 SMA scales with gain size
+                    # Small gains (5-15%) → 1% below SMA
+                    # Medium gains (15-30%) → 0.7% below SMA
+                    # Large gains (30%+) → 0.5% below SMA
+                    sma_buffer_pct = max(0.5, 1.5 - (gain_pct / 50))  # Linear from 1.5% to 0.5%
+                    sma_based_stop = sma_50 * (1 - sma_buffer_pct / 100)
 
-                    # Use whichever is higher
-                    if sma_stop > profit_stop:
-                        result['recommended_stop'] = round(sma_stop, 2)
-                        result['rationale'] = (
-                            f"Position up {gain_pct:.1f}% - TRAIL STOP TO 50 SMA.\n"
-                            f"  Move stop to ${result['recommended_stop']:.2f} (1% below 50 SMA at ${sma_50:.2f}).\n"
-                            f"  Locks in ~{((result['recommended_stop']/entry_price - 1)*100):.1f}% profit minimum.\n"
-                            f"  Let winner run while protecting gains."
-                        )
-                    else:
-                        result['recommended_stop'] = round(profit_stop, 2)
-                        result['rationale'] = (
-                            f"Position up {gain_pct:.1f}% - TRAIL STOP TO PROFIT.\n"
-                            f"  Move stop to ${result['recommended_stop']:.2f} (locks in +5% gain).\n"
-                            f"  50 SMA too far below (${sma_50:.2f}). Use profit-based stop instead."
-                        )
+                # USE WHICHEVER STOP IS HIGHER (more conservative)
+                if sma_based_stop and sma_based_stop > profit_based_stop:
+                    result['recommended_stop'] = round(sma_based_stop, 2)
+                    stop_type = "SMA-based"
+                    sma_buffer_pct = ((sma_50 - result['recommended_stop']) / sma_50) * 100
                 else:
-                    result['recommended_stop'] = round(profit_stop, 2)
-                    result['rationale'] = (
-                        f"Position up {gain_pct:.1f}% - TRAIL STOP TO PROFIT.\n"
-                        f"  Move stop to ${result['recommended_stop']:.2f} (locks in +5% gain minimum).\n"
-                        f"  Let position run while protecting profit floor."
-                    )
+                    result['recommended_stop'] = round(profit_based_stop, 2)
+                    stop_type = "profit-based"
 
-            elif gain_pct >= 20 and gain_pct < 30:
-                # 20-30% gain - Consider partial exit + trail remainder
-                result['should_adjust_stop'] = True
-                result['action'] = 'take_partial_and_trail'
+                # Calculate what % profit is locked in
+                locked_profit = ((result['recommended_stop'] / entry_price) - 1) * 100
 
-                # Trail to +10% profit or 50 SMA, whichever higher
-                profit_stop = entry_price * 1.10
+                # DETERMINE ACTION AND PARTIAL EXIT % (scales linearly)
+                # Formula for partial exit: min(50, max(0, (gain_pct - 15) * 2.5))
+                # - 0-15% gain → No partial exit (0%)
+                # - 20% gain → 12.5% partial exit
+                # - 25% gain → 25% partial exit
+                # - 30% gain → 37.5% partial exit
+                # - 35% gain → 50% partial exit (capped)
+                partial_exit_pct = min(50, max(0, (gain_pct - 15) * 2.5))
 
-                if sma_50 > 0 and sma_50 < current_price:
-                    sma_stop = sma_50 * 0.99
-                    result['recommended_stop'] = round(max(profit_stop, sma_stop), 2)
+                if partial_exit_pct > 35:
+                    result['action'] = 'take_major_partial_and_trail_tight'
+                    action_desc = f"SELL {partial_exit_pct:.0f}%"
+                elif partial_exit_pct > 10:
+                    result['action'] = 'take_partial_and_trail'
+                    action_desc = f"CONSIDER SELLING {partial_exit_pct:.0f}%"
+                elif gain_pct >= 10:
+                    result['action'] = 'trail_to_profit'
+                    action_desc = "TRAIL TO PROFIT"
                 else:
-                    result['recommended_stop'] = round(profit_stop, 2)
+                    result['action'] = 'trail_to_breakeven'
+                    action_desc = "TRAIL TO BREAKEVEN"
 
-                result['rationale'] = (
-                    f"Position up {gain_pct:.1f}% - STRONG WINNER!\n"
-                    f"  CONSIDER: Sell 25-30% here at ${current_price:.2f} to lock in gains.\n"
-                    f"  TRAIL remaining 70-75% with stop at ${result['recommended_stop']:.2f}.\n"
-                    f"  This locks in minimum +10% on full position while letting runners go.\n"
-                    f"  Phase: {phase} | 50 SMA: ${sma_50:.2f}"
-                )
+                # BUILD RATIONALE
+                rationale_lines = []
+                rationale_lines.append(f"Position up {gain_pct:.1f}% - {action_desc}")
+                rationale_lines.append("")
 
-            elif gain_pct >= 30:
-                # 30%+ gain - Major winner, aggressive trailing
-                result['should_adjust_stop'] = True
-                result['action'] = 'take_partial_and_trail_tight'
-
-                # Trail very tight - either 50 SMA or +15% profit minimum
-                profit_stop = entry_price * 1.15
-
-                if sma_50 > 0 and sma_50 < current_price:
-                    sma_stop = sma_50 * 0.995  # Very tight (0.5% below 50 SMA)
-                    result['recommended_stop'] = round(max(profit_stop, sma_stop), 2)
+                if partial_exit_pct > 0:
+                    remaining_pct = 100 - partial_exit_pct
+                    rationale_lines.append(f"  RECOMMENDED ACTION:")
+                    rationale_lines.append(f"    • Sell {partial_exit_pct:.0f}% at ${current_price:.2f} (lock in ${(current_price - entry_price) * partial_exit_pct / 100:.2f}/share)")
+                    rationale_lines.append(f"    • Trail remaining {remaining_pct:.0f}% with stop at ${result['recommended_stop']:.2f}")
+                    rationale_lines.append(f"    • Effective: locks minimum +{locked_profit:.1f}% on full position")
                 else:
-                    result['recommended_stop'] = round(profit_stop, 2)
+                    rationale_lines.append(f"  NEW STOP LOSS: ${result['recommended_stop']:.2f}")
+                    rationale_lines.append(f"    • Locks in minimum +{locked_profit:.1f}% profit")
+                    rationale_lines.append(f"    • Stop type: {stop_type}")
 
-                # Check if entering Phase 3 (distribution)
-                phase_warning = ""
-                if phase == 3:
-                    phase_warning = "\n  ⚠️ WARNING: Stock entering Phase 3 (distribution). Consider heavier exit."
+                rationale_lines.append("")
+                rationale_lines.append(f"  Technical: Phase {phase} | 50 SMA: ${sma_50:.2f}")
 
-                result['rationale'] = (
-                    f"Position up {gain_pct:.1f}% - MAJOR WINNER! 🎯\n"
-                    f"  STRONGLY CONSIDER: Sell 50% here at ${current_price:.2f} to secure profits.\n"
-                    f"  TRAIL remaining 50% TIGHT with stop at ${result['recommended_stop']:.2f}.\n"
-                    f"  Lock in minimum +15% on full position while giving last piece room.\n"
-                    f"  Phase: {phase} | 50 SMA: ${sma_50:.2f}"
-                    f"{phase_warning}"
-                )
+                # Add Phase 3 warning for big winners
+                if phase == 3 and gain_pct >= 20:
+                    rationale_lines.append(f"  ⚠️ WARNING: Stock in Phase 3 (distribution). Consider tighter exit.")
+
+                result['rationale'] = "\n".join(rationale_lines)
+                result['partial_exit_pct'] = round(partial_exit_pct, 1)
+                result['locked_profit_pct'] = round(locked_profit, 2)
 
             # Additional checks
             if phase == 3 or phase == 4:
