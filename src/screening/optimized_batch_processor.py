@@ -10,6 +10,7 @@ This module implements advanced techniques to maximize throughput while avoiding
 import logging
 import pickle
 import time
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -79,6 +80,10 @@ class OptimizedBatchProcessor:
         self.backoff_delay = 0.0  # Additional delay when errors detected
         self.last_error_time = None
 
+        # Thread-safe rate limiting
+        self.rate_limit_lock = threading.Lock()
+        self.last_request_time = 0.0
+
         logger.info(f"OptimizedBatchProcessor initialized")
         logger.info(f"Workers: {max_workers}, Delay: {rate_limit_delay}s")
         logger.info(f"Effective rate: ~{effective_tps:.1f} TPS")
@@ -114,6 +119,28 @@ class OptimizedBatchProcessor:
 
         except Exception as e:
             logger.error(f"Error saving progress: {e}")
+
+    def _wait_for_rate_limit(self):
+        """Thread-safe rate limiting - ensures minimum delay between ANY requests.
+
+        This method uses a lock to ensure that even with multiple threads,
+        only one request can proceed at a time, and each request waits
+        the full rate_limit_delay since the last request.
+        """
+        with self.rate_limit_lock:
+            current_time = time.time()
+            time_since_last = current_time - self.last_request_time
+
+            if time_since_last < self.rate_limit_delay:
+                sleep_time = self.rate_limit_delay - time_since_last
+                time.sleep(sleep_time)
+
+            # Add adaptive backoff if errors detected
+            if self.backoff_delay > 0:
+                time.sleep(self.backoff_delay)
+                logger.debug(f"Adaptive backoff: +{self.backoff_delay:.1f}s")
+
+            self.last_request_time = time.time()
 
     def fetch_spy_data(self) -> bool:
         """Fetch SPY benchmark data."""
@@ -154,13 +181,8 @@ class OptimizedBatchProcessor:
             Analysis dict or None
         """
         try:
-            # Base rate limiting
-            time.sleep(self.rate_limit_delay)
-
-            # Adaptive backoff - add extra delay if we've had recent errors
-            if self.backoff_delay > 0:
-                time.sleep(self.backoff_delay)
-                logger.debug(f"Adaptive backoff: +{self.backoff_delay:.1f}s")
+            # Thread-safe rate limiting (locks ensure only 1 request at a time)
+            self._wait_for_rate_limit()
 
             self.total_requests += 1
 

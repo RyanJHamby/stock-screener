@@ -79,6 +79,10 @@ def calculate_market_breadth(phase_results: List[Dict]) -> Dict[str, any]:
     if not phase_results:
         return {
             'total_stocks': 0,
+            'phase_1_count': 0,
+            'phase_2_count': 0,
+            'phase_3_count': 0,
+            'phase_4_count': 0,
             'phase_1_pct': 0,
             'phase_2_pct': 0,
             'phase_3_pct': 0,
