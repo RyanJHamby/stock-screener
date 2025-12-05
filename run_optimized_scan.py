@@ -140,6 +140,9 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
             for reason in signal['reasons'][:5]:
                 output.append(f"  • {reason}")
 
+            if signal.get('fundamental_snapshot'):
+                output.append(signal['fundamental_snapshot'])
+
         if len(sell_signals) > 30:
             output.append(f"\n{'='*80}")
             output.append(f"ADDITIONAL SELLS ({len(sell_signals)-30} more)")
@@ -288,9 +291,16 @@ def main():
                         price_data=analysis['price_data'],
                         current_price=analysis['current_price'],
                         phase_info=analysis['phase_info'],
-                        rs_series=analysis['rs_series']
+                        rs_series=analysis['rs_series'],
+                        fundamentals=analysis.get('fundamental_analysis')
                     )
                     if signal['is_sell']:
+                        # Add fundamental snapshot
+                        signal['fundamental_snapshot'] = fundamentals_fetcher.create_snapshot(
+                            analysis['ticker'],
+                            quarterly_data=analysis.get('quarterly_data', {}),
+                            use_fmp=args.use_fmp
+                        )
                         sell_signals.append(signal)
 
         sell_signals = sorted(sell_signals, key=lambda x: x['score'], reverse=True)

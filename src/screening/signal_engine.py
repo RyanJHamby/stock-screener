@@ -533,7 +533,8 @@ def score_sell_signal(
     current_price: float,
     phase_info: Dict,
     rs_series: pd.Series,
-    previous_phase: Optional[int] = None
+    previous_phase: Optional[int] = None,
+    fundamentals: Optional[Dict] = None
 ) -> Dict[str, any]:
     """Score a sell signal based on Phase 2->3/4 transition.
 
@@ -551,6 +552,7 @@ def score_sell_signal(
         phase_info: Phase classification
         rs_series: Relative strength series
         previous_phase: Previous phase (for transition detection)
+        fundamentals: Optional fundamental analysis dict
 
     Returns:
         Dict with sell signal score and details

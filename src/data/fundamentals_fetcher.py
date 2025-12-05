@@ -169,9 +169,12 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
     snapshot += f"FUNDAMENTAL SNAPSHOT - {ticker}\n"
     snapshot += f"{'='*60}\n"
 
-    # Revenue analysis
+    # Revenue analysis with QoQ trend
     yoy = quarterly_data.get('revenue_yoy_change')
     qoq = quarterly_data.get('revenue_qoq_change', 0)
+
+    # Get quarterly revenue values for trend
+    qrev = quarterly_data.get('quarterly_revenue', {})
 
     if yoy is not None:
         if yoy > 20:
@@ -185,9 +188,30 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
     else:
         snapshot += "• Revenue: Data not available\n"
 
-    # EPS analysis
+    # Show QoQ trend for past 4 quarters
+    if qrev and len(qrev) >= 4:
+        import pandas as pd
+        rev_series = pd.Series(qrev).sort_index()
+        if len(rev_series) >= 4:
+            qoq_trends = []
+            for i in range(len(rev_series)-1, max(len(rev_series)-5, 0), -1):
+                if i > 0:
+                    curr = rev_series.iloc[i]
+                    prev = rev_series.iloc[i-1]
+                    if prev != 0 and not pd.isna(curr) and not pd.isna(prev):
+                        qoq_pct = ((curr - prev) / prev) * 100
+                        qoq_trends.append(f"{qoq_pct:+.1f}%")
+                    else:
+                        qoq_trends.append("N/A")
+            if qoq_trends:
+                snapshot += f"  QoQ Trend (last 4Q): {' → '.join(reversed(qoq_trends))}\n"
+
+    # EPS analysis with QoQ trend
     eps_yoy = quarterly_data.get('eps_yoy_change')
     eps_qoq = quarterly_data.get('eps_qoq_change', 0)
+
+    # Get quarterly EPS values for trend
+    qeps = quarterly_data.get('quarterly_eps', {})
 
     if eps_yoy is not None:
         if eps_yoy > 25:
@@ -200,6 +224,24 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
             snapshot += f"✗ EPS: DECLINING (YoY: {eps_yoy:.1f}%, QoQ: {eps_qoq:.1f}%)\n"
     else:
         snapshot += "• EPS: Data not available\n"
+
+    # Show QoQ trend for past 4 quarters
+    if qeps and len(qeps) >= 4:
+        import pandas as pd
+        eps_series = pd.Series(qeps).sort_index()
+        if len(eps_series) >= 4:
+            qoq_trends = []
+            for i in range(len(eps_series)-1, max(len(eps_series)-5, 0), -1):
+                if i > 0:
+                    curr = eps_series.iloc[i]
+                    prev = eps_series.iloc[i-1]
+                    if prev != 0 and not pd.isna(curr) and not pd.isna(prev):
+                        qoq_pct = ((curr - prev) / abs(prev)) * 100
+                        qoq_trends.append(f"{qoq_pct:+.1f}%")
+                    else:
+                        qoq_trends.append("N/A")
+            if qoq_trends:
+                snapshot += f"  QoQ Trend (last 4Q): {' → '.join(reversed(qoq_trends))}\n"
 
     # Margin analysis
     if 'gross_margin' in quarterly_data:
