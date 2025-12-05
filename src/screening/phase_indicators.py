@@ -84,23 +84,19 @@ def calculate_relative_strength(stock_prices: pd.Series, spy_prices: pd.Series,
         return pd.Series([np.nan] * len(stock_prices), index=stock_prices.index)
 
     # Align the series by DATE (not position) - stocks and SPY trade on same days
-    # Use outer join to keep all stock dates, forward fill SPY prices for any gaps
-    df = pd.DataFrame({
-        'stock': stock_prices,
-        'spy': spy_prices
-    })
+    # Use reindex to align SPY to stock dates, then forward fill any gaps
+    spy_aligned = spy_prices.reindex(stock_prices.index, method='ffill')
 
-    # Forward fill SPY prices (SPY always trades, so this handles any missing dates)
-    df['spy'] = df['spy'].fillna(method='ffill')
-
-    # Drop rows where stock price is missing (stock might not trade on all days)
-    df = df.dropna(subset=['stock'])
-
-    if len(df) == 0 or df['spy'].isna().all():
+    # Check if we have valid aligned data
+    if spy_aligned.isna().all():
+        logger.warning("SPY alignment failed - all NaN after reindex")
         return pd.Series([np.nan] * len(stock_prices), index=stock_prices.index)
 
     # Calculate RS
-    rs = (df['stock'] / df['spy']) * 100
+    rs = (stock_prices / spy_aligned) * 100
+
+    # Fill any remaining NaN with forward fill
+    rs = rs.fillna(method='ffill')
 
     return rs
 

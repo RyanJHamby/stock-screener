@@ -103,13 +103,15 @@ def score_buy_signal(
 
     Based on Weinstein/O'Neil/Minervini Stage 2 methodology with gradual scoring.
 
-    Scoring Components (0-100):
-    - Trend structure/Stage quality: 50 points (NOT binary!)
-    - Fundamentals: 30 points (growth, margins, inventory)
+    Scoring Components (0-110):
+    - Trend structure/Stage quality: 40 points
+    - Fundamentals: 40 points (growth, margins, inventory)
+    - Relative Strength: 10 points (market-relative performance)
     - Volume behavior: 10 points (directional context matters!)
-    - Relative strength: 10 points (gradual slope)
+    - Risk/Reward: 5 points
+    - Entry quality: 5 points
 
-    Threshold: >= 60 for signals (NOT 70!)
+    Threshold: >= 70 for signals
 
     Args:
         ticker: Stock ticker
@@ -240,7 +242,7 @@ def score_buy_signal(
         trend_score -= 5
         reasons.append(f'Moderately extended above 50 SMA')
 
-    score += min(trend_score, 40)  # Changed from 50 to 40
+    score += min(trend_score, 40)  # 40 points for technical trend
     details['trend_score'] = min(trend_score, 40)
 
     # ========================================================================
@@ -386,18 +388,41 @@ def score_buy_signal(
     score += volume_score
 
     # ========================================================================
-    # 4. RELATIVE STRENGTH - REMOVED (redundant with technical trend)
+    # 4. RELATIVE STRENGTH (10 points) - Market-relative performance
     # ========================================================================
-    # RS is highly correlated with trend structure (SMAs, breakouts, etc)
-    # Removing to avoid double-counting technical strength
-    # Still calculate for informational purposes but don't score it
+    # RS measures stock performance vs SPY (market-relative strength)
+    # Different from technical trend which is absolute price structure
+    # Strong RS = stock outperforming market
+
+    rs_score = 0
 
     if len(rs_series) >= 20 and not rs_series.isna().all():
         rs_slope = calculate_rs_slope(rs_series, 20)
         details['rs_slope'] = round(rs_slope, 3)
-        # Don't add to score - just track for reference
+
+        # Linear scoring based on RS slope
+        # RS slope > 0.15 = 10 pts (strong outperformance)
+        # RS slope = 0 = 5 pts (neutral)
+        # RS slope < -0.15 = 0 pts (underperformance)
+        # Formula: 5 + (rs_slope / 0.03) capped at 0-10
+        rs_score = min(10, max(0, 5 + (rs_slope / 0.03)))
+
+        if rs_slope > 0.10:
+            reasons.append(f'✓ Strong RS: {rs_slope:.3f} (outperforming SPY)')
+        elif rs_slope > 0.03:
+            reasons.append(f'Positive RS: {rs_slope:.3f}')
+        elif rs_slope > -0.03:
+            reasons.append(f'Neutral RS: {rs_slope:.3f}')
+        elif rs_slope > -0.10:
+            reasons.append(f'Weak RS: {rs_slope:.3f}')
+        else:
+            reasons.append(f'⚠ Declining RS: {rs_slope:.3f} (underperforming SPY)')
     else:
         details['rs_slope'] = None
+        rs_score = 5  # Neutral if missing
+
+    score += rs_score
+    details['rs_score'] = round(rs_score, 2)
 
     # ========================================================================
     # 5. STOP LOSS CALCULATION (not scored, but critical for risk mgmt)

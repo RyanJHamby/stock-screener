@@ -73,14 +73,14 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     # Buy signals
     output.append("="*80)
-    output.append(f"TOP BUY SIGNALS (Score >= 60) - {len(buy_signals)} Total")
+    output.append(f"TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
     output.append("="*80)
     output.append("")
 
     if buy_signals:
         for i, signal in enumerate(buy_signals[:50], 1):
             output.append(f"\n{'#'*80}")
-            output.append(f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/100")
+            output.append(f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/110")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
             output.append(f"Entry Quality: {signal.get('entry_quality', 'Unknown')}")
@@ -128,7 +128,7 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
     if sell_signals:
         for i, signal in enumerate(sell_signals[:30], 1):
             output.append(f"\n{'#'*80}")
-            output.append(f"SELL #{i}: {signal['ticker']} | Score: {signal['score']}/100")
+            output.append(f"SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']} | Severity: {signal['severity'].upper()}")
             if signal.get('breakdown_level'):
