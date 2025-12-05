@@ -60,7 +60,12 @@ def fetch_quarterly_financials(ticker: str) -> Dict[str, any]:
             if len(revenues) >= 5:
                 latest_rev = revenues.iloc[-1]
                 yoy_rev = revenues.iloc[-5]
-                result['revenue_yoy_change'] = ((latest_rev - yoy_rev) / yoy_rev * 100) if yoy_rev != 0 else 0
+                # Check for NaN or 0 values - treat as missing data
+                import math
+                if not math.isnan(latest_rev) and not math.isnan(yoy_rev) and yoy_rev != 0 and latest_rev != 0:
+                    result['revenue_yoy_change'] = ((latest_rev - yoy_rev) / yoy_rev * 100)
+                else:
+                    result['revenue_yoy_change'] = None  # Explicitly mark as missing
 
         # Get quarterly EPS (Basic EPS or Diluted EPS)
         eps_key = None
@@ -84,10 +89,11 @@ def fetch_quarterly_financials(ticker: str) -> Dict[str, any]:
             if len(eps_values) >= 5:
                 latest_eps = eps_values.iloc[-1]
                 yoy_eps = eps_values.iloc[-5]
-                if yoy_eps != 0:
+                import math
+                if not math.isnan(latest_eps) and not math.isnan(yoy_eps) and yoy_eps != 0:
                     result['eps_yoy_change'] = ((latest_eps - yoy_eps) / abs(yoy_eps) * 100)
                 else:
-                    result['eps_yoy_change'] = 0
+                    result['eps_yoy_change'] = None  # Explicitly mark as missing
 
         # Get gross profit margin
         if 'Gross Profit' in quarterly_income.index and 'Total Revenue' in quarterly_income.index:
@@ -119,8 +125,12 @@ def fetch_quarterly_financials(ticker: str) -> Dict[str, any]:
             if len(inventory) >= 2:
                 latest_inv = inventory.iloc[-1]
                 prev_inv = inventory.iloc[-2]
-                inv_change = ((latest_inv - prev_inv) / prev_inv * 100) if prev_inv != 0 else 0
-                result['inventory_qoq_change'] = round(inv_change, 2)
+                import math
+                if not math.isnan(latest_inv) and not math.isnan(prev_inv) and prev_inv != 0 and latest_inv != 0:
+                    inv_change = ((latest_inv - prev_inv) / prev_inv * 100)
+                    result['inventory_qoq_change'] = round(inv_change, 2)
+                else:
+                    result['inventory_qoq_change'] = None  # Explicitly mark as missing
 
             # Calculate inventory to sales ratio
             if 'Total Revenue' in quarterly_income.index:
@@ -160,10 +170,10 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
     snapshot += f"{'='*60}\n"
 
     # Revenue analysis
-    if 'revenue_yoy_change' in quarterly_data:
-        yoy = quarterly_data['revenue_yoy_change']
-        qoq = quarterly_data.get('revenue_qoq_change', 0)
+    yoy = quarterly_data.get('revenue_yoy_change')
+    qoq = quarterly_data.get('revenue_qoq_change', 0)
 
+    if yoy is not None:
         if yoy > 20:
             snapshot += f"✓ Revenue: ACCELERATING strongly (YoY: +{yoy:.1f}%, QoQ: +{qoq:.1f}%)\n"
         elif yoy > 10:
@@ -176,10 +186,10 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
         snapshot += "• Revenue: Data not available\n"
 
     # EPS analysis
-    if 'eps_yoy_change' in quarterly_data:
-        eps_yoy = quarterly_data['eps_yoy_change']
-        eps_qoq = quarterly_data.get('eps_qoq_change', 0)
+    eps_yoy = quarterly_data.get('eps_yoy_change')
+    eps_qoq = quarterly_data.get('eps_qoq_change', 0)
 
+    if eps_yoy is not None:
         if eps_yoy > 25:
             snapshot += f"✓ EPS: STRONG growth (YoY: +{eps_yoy:.1f}%, QoQ: +{eps_qoq:.1f}%)\n"
         elif eps_yoy > 10:
@@ -206,10 +216,10 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
             snapshot += f"✗ Margins: CONTRACTING ({margin:.1f}%, {margin_change:.1f}pp QoQ)\n"
 
     # Inventory analysis
-    if 'inventory_qoq_change' in quarterly_data:
-        inv_change = quarterly_data['inventory_qoq_change']
-        inv_to_sales = quarterly_data.get('inventory_to_sales_ratio', 0)
+    inv_change = quarterly_data.get('inventory_qoq_change')
+    inv_to_sales = quarterly_data.get('inventory_to_sales_ratio', 0)
 
+    if inv_change is not None:
         if inv_change > 10:
             snapshot += f"⚠ Inventory: BUILDING (+{inv_change:.1f}% QoQ, ratio: {inv_to_sales:.2f})\n"
             snapshot += "  → Potential demand weakness or production ramp\n"
@@ -222,6 +232,7 @@ def create_fundamental_snapshot(ticker: str, quarterly_data: Dict) -> str:
         else:
             snapshot += f"✓ Inventory: DRAWING ({inv_change:.1f}% QoQ, ratio: {inv_to_sales:.2f})\n"
             snapshot += "  → Strong demand signal\n"
+    # Don't show anything if inventory data missing - many companies don't track inventory
 
         if not quarterly_data.get('inventory_breakdown_available', False):
             snapshot += "  Note: Detailed breakdown (raw/WIP/finished) not available via API\n"

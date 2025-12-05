@@ -250,50 +250,69 @@ def score_buy_signal(
 
     if fundamentals:
         # A) Growth trends (15 points) - LINEAR based on actual YoY %
-        # Get actual growth rates if available
-        revenue_yoy = fundamentals.get('revenue_yoy_change', 0)  # Percentage
-        eps_yoy = fundamentals.get('eps_yoy_change', 0)
+        # Get actual growth rates if available (None = missing data)
+        revenue_yoy = fundamentals.get('revenue_yoy_change')  # None or float
+        eps_yoy = fundamentals.get('eps_yoy_change')  # None or float
 
         # Revenue component (7.5 pts) - Linear from -20% to +40%
         # Formula: ((revenue_yoy + 20) / 60) * 7.5, capped at 7.5
-        revenue_score = min(7.5, max(0, ((revenue_yoy + 20) / 60.0) * 7.5))
+        if revenue_yoy is not None:
+            revenue_score = min(7.5, max(0, ((revenue_yoy + 20) / 60.0) * 7.5))
+        else:
+            revenue_score = 3.75  # Neutral if missing (50% of max)
         fundamental_score += revenue_score
 
         # EPS component (7.5 pts) - Linear from -20% to +60%
         # Formula: ((eps_yoy + 20) / 80) * 7.5, capped at 7.5
-        eps_score = min(7.5, max(0, ((eps_yoy + 20) / 80.0) * 7.5))
+        if eps_yoy is not None:
+            eps_score = min(7.5, max(0, ((eps_yoy + 20) / 80.0) * 7.5))
+        else:
+            eps_score = 3.75  # Neutral if missing (50% of max)
         fundamental_score += eps_score
 
-        # Describe the growth
-        if revenue_yoy > 25 and eps_yoy > 40:
-            reasons.append(f'✓ Accelerating growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-        elif revenue_yoy > 10 and eps_yoy > 15:
-            reasons.append(f'Strong growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-        elif revenue_yoy > 0 and eps_yoy > 0:
-            reasons.append(f'Positive growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
-        elif revenue_yoy > -5 and eps_yoy > -5:
-            reasons.append(f'Growth stalling (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+        # Describe the growth (handle None values)
+        if revenue_yoy is not None and eps_yoy is not None:
+            if revenue_yoy > 25 and eps_yoy > 40:
+                reasons.append(f'✓ Accelerating growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+            elif revenue_yoy > 10 and eps_yoy > 15:
+                reasons.append(f'Strong growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+            elif revenue_yoy > 0 and eps_yoy > 0:
+                reasons.append(f'Positive growth (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+            elif revenue_yoy > -5 and eps_yoy > -5:
+                reasons.append(f'Growth stalling (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+            else:
+                reasons.append(f'⚠ Declining (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+        elif revenue_yoy is not None:
+            reasons.append(f'Revenue trend: {revenue_yoy:+.0f}% YoY (EPS data missing)')
+        elif eps_yoy is not None:
+            reasons.append(f'EPS trend: {eps_yoy:+.0f}% YoY (Revenue data missing)')
         else:
-            reasons.append(f'⚠ Declining (Rev: {revenue_yoy:.0f}%, EPS: {eps_yoy:.0f}%)')
+            reasons.append('Growth data unavailable (neutral score)')
 
         # B) Inventory signal (10 points) - LINEAR based on actual QoQ %
-        inv_qoq_change = fundamentals.get('inventory_qoq_change', 0)  # Percentage
+        inv_qoq_change = fundamentals.get('inventory_qoq_change')  # None or float
 
         # Formula: 10 - (inv_qoq_change / 20) * 10, range 0-10
         # -20% inventory draw = 20 pts (capped at 10)
         # 0% = 10 pts (neutral)
         # +20% buildup = 0 pts
-        inventory_score = min(10, max(0, 10 - (inv_qoq_change / 20.0) * 10))
-        fundamental_score += inventory_score
+        if inv_qoq_change is not None:
+            inventory_score = min(10, max(0, 10 - (inv_qoq_change / 20.0) * 10))
+            fundamental_score += inventory_score
 
-        if inv_qoq_change < -5:
-            reasons.append(f'✓ Inventory drawing ({inv_qoq_change:.1f}% QoQ - strong demand)')
-        elif inv_qoq_change < 5:
-            reasons.append(f'Inventory neutral ({inv_qoq_change:.1f}% QoQ)')
-        elif inv_qoq_change < 15:
-            reasons.append(f'⚠ Inventory building ({inv_qoq_change:.1f}% QoQ)')
+            if inv_qoq_change < -5:
+                reasons.append(f'✓ Inventory drawing ({inv_qoq_change:.1f}% QoQ - strong demand)')
+            elif inv_qoq_change < 5:
+                reasons.append(f'Inventory neutral ({inv_qoq_change:.1f}% QoQ)')
+            elif inv_qoq_change < 15:
+                reasons.append(f'⚠ Inventory building ({inv_qoq_change:.1f}% QoQ)')
+            else:
+                reasons.append(f'⚠ Inventory building rapidly ({inv_qoq_change:.1f}% QoQ - demand concern)')
         else:
-            reasons.append(f'⚠ Inventory building rapidly ({inv_qoq_change:.1f}% QoQ - demand concern)')
+            # No inventory data - use neutral score (50% of max = 5 pts)
+            inventory_score = 5
+            fundamental_score += inventory_score
+            # Don't add to reasons - many companies don't have inventory
 
         # C) Profit margins expansion (5 points bonus)
         # TODO: Add when margin data available
