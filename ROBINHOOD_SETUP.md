@@ -32,20 +32,15 @@ pip install robin-stocks
 
 This library provides API access to Robinhood (read-only mode).
 
-### 2. Set Environment Variables
+### 2. Set Environment Variable
 
 Add to your `.env` file (or export in terminal):
 
 ```bash
 ROBINHOOD_USERNAME=your_email@example.com
-ROBINHOOD_PASSWORD=your_password
 ```
 
-If you have 2FA enabled (recommended):
-
-```bash
-ROBINHOOD_MFA_CODE=123456  # Optional - can also enter interactively
-```
+**Password and SMS MFA are NEVER stored** - you'll be prompted interactively when running the scripts.
 
 **Security note**: Never commit your `.env` file to Git. It's already in `.gitignore`.
 
@@ -60,16 +55,18 @@ python check_positions.py
 ```
 
 This will:
-1. Log in to Robinhood (will prompt for MFA if enabled)
-2. Fetch your current positions
-3. Display formatted report:
+1. Prompt for your Robinhood password (never stored)
+2. Log in to Robinhood and trigger SMS MFA to your phone
+3. Prompt for the SMS code
+4. Fetch your current positions
+5. Display formatted report:
    - Ticker
    - Number of shares
    - Entry price
    - Current price
    - Unrealized P/L %
-4. Option to export to text file
-5. Auto-logout
+6. Option to export to text file
+7. Auto-logout
 
 ### Example Output
 

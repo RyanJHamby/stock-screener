@@ -31,10 +31,10 @@ class RobinhoodPositionFetcher:
     def __init__(self):
         """Initialize fetcher.
 
-        Requires environment variables:
+        Requires environment variable:
         - ROBINHOOD_USERNAME: Your Robinhood email
-        - ROBINHOOD_PASSWORD: Your Robinhood password
-        - ROBINHOOD_MFA_CODE: (Optional) MFA code if using time-based 2FA
+
+        Password and MFA will be prompted interactively (never stored).
         """
         if not ROBINHOOD_AVAILABLE:
             raise ImportError(
@@ -42,20 +42,20 @@ class RobinhoodPositionFetcher:
             )
 
         self.username = os.getenv('ROBINHOOD_USERNAME')
-        self.password = os.getenv('ROBINHOOD_PASSWORD')
         self.logged_in = False
 
-        if not self.username or not self.password:
+        if not self.username:
             raise ValueError(
-                "Missing credentials. Set ROBINHOOD_USERNAME and ROBINHOOD_PASSWORD "
-                "environment variables."
+                "Missing ROBINHOOD_USERNAME environment variable. "
+                "Set with: export ROBINHOOD_USERNAME='your_email@example.com'"
             )
 
-    def login(self, mfa_code: Optional[str] = None) -> bool:
-        """Login to Robinhood.
+    def login(self, password: Optional[str] = None, mfa_code: Optional[str] = None) -> bool:
+        """Login to Robinhood with interactive password and SMS MFA.
 
         Args:
-            mfa_code: Optional MFA code if 2FA is enabled
+            password: Password (will prompt if not provided)
+            mfa_code: SMS MFA code (will prompt if needed)
 
         Returns:
             True if login successful
@@ -63,33 +63,48 @@ class RobinhoodPositionFetcher:
         try:
             logger.info("Logging into Robinhood (read-only mode)...")
 
-            if mfa_code:
-                login_result = rh.login(
-                    self.username,
-                    self.password,
-                    mfa_code=mfa_code,
-                    by_sms=True  # Or False if using authenticator app
-                )
-            else:
-                # Check if MFA code is in env
-                env_mfa = os.getenv('ROBINHOOD_MFA_CODE')
-                if env_mfa:
+            # Get password if not provided
+            if not password:
+                import getpass
+                password = getpass.getpass(f"Robinhood password for {self.username}: ")
+
+            # Initial login attempt (will trigger SMS if 2FA enabled)
+            try:
+                login_result = rh.login(self.username, password)
+
+                if login_result:
+                    self.logged_in = True
+                    logger.info("✓ Robinhood login successful (no MFA required)")
+                    return True
+
+            except Exception as e:
+                error_msg = str(e).lower()
+
+                # Check if MFA is required
+                if 'mfa' in error_msg or 'challenge' in error_msg or 'verification' in error_msg:
+                    logger.info("MFA required - check your phone for SMS code from Robinhood")
+
+                    # Prompt for SMS code if not provided
+                    if not mfa_code:
+                        mfa_code = input("Enter SMS code from Robinhood: ").strip()
+
+                    # Try login with MFA
                     login_result = rh.login(
                         self.username,
-                        self.password,
-                        mfa_code=env_mfa,
+                        password,
+                        mfa_code=mfa_code,
                         by_sms=True
                     )
-                else:
-                    login_result = rh.login(self.username, self.password)
 
-            if login_result:
-                self.logged_in = True
-                logger.info("✓ Robinhood login successful")
-                return True
-            else:
-                logger.error("✗ Robinhood login failed")
-                return False
+                    if login_result:
+                        self.logged_in = True
+                        logger.info("✓ Robinhood login successful with SMS MFA")
+                        return True
+                else:
+                    raise e
+
+            logger.error("✗ Robinhood login failed")
+            return False
 
         except Exception as e:
             logger.error(f"Login error: {e}")
@@ -243,17 +258,13 @@ def main():
         fetcher = RobinhoodPositionFetcher()
     except ValueError as e:
         print(f"ERROR: {e}")
-        print("\nSet environment variables:")
+        print("\nSet environment variable:")
         print("  export ROBINHOOD_USERNAME='your_email@example.com'")
-        print("  export ROBINHOOD_PASSWORD='your_password'")
-        print("  export ROBINHOOD_MFA_CODE='123456'  # Optional, if using 2FA")
+        print("\nPassword and MFA will be prompted (never stored in files)")
         sys.exit(1)
 
-    # Login (will prompt for MFA if needed)
-    mfa_code = input("Enter MFA code (or press Enter if not using 2FA): ").strip()
-    mfa_code = mfa_code if mfa_code else None
-
-    if not fetcher.login(mfa_code):
+    # Login (will prompt for password and SMS MFA interactively)
+    if not fetcher.login():
         print("Login failed. Check credentials.")
         sys.exit(1)
 

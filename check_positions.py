@@ -55,22 +55,17 @@ def main():
         fetcher = RobinhoodPositionFetcher()
     except ValueError as e:
         print(f"\nERROR: {e}\n")
-        print("Set these environment variables:")
+        print("Set environment variable:")
         print("  export ROBINHOOD_USERNAME='your_email@example.com'")
-        print("  export ROBINHOOD_PASSWORD='your_password'")
-        print("  export ROBINHOOD_MFA_CODE='123456'  # Optional if using 2FA")
-        print("\nOr add them to your .env file")
+        print("\nPassword and SMS MFA will be prompted (never stored)")
         sys.exit(1)
     except ImportError as e:
         print(f"\nERROR: {e}\n")
         sys.exit(1)
 
-    # Login
+    # Login (will prompt for password and SMS MFA)
     print("Logging in to Robinhood...")
-    mfa_code = input("Enter MFA code (press Enter to skip if no 2FA): ").strip()
-    mfa_code = mfa_code if mfa_code else None
-
-    if not fetcher.login(mfa_code):
+    if not fetcher.login():
         print("\n✗ Login failed. Check your credentials.")
         sys.exit(1)
 

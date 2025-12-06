@@ -1,672 +1,840 @@
-# Stock Screener Data Module
+# Intelligent Stock Screener
 
-A production-ready data fetching and storage module for identifying undervalued stocks near support levels. This module provides robust interfaces for retrieving stock data from Yahoo Finance and persisting it to a PostgreSQL or SQLite database.
+> **A production-grade systematic trading system for identifying high-probability stock setups using phase-based technical analysis, relative strength momentum, and smart fundamental screening.**
 
-## Features
+[![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Code Style](https://img.shields.io/badge/Code%20Style-Black-black.svg)](https://github.com/psf/black)
 
-- **Data Fetching**: Retrieve stock fundamentals and 5 years of price history from Yahoo Finance
-- **Intelligent Caching**: Local pickle-based caching with configurable expiry (default: 24 hours)
-- **Error Handling**: Automatic retry logic with exponential backoff for network failures
-- **Database Storage**: SQLAlchemy-based storage with PostgreSQL or SQLite support
-- **Value Screening**: Built-in queries to find undervalued stocks by P/E, P/B ratios
-- **Type Safety**: Comprehensive type hints throughout the codebase
-- **Production Ready**: Connection pooling, logging, and proper error handling
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [System Architecture](#system-architecture)
+- [Key Features](#key-features)
+- [Design Philosophy](#design-philosophy)
+- [Quick Start](#quick-start)
+- [Daily Workflow](#daily-workflow)
+- [Manual Position Management](#manual-position-management)
+- [Project Structure](#project-structure)
+- [Technical Details](#technical-details)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Overview
+
+**Intelligent Stock Screener** is a fully automated, data-driven stock screening and position management system that scans 3,800+ US stocks daily to identify high-conviction buy and sell signals based on:
+
+- **Phase-based trend classification** (4-stage market cycle analysis)
+- **Relative strength momentum** (smooth linear scoring vs SPY)
+- **Fundamental quality filters** (growth, profitability, financial health)
+- **Volume-weighted breakout detection**
+- **Risk-managed stop loss recommendations**
+
+This system was built to eliminate emotional decision-making and provide objective, repeatable trade signals backed by technical and fundamental analysis.
+
+### What This System Does
+
+1. **Screens 3,800+ stocks every market day** using GitHub Actions automation
+2. **Identifies buy signals** when stocks transition from Phase 1 (basing) to Phase 2 (uptrend) with strong relative strength
+3. **Identifies sell signals** when stocks enter Phase 3 (distribution) or Phase 4 (downtrend) with weakening momentum
+4. **Calculates precise stop losses** with risk/reward ratios for every buy signal
+5. **Generates daily reports** with ranked opportunities and full technical analysis
+6. **Manages existing positions** with automated stop-loss trailing recommendations
+
+### Why I Built It This Way
+
+**Problem:** Most stock screeners rely on static fundamental metrics (P/E, P/B) or generic technical patterns that don't adapt to market conditions. They ignore:
+- **Market regime** (is SPY in an uptrend or downtrend?)
+- **Relative strength** (is the stock outperforming the market?)
+- **Phase transitions** (is the stock breaking out or breaking down?)
+- **Smart caching** (redundant API calls wasting time and hitting rate limits)
+
+**Solution:** This system treats the stock market as a **dynamic, cyclical system** where:
+- Stocks move through **predictable phases** (base → uptrend → distribution → downtrend)
+- **Timing matters** - buying breakouts during market uptrends is higher probability
+- **Momentum matters** - stocks outperforming SPY tend to continue
+- **Cache-first design** - 74% reduction in API calls through Git-based fundamental storage
+
+---
+
+## System Architecture
+
+```mermaid
+graph TB
+    subgraph "Data Layer"
+        A[Universe Fetcher<br/>3800+ US Stocks] --> B[Price Fetcher<br/>1 Year OHLCV]
+        B --> C[Fundamental Fetcher<br/>Quarterly Financials]
+        C --> D[Git Storage<br/>Smart Caching]
+    end
+
+    subgraph "Analysis Engine"
+        D --> E[Phase Classifier<br/>4-Stage Trend Analysis]
+        D --> F[RS Calculator<br/>Smooth Linear Scoring]
+        D --> G[Fundamental Analyzer<br/>Growth + Quality]
+
+        E --> H[Signal Engine]
+        F --> H
+        G --> H
+
+        H --> I[Buy Signals<br/>Phase 1/2 Breakouts]
+        H --> J[Sell Signals<br/>Phase 3/4 Breakdowns]
+    end
+
+    subgraph "Risk Management"
+        I --> K[Stop Loss Calculator<br/>ATR + Swing Lows]
+        K --> L[R:R Analysis<br/>Min 2:1 Ratio]
+    end
+
+    subgraph "Outputs"
+        L --> M[Daily Report<br/>Ranked Signals]
+        J --> M
+        M --> N[GitHub Actions<br/>Automated Delivery]
+    end
+
+    subgraph "Position Management"
+        O[Robinhood API<br/>Read-Only] --> P[Position Fetcher]
+        D --> P
+        P --> Q[Stop Adjuster<br/>Linear Trailing]
+        Q --> R[Position Report<br/>Manual Review]
+    end
+
+    style D fill:#e1f5e1
+    style H fill:#fff4e1
+    style M fill:#e1f0ff
+    style R fill:#ffe1f0
+```
+
+### Data Flow
+
+1. **Daily Scan** (GitHub Actions, 1 PM UTC M-F):
+   - Fetches universe of 3,800+ US stocks from NASDAQ/NYSE
+   - Downloads 1 year price history for each (250 trading days)
+   - Fetches fundamentals using earnings-aware cache refresh strategy
+   - Stores in Git-based cache (persists beyond Actions cache limits)
+
+2. **Signal Generation**:
+   - Classifies SPY phase to determine market regime
+   - Calculates market breadth (% stocks in each phase)
+   - For each stock: classifies phase, calculates RS, analyzes fundamentals
+   - Scores buy/sell signals using weighted formula
+   - Ranks results and generates formatted report
+
+3. **Position Management** (Manual):
+   - Fetches current positions from Robinhood (read-only)
+   - Loads cached price/fundamental data (zero extra API calls)
+   - Analyzes each position's phase, SMA levels, momentum
+   - Recommends stop loss adjustments using linear scaling formulas
+   - Outputs actionable report with exact price targets
+
+---
+
+## Key Features
+
+### ✅ **Phase-Based Trend Classification**
+
+Stocks are classified into 4 phases based on moving average slopes and price position:
+
+- **Phase 1 (Base Building)**: Consolidation after decline. 50/200 SMA flattening, price finding support. **BUY ZONE**
+- **Phase 2 (Uptrend)**: Strong momentum. 50 SMA > 200 SMA, both rising, price above both. **HOLD/ADD**
+- **Phase 3 (Distribution)**: Topping pattern. SMAs starting to flatten/cross, momentum weakening. **SELL ZONE**
+- **Phase 4 (Downtrend)**: Declining trend. 50 SMA < 200 SMA, both falling, price below both. **AVOID**
+
+### 📈 **Relative Strength Momentum**
+
+- Smooth linear scoring (0-10 scale) vs SPY benchmark
+- 63-day RS slope calculation (captures 3-month momentum trend)
+- Penalizes underperformance, rewards outperformance
+- Crucial filter: only buy stocks beating the market
+
+### 💰 **Fundamental Quality Screening**
+
+- **Growth**: Revenue growth, EPS growth trends
+- **Profitability**: Operating margins, ROE
+- **Financial Health**: Debt ratios, current ratio
+- Only applied to Phase 1/2 stocks (Phase 3/4 skip fundamentals - price action is king)
+
+### 🎯 **Risk-Managed Stop Losses**
+
+Every buy signal includes:
+- **Entry price**: Current market price or breakout level
+- **Stop loss**: ATR-based or swing low-based
+- **Risk amount**: $ per share risked
+- **Reward target**: 2-3x risk minimum
+- **R:R ratio**: Always ≥ 2:1 for inclusion
+
+### 🔄 **Smart Caching Strategy**
+
+- **Price data**: Always fetch fresh (needed for current signals)
+- **Fundamentals**: Git-based storage with earnings-aware refresh
+  - Earnings season (6-week windows): Refresh if >7 days old
+  - Normal periods: Refresh if >90 days old
+  - Result: **74% reduction in API calls**, zero GitHub Actions cache expiry issues
+
+### 🤖 **Full Automation**
+
+- Runs daily via GitHub Actions (1 PM UTC, weekdays only)
+- No manual intervention required
+- Results committed to repository (full history)
+- Adaptable to market conditions (skips buy signals in weak markets)
+
+---
+
+## Design Philosophy
+
+### 1. **Cache-First, API-Second**
+
+**Rationale:** yfinance has strict rate limits (~2 req/sec). Scanning 3,800 stocks requires 3,800+ API calls. At 1 TPS, that's 63 minutes. But fundamentals change slowly (quarterly earnings), so why re-fetch every day?
+
+**Solution:**
+- Store fundamentals in Git repository as JSON files
+- Add metadata with `fetched_at` timestamp
+- During scan: Check if cache exists and is fresh
+- Only fetch if stale or missing
+- Result: 1,762 cached stocks = **74% fewer API calls** = **15-20 min faster scans**
+
+### 2. **Phase Over Price**
+
+**Rationale:** Traditional screeners look for "cheap" stocks (low P/E) or "momentum" stocks (6-month returns). But cheap stocks can get cheaper, and momentum can reverse. Phase classification captures **trend structure**.
+
+**Solution:**
+- Classify stocks into 4 phases based on SMA slopes and price position
+- Only buy Phase 1 → 2 transitions (breakouts from bases)
+- Only sell Phase 2 → 3/4 transitions (breakdowns from tops)
+- Aligns entries with emerging trends, exits with deteriorating trends
+
+### 3. **Relative Strength as Primary Filter**
+
+**Rationale:** Absolute returns don't matter - **relative returns** do. A stock up 5% when SPY is up 10% is actually underperforming. Market leaders (high RS) tend to continue leading.
+
+**Solution:**
+- Calculate 63-day RS slope (3-month trend)
+- Smooth linear scoring (not bucket-based)
+- 10 points max for RS in buy signal scoring
+- Filters out weak stocks even if other metrics look good
+
+### 4. **Linear Formulas Over Buckets**
+
+**Rationale:** Bucket-based scoring (e.g., "P/E < 15 = 10 points, P/E 15-20 = 5 points") creates artificial cliffs. A stock with P/E 14.9 and P/E 15.1 shouldn't have a 5-point difference.
+
+**Solution:**
+- All scoring uses **linear interpolation**
+- Example: RS slope scoring scales smoothly from -0.3 (0 points) to +0.3 (10 points)
+- Stop loss trailing scales linearly with gain % (5% gain → lock 1% profit, 40% gain → lock 18% profit)
+- Result: Smoother, more reasonable scoring
+
+### 5. **Market Regime Awareness**
+
+**Rationale:** Buy signals in a bear market (SPY in Phase 4) have low win rates. Why generate signals that are likely to fail?
+
+**Solution:**
+- Classify SPY phase before generating signals
+- Calculate market breadth (% stocks in Phase 2)
+- Only generate buy signals if:
+  - SPY in Phase 1 or 2 (market not declining)
+  - AND ≥15% of stocks in Phase 2 (sufficient breadth)
+- Sell signals always generated (can exit in any market)
+
+### 6. **Read-Only Position Management**
+
+**Rationale:** Executing trades programmatically is risky and requires extensive safeguards. But **analyzing positions** and **recommending adjustments** can be automated safely.
+
+**Solution:**
+- Robinhood integration is **read-only** (only fetches positions)
+- Never calls trading functions (no `order_buy_*`, `order_sell_*`)
+- Position manager recommends stop adjustments
+- Human executes trades manually on Robinhood app
+- Best of both worlds: automation + human oversight
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+- Python 3.13+
+- GitHub account (for automation)
+- Robinhood account (optional, for position management)
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/stock-screener.git
+cd stock-screener
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# (Optional) Install robin-stocks for position management
+pip install robin-stocks
+```
+
+### Configuration
+
+```bash
+# Copy environment template
+cp .env.example .env
+
+# Edit .env (only needed for manual position management)
+# Add: ROBINHOOD_USERNAME=your_email@example.com
+```
+
+### Run Your First Scan
+
+```bash
+# Test mode: Scan 100 stocks to verify setup
+python run_optimized_scan.py --test-mode
+
+# Full scan: All 3,800+ stocks (30-40 minutes)
+python run_optimized_scan.py --conservative
+```
+
+### View Results
+
+```bash
+# Latest scan results
+cat data/daily_scans/latest_optimized_scan.txt
+
+# All historical scans
+ls -l data/daily_scans/
+```
+
+---
+
+## Daily Workflow
+
+### Automated Mode (GitHub Actions)
+
+The system runs automatically every weekday at 1 PM UTC (9 AM EST):
+
+1. **Scan triggers** via GitHub Actions schedule
+2. **Fetches universe** of 3,800+ US stocks
+3. **Downloads price data** for all stocks
+4. **Loads cached fundamentals** (or fetches if stale)
+5. **Classifies phases** and calculates RS
+6. **Generates signals** based on market regime
+7. **Saves report** to `data/daily_scans/latest_optimized_scan.txt`
+8. **Commits results** to repository
+
+**You receive:**
+- Daily email/Slack notification (if configured)
+- Ranked buy signals with stop losses
+- Ranked sell signals with breakdown levels
+- Market regime analysis (SPY phase + breadth)
+
+### Manual Mode (Local)
+
+Run on-demand scans:
+
+```bash
+# Conservative scan (2 workers, 1.0s delay = ~2 TPS)
+python run_optimized_scan.py --conservative
+
+# Default scan (3 workers, 0.5s delay = ~6 TPS)
+python run_optimized_scan.py
+
+# Aggressive scan (5 workers, 0.3s delay = ~17 TPS) - MAY HIT RATE LIMITS
+python run_optimized_scan.py --aggressive
+
+# Resume from interruption
+python run_optimized_scan.py --resume
+
+# Clear cached progress and start fresh
+python run_optimized_scan.py --clear-progress
+```
+
+---
+
+## Manual Position Management
+
+**⚠️ Note:** Position management requires manual execution. This is intentional for safety.
+
+### Step 1: Ensure Robinhood Username is Set
+
+In your `.env` file:
+
+```bash
+ROBINHOOD_USERNAME=your_email@example.com
+```
+
+**Important:** Password is NEVER stored. You will be prompted interactively.
+
+### Step 2: Run Position Manager
+
+```bash
+# Basic analysis (prompts for password + SMS MFA)
+python manage_positions.py
+
+# With entry dates for tax-aware recommendations
+python manage_positions.py --entry-dates entry_dates.json
+
+# Export report to file
+python manage_positions.py --export
+```
+
+### Step 3: Interactive Authentication
+
+```
+Logging in to Robinhood...
+Robinhood password for ryanhamby22@gmail.com: ********
+
+MFA required - check your phone for SMS code from Robinhood
+Enter SMS code from Robinhood: 123456
+
+✓ Robinhood login successful with SMS MFA
+```
+
+### Step 4: Review Recommendations
+
+The tool will:
+- Fetch your current positions from Robinhood
+- Analyze each using **cached market data** (zero extra API calls)
+- Calculate phase, SMA levels, recent swing lows
+- Recommend stop loss adjustments using linear formulas
+
+### Example Output
+
+```
+================================================================================
+POSITION MANAGEMENT REPORT - STOP LOSS RECOMMENDATIONS
+Generated: 2025-12-06 10:30:15
+================================================================================
+
+PORTFOLIO SUMMARY
+--------------------------------------------------------------------------------
+Total Positions: 3
+Need Stop Adjustment: 2
+Short-term (<1 year): 2
+Long-term (1+ years): 1
+Average Gain: +8.47%
+
+⚠️  URGENT ACTIONS NEEDED
+--------------------------------------------------------------------------------
+
+NVDA (+10.10%)
+  • Big winner - consider taking partial profits
+
+================================================================================
+
+################################################################################
+POSITION #1: AAPL
+################################################################################
+Entry: $175.50 | Current: $182.30 | Gain: +3.87%
+Tax Treatment: SHORT_TERM
+Days Held: 45
+
+ACTION: HOLD
+
+RATIONALE:
+Position up 3.9% - hold initial stop. Wait for 5-10% gain before adjusting.
+
+Technical: Phase 2 | 50 SMA: $178.20
+
+################################################################################
+
+POSITION #2: NVDA
+################################################################################
+Entry: $495.00 | Current: $545.00 | Gain: +10.10%
+Tax Treatment: SHORT_TERM
+Days Held: 20
+
+ACTION: TRAIL TO PROFIT
+
+✓ RECOMMENDED STOP LOSS: $519.75
+
+RATIONALE:
+Position up 10.1% - TRAIL TO PROFIT
+
+  NEW STOP LOSS: $519.75
+    • Locks in minimum +5.0% profit
+    • Stop type: profit-based
+
+  Technical: Phase 2 | 50 SMA: $512.30
+
+################################################################################
+
+POSITION #3: MSFT
+################################################################################
+Entry: $380.00 | Current: $385.50 | Gain: +1.45%
+Tax Treatment: LONG_TERM
+Days Held: 400
+
+ACTION: HOLD
+
+RATIONALE:
+LONG-TERM HOLD (400 days) - Preserve long-term capital gains tax rate.
+No stop adjustment recommended.
+
+================================================================================
+```
+
+### Stop Loss Logic
+
+Recommendations use **linear formulas** (not buckets):
+
+| Gain Range | Recommendation | Stop Level |
+|------------|----------------|------------|
+| 0-5% | Hold initial stop | Original stop |
+| 5-10% | Trail to breakeven | Entry price |
+| 10-20% | Trail to profit | Entry × (1 + locked_profit_pct/100) |
+| 20-30% | Take 25-30% partial | Remaining at +10% profit |
+| 30%+ | Take 50% partial | Remaining at tight trail |
+
+**Locked profit % formula:**
+```python
+locked_profit_pct = min(gain_pct - 3, gain_pct * 0.5)
+```
+
+Examples:
+- 5% gain → Lock 2% profit
+- 10% gain → Lock 3.5% profit
+- 20% gain → Lock 8.5% profit
+- 40% gain → Lock 18.5% profit
+
+### Tax-Aware Filtering
+
+**Long-term positions (365+ days held)** are excluded from stop adjustments to preserve favorable capital gains tax treatment (15-20% vs ordinary income rate).
+
+To enable:
+
+1. Create `entry_dates.json`:
+```json
+{
+  "AAPL": "2024-10-18T00:00:00",
+  "NVDA": "2024-11-13T00:00:00",
+  "MSFT": "2023-05-10T00:00:00"
+}
+```
+
+2. Run with `--entry-dates`:
+```bash
+python manage_positions.py --entry-dates entry_dates.json
+```
+
+---
 
 ## Project Structure
 
 ```
 stock-screener/
+├── .github/
+│   └── workflows/
+│       └── daily_scan.yml              # GitHub Actions automation
+│
 ├── src/
-│   ├── __init__.py
 │   ├── data/
-│   │   ├── __init__.py
-│   │   ├── fetcher.py       # Yahoo Finance data fetching with caching
-│   │   └── storage.py       # PostgreSQL/SQLite storage layer
-├── tests/
-│   ├── __init__.py
-│   └── test_fetcher.py      # Comprehensive test suite
-├── requirements.txt         # Python dependencies
-├── .env.example            # Environment configuration template
-└── README.md               # This file
+│   │   ├── fetcher.py                  # YahooFinanceFetcher (price data)
+│   │   ├── fundamentals_fetcher.py     # Quarterly financials fetcher
+│   │   ├── git_storage_fetcher.py      # Smart cache (74% API reduction)
+│   │   ├── enhanced_fundamentals.py    # FMP integration (optional)
+│   │   ├── universe_fetcher.py         # NASDAQ/NYSE stock universe
+│   │   └── robinhood_positions.py      # Robinhood read-only API
+│   │
+│   ├── screening/
+│   │   ├── phase_indicators.py         # 4-phase classification
+│   │   ├── signal_engine.py            # Buy/sell signal scoring
+│   │   ├── benchmark.py                # SPY analysis + market breadth
+│   │   └── optimized_batch_processor.py # Parallel processing engine
+│   │
+│   └── analysis/
+│       └── position_manager.py         # Stop loss recommendations
+│
+├── data/
+│   ├── fundamentals_cache/             # Git-tracked fundamentals (1762 stocks)
+│   ├── daily_scans/                    # Historical scan reports
+│   └── position_reports/               # Position management reports
+│
+├── run_optimized_scan.py               # Main scanner CLI
+├── manage_positions.py                 # Position management CLI
+├── automated_position_report.py        # GitHub Actions position report
+│
+├── README.md                           # This file
+├── requirements.txt                    # Python dependencies
+└── .env                                # Local configuration (gitignored)
 ```
 
-## Installation
+---
 
-### 1. Clone and Setup
+## Technical Details
 
-```bash
-cd stock-screener
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 2. Configure Environment
-
-```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-For **local development** (easiest):
-```bash
-DATABASE_URL=sqlite:///./stock_screener.db
-```
-
-For **production** with PostgreSQL:
-```bash
-DATABASE_URL=postgresql://user:password@localhost:5432/stock_screener
-```
-
-### 3. PostgreSQL Setup (Optional)
-
-If using PostgreSQL:
-
-```bash
-# Install PostgreSQL (macOS)
-brew install postgresql
-brew services start postgresql
-
-# Create database
-createdb stock_screener
-
-# Or using psql
-psql postgres
-CREATE DATABASE stock_screener;
-\q
-```
-
-## Usage Examples
-
-### Basic Data Fetching
+### Phase Classification Algorithm
 
 ```python
-from src.data import YahooFinanceFetcher
+def classify_phase(price_data: pd.DataFrame, current_price: float) -> Dict:
+    """
+    Classifies stock into 4 phases based on SMA slopes and price position.
 
-# Initialize fetcher
-fetcher = YahooFinanceFetcher(cache_dir="./data/cache")
-
-# Fetch fundamentals for a single stock
-fundamentals = fetcher.fetch_fundamentals("AAPL")
-print(f"P/E Ratio: {fundamentals['pe_ratio']}")
-print(f"P/B Ratio: {fundamentals['pb_ratio']}")
-print(f"Current Price: {fundamentals['current_price']}")
-
-# Fetch 5 years of price history
-prices = fetcher.fetch_price_history("AAPL", period="5y")
-print(prices.head())
-print(f"Total records: {len(prices)}")
-
-# Fetch data for multiple stocks
-tickers = ["AAPL", "MSFT", "GOOGL", "AMZN", "META"]
-fundamentals_df, prices_df = fetcher.fetch_multiple(tickers)
-print(f"Fetched data for {len(fundamentals_df)} stocks")
-print(fundamentals_df[['ticker', 'pe_ratio', 'pb_ratio', 'current_price']])
-
-# Clear cache for specific ticker or all
-fetcher.clear_cache("AAPL")  # Clear AAPL cache only
-fetcher.clear_cache()        # Clear all cache
+    Returns:
+        {
+            'phase': int (1-4),
+            'phase_name': str,
+            'confidence': float (0-100),
+            'sma_50': float,
+            'sma_200': float,
+            'slope_50': float (annualized),
+            'slope_200': float (annualized),
+            'reasons': List[str]
+        }
+    """
 ```
 
-### Database Storage
+**Logic:**
+1. Calculate 50-day and 200-day SMAs
+2. Calculate slopes (annualized % change rate)
+3. Classify phase based on:
+   - SMA ordering (50 > 200 or 50 < 200)
+   - Slope directions (rising, falling, or flat)
+   - Price position relative to SMAs
+4. Return phase with confidence score
+
+### Relative Strength Calculation
 
 ```python
-from src.data import StockDatabase, YahooFinanceFetcher
+def calculate_relative_strength(
+    stock_prices: pd.Series,
+    spy_prices: pd.Series,
+    period: int = 63
+) -> pd.Series:
+    """
+    Calculates smooth RS using linear regression slope.
 
-# Initialize database (creates tables automatically)
-db = StockDatabase()  # Uses DATABASE_URL from .env
+    Args:
+        stock_prices: Stock close prices
+        spy_prices: SPY close prices (benchmark)
+        period: Lookback window (63 days = 3 months)
 
-# Fetch and save data
-fetcher = YahooFinanceFetcher()
-
-# Save fundamentals
-fundamentals = fetcher.fetch_fundamentals("AAPL")
-db.save_stock_fundamentals("AAPL", fundamentals)
-
-# Save price history
-prices = fetcher.fetch_price_history("AAPL", period="5y")
-db.save_price_history("AAPL", prices)
-
-# Retrieve data from database
-latest = db.get_latest_fundamentals("AAPL")
-print(f"Latest P/E: {latest['pe_ratio']}")
-
-history = db.get_price_history("AAPL", "2023-01-01", "2024-01-01")
-print(f"Retrieved {len(history)} price records")
-
-# Find undervalued stocks
-cheap_stocks = db.query_cheap_stocks(pe_max=15, pb_max=1.5)
-print(f"Found {len(cheap_stocks)} undervalued stocks: {cheap_stocks}")
-
-# Get all tickers in database
-all_tickers = db.get_all_tickers()
-print(f"Database contains {len(all_tickers)} stocks")
+    Returns:
+        Series of RS slopes (annualized)
+    """
 ```
 
-### Complete Workflow Example
+**Formula:**
+```
+RS_ratio = stock_return / spy_return
+RS_slope = linear_regression_slope(RS_ratio, period)
+RS_score = clip((RS_slope + 0.3) / 0.6 * 10, 0, 10)
+```
+
+Interpretation:
+- RS slope +0.3 = 10 points (strong outperformance)
+- RS slope 0.0 = 5 points (matching market)
+- RS slope -0.3 = 0 points (strong underperformance)
+
+### Buy Signal Scoring (110 points max)
+
+| Component | Max Points | Criteria |
+|-----------|------------|----------|
+| **Phase** | 30 | Phase 2 = 30, Phase 1 = 20 |
+| **RS Momentum** | 10 | Linear scale from RS slope |
+| **Volume** | 10 | Breakout on high volume |
+| **Proximity to Breakout** | 10 | Close to resistance level |
+| **Fundamentals** | 50 | Growth (20) + Profitability (15) + Health (15) |
+
+**Threshold:** Buy signal score ≥ 70 for inclusion in report.
+
+### Sell Signal Scoring (110 points max)
+
+| Component | Max Points | Criteria |
+|-----------|------------|----------|
+| **Phase** | 30 | Phase 4 = 30, Phase 3 = 20 |
+| **RS Momentum** | 10 | Negative RS (underperformance) |
+| **Volume** | 10 | Breakdown on high volume |
+| **SMA Breakdown** | 15 | Broke below 50/200 SMA |
+| **Price Action** | 15 | Lower highs, lower lows |
+| **Severity** | 30 | Combination of above factors |
+
+**Threshold:** Sell signal score ≥ 60 for inclusion in report.
+
+### Stop Loss Calculation
 
 ```python
-from src.data import YahooFinanceFetcher, StockDatabase
+def calculate_stop_loss(
+    entry_price: float,
+    price_data: pd.DataFrame,
+    atr_period: int = 14,
+    atr_multiplier: float = 2.0
+) -> Dict:
+    """
+    Calculates stop loss using ATR or swing lows.
 
-# Initialize
-fetcher = YahooFinanceFetcher(cache_dir="./data/cache")
-db = StockDatabase()
-
-# Define stock universe
-sp500_sample = ["AAPL", "MSFT", "GOOGL", "AMZN", "META", "TSLA", "NVDA", "JPM", "V", "JNJ"]
-
-# Fetch and store data
-print("Fetching data for S&P 500 sample...")
-for ticker in sp500_sample:
-    print(f"Processing {ticker}...")
-
-    # Fetch fundamentals
-    fundamentals = fetcher.fetch_fundamentals(ticker)
-    if fundamentals:
-        db.save_stock_fundamentals(ticker, fundamentals)
-
-    # Fetch price history
-    prices = fetcher.fetch_price_history(ticker, period="5y")
-    if not prices.empty:
-        db.save_price_history(ticker, prices)
-
-# Screen for value stocks
-print("\nScreening for undervalued stocks...")
-value_stocks = db.query_cheap_stocks(pe_max=20, pb_max=3.0, min_market_cap=10_000_000_000)
-print(f"Found {len(value_stocks)} value stocks: {value_stocks}")
-
-# Analyze each value stock
-for ticker in value_stocks:
-    data = db.get_latest_fundamentals(ticker)
-    print(f"\n{ticker} - {data['name']}")
-    print(f"  P/E: {data['pe_ratio']:.2f}, P/B: {data['pb_ratio']:.2f}")
-    print(f"  Price: ${data['current_price']:.2f}")
-    print(f"  52W Range: ${data['week_52_low']:.2f} - ${data['week_52_high']:.2f}")
+    Returns:
+        {
+            'stop_price': float,
+            'risk_amount': float,
+            'stop_type': str ('atr' or 'swing_low')
+        }
+    """
 ```
 
-## API Reference
-
-### YahooFinanceFetcher
-
-#### Methods
-
-- `fetch_fundamentals(ticker: str) -> Dict[str, any]`
-  - Fetches fundamental data for a stock
-  - Returns: Dict with P/E, P/B, debt-to-equity, FCF, price data
-  - Cached for 24 hours by default
-
-- `fetch_price_history(ticker: str, period: str = "5y") -> pd.DataFrame`
-  - Fetches historical OHLCV data
-  - Period options: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
-  - Returns: DataFrame with Date, Open, High, Low, Close, Volume
-
-- `fetch_multiple(tickers: List[str]) -> Tuple[pd.DataFrame, pd.DataFrame]`
-  - Fetches data for multiple stocks
-  - Returns: (fundamentals_df, prices_df)
-
-- `clear_cache(ticker: Optional[str] = None) -> None`
-  - Clears cached data for ticker or all if None
-
-### StockDatabase
-
-#### Methods
-
-- `save_stock_fundamentals(ticker: str, data: Dict[str, any]) -> None`
-  - Saves fundamental data to database
-  - Creates/updates stock entry automatically
-
-- `save_price_history(ticker: str, df: pd.DataFrame) -> None`
-  - Bulk inserts price history data
-  - Handles duplicates gracefully
-
-- `get_latest_fundamentals(ticker: str) -> Dict[str, any]`
-  - Retrieves most recent fundamental data
-  - Returns: Dict with all fundamental metrics
-
-- `get_price_history(ticker: str, start_date: str, end_date: str) -> pd.DataFrame`
-  - Retrieves price data for date range
-  - Date format: 'YYYY-MM-DD'
-  - Returns: DataFrame with OHLCV data
-
-- `query_cheap_stocks(pe_max: float, pb_max: float, min_market_cap: Optional[float]) -> List[str]`
-  - Queries undervalued stocks by criteria
-  - Returns: List of ticker symbols
-
-- `get_all_tickers() -> List[str]`
-  - Returns list of all tickers in database
-
-## Database Schema
-
-### Tables
-
-**stocks**
-- `id`: Primary key
-- `ticker`: Unique stock symbol (indexed)
-- `name`: Company name
-- `sector`: Industry sector
-- `last_updated`: Last update timestamp
-
-**fundamentals**
-- `id`: Primary key
-- `stock_id`: Foreign key to stocks
-- `date`: Data date (indexed)
-- `pe_ratio`, `pb_ratio`, `debt_equity`, `fcf_yield`
-- `market_cap`, `current_price`, `week_52_high`, `week_52_low`
-- `trailing_eps`, `forward_eps`, `dividend_yield`
-
-**price_history**
-- `id`: Primary key
-- `stock_id`: Foreign key to stocks
-- `date`: Trading date (indexed, unique with stock_id)
-- `open`, `high`, `low`, `close`, `volume`
-
-## Running Tests
-
-```bash
-# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=src/data tests/
-
-# Run specific test file
-pytest tests/test_fetcher.py
-
-# Run with verbose output
-pytest -v
-
-# Run specific test
-pytest tests/test_fetcher.py::test_fetch_fundamentals_success
+**Method 1: ATR-Based**
+```
+ATR = Average True Range (14 days)
+Stop = Entry - (ATR × 2.0)
 ```
 
-## Error Handling
+**Method 2: Swing Low-Based**
+```
+Swing_Low = Lowest low in last 20 days
+Stop = Swing_Low × 0.98  (2% buffer)
+```
 
-The module includes comprehensive error handling:
+Uses whichever is **higher** (more conservative).
 
-- **Network Failures**: Automatic retry with 3 attempts and 2-second delays
-- **Invalid Tickers**: Graceful handling with logging
-- **Missing Data**: Returns None/empty for missing fields with warnings
-- **Database Errors**: Transaction rollback with detailed error messages
-- **Cache Issues**: Fallback to API if cache fails
+### Risk/Reward Validation
 
-## Configuration
-
-Environment variables (set in `.env`):
-
-- `DATABASE_URL`: Database connection string
-- `LOG_LEVEL`: Logging level (DEBUG, INFO, WARNING, ERROR)
-- `CACHE_DIR`: Cache directory path (default: ./data/cache)
-- `CACHE_EXPIRY_HOURS`: Cache expiry time (default: 24)
-
-## Performance Tips
-
-1. **Use Caching**: Let the cache work - subsequent calls are instant
-2. **Batch Operations**: Use `fetch_multiple()` for multiple stocks
-3. **Database Pooling**: PostgreSQL with connection pooling for production
-4. **Bulk Inserts**: `save_price_history()` uses bulk operations
-5. **Index Queries**: Database is indexed on ticker and date columns
-
-## Logging
-
-All operations are logged with timestamps:
-
+Every buy signal calculates:
 ```python
-import logging
-logging.basicConfig(level=logging.INFO)
+risk = entry_price - stop_loss
+reward = (entry_price × 1.20) - entry_price  # 20% target
+r_r_ratio = reward / risk
 ```
 
-Log levels:
-- `INFO`: Successful operations, cache hits/misses
-- `WARNING`: Missing data, cache failures
-- `ERROR`: API failures, database errors
+**Filter:** Only include signals with R:R ≥ 2:1.
 
-## Troubleshooting
+---
 
-### Issue: "ModuleNotFoundError: No module named 'yfinance'"
-**Solution**: Run `pip install -r requirements.txt`
+## Future Improvements
 
-### Issue: "Could not connect to PostgreSQL"
-**Solution**: Use SQLite for local testing: `DATABASE_URL=sqlite:///./stock_screener.db`
+### Short-Term (Next 3 Months)
 
-### Issue: "No data returned for ticker"
-**Solution**: Ticker may be invalid or delisted. Check ticker symbol on Yahoo Finance.
+- [ ] **Backtesting Engine**
+  - Simulate historical trades using phase transitions
+  - Calculate win rate, profit factor, max drawdown
+  - Optimize signal thresholds based on historical performance
+  - Compare against buy-and-hold SPY baseline
 
-### Issue: "Cache directory permission denied"
-**Solution**: Ensure write permissions: `chmod 755 ./data/cache`
+- [ ] **Enhanced Reporting**
+  - Add charts to daily report (SPY trend, market breadth, top signals)
+  - Email delivery with HTML formatting
+  - Slack integration with interactive buttons
+  - Web dashboard for historical tracking
+
+- [ ] **Smart Alerts**
+  - Real-time alerts when positions hit stop levels
+  - Notify when new high-score buy signals appear
+  - Alert on market regime changes (SPY phase transitions)
+
+### Medium-Term (3-6 Months)
+
+- [ ] **Multi-Timeframe Analysis**
+  - Add weekly phase classification (longer-term trend)
+  - Combine daily + weekly phases for higher-conviction signals
+  - Filter out counter-trend trades (daily bullish, weekly bearish)
+
+- [ ] **Sector Rotation**
+  - Track which sectors are leading/lagging
+  - Adjust signal thresholds based on sector strength
+  - Identify sector rotation opportunities
+
+- [ ] **Options Integration**
+  - Fetch option chain data for buy signals
+  - Recommend covered call strikes for profitable positions
+  - Identify protective put opportunities for Phase 3 stocks
+
+- [ ] **Paper Trading**
+  - Simulate trades in paper account
+  - Track P&L of generated signals
+  - Validate system performance before real capital
+
+### Long-Term (6-12 Months)
+
+- [ ] **Machine Learning Enhancement**
+  - Train ML model on historical phase transitions
+  - Predict probability of Phase 1 → 2 breakout success
+  - Improve signal ranking using learned features
+
+- [ ] **Alternative Data Sources**
+  - Integrate insider trading data (SEC Form 4)
+  - Add institutional ownership changes (13F filings)
+  - Sentiment analysis from news/social media
+
+- [ ] **Portfolio Construction**
+  - Optimal position sizing based on volatility
+  - Correlation-based diversification
+  - Risk parity allocation across sectors
+
+- [ ] **Execution Optimization**
+  - Optimal entry timing (limit orders vs market orders)
+  - Partial entry strategies (scale in over multiple days)
+  - Bracket orders (auto-set stops and targets)
+
+### Infrastructure
+
+- [ ] **Database Migration**
+  - Move from file-based cache to PostgreSQL
+  - Enable complex queries (sector rotation, correlation analysis)
+  - Faster lookups for backtesting
+
+- [ ] **Real-Time Data**
+  - Integrate with real-time data provider (IEX Cloud, Polygon)
+  - Intraday phase classification (15-min bars)
+  - Live stop loss monitoring
+
+- [ ] **Web UI**
+  - Interactive dashboard for browsing signals
+  - Position tracker with live P&L
+  - Backtest explorer with equity curves
+
+---
 
 ## Contributing
 
-To extend this module:
+This project is currently a personal trading system. If you'd like to contribute:
 
-1. Add new methods to `YahooFinanceFetcher` for additional data sources
-2. Add new tables to `storage.py` for different data types
-3. Add new query methods to `StockDatabase` for screening criteria
-4. Write tests for all new functionality
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes with tests
+4. Commit (`git commit -m 'Add amazing feature'`)
+5. Push (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+**Code Standards:**
+- Python 3.13+
+- Type hints required
+- Docstrings for all public functions
+- Black code formatting
+- pytest for tests (>80% coverage)
+
+---
 
 ## License
 
-MIT License - See LICENSE file for details
+MIT License - See [LICENSE](LICENSE) file for details.
 
-## Support
+---
 
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review the test files for usage examples
-3. Check Yahoo Finance API documentation: https://pypi.org/project/yfinance/
+## Disclaimer
 
-## Roadmap
+**This system is for educational and informational purposes only.**
 
-Future enhancements:
-- [ ] Support for multiple data sources (Alpha Vantage, IEX Cloud)
-- [ ] Technical indicators calculation (RSI, MACD, Bollinger Bands)
-- [ ] Support level detection algorithms
-- [ ] Real-time data streaming
-- [ ] Async data fetching for improved performance
-- [ ] Web dashboard for visualization
+- Not financial advice
+- Past performance does not guarantee future results
+- Trading stocks involves risk of loss
+- Always do your own research
+- Never invest more than you can afford to lose
+- Consult a licensed financial advisor before making investment decisions
 
-## Screening Module
+The author is not responsible for any financial losses incurred using this system.
 
-The screening module combines fundamental value analysis with technical support analysis to identify high-probability buying opportunities.
+---
 
-### Features
+## Contact
 
-- **Value Scoring**: Evaluates P/E ratio, P/B ratio, FCF yield, and debt levels
-- **Support Detection**: Identifies support levels from swing lows, moving averages, and historical lows
-- **Technical Indicators**: RSI, SMA, EMA, MACD, Bollinger Bands, volume analysis
-- **Combined Scoring**: Weights value (70%) and technical (30%) factors for buy signal
+**Ryan Hamby**
+Email: ryanhamby22@gmail.com
+LinkedIn: [linkedin.com/in/ryanhamby](https://linkedin.com/in/ryanhamby)
 
-### Quick Start
+For Robinhood employees reviewing this project: I'm happy to discuss the technical architecture, design decisions, and potential applications for institutional trading systems. Feel free to reach out!
 
-```python
-from src.data import StockDatabase
-from src.screening import screen_candidates
+---
 
-# Initialize database
-db = StockDatabase()
-
-# Screen candidates
-tickers = ["AAPL", "MSFT", "GOOGL", "JPM", "WMT"]
-results = screen_candidates(db, tickers)
-
-# View results
-print(results[['ticker', 'buy_signal', 'value_score', 'support_score']])
-
-# Top candidate
-top_pick = results.iloc[0]
-print(f"Top pick: {top_pick['ticker']} (Buy Signal: {top_pick['buy_signal']:.1f})")
-```
-
-### API Reference
-
-#### Value Scoring
-
-```python
-from src.screening import calculate_value_score
-
-fundamentals = {
-    'pe_ratio': 15.0,
-    'pb_ratio': 2.0,
-    'fcf_yield': 5.0,
-    'debt_equity': 50.0
-}
-score = calculate_value_score(fundamentals)
-# Returns: 0-100 score (higher is better)
-```
-
-**Scoring Criteria:**
-- P/E < 15: Maximum points
-- P/B < 1.5: Maximum points  
-- FCF yield > 5%: Maximum points
-- Debt/Equity < 50%: Bonus points
-
-#### Support Detection
-
-```python
-from src.screening import detect_support_levels
-
-# Requires DataFrame with Date, Close, High, Low columns
-support_levels = detect_support_levels(price_df)
-# Returns: [95.50, 98.20, 100.00, 105.30] (sorted list)
-```
-
-Detects support from:
-- Swing lows (30-day window)
-- 50-day and 200-day moving averages
-- Recent significant lows (90 days)
-- 52-week low
-
-#### Support Scoring
-
-```python
-from src.screening import calculate_support_score
-
-score = calculate_support_score(
-    current_price=100.0,
-    support_levels=[95, 98, 105],
-    rsi=35,  # Oversold
-    volume_spike=True
-)
-# Returns: 0-100 score
-```
-
-**Scoring Factors:**
-- Distance from support (40 points max)
-- RSI oversold condition (30 points max)
-- Volume spike (20 points)
-- Multiple support confluence (10 points)
-
-#### Technical Indicators
-
-```python
-from src.screening.indicators import (
-    calculate_rsi,
-    calculate_sma,
-    calculate_ema,
-    calculate_macd,
-    calculate_bollinger_bands,
-    detect_volume_spike,
-    find_swing_lows
-)
-
-# RSI (14-period default)
-rsi = calculate_rsi(prices, period=14)
-
-# Moving averages
-sma_50 = calculate_sma(prices, period=50)
-ema_200 = calculate_ema(prices, period=200)
-
-# MACD
-macd, signal, histogram = calculate_macd(prices)
-
-# Bollinger Bands
-middle, upper, lower = calculate_bollinger_bands(prices, period=20)
-
-# Volume analysis
-is_spike = detect_volume_spike(volumes, current_volume, threshold=1.5)
-
-# Swing lows
-lows = find_swing_lows(prices, window=30)
-```
-
-### Running the Demo
-
-```bash
-# Full screening demonstration
-python screening_demo.py
-```
-
-The demo will:
-1. Fetch data for 8 sample stocks (AAPL, MSFT, JPM, etc.)
-2. Run screening algorithm
-3. Display ranked results with buy signals
-4. Show detailed analysis of top candidate
-
-### Understanding Buy Signals
-
-Buy signals range from 0-100:
-
-- **80-100**: 🔥 STRONG BUY - Excellent value at strong support
-- **65-79**: ✅ BUY - Good value with favorable technicals
-- **50-64**: ⚡ CONSIDER - Decent setup, monitor for entry
-- **0-49**: ⏸️ WATCH - Wait for better opportunity
-
-### Customizing the Screener
-
-#### Adjust Weights
-
-```python
-# More value-focused (80% value, 20% technical)
-results = screen_candidates(db, tickers, value_weight=0.8, support_weight=0.2)
-
-# More technical-focused (50/50 split)
-results = screen_candidates(db, tickers, value_weight=0.5, support_weight=0.5)
-```
-
-#### Filter Results
-
-```python
-# Only strong buy signals
-strong_buys = results[results['buy_signal'] >= 80]
-
-# Oversold stocks only
-oversold = results[results['rsi'] < 40]
-
-# Value stocks at support
-value_at_support = results[
-    (results['value_score'] >= 70) & 
-    (results['support_score'] >= 60)
-]
-```
-
-### Example Output
-
-```
-TOP CANDIDATES (sorted by Buy Signal)
-
-#1: AAPL - Apple Inc.
-  Sector: Technology
-  Current Price: $175.50
-  Nearest Support: $172.30 (+1.9%)
-
-  Scores:
-    Buy Signal:     85.3/100 ★★★★
-    Value Score:    78.5/100 ■■■■
-    Support Score:  82.1/100 ▲▲▲▲
-
-  Fundamentals:
-    P/E Ratio:      28.50
-    P/B Ratio:      45.30
-
-  Technicals:
-    RSI:            35.2 (Oversold)
-
-  Signal: 🔥 STRONG BUY
-```
-
-### Performance Tips
-
-1. **Batch Screening**: Screen multiple stocks at once for efficiency
-2. **Use Cached Data**: Subsequent runs are instant with cached data
-3. **Filter Tickers**: Pre-filter by sector/market cap before screening
-4. **Adjust Thresholds**: Customize min_data_days based on your needs
-
-### Common Use Cases
-
-#### Find Value Stocks
-
-```python
-# Screen S&P 500 value stocks
-sp500_tickers = [...] # List of S&P 500 tickers
-results = screen_candidates(db, sp500_tickers, value_weight=0.8)
-value_stocks = results[results['pe_ratio'] < 20]
-```
-
-#### Find Oversold Stocks at Support
-
-```python
-# Focus on technical setup
-results = screen_candidates(db, tickers, support_weight=0.6)
-oversold_support = results[
-    (results['rsi'] < 40) & 
-    (results['support_score'] > 70)
-]
-```
-
-#### Sector Rotation Strategy
-
-```python
-# Screen by sector
-tech_stocks = ['AAPL', 'MSFT', 'GOOGL', 'META']
-finance_stocks = ['JPM', 'BAC', 'GS', 'MS']
-
-tech_results = screen_candidates(db, tech_stocks)
-finance_results = screen_candidates(db, finance_stocks)
-
-# Compare sectors
-print(f"Tech avg signal: {tech_results['buy_signal'].mean():.1f}")
-print(f"Finance avg signal: {finance_results['buy_signal'].mean():.1f}")
-```
-
-### Testing
-
-```bash
-# Run all screening tests
-pytest tests/test_screener.py -v
-
-# Run specific test category
-pytest tests/test_screener.py::TestValueScoring -v
-pytest tests/test_screener.py::TestTechnicalIndicators -v
-```
-
-### Algorithm Details
-
-#### Value Score Calculation
-
-The value score is calculated from four components:
-
-1. **P/E Ratio (40 points)**
-   - ≤15: 40 points
-   - 15-30: 20-40 points (linear scale)
-   - 30-50: 0-20 points (linear scale)
-   - >50: 0 points
-
-2. **P/B Ratio (30 points)**
-   - ≤1.5: 30 points
-   - 1.5-3.0: 10-30 points (linear scale)
-   - 3.0-5.0: 0-10 points (linear scale)
-   - >5.0: 0 points
-
-3. **FCF Yield (20 points)**
-   - ≥5%: 20 points
-   - 0-5%: 0-20 points (linear scale)
-   - <0%: 0 points
-
-4. **Debt/Equity (10 points bonus)**
-   - ≤50%: 10 points
-   - 50-100%: 5-10 points (linear scale)
-   - >100%: 0-5 points (linear scale)
-
-#### Support Score Calculation
-
-The support score combines multiple technical factors:
-
-1. **Distance from Support (40 points)**
-   - Within 1%: 40 points
-   - 1-3%: 25-40 points
-   - 3-5%: 15-25 points
-   - 5-10%: 0-15 points
-   - >10%: 0 points
-
-2. **RSI Level (30 points)**
-   - ≤30: 30 points (deeply oversold)
-   - 30-40: 20-30 points (oversold)
-   - 40-50: 10-20 points (neutral)
-   - 50-70: 0-10 points
-   - >70: -10 points (overbought penalty)
-
-3. **Volume Spike (20 points)**
-   - Volume >150% of average: +20 points
-
-4. **Support Confluence (10 points bonus)**
-   - Multiple support levels within 3% of price: +10 points
-
+*Built with Python, powered by data, driven by discipline.*

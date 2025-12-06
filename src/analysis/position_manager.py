@@ -9,26 +9,93 @@ Analyzes current Robinhood positions and recommends:
 
 Only provides recommendations for SHORT-TERM positions (held <1 year).
 Long-term positions (held 1+ years) are excluded to preserve favorable tax treatment.
+
+Uses cached price data from daily scans - no additional API calls needed.
 """
 
 import logging
 from typing import Dict, List, Optional
 from datetime import datetime, timedelta
+from pathlib import Path
+import json
 import yfinance as yf
 import pandas as pd
 
-from src.screening.phase_classifier import classify_phase
-from src.screening.signal_engine import calculate_stop_loss
+from src.screening.phase_indicators import classify_phase
+from src.data.git_storage_fetcher import GitStorageFetcher
 
 logger = logging.getLogger(__name__)
 
 
 class PositionManager:
-    """Analyze positions and recommend stop loss adjustments."""
+    """Analyze positions and recommend stop loss adjustments.
 
-    def __init__(self):
-        """Initialize position manager."""
-        pass
+    Uses cached fundamentals and price data to avoid extra API calls.
+    """
+
+    def __init__(self, use_cache: bool = True):
+        """Initialize position manager.
+
+        Args:
+            use_cache: Use cached fundamentals and price data (recommended)
+        """
+        self.use_cache = use_cache
+        self.git_fetcher = GitStorageFetcher() if use_cache else None
+        self.fundamentals_dir = Path("./data/fundamentals_cache")
+
+    def _get_price_data(self, ticker: str) -> pd.DataFrame:
+        """Get price data from cache or yfinance.
+
+        Args:
+            ticker: Stock ticker
+
+        Returns:
+            DataFrame with price data
+        """
+        if self.use_cache and self.git_fetcher:
+            try:
+                # Try to get cached data first
+                price_data = self.git_fetcher.fetch_price_fresh(ticker)
+                if not price_data.empty:
+                    logger.debug(f"{ticker}: Using cached price data")
+                    return price_data
+            except Exception as e:
+                logger.debug(f"{ticker}: Cache fetch failed, falling back to yfinance: {e}")
+
+        # Fallback to yfinance
+        try:
+            stock = yf.Ticker(ticker)
+            price_data = stock.history(period='1y', interval='1d')
+            if not price_data.empty:
+                logger.debug(f"{ticker}: Fetched fresh price data from yfinance")
+            return price_data
+        except Exception as e:
+            logger.error(f"{ticker}: Failed to fetch price data: {e}")
+            return pd.DataFrame()
+
+    def _get_cached_fundamentals(self, ticker: str) -> Dict:
+        """Get cached fundamentals if available.
+
+        Args:
+            ticker: Stock ticker
+
+        Returns:
+            Dict with fundamental data, or empty dict if not cached
+        """
+        if not self.use_cache:
+            return {}
+
+        try:
+            fundamental_file = self.fundamentals_dir / f"{ticker}_fundamentals.json"
+            if fundamental_file.exists():
+                with open(fundamental_file, 'r') as f:
+                    data = json.load(f)
+                    logger.debug(f"{ticker}: Loaded cached fundamentals")
+                    return data.get('data', {})
+        except Exception as e:
+            logger.debug(f"{ticker}: Could not load cached fundamentals: {e}")
+
+        return {}
 
     def analyze_position(
         self,
@@ -67,6 +134,17 @@ class PositionManager:
             'warnings': []
         }
 
+        # Validate prices
+        if entry_price <= 0:
+            result['warnings'].append('Invalid entry price (zero or negative) - cannot analyze')
+            result['rationale'] = f"Cannot analyze - invalid entry price: ${entry_price:.2f}"
+            return result
+
+        if current_price <= 0:
+            result['warnings'].append('Invalid current price (zero or negative) - cannot analyze')
+            result['rationale'] = f"Cannot analyze - invalid current price: ${current_price:.2f}"
+            return result
+
         # Calculate current gain
         gain_pct = ((current_price - entry_price) / entry_price) * 100
         result['current_gain_pct'] = round(gain_pct, 2)
@@ -82,10 +160,9 @@ class PositionManager:
                 result['tax_treatment'] = 'short_term'
                 result['days_held'] = days_held
 
-        # Fetch price data and analyze
+        # Fetch price data and analyze (uses cache by default)
         try:
-            stock = yf.Ticker(ticker)
-            price_data = stock.history(period='1y', interval='1d')
+            price_data = self._get_price_data(ticker)
 
             if price_data.empty or len(price_data) < 50:
                 result['warnings'].append('Insufficient price data for analysis')
@@ -247,6 +324,8 @@ class PositionManager:
             ticker = pos['ticker']
             entry_date = entry_dates.get(ticker)
 
+            logger.info(f"Analyzing {ticker}: entry=${pos['average_buy_price']:.2f}, current=${pos['current_price']:.2f}")
+
             analysis = self.analyze_position(
                 ticker=ticker,
                 entry_price=pos['average_buy_price'],
@@ -367,11 +446,10 @@ class PositionManager:
             lines.append(analysis['rationale'])
 
             if analysis.get('phase'):
-                lines.append(f"\nTechnical: Phase {analysis['phase']}", end="")
+                tech_line = f"\nTechnical: Phase {analysis['phase']}"
                 if analysis.get('sma_50'):
-                    lines.append(f" | 50 SMA: ${analysis['sma_50']:.2f}")
-                else:
-                    lines.append("")
+                    tech_line += f" | 50 SMA: ${analysis['sma_50']:.2f}"
+                lines.append(tech_line)
 
             if analysis['warnings']:
                 lines.append("\nWARNINGS:")
