@@ -14,7 +14,9 @@ from .phase_indicators import (
     calculate_volume_ratio,
     calculate_rs_slope,
     detect_volatility_contraction,
-    detect_breakout
+    detect_breakout,
+    validate_minervini_trend_template,
+    calculate_sma
 )
 
 logging.basicConfig(
@@ -126,14 +128,30 @@ def score_buy_signal(
     """
     phase = phase_info['phase']
 
-    # Only consider Phase 1 and Phase 2
-    if phase not in [1, 2]:
+    # MINERVINI REQUIREMENT: Only Phase 2 (confirmed Stage 2 uptrend)
+    # Phase 1 stocks are NOT ready - they're still basing/accumulating
+    if phase != 2:
         return {
             'ticker': ticker,
             'is_buy': False,
             'score': 0,
-            'reason': f'Wrong phase (Phase {phase})',
+            'reason': f'Not in Phase 2 (currently Phase {phase}) - Minervini requires confirmed uptrend',
             'details': {}
+        }
+
+    # Validate Minervini Trend Template (SEPA)
+    # This is the core entry criteria from "Trade Like a Stock Market Wizard"
+    sma_200 = calculate_sma(price_data['Close'], 200)
+    minervini = validate_minervini_trend_template(current_price, phase_info, sma_200)
+
+    # STRICT FILTER: Must pass at least 7 of 8 Minervini criteria
+    if not minervini['passes_template']:
+        return {
+            'ticker': ticker,
+            'is_buy': False,
+            'score': 0,
+            'reason': f"Fails Minervini Trend Template ({minervini['criteria_passed']}/8 criteria passed)",
+            'details': {'minervini': minervini}
         }
 
     score = 0
@@ -193,39 +211,8 @@ def score_buy_signal(
 
         trend_score += stage2_quality
 
-    elif phase == 1:
-        # Stage 1 → Stage 2 transition potential (graded 0-25 points)
-        transition_score = 0
-
-        # How close to breaking out? (12 pts) - Linear from -10% to +5%
-        # Formula: ((distance_50 + 10) / 15) * 12, capped at 12
-        proximity_score = min(12, max(0, ((distance_50 + 10) / 15.0) * 12))
-        transition_score += proximity_score
-
-        if distance_50 >= -2:
-            reasons.append(f'Near 50 SMA breakout ({distance_50:.1f}%)')
-        elif distance_50 >= -5:
-            reasons.append(f'Approaching 50 SMA ({distance_50:.1f}%)')
-        else:
-            reasons.append(f'Building base ({distance_50:.1f}% below 50 SMA)')
-
-        # SMA setup - golden cross strength (13 pts) - Linear based on SMA separation
-        # Formula: ((sma_50 - sma_200) / sma_200) * 200 * slope_factor, capped at 13
-        sma_ratio = (sma_50 - sma_200) / sma_200 if sma_200 > 0 else 0
-        slope_factor = min(1.0, max(0, slope_50 / 0.03))  # 0-0.03 slope → 0-1 multiplier
-        sma_setup_score = min(13, max(0, sma_ratio * 200 * slope_factor))
-        transition_score += sma_setup_score
-
-        if sma_50 > sma_200 and slope_50 > 0.02:
-            reasons.append(f'Strong golden cross setup (50 SMA {sma_ratio*100:.1f}% above 200)')
-        elif sma_50 > sma_200:
-            reasons.append(f'Golden cross present')
-        elif sma_50 > sma_200 * 0.98:
-            reasons.append('Approaching golden cross')
-        else:
-            reasons.append('50 SMA below 200 SMA')
-
-        trend_score += transition_score
+    # At this point, we're guaranteed to be in Phase 2 (checked above)
+    # Minervini only buys confirmed Stage 2 stocks
 
     # B) Breakout detection (10 points)
     breakout_info = detect_breakout(price_data, current_price, phase_info)
@@ -542,11 +529,16 @@ def score_buy_signal(
     # Determine if this is a valid buy signal (>= 60)
     is_buy = final_score >= 60
 
+    # Add Minervini template details
+    details['minervini_template'] = minervini
+
     return {
         'ticker': ticker,
         'is_buy': is_buy,
         'score': round(final_score, 1),
         'phase': phase,
+        'minervini_template_score': minervini['template_score'],
+        'minervini_criteria_passed': minervini['criteria_passed'],
         'breakout_price': breakout_info.get('breakout_level') if breakout_info['is_breakout'] else None,
         'stop_loss': round(stop_loss, 2) if stop_loss else None,
         'risk_reward_ratio': details.get('risk_reward_ratio', 0),

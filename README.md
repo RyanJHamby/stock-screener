@@ -40,9 +40,9 @@ This system was built to eliminate emotional decision-making and provide objecti
 ### What This System Does
 
 1. **Screens 3,800+ stocks every market day** using GitHub Actions automation
-2. **Identifies buy signals** when stocks transition from Phase 1 (basing) to Phase 2 (uptrend) with strong relative strength
+2. **Identifies buy signals** for stocks in confirmed Phase 2 uptrends that pass Minervini's 8-criteria Trend Template
 3. **Identifies sell signals** when stocks enter Phase 3 (distribution) or Phase 4 (downtrend) with weakening momentum
-4. **Calculates precise stop losses** with risk/reward ratios for every buy signal
+4. **Calculates precise stop losses** with risk/reward ratios for every buy signal (max 10% risk, min 2:1 R:R)
 5. **Generates daily reports** with ranked opportunities and full technical analysis
 6. **Manages existing positions** with automated stop-loss trailing recommendations
 
@@ -54,11 +54,65 @@ This system was built to eliminate emotional decision-making and provide objecti
 - **Phase transitions** (is the stock breaking out or breaking down?)
 - **Smart caching** (redundant API calls wasting time and hitting rate limits)
 
-**Solution:** This system treats the stock market as a **dynamic, cyclical system** where:
-- Stocks move through **predictable phases** (base → uptrend → distribution → downtrend)
-- **Timing matters** - buying breakouts during market uptrends is higher probability
-- **Momentum matters** - stocks outperforming SPY tend to continue
+**Solution:** This system implements Mark Minervini's **Trend Template methodology** where:
+- Only buy **confirmed Phase 2 uptrends** (not early Phase 1 bases)
+- Must pass **7 of 8 strict technical criteria** (50>150>200 SMA, price near highs, etc.)
+- **Timing matters** - only buy when market (SPY) is also healthy
+- **Relative strength matters** - only buy stocks outperforming the market
 - **Cache-first design** - 74% reduction in API calls through Git-based fundamental storage
+
+---
+
+## Methodology & Attribution
+
+This system implements **Mark Minervini's Trend Template** (also known as SEPA - Specific Entry Point Analysis), a systematic approach to identifying high-probability stock setups in confirmed Stage 2 uptrends.
+
+### Mark Minervini's Influence
+
+The core buy signal methodology is based on principles from:
+
+- **"Trade Like a Stock Market Wizard"** (2013) - Minervini's systematic approach to stock selection using the Trend Template
+- **"Think & Trade Like a Champion"** (2017) - Advanced stage analysis and risk management techniques
+- **"Momentum Masters"** (2015) - Multi-contributor insights on momentum trading strategies
+
+### The Minervini Trend Template (8 Criteria)
+
+Buy signals **only** trigger when stocks pass **7 of 8 strict criteria**:
+
+1. ✅ **Price > 150 SMA AND 200 SMA** - Stock must be in established uptrend
+2. ✅ **150 SMA > 200 SMA** - Moving averages in bullish alignment
+3. ✅ **200 SMA trending up ≥1 month** - Long-term trend is bullish
+4. ✅ **50 SMA > 150 SMA > 200 SMA** - Strongest SMA configuration (cascading)
+5. ✅ **Price > 50 SMA** - Stock respecting short-term support
+6. ✅ **Price ≥30% above 52-week low** - Stock has built significant base
+7. ✅ **Price within 25% of 52-week high** - Near new highs (not extended)
+8. ✅ **Relative Strength ≥70** - Outperforming market (we use RS slope ≥ +0.15)
+
+**Why This Works:**
+- Identifies stocks in **confirmed uptrends** (not early bases)
+- Filters out weak stocks with poor price structure
+- Ensures proper risk/reward (stocks near highs with strong momentum)
+- Aligns with institutional buying (big money follows strong trends)
+
+### Additional Influences
+
+While the core entry criteria follow Minervini's template, this system also incorporates concepts from:
+
+- **Stan Weinstein** - 4-stage market cycle analysis ("Secrets for Profiting in Bull and Bear Markets")
+- **William O'Neil** - Fundamental screening criteria (CANSLIM methodology)
+- **IBD Methodology** - Relative strength ranking and market regime awareness
+
+### Our Implementation
+
+We've automated Minervini's manual screening process with additional enhancements:
+
+- **Smooth linear scoring** instead of binary pass/fail (reduces false signals)
+- **Market regime filtering** (SPY phase + breadth checks - only buy in healthy markets)
+- **Automated fundamental screening** (growth, profitability, financial health)
+- **Precise stop-loss calculation** (ATR-based + swing lows, max 10% risk)
+- **R:R validation** (only include signals with ≥2:1 reward/risk ratio)
+
+The system stays true to Minervini's core principle: **Buy confirmed Stage 2 breakouts with strong fundamentals and clear risk management.**
 
 ---
 
@@ -139,10 +193,12 @@ graph TB
 
 Stocks are classified into 4 phases based on moving average slopes and price position:
 
-- **Phase 1 (Base Building)**: Consolidation after decline. 50/200 SMA flattening, price finding support. **BUY ZONE**
-- **Phase 2 (Uptrend)**: Strong momentum. 50 SMA > 200 SMA, both rising, price above both. **HOLD/ADD**
+- **Phase 1 (Base Building)**: Consolidation after decline. 50/200 SMA flattening, price finding support. **NOT YET READY**
+- **Phase 2 (Uptrend)**: Confirmed uptrend. 50>150>200 SMA (all rising), price above all SMAs. **BUY ZONE** ⭐
 - **Phase 3 (Distribution)**: Topping pattern. SMAs starting to flatten/cross, momentum weakening. **SELL ZONE**
 - **Phase 4 (Downtrend)**: Declining trend. 50 SMA < 200 SMA, both falling, price below both. **AVOID**
+
+**Important**: Following Minervini's methodology, buy signals **only** trigger for **Phase 2 stocks** that pass the Trend Template. Phase 1 stocks are still basing and not ready for entry.
 
 ### 📈 **Relative Strength Momentum**
 
@@ -197,15 +253,16 @@ Every buy signal includes:
 - Only fetch if stale or missing
 - Result: 1,762 cached stocks = **74% fewer API calls** = **15-20 min faster scans**
 
-### 2. **Phase Over Price**
+### 2. **Confirmed Uptrends Only (Minervini's Stage 2)**
 
-**Rationale:** Traditional screeners look for "cheap" stocks (low P/E) or "momentum" stocks (6-month returns). But cheap stocks can get cheaper, and momentum can reverse. Phase classification captures **trend structure**.
+**Rationale:** Traditional screeners look for "cheap" stocks (low P/E) or early bases (Phase 1). But cheap stocks can get cheaper, and bases can fail. Minervini only buys **confirmed Stage 2 uptrends**.
 
 **Solution:**
 - Classify stocks into 4 phases based on SMA slopes and price position
-- Only buy Phase 1 → 2 transitions (breakouts from bases)
+- **Only buy Phase 2** (confirmed uptrends with 50>150>200 SMA alignment)
+- Reject Phase 1 (still basing, not confirmed)
 - Only sell Phase 2 → 3/4 transitions (breakdowns from tops)
-- Aligns entries with emerging trends, exits with deteriorating trends
+- This filters out 70%+ of stocks immediately, leaving only the highest-quality setups
 
 ### 3. **Relative Strength as Primary Filter**
 

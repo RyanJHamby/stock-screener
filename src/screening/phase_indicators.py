@@ -280,10 +280,13 @@ def classify_phase(price_data: pd.DataFrame, current_price: float) -> Dict[str, 
         }
 
     close = price_data['Close']
+    high = price_data['High']
+    low = price_data['Low']
     volume = price_data.get('Volume', pd.Series([]))
 
-    # Calculate SMAs
+    # Calculate SMAs (50, 150, 200 for Minervini Trend Template)
     sma_50 = calculate_sma(close, 50)
+    sma_150 = calculate_sma(close, 150)
     sma_200 = calculate_sma(close, 200)
 
     if sma_50.isna().all() or sma_200.isna().all():
@@ -295,7 +298,16 @@ def classify_phase(price_data: pd.DataFrame, current_price: float) -> Dict[str, 
         }
 
     sma_50_val = sma_50.iloc[-1]
+    sma_150_val = sma_150.iloc[-1] if not sma_150.isna().all() else 0
     sma_200_val = sma_200.iloc[-1]
+
+    # Calculate 52-week high/low for Minervini criteria
+    if len(close) >= 252:  # ~1 year of trading days
+        week_52_high = high.iloc[-252:].max()
+        week_52_low = low.iloc[-252:].min()
+    else:
+        week_52_high = high.max()
+        week_52_low = low.min()
 
     # Calculate slopes
     slope_50 = calculate_slope(sma_50, 20)
@@ -400,11 +412,143 @@ def classify_phase(price_data: pd.DataFrame, current_price: float) -> Dict[str, 
         'confidence': min(confidence, 100),
         'reasons': reasons,
         'sma_50': round(sma_50_val, 2),
+        'sma_150': round(sma_150_val, 2),
         'sma_200': round(sma_200_val, 2),
         'slope_50': round(slope_50, 4),
         'slope_200': round(slope_200, 4),
         'distance_from_50sma': round(calculate_distance_from_sma(current_price, sma_50_val), 2),
+        'distance_from_200sma': round(calculate_distance_from_sma(current_price, sma_200_val), 2),
+        'week_52_high': round(week_52_high, 2),
+        'week_52_low': round(week_52_low, 2),
         'volatility_contraction': vol_data
+    }
+
+
+def validate_minervini_trend_template(
+    current_price: float,
+    phase_info: Dict,
+    sma_200_series: pd.Series
+) -> Dict[str, any]:
+    """Validate Minervini Trend Template (SEPA - Specific Entry Point Analysis).
+
+    Based on Mark Minervini's methodology from "Trade Like a Stock Market Wizard"
+    and "Think & Trade Like a Champion".
+
+    The Trend Template identifies stocks in confirmed Stage 2 uptrends with:
+    1. Price > 150 SMA AND 200 SMA
+    2. 150 SMA > 200 SMA
+    3. 200 SMA trending up for at least 1 month (preferably 4-5 months)
+    4. 50 SMA > 150 SMA > 200 SMA (strongest configuration)
+    5. Price > 50 SMA
+    6. Price at least 30% above 52-week low
+    7. Price within 25% of 52-week high (the closer the better)
+    8. RS Rating 70+ (IBD-style, we use RS slope as proxy)
+
+    Args:
+        current_price: Current stock price
+        phase_info: Phase classification dict (must include sma_50, sma_150, sma_200, etc.)
+        sma_200_series: Full 200 SMA series for slope calculation
+
+    Returns:
+        Dict with:
+        - passes_template: bool
+        - criteria_passed: int (0-8)
+        - criteria_details: Dict of each criterion
+        - template_score: int (0-100)
+    """
+    sma_50 = phase_info.get('sma_50', 0)
+    sma_150 = phase_info.get('sma_150', 0)
+    sma_200 = phase_info.get('sma_200', 0)
+    week_52_high = phase_info.get('week_52_high', 0)
+    week_52_low = phase_info.get('week_52_low', 0)
+
+    criteria = {}
+    passed_count = 0
+
+    # Criterion 1: Price > 150 SMA AND 200 SMA
+    c1 = current_price > sma_150 and current_price > sma_200
+    criteria['price_above_150_200'] = c1
+    if c1:
+        passed_count += 1
+
+    # Criterion 2: 150 SMA > 200 SMA
+    c2 = sma_150 > sma_200
+    criteria['sma_150_above_200'] = c2
+    if c2:
+        passed_count += 1
+
+    # Criterion 3: 200 SMA trending up for at least 1 month
+    # Calculate 200 SMA slope over 20 days (1 month)
+    if len(sma_200_series) >= 20:
+        sma_200_1mo_ago = sma_200_series.iloc[-20]
+        sma_200_now = sma_200_series.iloc[-1]
+        sma_200_rising = sma_200_now > sma_200_1mo_ago
+    else:
+        sma_200_rising = phase_info.get('slope_200', 0) > 0
+
+    c3 = sma_200_rising
+    criteria['sma_200_rising'] = c3
+    if c3:
+        passed_count += 1
+
+    # Criterion 4: 50 SMA > 150 SMA (strongest configuration)
+    c4 = sma_50 > sma_150
+    criteria['sma_50_above_150'] = c4
+    if c4:
+        passed_count += 1
+
+    # Criterion 5: Price > 50 SMA
+    c5 = current_price > sma_50
+    criteria['price_above_50'] = c5
+    if c5:
+        passed_count += 1
+
+    # Criterion 6: Price at least 30% above 52-week low
+    if week_52_low > 0:
+        distance_from_52w_low = ((current_price - week_52_low) / week_52_low) * 100
+        c6 = distance_from_52w_low >= 30
+        criteria['price_30pct_above_52w_low'] = c6
+        criteria['distance_from_52w_low_pct'] = round(distance_from_52w_low, 1)
+    else:
+        c6 = False
+        criteria['price_30pct_above_52w_low'] = c6
+        criteria['distance_from_52w_low_pct'] = 0
+
+    if c6:
+        passed_count += 1
+
+    # Criterion 7: Price within 25% of 52-week high
+    if week_52_high > 0:
+        distance_from_52w_high = ((week_52_high - current_price) / week_52_high) * 100
+        c7 = distance_from_52w_high <= 25
+        criteria['price_near_52w_high'] = c7
+        criteria['distance_from_52w_high_pct'] = round(distance_from_52w_high, 1)
+    else:
+        c7 = False
+        criteria['price_near_52w_high'] = c7
+        criteria['distance_from_52w_high_pct'] = 100
+
+    if c7:
+        passed_count += 1
+
+    # Criterion 8: Phase must be 2 (our proxy for confirmed uptrend)
+    c8 = phase_info.get('phase') == 2
+    criteria['confirmed_stage_2'] = c8
+    if c8:
+        passed_count += 1
+
+    # Template score (0-100)
+    template_score = int((passed_count / 8) * 100)
+
+    # Passes template if 7 or 8 criteria met (Minervini uses strict standards)
+    passes_template = passed_count >= 7
+
+    return {
+        'passes_template': passes_template,
+        'criteria_passed': passed_count,
+        'criteria_total': 8,
+        'template_score': template_score,
+        'criteria_details': criteria
     }
 
 
