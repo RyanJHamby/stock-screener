@@ -51,7 +51,7 @@ class GitStorageFetcher:
             ticker: Stock ticker
 
         Returns:
-            DataFrame with ~250 days of price data
+            DataFrame with ~250 days of price data (DatetimeIndex)
         """
         try:
             stock = yf.Ticker(ticker)
@@ -59,6 +59,12 @@ class GitStorageFetcher:
             data = stock.history(period='1y', interval='1d')
 
             if not data.empty:
+                # Verify DatetimeIndex (yfinance should return this by default)
+                if not isinstance(data.index, pd.DatetimeIndex):
+                    logger.warning(f"{ticker}: yfinance returned non-DatetimeIndex: {type(data.index)}")
+                    # This shouldn't happen, but log it if it does
+                    return pd.DataFrame()
+
                 logger.debug(f"{ticker}: Fetched {len(data)} days (fresh)")
                 return data
             else:

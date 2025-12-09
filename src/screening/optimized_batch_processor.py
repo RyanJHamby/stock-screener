@@ -155,10 +155,20 @@ class OptimizedBatchProcessor:
         try:
             logger.info("Fetching SPY data...")
             # Use 1 year for price data (not 2 years - 50% less data)
-            spy_hist = self.fetcher.fetch_price_history('SPY', period='1y')
+            # Use same fetcher as stocks for consistency
+            if self.use_git_storage and self.git_fetcher:
+                spy_hist = self.git_fetcher.fetch_price_fresh('SPY')
+            else:
+                spy_hist = self.fetcher.fetch_price_history('SPY', period='1y')
 
             if spy_hist.empty:
                 logger.error("Failed to fetch SPY data")
+                return False
+
+            # Ensure DatetimeIndex (yfinance should return this, but verify)
+            if not isinstance(spy_hist.index, pd.DatetimeIndex):
+                logger.error(f"SPY has invalid index type: {type(spy_hist.index)}")
+                logger.error(f"SPY index: {spy_hist.index}")
                 return False
 
             self.spy_data = spy_hist

@@ -277,16 +277,17 @@ class YahooFinanceFetcher:
                 logger.warning(f"No price history data available for {ticker}")
                 return pd.DataFrame()
 
-            # Clean up the DataFrame
-            hist = hist.reset_index()
-            hist.columns = [col.capitalize() if col != 'Date' else 'Date' for col in hist.columns]
+            # Clean up the DataFrame - keep DatetimeIndex for consistency with git_fetcher
+            # DO NOT reset_index() - we want to preserve the DatetimeIndex from yfinance
+            hist.columns = [col.capitalize() for col in hist.columns]
 
-            # Ensure date column is properly formatted
-            if 'Date' in hist.columns:
-                hist['Date'] = pd.to_datetime(hist['Date'])
+            # Ensure index is DatetimeIndex (yfinance should provide this)
+            if not isinstance(hist.index, pd.DatetimeIndex):
+                logger.warning(f"{ticker}: yfinance returned non-DatetimeIndex: {type(hist.index)}")
+                return pd.DataFrame()
 
-            # Select only OHLCV columns
-            available_cols = ['Date', 'Open', 'High', 'Low', 'Close', 'Volume']
+            # Select only OHLCV columns (no 'Date' column - it's the index)
+            available_cols = ['Open', 'High', 'Low', 'Close', 'Volume']
             hist = hist[[col for col in available_cols if col in hist.columns]]
 
             # Cache the results
