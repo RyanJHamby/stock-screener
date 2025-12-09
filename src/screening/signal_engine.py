@@ -241,6 +241,7 @@ def score_buy_signal(
         # A) Growth trends (20 points) - LINEAR based on actual YoY %
         # Get actual growth rates if available (None = missing data)
         revenue_yoy = fundamentals.get('revenue_yoy_change')  # None or float
+        revenue_qoq = fundamentals.get('revenue_qoq_change')  # None or float
         eps_yoy = fundamentals.get('eps_yoy_change')  # None or float
 
         # Revenue component (10 pts) - Linear from -20% to +40%
@@ -250,6 +251,14 @@ def score_buy_signal(
         else:
             revenue_score = 5  # Neutral if missing (50% of max)
         fundamental_score += revenue_score
+
+        # Check for sequential revenue decline (QoQ) - STRONG PENALTY
+        # If revenue declined >2% from previous quarter, apply 15 point penalty
+        revenue_declining = False
+        if revenue_qoq is not None and revenue_qoq < -2:
+            revenue_declining = True
+            fundamental_score -= 15  # Strong penalty (reduces buy signal strength)
+            reasons.append(f'⚠️ Revenue declining {revenue_qoq:.1f}% QoQ (strong penalty)')
 
         # EPS component (10 pts) - Linear from -20% to +60%
         # Formula: ((eps_yoy + 20) / 80) * 10, capped at 10

@@ -204,11 +204,28 @@ class OptimizedBatchProcessor:
 
             self.total_requests += 1
 
-            # Fetch price history (1 year = 250 days, sufficient for 200 SMA)
+            # Fetch price history (5 years to check drawdown, use last 1y for analysis)
+            # This is more efficient than two separate fetches
             if self.use_git_storage and self.git_fetcher:
-                price_data = self.git_fetcher.fetch_price_fresh(ticker)
+                # Git fetcher only does 1y, fetch 5y for drawdown check first
+                import yfinance as yf
+                long_hist = yf.Ticker(ticker).history(period='5y', interval='1d')
+
+                if not long_hist.empty:
+                    # Use last 1 year for technical analysis
+                    price_data = long_hist.tail(252) if len(long_hist) > 252 else long_hist
+                else:
+                    # Fallback to git fetcher if 5y fails
+                    price_data = self.git_fetcher.fetch_price_fresh(ticker)
+                    long_hist = price_data
             else:
-                price_data = self.fetcher.fetch_price_history(ticker, period='1y')
+                # Regular fetcher - fetch 5y once
+                long_hist = self.fetcher.fetch_price_history(ticker, period='5y')
+                if not long_hist.empty:
+                    # Use last 1 year for technical analysis
+                    price_data = long_hist.tail(252) if len(long_hist) > 252 else long_hist
+                else:
+                    price_data = pd.DataFrame()
 
             if price_data.empty or len(price_data) < 200:
                 self.filtered_count += 1
@@ -216,6 +233,21 @@ class OptimizedBatchProcessor:
                 return None
 
             current_price = price_data['Close'].iloc[-1]
+
+            # Historical drawdown filter (using 5y data we already fetched)
+            # Exclude stocks that dropped >60% from any high in past 5 years
+            if not long_hist.empty and len(long_hist) >= 252:  # At least 1 year
+                closes = long_hist['Close']
+                # Calculate max drawdown from any previous high
+                running_max = closes.expanding().max()
+                drawdown = (closes - running_max) / running_max
+                max_drawdown = drawdown.min()  # Most negative value
+
+                if max_drawdown < -0.60:  # Dropped more than 60%
+                    self.filtered_count += 1
+                    self.filter_reasons['severe_drawdown_60pct'] = self.filter_reasons.get('severe_drawdown_60pct', 0) + 1
+                    logger.debug(f"{ticker}: Filtered - {max_drawdown*100:.1f}% max drawdown in 5y")
+                    return None
 
             # Price filter
             if current_price < min_price or current_price > max_price:

@@ -62,9 +62,26 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
     output.append(f"Analyzed: {results['total_analyzed']:,} stocks")
     output.append(f"Processing Time: {results['processing_time_seconds']/60:.1f} minutes")
     output.append(f"Actual TPS: {results['actual_tps']:.2f}")
-    output.append(f"Error Rate: {results['error_rate']*100:.2f}%")
-    output.append(f"Buy Signals: {len(buy_signals)}")
-    output.append(f"Sell Signals: {len(sell_signals)}")
+
+    error_rate = results['error_rate'] * 100
+    if error_rate < 1:
+        error_emoji = "🟢"
+    elif error_rate < 5:
+        error_emoji = "🟡"
+    else:
+        error_emoji = "🔴"
+    output.append(f"{error_emoji} Error Rate: {error_rate:.2f}%")
+
+    # Buy/Sell signal counts with emoji
+    if len(buy_signals) > 0:
+        output.append(f"🟢 Buy Signals: {len(buy_signals)}")
+    else:
+        output.append(f"Buy Signals: {len(buy_signals)}")
+
+    if len(sell_signals) > 0:
+        output.append(f"🔴 Sell Signals: {len(sell_signals)}")
+    else:
+        output.append(f"Sell Signals: {len(sell_signals)}")
     output.append("")
 
     # Benchmark
@@ -73,17 +90,36 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     # Buy signals
     output.append("="*80)
-    output.append(f"TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
+    output.append(f"🟢 TOP BUY SIGNALS (Score >= 70) - {len(buy_signals)} Total")
     output.append("="*80)
     output.append("")
 
     if buy_signals:
         for i, signal in enumerate(buy_signals[:50], 1):
+            score = signal['score']
+            # Score-based emoji (green/yellow with star for exceptional)
+            if score >= 90:
+                score_emoji = "⭐"  # Exceptional - star
+            elif score >= 80:
+                score_emoji = "🟢"  # Very good - green
+            elif score >= 70:
+                score_emoji = "🟢"  # Good - green
+            else:
+                score_emoji = "🟡"  # Borderline - yellow
+
             output.append(f"\n{'#'*80}")
-            output.append(f"BUY #{i}: {signal['ticker']} | Score: {signal['score']}/110")
+            output.append(f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/110")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
-            output.append(f"Entry Quality: {signal.get('entry_quality', 'Unknown')}")
+
+            # Entry quality with emoji
+            entry_quality = signal.get('entry_quality', 'Unknown')
+            if entry_quality == 'Good':
+                output.append(f"🟢 Entry Quality: {entry_quality}")
+            elif entry_quality == 'Extended':
+                output.append(f"🟡 Entry Quality: {entry_quality}")
+            else:
+                output.append(f"🔴 Entry Quality: {entry_quality}")
 
             # CRITICAL: Stop loss and R/R ratio
             if signal.get('stop_loss'):
@@ -91,16 +127,40 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                 details = signal.get('details', {})
                 risk_amt = details.get('risk_amount', 0)
                 reward_amt = details.get('reward_amount', 0)
-                output.append(f"Risk/Reward: {signal.get('risk_reward_ratio', 0):.1f}:1 (Risk ${risk_amt:.2f}, Reward ${reward_amt:.2f})")
+                rr_ratio = signal.get('risk_reward_ratio', 0)
+                # R/R ratio emoji
+                if rr_ratio >= 3:
+                    rr_emoji = "🟢"  # Excellent R/R
+                elif rr_ratio >= 2:
+                    rr_emoji = "🟢"  # Good R/R
+                else:
+                    rr_emoji = "🟡"  # Poor R/R
+                output.append(f"{rr_emoji} Risk/Reward: {rr_ratio:.1f}:1 (Risk ${risk_amt:.2f}, Reward ${reward_amt:.2f})")
 
             if signal.get('breakout_price'):
                 output.append(f"Breakout: ${signal['breakout_price']:.2f}")
 
             details = signal.get('details', {})
             if 'rs_slope' in details:
-                output.append(f"RS: {details['rs_slope']:.3f}")
+                rs_slope = details['rs_slope']
+                # RS emoji (green = good, yellow = ok, red = bad)
+                if rs_slope > 0.5:
+                    rs_emoji = "🟢"  # Strong RS
+                elif rs_slope > 0:
+                    rs_emoji = "🟡"  # Positive RS
+                else:
+                    rs_emoji = "🔴"  # Weak RS
+                output.append(f"{rs_emoji} RS: {rs_slope:.3f}")
             if 'volume_ratio' in details:
-                output.append(f"Volume: {details['volume_ratio']:.1f}x")
+                vol_ratio = details['volume_ratio']
+                # Volume emoji
+                if vol_ratio > 1.5:
+                    vol_emoji = "🟢"  # High volume
+                elif vol_ratio > 1.0:
+                    vol_emoji = "🟡"  # Above average
+                else:
+                    vol_emoji = "🔴"  # Low volume
+                output.append(f"{vol_emoji} Volume: {vol_ratio:.1f}x")
 
             output.append("\nKey Reasons:")
             for reason in signal['reasons'][:7]:  # Show 7 instead of 5
@@ -121,22 +181,49 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     # Sell signals
     output.append(f"\n\n{'='*80}")
-    output.append(f"TOP SELL SIGNALS (Score >= 60) - {len(sell_signals)} Total")
+    output.append(f"🔴 TOP SELL SIGNALS (Score >= 60) - {len(sell_signals)} Total")
     output.append(f"{'='*80}")
     output.append("")
 
     if sell_signals:
         for i, signal in enumerate(sell_signals[:30], 1):
+            score = signal['score']
+            severity = signal['severity']
+
+            # Severity emoji (red/yellow with alarm for critical)
+            if severity == 'critical':
+                severity_emoji = "🚨"  # Critical - alarm
+            elif severity == 'high':
+                severity_emoji = "🔴"  # High - red
+            else:
+                severity_emoji = "🟡"  # Moderate - yellow
+
+            # Score emoji (higher score = more urgent to sell)
+            if score >= 80:
+                score_emoji = "🚨"  # Very urgent - alarm
+            elif score >= 70:
+                score_emoji = "🔴"  # Urgent - red
+            else:
+                score_emoji = "🟡"  # Warning - yellow
+
             output.append(f"\n{'#'*80}")
-            output.append(f"SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110")
+            output.append(f"{score_emoji} SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110")
             output.append(f"{'#'*80}")
-            output.append(f"Phase: {signal['phase']} | Severity: {signal['severity'].upper()}")
+            output.append(f"Phase: {signal['phase']} | {severity_emoji} Severity: {severity.upper()}")
             if signal.get('breakdown_level'):
                 output.append(f"Breakdown: ${signal['breakdown_level']:.2f}")
             details = signal.get('details', {})
             if 'rs_slope' in details:
-                output.append(f"RS: {details['rs_slope']:.3f}")
-            output.append("\nReasons:")
+                rs_slope = details['rs_slope']
+                # RS emoji for sell signals (negative is expected)
+                if rs_slope < -0.5:
+                    rs_emoji = "🔴"  # Very weak RS
+                elif rs_slope < 0:
+                    rs_emoji = "🟡"  # Weak RS
+                else:
+                    rs_emoji = "🟢"  # Still positive RS (unusual for sell)
+                output.append(f"{rs_emoji} RS: {rs_slope:.3f}")
+            output.append("\nSell Reasons:")
             for reason in signal['reasons'][:5]:
                 output.append(f"  • {reason}")
 
@@ -268,7 +355,7 @@ def main():
                         current_price=analysis['current_price'],
                         phase_info=analysis['phase_info'],
                         rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('fundamental_analysis')
+                        fundamentals=analysis.get('quarterly_data')  # Pass raw quarterly data, not analyzed
                     )
                     if signal['is_buy']:
                         # Use FMP for enhanced snapshot if requested and available
@@ -292,7 +379,7 @@ def main():
                         current_price=analysis['current_price'],
                         phase_info=analysis['phase_info'],
                         rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('fundamental_analysis')
+                        fundamentals=analysis.get('quarterly_data')  # Pass raw quarterly data, not analyzed
                     )
                     if signal['is_sell']:
                         # Add fundamental snapshot

@@ -179,36 +179,77 @@ def format_benchmark_summary(spy_analysis: Dict, breadth: Dict) -> str:
     summary += "BENCHMARK SUMMARY\n"
     summary += f"{'='*60}\n\n"
 
-    # SPY Analysis
-    summary += "SPY Trend Classification:\n"
+    # SPY Analysis with emoji
+    phase = spy_analysis['phase']
+    if phase == 2:
+        phase_emoji = "🟢"  # Uptrend
+    elif phase == 1:
+        phase_emoji = "🟡"  # Base building
+    elif phase == 3:
+        phase_emoji = "🟡"  # Distribution
+    else:
+        phase_emoji = "🔴"  # Downtrend
+
+    summary += f"{phase_emoji} SPY Trend Classification:\n"
     summary += f"  Phase: {spy_analysis['phase']} - {spy_analysis['phase_name']}\n"
     summary += f"  Trend: {spy_analysis['trend']}\n"
     summary += f"  Current Price: ${spy_analysis.get('current_price', 0):.2f}\n"
-    summary += f"  50 SMA: ${spy_analysis.get('sma_50', 0):.2f} (slope: {spy_analysis.get('slope_50', 0):.4f})\n"
-    summary += f"  200 SMA: ${spy_analysis.get('sma_200', 0):.2f} (slope: {spy_analysis.get('slope_200', 0):.4f})\n"
-    summary += f"  Confidence: {spy_analysis.get('confidence', 0):.0f}%\n"
 
-    # Market Breadth
+    slope_50 = spy_analysis.get('slope_50', 0)
+    slope_50_emoji = "🟢" if slope_50 > 0 else "🔴"
+    summary += f"  {slope_50_emoji} 50 SMA: ${spy_analysis.get('sma_50', 0):.2f} (slope: {slope_50:.4f})\n"
+
+    slope_200 = spy_analysis.get('slope_200', 0)
+    slope_200_emoji = "🟢" if slope_200 > 0 else "🔴"
+    summary += f"  {slope_200_emoji} 200 SMA: ${spy_analysis.get('sma_200', 0):.2f} (slope: {slope_200:.4f})\n"
+
+    confidence = spy_analysis.get('confidence', 0)
+    if confidence >= 80:
+        conf_emoji = "🟢"
+    elif confidence >= 60:
+        conf_emoji = "🟡"
+    else:
+        conf_emoji = "🔴"
+    summary += f"  {conf_emoji} Confidence: {confidence:.0f}%\n"
+
+    # Market Breadth with emoji
     summary += f"\nMarket Breadth (n={breadth['total_stocks']}):\n"
-    summary += f"  Phase 1 (Base Building): {breadth['phase_1_count']} stocks ({breadth['phase_1_pct']:.1f}%)\n"
-    summary += f"  Phase 2 (Uptrend): {breadth['phase_2_count']} stocks ({breadth['phase_2_pct']:.1f}%)\n"
-    summary += f"  Phase 3 (Distribution): {breadth['phase_3_count']} stocks ({breadth['phase_3_pct']:.1f}%)\n"
-    summary += f"  Phase 4 (Downtrend): {breadth['phase_4_count']} stocks ({breadth['phase_4_pct']:.1f}%)\n"
-    summary += f"  Breadth Quality: {breadth['breadth_quality']}\n"
+    summary += f"  🟡 Phase 1 (Base Building): {breadth['phase_1_count']} stocks ({breadth['phase_1_pct']:.1f}%)\n"
+    summary += f"  🟢 Phase 2 (Uptrend): {breadth['phase_2_count']} stocks ({breadth['phase_2_pct']:.1f}%)\n"
+    summary += f"  🟡 Phase 3 (Distribution): {breadth['phase_3_count']} stocks ({breadth['phase_3_pct']:.1f}%)\n"
+    summary += f"  🔴 Phase 4 (Downtrend): {breadth['phase_4_count']} stocks ({breadth['phase_4_pct']:.1f}%)\n"
 
-    # Market Regime
-    summary += f"\nMarket Regime: {regime}\n"
+    # Breadth quality emoji
+    breadth_quality = breadth['breadth_quality']
+    if breadth_quality == 'excellent':
+        breadth_emoji = "⭐"  # Star for excellent
+    elif breadth_quality == 'good':
+        breadth_emoji = "🟢"
+    elif breadth_quality == 'moderate':
+        breadth_emoji = "🟡"
+    else:
+        breadth_emoji = "🔴"
+    summary += f"  {breadth_emoji} Breadth Quality: {breadth_quality}\n"
+
+    # Market Regime with emoji
+    if 'RISK-ON' in regime:
+        regime_emoji = "🟢"
+    elif 'RISK-OFF' in regime:
+        regime_emoji = "🔴"
+    else:
+        regime_emoji = "🟡"
+    summary += f"\n{regime_emoji} Market Regime: {regime}\n"
 
     # Interpretation
     summary += "\nInterpretation:\n"
     if 'RISK-ON' in regime:
-        summary += "  → Favorable environment for breakout trades\n"
+        summary += "  🟢 Favorable environment for breakout trades\n"
         summary += "  → Focus on Phase 2 breakouts with strong RS\n"
     elif 'RISK-OFF' in regime:
-        summary += "  → Defensive environment - raise cash, tighten stops\n"
+        summary += "  🔴 Defensive environment - raise cash, tighten stops\n"
         summary += "  → Avoid new breakouts, focus on preservation\n"
     else:
-        summary += "  → Mixed/transitional market - be selective\n"
+        summary += "  🟡 Mixed/transitional market - be selective\n"
         summary += "  → Focus on highest quality setups only\n"
 
     summary += f"{'='*60}\n"

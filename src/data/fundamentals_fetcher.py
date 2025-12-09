@@ -341,6 +341,7 @@ def analyze_fundamentals_for_signal(quarterly_data: Dict) -> Dict[str, any]:
         }
 
     revenue_yoy = quarterly_data.get('revenue_yoy_change', 0)
+    revenue_qoq = quarterly_data.get('revenue_qoq_change', 0)
     eps_yoy = quarterly_data.get('eps_yoy_change', 0)
     inv_change = quarterly_data.get('inventory_qoq_change', 0)
 
@@ -370,11 +371,17 @@ def analyze_fundamentals_for_signal(quarterly_data: Dict) -> Dict[str, any]:
     else:
         inventory_signal = 'neutral'
 
+    # Check for sequential revenue decline (most recent quarter vs previous quarter)
+    sequential_revenue_declining = False
+    if revenue_qoq is not None and revenue_qoq < -2:
+        sequential_revenue_declining = True
+
     # Determine if fundamentals support breakout
     supports_breakout = (
         revenue_trend in ['accelerating', 'growing'] and
         eps_trend in ['accelerating', 'growing'] and
-        inventory_signal != 'negative'
+        inventory_signal != 'negative' and
+        not sequential_revenue_declining  # Don't support if revenue declining sequentially
     )
 
     # Calculate penalty
@@ -386,8 +393,15 @@ def analyze_fundamentals_for_signal(quarterly_data: Dict) -> Dict[str, any]:
     if inventory_signal == 'negative':
         penalty += 5
 
+    # STRONG PENALTY for sequential revenue decline >2%
+    # This is a red flag - company losing momentum
+    if sequential_revenue_declining:
+        penalty += 15  # Strong penalty (3x normal)
+
     return {
         'revenue_trend': revenue_trend,
+        'revenue_qoq': revenue_qoq,
+        'sequential_revenue_declining': sequential_revenue_declining,
         'eps_trend': eps_trend,
         'inventory_signal': inventory_signal,
         'supports_breakout': supports_breakout,
