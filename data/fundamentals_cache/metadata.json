@@ -7718,5 +7718,25 @@
   "VRSK": {
     "last_updated": "2025-12-30T13:59:53.766150",
     "in_earnings_season": false
+  },
+  "CRAI": {
+    "last_updated": "2025-12-31T13:11:47.673665",
+    "in_earnings_season": false
+  },
+  "DFIN": {
+    "last_updated": "2025-12-31T13:14:09.111589",
+    "in_earnings_season": false
+  },
+  "MBWM": {
+    "last_updated": "2025-12-31T13:32:59.421765",
+    "in_earnings_season": false
+  },
+  "NBN": {
+    "last_updated": "2025-12-31T13:36:11.334763",
+    "in_earnings_season": false
+  },
+  "OXY": {
+    "last_updated": "2025-12-31T13:40:34.478594",
+    "in_earnings_season": false
   }
 }
