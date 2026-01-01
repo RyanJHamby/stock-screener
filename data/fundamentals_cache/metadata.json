@@ -7738,5 +7738,21 @@
   "OXY": {
     "last_updated": "2025-12-31T13:40:34.478594",
     "in_earnings_season": false
+  },
+  "ESHA": {
+    "last_updated": "2026-01-01T13:18:06.224826",
+    "in_earnings_season": false
+  },
+  "PPIH": {
+    "last_updated": "2026-01-01T13:43:23.382251",
+    "in_earnings_season": false
+  },
+  "SMPL": {
+    "last_updated": "2026-01-01T13:50:20.442285",
+    "in_earnings_season": false
+  },
+  "WFG": {
+    "last_updated": "2026-01-01T13:59:38.542594",
+    "in_earnings_season": false
   }
 }
