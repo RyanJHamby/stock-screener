@@ -7754,5 +7754,17 @@
   "WFG": {
     "last_updated": "2026-01-01T13:59:38.542594",
     "in_earnings_season": false
+  },
+  "DMLP": {
+    "last_updated": "2026-01-05T13:19:50.417710",
+    "in_earnings_season": false
+  },
+  "GHI": {
+    "last_updated": "2026-01-05T13:27:04.565407",
+    "in_earnings_season": false
+  },
+  "VEL": {
+    "last_updated": "2026-01-05T14:02:17.748186",
+    "in_earnings_season": false
   }
 }
