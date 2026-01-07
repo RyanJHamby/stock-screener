@@ -7802,5 +7802,41 @@
   "ZTS": {
     "last_updated": "2026-01-06T14:03:38.360713",
     "in_earnings_season": false
+  },
+  "AXON": {
+    "last_updated": "2026-01-07T13:07:59.000325",
+    "in_earnings_season": false
+  },
+  "BRO": {
+    "last_updated": "2026-01-07T13:11:03.273809",
+    "in_earnings_season": false
+  },
+  "EQIX": {
+    "last_updated": "2026-01-07T13:21:40.388930",
+    "in_earnings_season": false
+  },
+  "IBN": {
+    "last_updated": "2026-01-07T13:30:22.311889",
+    "in_earnings_season": false
+  },
+  "PSA": {
+    "last_updated": "2026-01-07T13:47:39.550329",
+    "in_earnings_season": false
+  },
+  "RWAY": {
+    "last_updated": "2026-01-07T13:51:01.337768",
+    "in_earnings_season": false
+  },
+  "SYK": {
+    "last_updated": "2026-01-07T13:56:34.689401",
+    "in_earnings_season": false
+  },
+  "VRSN": {
+    "last_updated": "2026-01-07T14:02:17.579712",
+    "in_earnings_season": false
+  },
+  "ZBH": {
+    "last_updated": "2026-01-07T14:05:07.594220",
+    "in_earnings_season": false
   }
 }
