@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BKNG",
-    "fetch_date": "2025-12-09T13:29:34.480849",
+    "fetch_date": "2026-01-15T13:10:02.617540",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 7994000000.0,
       "2024-12-31 00:00:00": 5471000000.0,
@@ -23,5 +23,5 @@
     "operating_margin": 43.74,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-09T13:29:34.481810"
+  "fetched_at": "2026-01-15T13:10:02.618471"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PPIH",
-    "fetch_date": "2026-01-01T13:43:23.379318",
+    "fetch_date": "2026-01-15T13:47:14.850924",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": 41563000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.313,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-01T13:43:23.381013"
+  "fetched_at": "2026-01-15T13:47:14.852510"
 }

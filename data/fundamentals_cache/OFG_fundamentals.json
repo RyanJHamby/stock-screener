@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OFG",
-    "fetch_date": "2025-12-11T02:35:54.347468",
+    "fetch_date": "2026-01-15T13:43:19.928653",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 163700000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 15.999999999999993,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-11T02:35:54.348211"
+  "fetched_at": "2026-01-15T13:43:19.929230"
 }

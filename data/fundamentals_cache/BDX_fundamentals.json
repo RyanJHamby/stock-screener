@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "BDX",
-    "fetch_date": "2025-12-04T13:39:02.052644",
+    "fetch_date": "2026-01-15T13:09:10.709036",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 5437000000.0,
       "2024-12-31 00:00:00": 5168000000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": 6.934107823561445,
     "revenue_yoy_change": 8.350193121206548,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": 1.68,
       "2024-09-30 00:00:00": 1.45,
       "2024-12-31 00:00:00": 1.04,
@@ -22,8 +20,8 @@
       "2025-06-30 00:00:00": 2.0,
       "2025-09-30 00:00:00": NaN
     },
-    "eps_qoq_change": NaN,
-    "eps_yoy_change": NaN,
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
     "gross_margin": 47.51,
     "margin_change": -0.3,
     "operating_margin": 14.02,
@@ -39,5 +37,5 @@
     "inventory_to_sales_ratio": 0.661,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:39:02.055103"
+  "fetched_at": "2026-01-15T13:09:10.710654"
 }

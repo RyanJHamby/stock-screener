@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UAL",
-    "fetch_date": "2025-12-04T14:16:43.800275",
+    "fetch_date": "2026-01-15T14:00:04.945684",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 14843000000.0,
@@ -26,7 +26,6 @@
     "margin_change": -2.11,
     "operating_margin": 8.68,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1639000000.0,
       "2024-12-31 00:00:00": 1572000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.104,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:16:43.801946"
+  "fetched_at": "2026-01-15T14:00:04.947278"
 }

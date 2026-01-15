@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "GIB",
-    "fetch_date": "2025-12-04T13:51:42.734536",
+    "fetch_date": "2026-01-15T13:26:20.697042",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3660391000.0,
       "2024-12-31 00:00:00": 3785245000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": -1.866542857995072,
     "revenue_yoy_change": 9.6559629831895,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": 1.83,
       "2024-06-30 00:00:00": 1.91,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.92,
@@ -22,8 +20,8 @@
       "2025-06-30 00:00:00": 1.82,
       "2025-09-30 00:00:00": NaN
     },
-    "eps_qoq_change": NaN,
-    "eps_yoy_change": NaN,
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
     "gross_margin": 16.64,
     "margin_change": 0.35,
     "operating_margin": 16.64,
@@ -38,5 +36,5 @@
     "inventory_to_sales_ratio": 0.341,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:51:42.736214"
+  "fetched_at": "2026-01-15T13:26:20.698656"
 }

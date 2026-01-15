@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AXON",
-    "fetch_date": "2026-01-07T13:07:58.997045",
+    "fetch_date": "2026-01-15T13:08:05.586719",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 544274000.0,
       "2024-12-31 00:00:00": 575145000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.447,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-07T13:07:58.998827"
+  "fetched_at": "2026-01-15T13:08:05.588345"
 }

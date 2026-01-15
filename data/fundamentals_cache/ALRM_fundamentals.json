@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALRM",
-    "fetch_date": "2025-12-04T13:35:45.465515",
+    "fetch_date": "2026-01-15T13:04:40.625667",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 240497000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.36,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:35:45.467221"
+  "fetched_at": "2026-01-15T13:04:40.627228"
 }

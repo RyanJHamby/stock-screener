@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADC",
-    "fetch_date": "2025-11-29T22:43:19.636870",
+    "fetch_date": "2026-01-15T13:02:52.590846",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 154332000.0,
       "2024-12-31 00:00:00": 160734000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 48.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-11-29T22:43:19.638059"
+  "fetched_at": "2026-01-15T13:02:52.592083"
 }

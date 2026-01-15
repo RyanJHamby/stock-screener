@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VTRS",
-    "fetch_date": "2025-12-04T14:18:40.976417",
+    "fetch_date": "2026-01-15T14:02:43.086460",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3751200000.0,
@@ -20,13 +20,12 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": -0.11
     },
-    "eps_qoq_change": 0,
+    "eps_qoq_change": null,
     "eps_yoy_change": -237.5,
     "gross_margin": 36.48,
     "margin_change": -0.73,
     "operating_margin": 6.24,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 4084600000.0,
       "2024-12-31 00:00:00": 3854100000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.093,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:18:40.978156"
+  "fetched_at": "2026-01-15T14:02:43.088031"
 }

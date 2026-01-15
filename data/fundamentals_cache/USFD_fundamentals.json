@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "USFD",
-    "fetch_date": "2025-12-04T14:17:30.101070",
+    "fetch_date": "2026-01-15T14:01:06.090065",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 9728000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.166,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:17:30.102900"
+  "fetched_at": "2026-01-15T14:01:06.091678"
 }

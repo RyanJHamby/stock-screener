@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "GATX",
-    "fetch_date": "2025-12-04T13:51:11.315573",
+    "fetch_date": "2026-01-15T13:25:37.856784",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 405400000.0,
       "2024-12-31 00:00:00": 413500000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": 2.0441347270615564,
     "revenue_yoy_change": 8.362111494819931,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2.43,
       "2024-12-31 00:00:00": 2.1,
@@ -28,7 +26,6 @@
     "margin_change": -1.4,
     "operating_margin": 28.96,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 71800000.0,
@@ -36,9 +33,9 @@
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:51:11.317338"
+  "fetched_at": "2026-01-15T13:25:37.858389"
 }

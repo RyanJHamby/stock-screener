@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MC",
-    "fetch_date": "2025-12-04T13:59:50.538863",
+    "fetch_date": "2026-01-15T13:37:24.766577",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 273755000.0,
       "2024-12-31 00:00:00": 438719000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.54,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:59:50.540106"
+  "fetched_at": "2026-01-15T13:37:24.767790"
 }

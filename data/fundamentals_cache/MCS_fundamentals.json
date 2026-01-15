@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCS",
-    "fetch_date": "2025-12-04T14:00:01.011863",
+    "fetch_date": "2026-01-15T13:37:38.000824",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 232668000.0,
@@ -26,7 +26,6 @@
     "margin_change": 3.24,
     "operating_margin": 10.78,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 6971000.0,
@@ -34,9 +33,9 @@
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:00:01.013752"
+  "fetched_at": "2026-01-15T13:37:38.002376"
 }

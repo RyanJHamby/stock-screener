@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAPL",
-    "fetch_date": "2025-11-29T17:33:21.161211",
+    "fetch_date": "2026-01-15T13:02:05.591783",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 94930000000.0,
       "2024-12-31 00:00:00": 124300000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.056,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-11-29T17:33:21.162577"
+  "fetched_at": "2026-01-15T13:02:05.593446"
 }

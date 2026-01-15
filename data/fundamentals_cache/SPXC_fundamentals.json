@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPXC",
-    "fetch_date": "2025-12-04T14:12:59.907801",
+    "fetch_date": "2026-01-15T13:55:09.938350",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 483700000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.559,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:12:59.909429"
+  "fetched_at": "2026-01-15T13:55:09.940078"
 }

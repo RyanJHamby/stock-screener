@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXLS",
-    "fetch_date": "2025-12-11T02:15:07.248993",
+    "fetch_date": "2026-01-15T13:22:34.678283",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 472073000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 14.38,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-11T02:15:07.250447"
+  "fetched_at": "2026-01-15T13:22:34.679561"
 }

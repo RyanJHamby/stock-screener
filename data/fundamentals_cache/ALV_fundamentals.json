@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALV",
-    "fetch_date": "2025-12-04T13:35:50.846896",
+    "fetch_date": "2026-01-15T13:04:48.724874",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2555000000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.83,
     "operating_margin": 9.87,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 997000000.0,
       "2024-12-31 00:00:00": 921000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.383,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:35:50.848582"
+  "fetched_at": "2026-01-15T13:04:48.726472"
 }

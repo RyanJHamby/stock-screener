@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "SAIC",
-    "fetch_date": "2025-12-09T14:11:13.925235",
+    "fetch_date": "2026-01-15T13:51:31.932056",
     "quarterly_revenue": {
       "2024-04-30 00:00:00": NaN,
-      "2024-07-31 00:00:00": 1818000000.0,
+      "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": 1976000000.0,
       "2025-01-31 00:00:00": 1838000000.0,
       "2025-04-30 00:00:00": 1877000000.0,
       "2025-07-31 00:00:00": 1769000000.0,
-      "2025-10-31 00:00:00": NaN
+      "2025-10-31 00:00:00": 1866000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 5.483323911814584,
+    "revenue_yoy_change": -5.566801619433198,
     "quarterly_eps": {
       "2024-04-30 00:00:00": NaN,
       "2024-07-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -37.63837638376384,
     "eps_yoy_change": -20.657276995305164,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 12.17,
+    "margin_change": 0.01,
+    "operating_margin": 6.86,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-09T14:11:13.926488"
+  "fetched_at": "2026-01-15T13:51:31.933266"
 }

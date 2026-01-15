@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AXP",
-    "fetch_date": "2025-12-04T13:38:13.612209",
+    "fetch_date": "2026-01-15T13:08:06.711826",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 16636000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 18.62464183381087,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:38:13.612901"
+  "fetched_at": "2026-01-15T13:08:06.712440"
 }

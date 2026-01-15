@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GHI",
-    "fetch_date": "2026-01-05T13:27:04.563384",
+    "fetch_date": "2026-01-15T13:26:18.795972",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 255251.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 113.04347826086956,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-05T13:27:04.564109"
+  "fetched_at": "2026-01-15T13:26:18.796609"
 }

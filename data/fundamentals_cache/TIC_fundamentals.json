@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIC",
-    "fetch_date": "2025-12-04T14:15:01.781322",
+    "fetch_date": "2026-01-15T13:57:50.860993",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 234215000.0,
       "2025-06-30 00:00:00": 313925000.0,
@@ -13,11 +13,11 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": -0.08
     },
-    "eps_qoq_change": 0,
+    "eps_qoq_change": null,
     "gross_margin": 32.23,
     "margin_change": 8.62,
     "operating_margin": 2.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:15:01.782627"
+  "fetched_at": "2026-01-15T13:57:50.862140"
 }

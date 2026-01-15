@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVBP",
-    "fetch_date": "2025-12-04T13:37:56.755275",
+    "fetch_date": "2026-01-15T13:07:44.542051",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.0,
@@ -10,8 +10,8 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.0
     },
-    "revenue_qoq_change": 0,
-    "revenue_yoy_change": 0,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
       "2024-06-30 00:00:00": -0.65,
       "2024-09-30 00:00:00": -0.61,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:37:56.756223"
+  "fetched_at": "2026-01-15T13:07:44.542975"
 }

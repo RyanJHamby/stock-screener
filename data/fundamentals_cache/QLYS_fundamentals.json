@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QLYS",
-    "fetch_date": "2025-12-04T14:08:13.054777",
+    "fetch_date": "2026-01-15T13:48:29.883003",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 153867000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 35.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:08:13.056093"
+  "fetched_at": "2026-01-15T13:48:29.884194"
 }

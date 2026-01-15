@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VPG",
-    "fetch_date": "2025-12-04T14:18:19.442816",
+    "fetch_date": "2026-01-15T14:02:14.095681",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 75727000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.41,
     "operating_margin": 6.06,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 88302000.0,
       "2024-12-31 00:00:00": 84160000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.078,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:18:19.444553"
+  "fetched_at": "2026-01-15T14:02:14.097267"
 }

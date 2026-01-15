@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SYY",
-    "fetch_date": "2025-12-04T14:14:10.020006",
+    "fetch_date": "2026-01-15T13:56:44.943639",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 20484000000.0,
       "2024-12-31 00:00:00": 20151000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.254,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:14:10.021668"
+  "fetched_at": "2026-01-15T13:56:44.945249"
 }

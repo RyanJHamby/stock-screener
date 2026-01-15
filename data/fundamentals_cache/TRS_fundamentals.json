@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRS",
-    "fetch_date": "2025-12-04T14:15:57.780537",
+    "fetch_date": "2026-01-15T13:59:05.963044",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 229360000.0,
       "2024-12-31 00:00:00": 228050000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.844,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:15:57.782407"
+  "fetched_at": "2026-01-15T13:59:05.964574"
 }

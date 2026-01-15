@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "ELE",
-    "fetch_date": "2025-12-04T13:47:48.406301",
+    "fetch_date": "2026-01-15T13:21:02.660897",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3725000.0,
       "2024-12-31 00:00:00": 5519000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": -24.532658895975366,
     "revenue_yoy_change": 84.24161073825503,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": 0.0,
       "2024-09-30 00:00:00": 0.0,
       "2024-12-31 00:00:00": NaN,
@@ -22,12 +20,12 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.06
     },
-    "eps_qoq_change": 0,
-    "eps_yoy_change": 0,
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
     "gross_margin": 64.32,
     "margin_change": 4.22,
     "operating_margin": 26.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:47:48.407593"
+  "fetched_at": "2026-01-15T13:21:02.662161"
 }

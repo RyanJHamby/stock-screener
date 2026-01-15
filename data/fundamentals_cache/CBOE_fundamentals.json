@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CBOE",
-    "fetch_date": "2025-12-04T13:41:38.055284",
+    "fetch_date": "2026-01-15T13:12:45.590619",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1055700000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 32.85,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:41:38.056572"
+  "fetched_at": "2026-01-15T13:12:45.591888"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FUL",
-    "fetch_date": "2025-12-04T13:50:53.666251",
+    "fetch_date": "2026-01-15T13:25:14.868432",
     "quarterly_revenue": {
       "2024-08-31 00:00:00": 917927000.0,
       "2024-11-30 00:00:00": 923284000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.564,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:50:53.667994"
+  "fetched_at": "2026-01-15T13:25:14.870091"
 }

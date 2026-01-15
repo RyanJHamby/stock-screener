@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRNX",
-    "fetch_date": "2025-12-04T13:44:21.511068",
+    "fetch_date": "2026-01-15T13:16:25.655919",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 0.0,
       "2024-12-31 00:00:00": 0.0,
@@ -10,7 +10,7 @@
       "2025-09-30 00:00:00": 143000.0
     },
     "revenue_qoq_change": -86.12997090203686,
-    "revenue_yoy_change": 0,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
       "2024-09-30 00:00:00": -0.96,
       "2024-12-31 00:00:00": -0.88,
@@ -23,5 +23,5 @@
     "operating_margin": -99710.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:44:21.512019"
+  "fetched_at": "2026-01-15T13:16:25.656851"
 }

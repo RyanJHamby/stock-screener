@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NAVI",
-    "fetch_date": "2025-12-04T14:02:08.311462",
+    "fetch_date": "2026-01-15T13:40:27.906934",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 177000000.0,
       "2024-12-31 00:00:00": 251000000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -4250.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:02:08.312113"
+  "fetched_at": "2026-01-15T13:40:27.907504"
 }

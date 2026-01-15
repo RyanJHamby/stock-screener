@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IMKTA",
-    "fetch_date": "2025-12-04T13:55:11.189457",
+    "fetch_date": "2026-01-15T13:30:59.851251",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1397528830.0,
       "2024-12-31 00:00:00": 1288114667.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.353,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:55:11.191132"
+  "fetched_at": "2026-01-15T13:30:59.852877"
 }

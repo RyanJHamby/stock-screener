@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UFPT",
-    "fetch_date": "2025-12-04T14:16:53.819429",
+    "fetch_date": "2026-01-15T14:00:18.964806",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 145165000.0,
       "2024-12-31 00:00:00": 144070000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.557,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:16:53.821173"
+  "fetched_at": "2026-01-15T14:00:18.966377"
 }

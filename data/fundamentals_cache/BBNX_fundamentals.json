@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "BBNX",
-    "fetch_date": "2025-12-04T13:38:39.768238",
+    "fetch_date": "2026-01-15T13:08:40.565980",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 16705000.0,
       "2024-12-31 00:00:00": 20440000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": 17.277734744814527,
     "revenue_yoy_change": 63.142771625261894,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": -0.337453,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": -0.422498,
@@ -23,7 +21,7 @@
       "2025-09-30 00:00:00": -0.33
     },
     "eps_qoq_change": 15.384615384615383,
-    "eps_yoy_change": NaN,
+    "eps_yoy_change": null,
     "gross_margin": 55.48,
     "margin_change": 1.67,
     "operating_margin": -62.54,
@@ -38,5 +36,5 @@
     "inventory_to_sales_ratio": 0.748,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:38:39.769981"
+  "fetched_at": "2026-01-15T13:08:40.567631"
 }

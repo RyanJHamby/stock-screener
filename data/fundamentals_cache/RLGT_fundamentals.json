@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RLGT",
-    "fetch_date": "2025-12-04T14:09:29.717847",
+    "fetch_date": "2026-01-15T13:50:16.838038",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 203565000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 1.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:09:29.719121"
+  "fetched_at": "2026-01-15T13:50:16.839451"
 }

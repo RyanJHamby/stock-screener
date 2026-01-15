@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXPD",
-    "fetch_date": "2025-12-04T13:48:59.131749",
+    "fetch_date": "2026-01-15T13:22:38.884494",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": 2439001000.0,
       "2024-09-30 00:00:00": 3000131000.0,
@@ -10,8 +10,8 @@
       "2025-06-30 00:00:00": 2651885000.0,
       "2025-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": NaN,
-    "revenue_yoy_change": NaN,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1.63,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:48:59.133047"
+  "fetched_at": "2026-01-15T13:22:38.885715"
 }

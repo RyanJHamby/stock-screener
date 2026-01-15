@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STRL",
-    "fetch_date": "2025-12-04T14:13:39.309042",
+    "fetch_date": "2026-01-15T13:56:02.994680",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 593741000.0,
       "2024-12-31 00:00:00": 498833000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 19.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:13:39.310338"
+  "fetched_at": "2026-01-15T13:56:02.995893"
 }

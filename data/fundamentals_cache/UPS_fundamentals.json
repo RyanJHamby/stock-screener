@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UPS",
-    "fetch_date": "2025-12-04T14:17:20.204150",
+    "fetch_date": "2026-01-15T14:00:53.017428",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 22245000000.0,
       "2024-12-31 00:00:00": 25301000000.0,
@@ -24,7 +24,6 @@
     "margin_change": -1.53,
     "operating_margin": 8.42,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": 898000000.0,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 826000000.0,
@@ -32,9 +31,9 @@
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:17:20.205825"
+  "fetched_at": "2026-01-15T14:00:53.019062"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADI",
-    "fetch_date": "2025-11-29T22:43:22.222521",
+    "fetch_date": "2026-01-15T13:02:55.603781",
     "quarterly_revenue": {
       "2024-04-30 00:00:00": NaN,
       "2024-07-31 00:00:00": NaN,
@@ -15,15 +15,15 @@
     "revenue_yoy_change": 25.90498955265727,
     "quarterly_eps": {
       "2024-04-30 00:00:00": NaN,
-      "2024-07-31 00:00:00": 0.79,
+      "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": 0.96,
       "2025-01-31 00:00:00": 0.78,
       "2025-04-30 00:00:00": 1.14,
       "2025-07-31 00:00:00": 1.04,
-      "2025-10-31 00:00:00": NaN
+      "2025-10-31 00:00:00": 1.6
     },
-    "eps_qoq_change": NaN,
-    "eps_yoy_change": NaN,
+    "eps_qoq_change": 53.846153846153854,
+    "eps_yoy_change": 66.66666666666669,
     "gross_margin": 63.13,
     "margin_change": 0.99,
     "operating_margin": 30.73,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.538,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-11-29T22:43:22.224350"
+  "fetched_at": "2026-01-15T13:02:55.605459"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APAM",
-    "fetch_date": "2025-12-04T13:36:35.340322",
+    "fetch_date": "2026-01-15T13:05:50.578833",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 279582000.0,
       "2024-12-31 00:00:00": 297051000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 33.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:36:35.341604"
+  "fetched_at": "2026-01-15T13:05:50.580066"
 }

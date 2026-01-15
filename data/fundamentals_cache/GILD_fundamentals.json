@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GILD",
-    "fetch_date": "2025-12-04T13:51:48.290787",
+    "fetch_date": "2026-01-15T13:26:27.843766",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 7545000000.0,
@@ -26,7 +26,6 @@
     "margin_change": 1.0,
     "operating_margin": 45.01,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1869000000.0,
       "2024-12-31 00:00:00": 1710000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.23,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:51:48.292488"
+  "fetched_at": "2026-01-15T13:26:27.845372"
 }

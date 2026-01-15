@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "SKT",
-    "fetch_date": "2025-12-04T14:11:47.152189",
+    "fetch_date": "2026-01-15T13:53:28.272086",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 133001000.0,
       "2024-12-31 00:00:00": 140735000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": 3.208381309792884,
     "revenue_yoy_change": 9.178126480252029,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.22,
       "2024-12-31 00:00:00": 0.23,
@@ -28,7 +26,6 @@
     "margin_change": -1.47,
     "operating_margin": 31.46,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
@@ -36,9 +33,9 @@
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:11:47.153872"
+  "fetched_at": "2026-01-15T13:53:28.273765"
 }

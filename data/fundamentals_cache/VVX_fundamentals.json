@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VVX",
-    "fetch_date": "2025-12-04T14:18:46.863936",
+    "fetch_date": "2026-01-15T14:02:50.984923",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1081656000.0,
@@ -33,9 +33,9 @@
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:18:46.865786"
+  "fetched_at": "2026-01-15T14:02:50.986550"
 }

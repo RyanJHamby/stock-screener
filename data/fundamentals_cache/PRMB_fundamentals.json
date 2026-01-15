@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRMB",
-    "fetch_date": "2026-01-08T13:47:27.624748",
+    "fetch_date": "2026-01-15T13:47:35.024066",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1305100000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.132,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-08T13:47:27.626509"
+  "fetched_at": "2026-01-15T13:47:35.025665"
 }

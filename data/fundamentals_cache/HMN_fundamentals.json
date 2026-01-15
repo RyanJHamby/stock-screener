@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HMN",
-    "fetch_date": "2025-12-04T13:53:40.486142",
+    "fetch_date": "2026-01-15T13:29:03.865812",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 397600000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 68.67469879518072,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:53:40.486784"
+  "fetched_at": "2026-01-15T13:29:03.866474"
 }

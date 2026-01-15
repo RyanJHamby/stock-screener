@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "FLOC",
-    "fetch_date": "2025-12-04T13:50:08.175623",
+    "fetch_date": "2026-01-15T13:24:10.700558",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 387347000.0,
       "2024-12-31 00:00:00": -11989000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": -8.422741505576688,
     "revenue_yoy_change": -54.3197701285927,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": 0.913068,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.01555,
@@ -23,7 +21,7 @@
       "2025-09-30 00:00:00": 0.32
     },
     "eps_qoq_change": 52.380952380952394,
-    "eps_yoy_change": NaN,
+    "eps_yoy_change": null,
     "gross_margin": 36.06,
     "margin_change": -0.1,
     "operating_margin": 19.68,
@@ -38,5 +36,5 @@
     "inventory_to_sales_ratio": 0.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:50:08.177387"
+  "fetched_at": "2026-01-15T13:24:10.702230"
 }

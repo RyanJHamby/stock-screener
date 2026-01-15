@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NBBK",
-    "fetch_date": "2025-12-04T14:02:10.154954",
+    "fetch_date": "2026-01-15T13:40:30.752953",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 42589000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 104.76190476190477,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:02:10.155587"
+  "fetched_at": "2026-01-15T13:40:30.753531"
 }

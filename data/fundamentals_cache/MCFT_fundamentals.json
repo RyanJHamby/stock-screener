@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCFT",
-    "fetch_date": "2025-12-04T13:59:52.701668",
+    "fetch_date": "2026-01-15T13:37:27.831791",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 65359000.0,
       "2024-12-31 00:00:00": 63368000.0,
@@ -24,7 +24,6 @@
     "margin_change": -0.84,
     "operating_margin": 5.48,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 37296000.0,
       "2024-12-31 00:00:00": 36988000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.485,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:59:52.703433"
+  "fetched_at": "2026-01-15T13:37:27.833362"
 }

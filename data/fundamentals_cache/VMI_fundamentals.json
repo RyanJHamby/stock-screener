@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VMI",
-    "fetch_date": "2025-12-04T14:18:12.874484",
+    "fetch_date": "2026-01-15T14:02:06.231691",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1020175000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.15,
     "operating_margin": 13.52,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 611422000.0,
       "2024-12-31 00:00:00": 590263000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.565,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:18:12.876210"
+  "fetched_at": "2026-01-15T14:02:06.233311"
 }
