@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLX",
-    "fetch_date": "2026-01-09T13:13:57.540561",
+    "fetch_date": "2026-01-19T13:19:33.239410",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1762000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.404,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-09T13:13:57.542307"
+  "fetched_at": "2026-01-19T13:19:33.240835"
 }

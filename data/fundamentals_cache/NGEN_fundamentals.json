@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NGEN",
-    "fetch_date": "2026-01-09T13:40:20.479138",
+    "fetch_date": "2026-01-19T13:45:53.364458",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-09T13:40:20.480022"
+  "fetched_at": "2026-01-19T13:45:53.365300"
 }

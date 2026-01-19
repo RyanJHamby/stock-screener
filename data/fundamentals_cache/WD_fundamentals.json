@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WD",
-    "fetch_date": "2026-01-12T14:05:07.223635",
+    "fetch_date": "2026-01-19T14:07:55.495620",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 292304000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.6,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-12T14:05:07.224964"
+  "fetched_at": "2026-01-19T14:07:55.496725"
 }

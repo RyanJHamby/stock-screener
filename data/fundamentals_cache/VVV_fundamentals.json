@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VVV",
-    "fetch_date": "2026-01-09T14:01:59.609179",
+    "fetch_date": "2026-01-19T14:07:34.533858",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 435500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.094,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-09T14:01:59.611119"
+  "fetched_at": "2026-01-19T14:07:34.535271"
 }
