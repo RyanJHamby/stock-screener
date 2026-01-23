@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ISSC",
-    "fetch_date": "2026-01-15T13:32:12.756647",
+    "fetch_date": "2026-01-23T13:34:18.650049",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 15384806.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:32:12.758256"
+  "fetched_at": "2026-01-23T13:34:18.651720"
 }

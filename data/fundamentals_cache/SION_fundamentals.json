@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SION",
-    "fetch_date": "2026-01-15T13:53:17.841449",
+    "fetch_date": "2026-01-23T13:55:22.523688",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:53:17.842361"
+  "fetched_at": "2026-01-23T13:55:22.524594"
 }

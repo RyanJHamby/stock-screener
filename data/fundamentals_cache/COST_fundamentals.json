@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COST",
-    "fetch_date": "2026-01-15T13:15:50.725698",
+    "fetch_date": "2026-01-23T13:17:59.377165",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.314,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:15:50.727353"
+  "fetched_at": "2026-01-23T13:17:59.378799"
 }

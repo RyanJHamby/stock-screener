@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FERG",
-    "fetch_date": "2026-01-15T13:23:28.738674",
+    "fetch_date": "2026-01-23T13:25:35.472543",
     "quarterly_revenue": {
       "2024-04-30 00:00:00": NaN,
       "2024-07-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.565,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:23:28.740479"
+  "fetched_at": "2026-01-23T13:25:35.474200"
 }

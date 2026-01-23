@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATGE",
-    "fetch_date": "2026-01-15T13:07:13.587073",
+    "fetch_date": "2026-01-23T13:09:21.280602",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 417400000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 18.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:07:13.588357"
+  "fetched_at": "2026-01-23T13:09:21.281879"
 }

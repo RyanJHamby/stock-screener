@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAMI",
-    "fetch_date": "2026-01-15T13:02:01.632622",
+    "fetch_date": "2026-01-23T13:04:09.262135",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 123100000.0,
       "2024-12-31 00:00:00": 167800000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 18.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:02:01.633996"
+  "fetched_at": "2026-01-23T13:04:09.263438"
 }

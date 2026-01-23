@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "USPH",
-    "fetch_date": "2026-01-15T14:01:13.014368",
+    "fetch_date": "2026-01-23T14:03:14.821486",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 168033000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 9.87,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:01:13.015623"
+  "fetched_at": "2026-01-23T14:03:14.822734"
 }

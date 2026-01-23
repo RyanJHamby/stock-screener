@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CNM",
-    "fetch_date": "2026-01-15T13:15:12.566028",
+    "fetch_date": "2026-01-23T13:17:21.282130",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 2038000000.0,
       "2025-01-31 00:00:00": 1698000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.493,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:15:12.567655"
+  "fetched_at": "2026-01-23T13:17:21.283774"
 }

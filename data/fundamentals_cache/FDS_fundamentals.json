@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FDS",
-    "fetch_date": "2026-01-15T13:23:18.740555",
+    "fetch_date": "2026-01-23T13:25:25.592244",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 31.61,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:23:18.741822"
+  "fetched_at": "2026-01-23T13:25:25.593534"
 }

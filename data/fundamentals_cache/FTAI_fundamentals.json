@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FTAI",
-    "fetch_date": "2026-01-15T13:25:02.693927",
+    "fetch_date": "2026-01-23T13:27:09.490977",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 465794000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.345,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:25:02.695539"
+  "fetched_at": "2026-01-23T13:27:09.492746"
 }

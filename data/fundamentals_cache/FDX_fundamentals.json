@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FDX",
-    "fetch_date": "2026-01-15T13:23:20.876970",
+    "fetch_date": "2026-01-23T13:25:27.538572",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.027,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:23:20.878609"
+  "fetched_at": "2026-01-23T13:25:27.540257"
 }

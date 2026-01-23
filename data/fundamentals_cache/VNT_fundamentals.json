@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VNT",
-    "fetch_date": "2026-01-15T14:02:11.087735",
+    "fetch_date": "2026-01-23T14:04:12.868631",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 750000000.0,
       "2024-12-31 00:00:00": 776800000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.477,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:02:11.089329"
+  "fetched_at": "2026-01-23T14:04:12.870289"
 }

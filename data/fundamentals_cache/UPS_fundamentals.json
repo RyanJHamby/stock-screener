@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UPS",
-    "fetch_date": "2026-01-15T14:00:53.017428",
+    "fetch_date": "2026-01-23T14:02:55.048331",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 22245000000.0,
       "2024-12-31 00:00:00": 25301000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:00:53.019062"
+  "fetched_at": "2026-01-23T14:02:55.050001"
 }

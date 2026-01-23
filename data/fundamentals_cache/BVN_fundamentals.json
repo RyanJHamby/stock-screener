@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BVN",
-    "fetch_date": "2026-01-15T13:11:42.657170",
+    "fetch_date": "2026-01-23T13:13:51.397860",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": 277105000.0,
       "2024-09-30 00:00:00": 331106000.0,
@@ -28,5 +28,5 @@
     "inventory_to_sales_ratio": 0.185,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:11:42.658776"
+  "fetched_at": "2026-01-23T13:13:51.399464"
 }

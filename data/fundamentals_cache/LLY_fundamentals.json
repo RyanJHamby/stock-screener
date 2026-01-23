@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LLY",
-    "fetch_date": "2026-01-15T13:35:42.928904",
+    "fetch_date": "2026-01-23T13:37:47.642122",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 11439100000.0,
@@ -24,7 +24,7 @@
     "eps_yoy_change": 480.3738317757008,
     "gross_margin": 82.91,
     "margin_change": -1.36,
-    "operating_margin": 48.29,
+    "operating_margin": 47.65,
     "quarterly_inventory": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 7459800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.692,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:35:42.930499"
+  "fetched_at": "2026-01-23T13:37:47.643784"
 }

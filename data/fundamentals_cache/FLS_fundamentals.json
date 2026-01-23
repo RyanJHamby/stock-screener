@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FLS",
-    "fetch_date": "2026-01-15T13:24:11.824868",
+    "fetch_date": "2026-01-23T13:26:18.522916",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1133087000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.722,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:24:11.826456"
+  "fetched_at": "2026-01-23T13:26:18.524576"
 }

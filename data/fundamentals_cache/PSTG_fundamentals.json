@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PSTG",
-    "fetch_date": "2026-01-15T13:47:55.882158",
+    "fetch_date": "2026-01-23T13:50:00.614048",
     "quarterly_revenue": {
       "2024-04-30 00:00:00": NaN,
       "2024-10-31 00:00:00": 831072000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.085,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:47:55.883766"
+  "fetched_at": "2026-01-23T13:50:00.615725"
 }

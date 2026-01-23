@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAT",
-    "fetch_date": "2026-01-15T13:37:05.861562",
+    "fetch_date": "2026-01-23T13:39:10.638623",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1843904000.0,
       "2024-12-31 00:00:00": 1646405000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.476,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:37:05.863128"
+  "fetched_at": "2026-01-23T13:39:10.640304"
 }

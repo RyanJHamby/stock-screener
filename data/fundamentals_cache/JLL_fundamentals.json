@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JLL",
-    "fetch_date": "2026-01-15T13:32:51.897687",
+    "fetch_date": "2026-01-23T13:34:56.555603",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 5868800000.0,
       "2024-12-31 00:00:00": 6810900000.0,
@@ -23,5 +23,5 @@
     "operating_margin": 4.38,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:32:51.898571"
+  "fetched_at": "2026-01-23T13:34:56.556517"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OVV",
-    "fetch_date": "2026-01-15T13:44:50.831994",
+    "fetch_date": "2026-01-23T13:46:55.664229",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2324000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 20.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:44:50.833199"
+  "fetched_at": "2026-01-23T13:46:55.665488"
 }

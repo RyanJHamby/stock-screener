@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AME",
-    "fetch_date": "2026-01-15T13:05:00.708445",
+    "fetch_date": "2026-01-23T13:07:08.485778",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1708564000.0,
       "2024-12-31 00:00:00": 1761602000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.609,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:05:00.710074"
+  "fetched_at": "2026-01-23T13:07:08.487499"
 }

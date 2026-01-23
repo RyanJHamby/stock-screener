@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAM",
-    "fetch_date": "2026-01-15T13:45:08.854804",
+    "fetch_date": "2026-01-23T13:47:13.716545",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 510706000000.0,
       "2024-12-31 00:00:00": 639633090840.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.402,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:45:08.856408"
+  "fetched_at": "2026-01-23T13:47:13.718205"
 }

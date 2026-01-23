@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLF",
-    "fetch_date": "2026-01-15T13:53:40.950944",
+    "fetch_date": "2026-01-23T13:55:45.777906",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 15380000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -15.45064377682404,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:53:40.951614"
+  "fetched_at": "2026-01-23T13:55:45.778510"
 }

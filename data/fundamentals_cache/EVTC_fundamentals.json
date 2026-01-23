@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EVTC",
-    "fetch_date": "2026-01-15T13:22:22.793964",
+    "fetch_date": "2026-01-23T13:24:29.433256",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 211795000.0,
       "2024-12-31 00:00:00": 216395000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.51,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:22:22.795235"
+  "fetched_at": "2026-01-23T13:24:29.434519"
 }

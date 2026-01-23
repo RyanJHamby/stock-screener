@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLH",
-    "fetch_date": "2026-01-15T13:14:32.636101",
+    "fetch_date": "2026-01-23T13:16:42.360935",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1529422000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.244,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:14:32.637744"
+  "fetched_at": "2026-01-23T13:16:42.362583"
 }

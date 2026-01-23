@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VTOL",
-    "fetch_date": "2026-01-15T14:02:42.106830",
+    "fetch_date": "2026-01-23T14:04:43.919688",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 365122000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:02:42.108405"
+  "fetched_at": "2026-01-23T14:04:43.921355"
 }

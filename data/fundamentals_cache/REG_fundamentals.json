@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REG",
-    "fetch_date": "2026-01-15T13:49:28.146666",
+    "fetch_date": "2026-01-23T13:51:32.677711",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 360266000.0,
       "2024-12-31 00:00:00": 372536000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 37.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:49:28.147885"
+  "fetched_at": "2026-01-23T13:51:32.678976"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPH",
-    "fetch_date": "2026-01-15T13:54:59.960852",
+    "fetch_date": "2026-01-23T13:57:04.663486",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 208641000.0,
       "2024-12-31 00:00:00": 373329000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.349,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:54:59.962507"
+  "fetched_at": "2026-01-23T13:57:04.665148"
 }

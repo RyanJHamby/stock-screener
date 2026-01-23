@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DCI",
-    "fetch_date": "2026-01-15T13:18:09.743337",
+    "fetch_date": "2026-01-23T13:20:18.540150",
     "quarterly_revenue": {
       "2024-04-30 00:00:00": NaN,
       "2024-10-31 00:00:00": 900100000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:18:09.744989"
+  "fetched_at": "2026-01-23T13:20:18.541820"
 }

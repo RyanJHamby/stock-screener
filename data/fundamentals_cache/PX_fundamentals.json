@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PX",
-    "fetch_date": "2026-01-15T13:48:14.891511",
+    "fetch_date": "2026-01-23T13:50:19.642401",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 74243000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:48:14.892747"
+  "fetched_at": "2026-01-23T13:50:19.643674"
 }

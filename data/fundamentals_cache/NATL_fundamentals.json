@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NATL",
-    "fetch_date": "2026-01-15T13:40:25.902557",
+    "fetch_date": "2026-01-23T13:42:29.553821",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1073000000.0,
@@ -24,7 +24,7 @@
     "eps_yoy_change": 21.428571428571423,
     "gross_margin": 24.17,
     "margin_change": 1.26,
-    "operating_margin": 10.17,
+    "operating_margin": 9.81,
     "quarterly_inventory": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 351000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.342,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:40:25.904229"
+  "fetched_at": "2026-01-23T13:42:29.555513"
 }

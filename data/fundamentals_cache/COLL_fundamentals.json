@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COLL",
-    "fetch_date": "2026-01-15T13:15:39.608547",
+    "fetch_date": "2026-01-23T13:17:48.461806",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 159301000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.182,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:15:39.610155"
+  "fetched_at": "2026-01-23T13:17:48.463465"
 }

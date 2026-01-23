@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FNV",
-    "fetch_date": "2026-01-15T13:24:28.724193",
+    "fetch_date": "2026-01-23T13:26:35.460496",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 275700000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.021,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:24:28.725857"
+  "fetched_at": "2026-01-23T13:26:35.462139"
 }

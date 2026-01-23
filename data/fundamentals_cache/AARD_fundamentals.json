@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AARD",
-    "fetch_date": "2026-01-15T13:02:06.498491",
+    "fetch_date": "2026-01-23T13:04:14.215488",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:02:06.499411"
+  "fetched_at": "2026-01-23T13:04:14.216416"
 }

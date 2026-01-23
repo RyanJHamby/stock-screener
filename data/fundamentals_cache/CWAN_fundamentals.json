@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CWAN",
-    "fetch_date": "2026-01-15T13:17:29.618224",
+    "fetch_date": "2026-01-23T13:19:38.274053",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 115828000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 3.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:17:29.619480"
+  "fetched_at": "2026-01-23T13:19:38.275313"
 }

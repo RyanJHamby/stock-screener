@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRNX",
-    "fetch_date": "2026-01-15T13:16:25.655919",
+    "fetch_date": "2026-01-23T13:18:34.390943",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 0.0,
       "2024-12-31 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": -99710.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:16:25.656851"
+  "fetched_at": "2026-01-23T13:18:34.391846"
 }

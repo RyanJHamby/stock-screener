@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TPH",
-    "fetch_date": "2026-01-15T13:58:46.936514",
+    "fetch_date": "2026-01-23T14:00:49.637202",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1144673000.0,
       "2024-12-31 00:00:00": 1253871000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 3.945,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:58:46.938088"
+  "fetched_at": "2026-01-23T14:00:49.638814"
 }

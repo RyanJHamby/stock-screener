@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "G",
-    "fetch_date": "2026-01-15T13:25:27.902040",
+    "fetch_date": "2026-01-23T13:27:34.514520",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1210949000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:25:27.903299"
+  "fetched_at": "2026-01-23T13:27:34.515794"
 }

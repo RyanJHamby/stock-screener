@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLYM",
-    "fetch_date": "2026-01-15T13:46:49.824678",
+    "fetch_date": "2026-01-23T13:48:54.650992",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 51871000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 16.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:46:49.825942"
+  "fetched_at": "2026-01-23T13:48:54.652239"
 }

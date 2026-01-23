@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IQV",
-    "fetch_date": "2026-01-15T13:31:58.750910",
+    "fetch_date": "2026-01-23T13:34:04.535716",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 3896000000.0,
       "2024-12-31 00:00:00": 3958000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:31:58.752141"
+  "fetched_at": "2026-01-23T13:34:04.536999"
 }

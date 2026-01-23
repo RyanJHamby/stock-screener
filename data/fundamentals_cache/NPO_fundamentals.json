@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NPO",
-    "fetch_date": "2026-01-15T13:41:51.808969",
+    "fetch_date": "2026-01-23T13:43:55.655239",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 260900000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.494,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:41:51.810603"
+  "fetched_at": "2026-01-23T13:43:55.656919"
 }

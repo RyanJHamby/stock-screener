@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LKFN",
-    "fetch_date": "2026-01-15T13:35:40.787274",
+    "fetch_date": "2026-01-23T13:37:45.577347",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 61190000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 13.186813186813188,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:35:40.787917"
+  "fetched_at": "2026-01-23T13:37:45.577961"
 }

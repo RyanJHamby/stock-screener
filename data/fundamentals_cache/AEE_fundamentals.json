@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AEE",
-    "fetch_date": "2026-01-15T13:03:09.609617",
+    "fetch_date": "2026-01-23T13:05:17.319215",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2173000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.298,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:03:09.611280"
+  "fetched_at": "2026-01-23T13:05:17.320905"
 }

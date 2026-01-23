@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMT",
-    "fetch_date": "2026-01-15T13:05:19.526084",
+    "fetch_date": "2026-01-23T13:07:27.335462",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2522300000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 45.39,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:05:19.527334"
+  "fetched_at": "2026-01-23T13:07:27.336720"
 }

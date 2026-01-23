@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WKC",
-    "fetch_date": "2026-01-15T14:03:40.096878",
+    "fetch_date": "2026-01-23T14:05:41.935091",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 10490900000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.053,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:03:40.098450"
+  "fetched_at": "2026-01-23T14:05:41.936736"
 }

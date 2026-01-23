@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CMRE",
-    "fetch_date": "2026-01-15T13:15:02.681921",
+    "fetch_date": "2026-01-23T13:17:11.485185",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 225745000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.065,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:15:02.683530"
+  "fetched_at": "2026-01-23T13:17:11.486819"
 }

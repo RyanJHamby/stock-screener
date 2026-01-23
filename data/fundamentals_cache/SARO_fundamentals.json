@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SARO",
-    "fetch_date": "2026-01-15T13:51:40.861632",
+    "fetch_date": "2026-01-23T13:53:45.606715",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1244627000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.639,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:51:40.863211"
+  "fetched_at": "2026-01-23T13:53:45.608375"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESHA",
-    "fetch_date": "2026-01-15T13:21:57.655200",
+    "fetch_date": "2026-01-23T13:24:04.579633",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:21:57.656099"
+  "fetched_at": "2026-01-23T13:24:04.580549"
 }

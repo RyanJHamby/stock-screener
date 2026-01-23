@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALK",
-    "fetch_date": "2026-01-15T13:04:30.632281",
+    "fetch_date": "2026-01-23T13:06:38.394488",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3072000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.061,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:04:30.633962"
+  "fetched_at": "2026-01-23T13:06:38.396169"
 }

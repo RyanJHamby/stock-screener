@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AHH",
-    "fetch_date": "2026-01-15T13:03:46.584481",
+    "fetch_date": "2026-01-23T13:05:54.375055",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 187652000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 24.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:03:46.585717"
+  "fetched_at": "2026-01-23T13:05:54.376318"
 }

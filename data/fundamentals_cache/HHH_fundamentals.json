@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HHH",
-    "fetch_date": "2026-01-15T13:28:41.752062",
+    "fetch_date": "2026-01-23T13:30:47.526641",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 327147000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:28:41.753672"
+  "fetched_at": "2026-01-23T13:30:47.528287"
 }

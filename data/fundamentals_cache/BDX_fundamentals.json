@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BDX",
-    "fetch_date": "2026-01-15T13:09:10.709036",
+    "fetch_date": "2026-01-23T13:11:18.515478",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 5437000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.661,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:09:10.710654"
+  "fetched_at": "2026-01-23T13:11:18.517143"
 }

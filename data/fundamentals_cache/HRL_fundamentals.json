@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HRL",
-    "fetch_date": "2026-01-15T13:29:29.913067",
+    "fetch_date": "2026-01-23T13:31:35.504127",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 3138091000.0,
       "2025-01-31 00:00:00": 2988813000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.548,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:29:29.914696"
+  "fetched_at": "2026-01-23T13:31:35.505762"
 }

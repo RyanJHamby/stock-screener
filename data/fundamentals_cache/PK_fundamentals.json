@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PK",
-    "fetch_date": "2026-01-15T13:46:27.937726",
+    "fetch_date": "2026-01-23T13:48:32.611606",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 649000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.05,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:46:27.938917"
+  "fetched_at": "2026-01-23T13:48:32.612887"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PPC",
-    "fetch_date": "2026-01-15T13:47:12.005670",
+    "fetch_date": "2026-01-23T13:49:16.698222",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 4584979000.0,
       "2024-12-31 00:00:00": 4372064000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.414,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:47:12.007258"
+  "fetched_at": "2026-01-23T13:49:16.699881"
 }

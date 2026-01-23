@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CNS",
-    "fetch_date": "2026-01-15T13:15:19.648775",
+    "fetch_date": "2026-01-23T13:17:28.455330",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 138623000.0,
       "2024-12-31 00:00:00": 144731000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 36.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:15:19.650020"
+  "fetched_at": "2026-01-23T13:17:28.456578"
 }

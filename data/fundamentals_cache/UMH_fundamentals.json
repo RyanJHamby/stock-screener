@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UMH",
-    "fetch_date": "2026-01-15T14:00:38.060456",
+    "fetch_date": "2026-01-23T14:02:39.943417",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 60671000.0,
       "2024-12-31 00:00:00": 61873000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.534,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:00:38.062139"
+  "fetched_at": "2026-01-23T14:02:39.945042"
 }

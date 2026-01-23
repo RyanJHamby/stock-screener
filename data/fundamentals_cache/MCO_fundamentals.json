@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCO",
-    "fetch_date": "2026-01-15T13:37:34.831351",
+    "fetch_date": "2026-01-23T13:39:39.698841",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1813000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 46.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:37:34.832541"
+  "fetched_at": "2026-01-23T13:39:39.700111"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XOM",
-    "fetch_date": "2026-01-15T14:04:40.121777",
+    "fetch_date": "2026-01-23T14:06:42.159103",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 87792000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.327,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T14:04:40.123341"
+  "fetched_at": "2026-01-23T14:06:42.160740"
 }

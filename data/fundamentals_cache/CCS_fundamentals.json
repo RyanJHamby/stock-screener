@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCS",
-    "fetch_date": "2026-01-15T13:13:09.608874",
+    "fetch_date": "2026-01-23T13:15:19.402445",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1136866000.0,
       "2024-12-31 00:00:00": 1273429000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 3.656,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:13:09.610515"
+  "fetched_at": "2026-01-23T13:15:19.404109"
 }

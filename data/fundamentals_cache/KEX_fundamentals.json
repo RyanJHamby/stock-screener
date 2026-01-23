@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KEX",
-    "fetch_date": "2026-01-15T13:33:20.737132",
+    "fetch_date": "2026-01-23T13:35:25.539264",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 831149000.0,
       "2024-12-31 00:00:00": 802315000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.487,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:33:20.738697"
+  "fetched_at": "2026-01-23T13:35:25.540923"
 }

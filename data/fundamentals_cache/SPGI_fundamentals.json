@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPGI",
-    "fetch_date": "2026-01-15T13:54:59.023982",
+    "fetch_date": "2026-01-23T13:57:03.872897",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3575000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 42.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:54:59.025227"
+  "fetched_at": "2026-01-23T13:57:03.874160"
 }
