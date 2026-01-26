@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VRE",
-    "fetch_date": "2026-01-16T14:01:23.802519",
+    "fetch_date": "2026-01-26T14:05:28.854810",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 68175000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-16T14:01:23.804179"
+  "fetched_at": "2026-01-26T14:05:28.856529"
 }

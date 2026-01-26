@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DXPE",
-    "fetch_date": "2026-01-15T13:20:00.693820",
+    "fetch_date": "2026-01-26T13:23:15.274444",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 472935000.0,
       "2024-12-31 00:00:00": 470914000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.212,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:20:00.695486"
+  "fetched_at": "2026-01-26T13:23:15.276232"
 }
