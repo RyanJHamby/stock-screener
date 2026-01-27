@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRMD",
-    "fetch_date": "2025-12-04T13:57:30.190117",
+    "fetch_date": "2026-01-27T13:40:00.461779",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 8179977.0,
@@ -20,13 +20,12 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": -0.02
     },
-    "eps_qoq_change": 0,
+    "eps_qoq_change": null,
     "eps_yoy_change": 33.33333333333333,
     "gross_margin": 60.22,
     "margin_change": -3.3,
     "operating_margin": -8.34,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3928318.0,
       "2024-12-31 00:00:00": 2803669.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.424,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:57:30.191816"
+  "fetched_at": "2026-01-27T13:40:00.463238"
 }

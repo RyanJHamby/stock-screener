@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TNC",
-    "fetch_date": "2026-01-15T13:58:22.051537",
+    "fetch_date": "2026-01-27T14:04:11.722366",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 315800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.679,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:58:22.053123"
+  "fetched_at": "2026-01-27T14:04:11.723881"
 }
