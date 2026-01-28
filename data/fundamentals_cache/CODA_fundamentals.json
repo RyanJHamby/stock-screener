@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CODA",
-    "fetch_date": "2026-01-21T13:19:52.940584",
+    "fetch_date": "2026-01-28T13:21:23.352045",
     "quarterly_revenue": {
       "2024-04-30 00:00:00": NaN,
       "2024-07-31 00:00:00": 5476544.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.941,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-21T13:19:52.942348"
+  "fetched_at": "2026-01-28T13:21:23.353800"
 }
