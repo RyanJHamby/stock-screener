@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALEX",
-    "fetch_date": "2026-01-23T13:06:29.295707",
+    "fetch_date": "2026-01-30T13:16:14.471841",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 61944000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 33.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:06:29.296974"
+  "fetched_at": "2026-01-30T13:16:14.473129"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FBK",
-    "fetch_date": "2026-01-23T13:25:06.444686",
+    "fetch_date": "2026-01-30T13:34:51.107240",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 89520000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 32.098765432098766,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:25:06.445330"
+  "fetched_at": "2026-01-30T13:34:51.107934"
 }

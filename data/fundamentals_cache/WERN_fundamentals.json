@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WERN",
-    "fetch_date": "2026-01-23T14:05:22.109159",
+    "fetch_date": "2026-01-30T14:15:08.790606",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 745701000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.015,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T14:05:22.110810"
+  "fetched_at": "2026-01-30T14:15:08.792330"
 }

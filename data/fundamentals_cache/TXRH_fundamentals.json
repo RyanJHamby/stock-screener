@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TXRH",
-    "fetch_date": "2026-01-23T14:01:56.781038",
+    "fetch_date": "2026-01-30T14:11:42.519204",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1272999000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.032,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T14:01:56.782689"
+  "fetched_at": "2026-01-30T14:11:42.521564"
 }

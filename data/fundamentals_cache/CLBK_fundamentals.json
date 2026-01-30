@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLBK",
-    "fetch_date": "2026-01-23T13:16:37.313092",
+    "fetch_date": "2026-01-30T13:26:20.716673",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 54253000.0,
       "2024-12-31 00:00:00": 22711000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 150.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:16:37.313681"
+  "fetched_at": "2026-01-30T13:26:20.717311"
 }

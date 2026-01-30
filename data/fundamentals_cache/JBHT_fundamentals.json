@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JBHT",
-    "fetch_date": "2026-01-23T13:34:40.535270",
+    "fetch_date": "2026-01-30T13:44:26.873443",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 3068171000.0,
       "2024-12-31 00:00:00": 3146348000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:34:40.536930"
+  "fetched_at": "2026-01-30T13:44:26.875126"
 }

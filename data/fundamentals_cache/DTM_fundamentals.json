@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DTM",
-    "fetch_date": "2026-01-23T13:21:49.356594",
+    "fetch_date": "2026-01-30T13:31:33.074516",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 248000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 49.36,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:21:49.357856"
+  "fetched_at": "2026-01-30T13:31:33.075799"
 }

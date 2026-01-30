@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CENTA",
-    "fetch_date": "2026-01-15T13:13:30.578937",
+    "fetch_date": "2026-01-30T13:25:24.657137",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 669489000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.065,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:13:30.580554"
+  "fetched_at": "2026-01-30T13:25:24.658827"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BELFB",
-    "fetch_date": "2026-01-23T13:11:25.492904",
+    "fetch_date": "2026-01-30T13:21:09.837036",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 123638000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.928,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:11:25.494556"
+  "fetched_at": "2026-01-30T13:21:09.838704"
 }

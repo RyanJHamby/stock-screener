@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTS",
-    "fetch_date": "2026-01-23T13:19:09.451471",
+    "fetch_date": "2026-01-30T13:28:52.937033",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 132384000.0,
       "2024-12-31 00:00:00": 127435000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.379,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:19:09.453134"
+  "fetched_at": "2026-01-30T13:28:52.938671"
 }

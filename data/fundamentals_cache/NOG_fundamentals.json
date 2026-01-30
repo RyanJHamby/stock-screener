@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NOG",
-    "fetch_date": "2026-01-23T13:43:46.513415",
+    "fetch_date": "2026-01-30T13:53:32.940999",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 515488000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 25.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:43:46.514676"
+  "fetched_at": "2026-01-30T13:53:32.942462"
 }

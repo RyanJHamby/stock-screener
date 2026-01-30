@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DFIN",
-    "fetch_date": "2026-01-23T13:20:38.309782",
+    "fetch_date": "2026-01-30T13:30:22.176746",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 179500000.0,
       "2024-12-31 00:00:00": 156300000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.6,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:20:38.311074"
+  "fetched_at": "2026-01-30T13:30:22.178179"
 }

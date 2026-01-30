@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLUS",
-    "fetch_date": "2026-01-23T13:48:51.684648",
+    "fetch_date": "2026-01-30T13:58:39.199095",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 493372000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.253,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:48:51.686338"
+  "fetched_at": "2026-01-30T13:58:39.200782"
 }

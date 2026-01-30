@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APO",
-    "fetch_date": "2026-01-23T13:08:08.305588",
+    "fetch_date": "2026-01-30T13:17:53.611581",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 7773000000.0,
       "2024-12-31 00:00:00": 5283000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 32.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:08:08.306833"
+  "fetched_at": "2026-01-30T13:17:53.612842"
 }

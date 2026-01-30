@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAL",
-    "fetch_date": "2026-01-23T13:30:11.630948",
+    "fetch_date": "2026-01-30T13:39:56.399499",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 5697000000.0,
       "2024-12-31 00:00:00": 5610000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:30:11.632618"
+  "fetched_at": "2026-01-30T13:39:56.401214"
 }

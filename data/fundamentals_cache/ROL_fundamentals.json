@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROL",
-    "fetch_date": "2026-01-23T13:52:45.758723",
+    "fetch_date": "2026-01-30T14:02:33.419511",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 916270000.0,
       "2024-12-31 00:00:00": 832169000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.042,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:52:45.760425"
+  "fetched_at": "2026-01-30T14:02:33.421473"
 }

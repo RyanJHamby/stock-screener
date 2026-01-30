@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEX",
-    "fetch_date": "2026-01-23T13:59:32.747225",
+    "fetch_date": "2026-01-30T14:09:18.415768",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1212000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.87,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:59:32.748843"
+  "fetched_at": "2026-01-30T14:09:18.417469"
 }

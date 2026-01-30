@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PHM",
-    "fetch_date": "2026-01-23T13:48:25.749134",
+    "fetch_date": "2026-01-30T13:58:13.310692",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 4476342000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 3.031,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:48:25.750773"
+  "fetched_at": "2026-01-30T13:58:13.312377"
 }

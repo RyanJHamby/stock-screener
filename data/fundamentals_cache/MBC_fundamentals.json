@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MBC",
-    "fetch_date": "2026-01-23T13:39:18.564958",
+    "fetch_date": "2026-01-30T13:49:04.758472",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 718100000.0,
       "2024-12-31 00:00:00": 667700000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.39,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:39:18.566603"
+  "fetched_at": "2026-01-30T13:49:04.760176"
 }

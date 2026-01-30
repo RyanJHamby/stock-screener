@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WMG",
-    "fetch_date": "2026-01-23T14:05:54.952000",
+    "fetch_date": "2026-01-30T14:15:41.665159",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1630000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.033,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T14:05:54.953651"
+  "fetched_at": "2026-01-30T14:15:41.667908"
 }

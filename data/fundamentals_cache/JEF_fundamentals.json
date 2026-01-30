@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "JEF",
-    "fetch_date": "2026-01-23T13:34:49.676913",
+    "fetch_date": "2026-01-30T13:44:35.758575",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
-      "2024-08-31 00:00:00": 2595589000.0,
+      "2024-08-31 00:00:00": NaN,
       "2024-11-30 00:00:00": 2851242000.0,
       "2025-02-28 00:00:00": 2472864000.0,
       "2025-05-31 00:00:00": 2494315000.0,
       "2025-08-31 00:00:00": 2907674000.0,
-      "2025-11-30 00:00:00": NaN
+      "2025-11-30 00:00:00": 2948824000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 1.415220550859553,
+    "revenue_yoy_change": 3.422438361948933,
     "quarterly_eps": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": 0.75,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -15.841584158415845,
     "eps_yoy_change": null,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 56.54,
+    "margin_change": -0.85,
+    "operating_margin": 40.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:34:49.678176"
+  "fetched_at": "2026-01-30T13:44:35.759887"
 }

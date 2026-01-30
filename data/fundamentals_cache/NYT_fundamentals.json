@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NYT",
-    "fetch_date": "2026-01-23T13:45:03.685208",
+    "fetch_date": "2026-01-30T13:54:51.178473",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 640178000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:45:03.686479"
+  "fetched_at": "2026-01-30T13:54:51.179828"
 }

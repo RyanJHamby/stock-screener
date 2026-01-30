@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATO",
-    "fetch_date": "2026-01-23T13:09:32.463125",
+    "fetch_date": "2026-01-30T13:19:17.695772",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 657944000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.26,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:09:32.464768"
+  "fetched_at": "2026-01-30T13:19:17.697488"
 }

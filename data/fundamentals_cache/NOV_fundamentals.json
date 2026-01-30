@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NOV",
-    "fetch_date": "2026-01-23T13:43:50.716771",
+    "fetch_date": "2026-01-30T13:53:37.004428",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 2191000000.0,
       "2024-12-31 00:00:00": 2308000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.867,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:43:50.718420"
+  "fetched_at": "2026-01-30T13:53:37.006103"
 }

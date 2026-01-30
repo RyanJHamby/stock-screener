@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCS",
-    "fetch_date": "2026-01-23T13:11:09.437176",
+    "fetch_date": "2026-01-30T13:20:53.525171",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 6547000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -2.803738317757012,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:11:09.437758"
+  "fetched_at": "2026-01-30T13:20:53.525823"
 }

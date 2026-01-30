@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MUFG",
-    "fetch_date": "2026-01-23T13:42:01.616991",
+    "fetch_date": "2026-01-30T13:51:47.894160",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1801938000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 8.559082599301963,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:42:01.617572"
+  "fetched_at": "2026-01-30T13:51:47.894841"
 }

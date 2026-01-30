@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VMC",
-    "fetch_date": "2026-01-23T14:04:06.928491",
+    "fetch_date": "2026-01-30T14:13:52.769289",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 2003900000.0,
       "2024-12-31 00:00:00": 1853700000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T14:04:06.930158"
+  "fetched_at": "2026-01-30T14:13:52.771545"
 }

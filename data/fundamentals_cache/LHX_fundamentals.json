@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LHX",
-    "fetch_date": "2026-01-23T13:37:29.747583",
+    "fetch_date": "2026-01-30T13:47:14.848205",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 5292000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.228,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:37:29.749264"
+  "fetched_at": "2026-01-30T13:47:14.849875"
 }

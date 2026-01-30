@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "USAC",
-    "fetch_date": "2026-01-23T14:03:01.897190",
+    "fetch_date": "2026-01-30T14:12:47.736536",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 239968000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.549,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T14:03:01.898826"
+  "fetched_at": "2026-01-30T14:12:47.738202"
 }

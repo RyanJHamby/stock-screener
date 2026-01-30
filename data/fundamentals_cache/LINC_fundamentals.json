@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LINC",
-    "fetch_date": "2026-01-23T13:37:36.497379",
+    "fetch_date": "2026-01-30T13:47:22.924223",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 114410000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.022,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:37:36.499034"
+  "fetched_at": "2026-01-30T13:47:22.926137"
 }

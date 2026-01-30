@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TGNA",
-    "fetch_date": "2026-01-23T13:59:41.849229",
+    "fetch_date": "2026-01-30T14:09:27.571691",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 806827000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 14.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:59:41.850487"
+  "fetched_at": "2026-01-30T14:09:27.573189"
 }

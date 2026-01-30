@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXEL",
-    "fetch_date": "2026-01-23T13:24:39.485819",
+    "fetch_date": "2026-01-30T13:34:23.185255",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 539542000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.046,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:24:39.487473"
+  "fetched_at": "2026-01-30T13:34:23.187139"
 }

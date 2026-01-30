@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HOLX",
-    "fetch_date": "2026-01-23T13:31:18.574196",
+    "fetch_date": "2026-01-30T13:41:03.469344",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 988000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.647,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:31:18.575849"
+  "fetched_at": "2026-01-30T13:41:03.471057"
 }

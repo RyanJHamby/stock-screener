@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REZI",
-    "fetch_date": "2026-01-23T13:51:49.565188",
+    "fetch_date": "2026-01-30T14:01:37.791661",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1828000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.712,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T13:51:49.566836"
+  "fetched_at": "2026-01-30T14:01:37.793384"
 }
