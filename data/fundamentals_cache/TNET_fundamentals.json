@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TNET",
-    "fetch_date": "2026-01-23T14:00:26.689744",
+    "fetch_date": "2026-02-02T14:14:21.987057",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1252000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 5.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-23T14:00:26.691022"
+  "fetched_at": "2026-02-02T14:14:21.988457"
 }

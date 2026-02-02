@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WINA",
-    "fetch_date": "2026-01-26T14:06:46.945048",
+    "fetch_date": "2026-02-02T14:19:35.286775",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 21510900.0,
       "2024-12-31 00:00:00": 19548000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.013,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-26T14:06:46.946853"
+  "fetched_at": "2026-02-02T14:19:35.288522"
 }
