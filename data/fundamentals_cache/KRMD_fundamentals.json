@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRMD",
-    "fetch_date": "2026-01-27T13:40:00.461779",
+    "fetch_date": "2026-02-03T13:50:46.760803",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 8179977.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.424,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-27T13:40:00.463238"
+  "fetched_at": "2026-02-03T13:50:46.762545"
 }
