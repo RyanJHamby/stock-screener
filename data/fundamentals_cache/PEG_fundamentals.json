@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PEG",
-    "fetch_date": "2026-01-28T13:51:43.616895",
+    "fetch_date": "2026-02-04T14:01:50.571308",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2642000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.374,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-28T13:51:43.618603"
+  "fetched_at": "2026-02-04T14:01:50.573080"
 }

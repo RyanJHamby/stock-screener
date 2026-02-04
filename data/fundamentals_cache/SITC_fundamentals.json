@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SITC",
-    "fetch_date": "2026-01-15T13:53:20.115005",
+    "fetch_date": "2026-02-04T14:09:17.664753",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 61000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -12.41,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:53:20.116280"
+  "fetched_at": "2026-02-04T14:09:17.666510"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BXC",
-    "fetch_date": "2026-01-15T13:11:51.641765",
+    "fetch_date": "2026-02-04T13:28:03.173678",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 747288000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.462,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:11:51.643364"
+  "fetched_at": "2026-02-04T13:28:03.175399"
 }
