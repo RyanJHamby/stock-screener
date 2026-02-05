@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KHC",
-    "fetch_date": "2026-01-15T13:33:31.784642",
+    "fetch_date": "2026-02-05T13:51:55.120880",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 6383000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.566,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-15T13:33:31.786213"
+  "fetched_at": "2026-02-05T13:51:55.123314"
 }

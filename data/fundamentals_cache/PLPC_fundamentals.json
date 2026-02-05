@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLPC",
-    "fetch_date": "2026-01-29T14:00:02.461161",
+    "fetch_date": "2026-02-05T14:05:05.193640",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 146973000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-29T14:00:02.462989"
+  "fetched_at": "2026-02-05T14:05:05.195347"
 }

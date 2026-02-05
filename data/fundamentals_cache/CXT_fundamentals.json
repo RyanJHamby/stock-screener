@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CXT",
-    "fetch_date": "2025-12-04T13:45:17.552089",
+    "fetch_date": "2026-02-05T13:36:08.175137",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 403500000.0,
@@ -26,7 +26,6 @@
     "margin_change": 1.53,
     "operating_margin": 19.19,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 169800000.0,
       "2024-12-31 00:00:00": 144800000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:45:17.553769"
+  "fetched_at": "2026-02-05T13:36:08.177104"
 }
