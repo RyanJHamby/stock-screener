@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SXC",
-    "fetch_date": "2026-01-30T14:08:23.437416",
+    "fetch_date": "2026-02-06T14:11:51.052672",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 490100000.0,
       "2024-12-31 00:00:00": 486000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.447,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:08:23.439326"
+  "fetched_at": "2026-02-06T14:11:51.054093"
 }

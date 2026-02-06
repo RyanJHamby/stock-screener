@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JNJ",
-    "fetch_date": "2026-01-30T13:44:44.869905",
+    "fetch_date": "2026-02-06T13:48:13.585788",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 22471000000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:44:44.871814"
+  "fetched_at": "2026-02-06T13:48:13.587274"
 }

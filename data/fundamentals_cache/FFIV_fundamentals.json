@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FFIV",
-    "fetch_date": "2026-01-30T13:35:25.245045",
+    "fetch_date": "2026-02-06T13:38:56.136420",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 746674000.0,
       "2024-12-31 00:00:00": 766489000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:35:25.246755"
+  "fetched_at": "2026-02-06T13:38:56.137879"
 }

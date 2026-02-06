@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TK",
-    "fetch_date": "2026-01-30T14:09:48.657531",
+    "fetch_date": "2026-02-06T14:13:15.904270",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": 326139000.0,
       "2024-09-30 00:00:00": 272619000.0,
@@ -27,5 +27,5 @@
     "inventory_to_sales_ratio": 0.132,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:09:48.659189"
+  "fetched_at": "2026-02-06T14:13:15.905711"
 }

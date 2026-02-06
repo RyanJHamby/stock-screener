@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NWN",
-    "fetch_date": "2026-01-30T13:54:36.997233",
+    "fetch_date": "2026-02-06T13:58:04.609341",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 136934000.0,
       "2024-12-31 00:00:00": 370876000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:54:36.998889"
+  "fetched_at": "2026-02-06T13:58:04.610774"
 }

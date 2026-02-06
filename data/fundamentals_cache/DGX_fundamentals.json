@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DGX",
-    "fetch_date": "2026-01-30T13:30:30.103471",
+    "fetch_date": "2026-02-06T13:34:02.293204",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 2488000000.0,
       "2024-12-31 00:00:00": 2621000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.066,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:30:30.105153"
+  "fetched_at": "2026-02-06T13:34:02.294668"
 }

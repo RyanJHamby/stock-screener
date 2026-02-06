@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VRTX",
-    "fetch_date": "2026-01-30T14:14:15.706934",
+    "fetch_date": "2026-02-06T14:17:43.847927",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2771900000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.529,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:14:15.708616"
+  "fetched_at": "2026-02-06T14:17:43.849423"
 }

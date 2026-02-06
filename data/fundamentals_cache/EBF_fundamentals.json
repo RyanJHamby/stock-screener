@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EBF",
-    "fetch_date": "2026-01-30T13:32:04.176522",
+    "fetch_date": "2026-02-06T13:35:36.361484",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": 99771000.0,
       "2025-02-28 00:00:00": 92701000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.607,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:32:04.178508"
+  "fetched_at": "2026-02-06T13:35:36.363080"
 }

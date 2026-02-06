@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BOKF",
-    "fetch_date": "2026-01-30T13:22:37.821161",
+    "fetch_date": "2026-02-06T13:26:11.090739",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 507252000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 36.32075471698113,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:22:37.821808"
+  "fetched_at": "2026-02-06T13:26:11.091378"
 }

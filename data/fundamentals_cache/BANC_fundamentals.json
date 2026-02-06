@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BANC",
-    "fetch_date": "2026-01-30T13:20:14.688248",
+    "fetch_date": "2026-02-06T13:23:47.023209",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 212729000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 49.99999999999998,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:20:14.688991"
+  "fetched_at": "2026-02-06T13:23:47.023844"
 }

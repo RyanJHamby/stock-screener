@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOLF",
-    "fetch_date": "2026-01-30T13:38:51.353243",
+    "fetch_date": "2026-02-06T13:42:22.468466",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 620501000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.781,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:38:51.354937"
+  "fetched_at": "2026-02-06T13:42:22.469896"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMTB",
-    "fetch_date": "2026-01-30T13:17:13.667361",
+    "fetch_date": "2026-02-06T13:20:48.870546",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 31514000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": -82.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:17:13.668073"
+  "fetched_at": "2026-02-06T13:20:48.871170"
 }

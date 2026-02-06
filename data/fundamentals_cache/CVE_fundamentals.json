@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CVE",
-    "fetch_date": "2026-01-30T13:29:09.938440",
+    "fetch_date": "2026-02-06T13:32:42.192822",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 13819000000.0,
       "2024-12-31 00:00:00": 15195000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.237,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:29:09.940152"
+  "fetched_at": "2026-02-06T13:32:42.194284"
 }

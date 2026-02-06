@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRN",
-    "fetch_date": "2026-01-30T14:10:49.661109",
+    "fetch_date": "2026-02-06T14:14:17.020995",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 798800000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.221,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:10:49.662793"
+  "fetched_at": "2026-02-06T14:14:17.022482"
 }

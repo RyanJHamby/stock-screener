@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CEG",
-    "fetch_date": "2026-01-30T13:25:18.792932",
+    "fetch_date": "2026-02-06T13:28:51.332216",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 6550000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.253,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:25:18.794636"
+  "fetched_at": "2026-02-06T13:28:51.334101"
 }

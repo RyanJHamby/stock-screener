@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GIL",
-    "fetch_date": "2026-01-30T13:38:15.365294",
+    "fetch_date": "2026-02-06T13:41:46.499612",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 891106000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.371,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:38:15.366956"
+  "fetched_at": "2026-02-06T13:41:46.501054"
 }

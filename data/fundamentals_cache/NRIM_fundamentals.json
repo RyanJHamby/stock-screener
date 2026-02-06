@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NRIM",
-    "fetch_date": "2026-01-30T13:53:50.011771",
+    "fetch_date": "2026-02-06T13:57:17.739909",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 40429000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 12.820512820512834,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:53:50.012425"
+  "fetched_at": "2026-02-06T13:57:17.740561"
 }

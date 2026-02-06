@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "O",
-    "fetch_date": "2026-01-30T13:54:52.051611",
+    "fetch_date": "2026-02-06T13:58:19.792615",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1271887000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 41.97,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:54:52.052910"
+  "fetched_at": "2026-02-06T13:58:19.794394"
 }

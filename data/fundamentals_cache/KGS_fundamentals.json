@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KGS",
-    "fetch_date": "2026-01-30T13:45:21.614159",
+    "fetch_date": "2026-02-06T13:48:50.541464",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 324647000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.314,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:45:21.615851"
+  "fetched_at": "2026-02-06T13:48:50.542915"
 }

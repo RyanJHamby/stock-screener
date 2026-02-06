@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STAG",
-    "fetch_date": "2026-01-30T14:07:30.782015",
+    "fetch_date": "2026-02-06T14:10:57.983317",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 190739000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 38.28,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:07:30.783294"
+  "fetched_at": "2026-02-06T14:10:57.984444"
 }

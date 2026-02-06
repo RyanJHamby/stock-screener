@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STLD",
-    "fetch_date": "2026-01-30T14:07:43.527196",
+    "fetch_date": "2026-02-06T14:11:10.877901",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 4341615000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:07:43.529135"
+  "fetched_at": "2026-02-06T14:11:10.879469"
 }

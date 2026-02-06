@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AEM",
-    "fetch_date": "2026-01-30T13:15:05.409252",
+    "fetch_date": "2026-02-06T13:18:40.088136",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2155609000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.561,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:15:05.410899"
+  "fetched_at": "2026-02-06T13:18:40.089642"
 }

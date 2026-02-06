@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTRN",
-    "fetch_date": "2026-01-30T13:51:41.065800",
+    "fetch_date": "2026-02-06T13:55:09.833441",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 436715000.0,
       "2024-12-31 00:00:00": 436871000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.051,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:51:41.067467"
+  "fetched_at": "2026-02-06T13:55:09.834888"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "YUMC",
-    "fetch_date": "2026-01-30T14:17:01.727266",
+    "fetch_date": "2026-02-06T14:20:29.015173",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3071000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.121,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:17:01.729041"
+  "fetched_at": "2026-02-06T14:20:29.016681"
 }

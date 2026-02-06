@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VMI",
-    "fetch_date": "2026-01-30T14:13:53.810321",
+    "fetch_date": "2026-02-06T14:17:22.081206",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1020175000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.565,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:13:53.812059"
+  "fetched_at": "2026-02-06T14:17:22.082698"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RGLD",
-    "fetch_date": "2026-01-30T14:01:44.511647",
+    "fetch_date": "2026-02-06T14:05:12.722630",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 193837000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.083,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:01:44.513418"
+  "fetched_at": "2026-02-06T14:05:12.724092"
 }

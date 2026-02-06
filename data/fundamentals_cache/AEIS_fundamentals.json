@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AEIS",
-    "fetch_date": "2026-01-30T13:15:04.454286",
+    "fetch_date": "2026-02-06T13:18:39.067826",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 374200000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.863,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T13:15:04.455936"
+  "fetched_at": "2026-02-06T13:18:39.069353"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TXNM",
-    "fetch_date": "2026-01-30T14:11:40.619110",
+    "fetch_date": "2026-02-06T14:15:08.064858",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 569256000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.267,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-30T14:11:40.620803"
+  "fetched_at": "2026-02-06T14:15:08.066328"
 }
