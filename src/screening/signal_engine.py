@@ -106,12 +106,12 @@ def score_buy_signal(
 
     Based on Weinstein/O'Neil/Minervini Stage 2 methodology with gradual scoring.
 
-    Scoring Components (0-115):
+    Scoring Components (0-125):
     - Trend structure/Stage quality: 40 points
     - Fundamentals: 40 points (growth, margins, inventory)
+    - Risk/Reward: 15 points (asymmetric upside - key for growth!)
     - Relative Strength: 10 points (market-relative performance)
     - Volume behavior: 10 points (directional context matters!)
-    - Risk/Reward: 5 points
     - Entry quality: 5 points
     - VCP pattern bonus: +5 points (if valid VCP detected)
 
@@ -479,21 +479,23 @@ def score_buy_signal(
     details['stop_loss'] = stop_loss
 
     # ========================================================================
-    # 6. RISK/REWARD RATIO (5 points) - Minimum 2:1 for good trades
+    # 6. RISK/REWARD RATIO (15 points) - CRITICAL for growth stocks!
     # ========================================================================
+    # For growth stocks, asymmetric upside is essential
+    # We want stocks with 3:1+ R/R ratios for maximum growth potential
     rr_score = 0
     risk_amount = current_price - stop_loss if stop_loss else 0
 
-    # Calculate reward potential (resistance or % target)
+    # Calculate reward potential (more aggressive for growth stocks)
     if phase == 2:
-        # Stage 2: Use 20% upside as target (conservative)
-        reward_target = current_price * 1.20
+        # Stage 2: Use 30% upside as target (aggressive growth target)
+        reward_target = current_price * 1.30
     else:  # Phase 1
-        # Stage 1: Use breakout level + 15% as target
+        # Stage 1: Use breakout level + 25% as target
         if breakout_info.get('is_breakout'):
-            reward_target = breakout_info['breakout_level'] * 1.15
+            reward_target = breakout_info['breakout_level'] * 1.25
         else:
-            reward_target = sma_50 * 1.15  # Target 50 SMA + 15%
+            reward_target = sma_50 * 1.25  # Target 50 SMA + 25%
 
     reward_amount = reward_target - current_price
 
@@ -501,23 +503,33 @@ def score_buy_signal(
     if risk_amount > 0:
         rr_ratio = reward_amount / risk_amount
 
-        # LINEAR scoring: 1:1 = 0 pts, 2:1 = 2.5 pts, 3:1 = 5 pts, 4:1+ = 5 pts
-        # Formula: min(5, max(0, (rr_ratio - 1) * 2.5))
-        rr_score = min(5, max(0, (rr_ratio - 1.0) * 2.5))
+        # AGGRESSIVE LINEAR scoring for growth stocks:
+        # < 2:1 = 0 pts (reject - not enough upside)
+        # 2:1 = 3 pts (minimum acceptable)
+        # 3:1 = 9 pts (good)
+        # 4:1 = 12 pts (excellent)
+        # 5:1+ = 15 pts (outstanding - maximum)
+        # Formula: For R/R >= 2, score = min(15, (rr_ratio - 2) * 6 + 3)
+        if rr_ratio < 2.0:
+            rr_score = 0  # Reject poor R/R
+        else:
+            rr_score = min(15, ((rr_ratio - 2.0) * 6) + 3)
 
         details['risk_reward_ratio'] = round(rr_ratio, 2)
         details['risk_amount'] = round(risk_amount, 2)
         details['reward_amount'] = round(reward_amount, 2)
         details['reward_target'] = round(reward_target, 2)
 
-        if rr_ratio >= 3.0:
-            reasons.append(f'✓ Excellent R/R: {rr_ratio:.1f}:1 (${risk_amount:.2f} risk, ${reward_amount:.2f} reward)')
+        if rr_ratio >= 5.0:
+            reasons.append(f'🟢 Outstanding R/R: {rr_ratio:.1f}:1 (${reward_amount:.2f} upside, ${risk_amount:.2f} risk)')
+        elif rr_ratio >= 4.0:
+            reasons.append(f'🟢 Excellent R/R: {rr_ratio:.1f}:1 (${reward_amount:.2f} upside, ${risk_amount:.2f} risk)')
+        elif rr_ratio >= 3.0:
+            reasons.append(f'🟢 Good R/R: {rr_ratio:.1f}:1 (${reward_amount:.2f} upside)')
         elif rr_ratio >= 2.0:
-            reasons.append(f'Good R/R: {rr_ratio:.1f}:1')
-        elif rr_ratio >= 1.5:
-            reasons.append(f'Acceptable R/R: {rr_ratio:.1f}:1')
+            reasons.append(f'🟡 Acceptable R/R: {rr_ratio:.1f}:1')
         else:
-            reasons.append(f'⚠ Poor R/R: {rr_ratio:.1f}:1 (need 2:1 minimum)')
+            reasons.append(f'🔴 Poor R/R: {rr_ratio:.1f}:1 (need 2:1+ for growth)')
     else:
         details['risk_reward_ratio'] = 0
         rr_score = 0
@@ -646,8 +658,8 @@ def score_buy_signal(
     score += vcp_bonus
     details['vcp_bonus'] = round(vcp_bonus, 2)
 
-    # Final score (out of 105: 40 technical + 40 fundamental + 10 RS + 10 volume + 5 R/R + 5 entry + 5 VCP)
-    final_score = max(0, min(score, 105))
+    # Final score (out of 125: 40 technical + 40 fundamental + 15 R/R + 10 RS + 10 volume + 5 entry + 5 VCP)
+    final_score = max(0, min(score, 125))
 
     # Determine if this is a valid buy signal (>= 60)
     is_buy = final_score >= 60

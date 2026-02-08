@@ -1,5 +1,97 @@
 # Stock Screener Changelog
 
+## 2025-12-10 (Part 6) - Enhanced Risk/Reward Weighting for Growth
+
+### Major Changes
+
+**Tripled Risk/Reward Scoring Weight**
+
+Increased R/R from 5 points to 15 points (12% of total score) and made scoring more aggressive to prioritize high-growth asymmetric opportunities.
+
+**Previous:**
+- R/R: 5 points (4.8% of score)
+- Target: 20% upside
+- 2:1 R/R = 2.5 pts, 3:1 = 5 pts (max)
+
+**New:**
+- R/R: 15 points (12% of score) - **3x weight**
+- Target: 30% upside (aggressive growth)
+- < 2:1 R/R = 0 pts (reject - not enough upside)
+- 2:1 = 3 pts (minimum acceptable)
+- 3:1 = 9 pts (good)
+- 4:1 = 12 pts (excellent)
+- 5:1+ = 15 pts (outstanding)
+
+**Why This Matters for Growth:**
+
+Growth stocks require **asymmetric upside** - you want setups where the potential gain far exceeds the risk. With the old 5-point weighting, R/R barely moved the needle. Now at 15 points:
+
+- **Stock A**: 5:1 R/R → Gets 15/15 pts (was 5/5)
+- **Stock B**: 2:1 R/R → Gets 3/15 pts (was 2.5/5)
+- **Stock C**: 1.5:1 R/R → Gets 0/15 pts (was ~1.25/5)
+
+Stock A with 5:1 R/R now gets a **significant boost**, properly reflecting its superior risk/reward profile.
+
+**New Scoring Breakdown (Total: 125 pts):**
+- Technical: 40 pts (32%)
+- Fundamentals: 40 pts (32%)
+- **Risk/Reward: 15 pts (12%)** ← Changed from 5 pts
+- RS: 10 pts (8%)
+- Volume: 10 pts (8%)
+- Entry: 5 pts (4%)
+- VCP Bonus: +5 pts (4%)
+
+**Impact:**
+- Stocks with tight stops and big upside potential score much higher
+- Poor R/R setups (<2:1) now get 0 points instead of neutral score
+- Encourages entering near proper pivot points where R/R is optimal
+- Aligns with growth-focused strategy requiring 30%+ gains
+
+**Example:**
+A stock at $100 with:
+- Stop: $92 (8% risk = $8)
+- Target: $130 (30% upside = $30)
+- R/R: 30/8 = 3.75:1
+- **Score**: 11.5/15 pts (was 2.9/5 pts under old system)
+
+This properly rewards the asymmetric opportunity.
+
+## 2025-12-10 (Part 5) - VCP Detection Fix: Current Base Only
+
+### Bug Fix
+
+**Fixed VCP detection to analyze only the current/most recent base**
+
+**Problem:** VCP detection was analyzing the entire lookback period (up to 65 weeks), detecting 11-14 contractions across multiple bases instead of focusing on the current base formation.
+
+**Solution:**
+1. **Identify current base start**: Find the most recent major low (followed by 20%+ recovery)
+2. **Analyze only current base**: Look for contractions from that point forward
+3. **Improved display**: Show contractions as oldest → newest (left to right)
+
+**Before:**
+```
+🟡 VCP: 12 contractions: 5.7% → 7.1% → 6.5% → 5.8% (quality: 54/100)
+```
+- Unclear which contractions are most recent
+- Too many contractions (12 vs ideal 2-6)
+- Analyzing entire price history
+
+**After:**
+```
+✅ VCP: 2 contractions: 5.9% → 4.2% (quality: 73.9/100)
+```
+- Clear chronological order (oldest → newest)
+- Focused on current base only
+- Proper VCP identification (2-6 contractions)
+
+**Example - AAPL:**
+- Detects current base starting ~9.7 weeks ago
+- Finds 2 contractions: 5.9% → 4.2% (tightening!)
+- Quality: 73.9/100 → **Valid VCP detected**
+
+This now correctly implements Minervini's VCP methodology, which focuses on the **current base formation** leading up to a potential breakout.
+
 ## 2025-12-10 (Part 4) - Equal Weight Revenue & EPS
 
 ### Major Changes

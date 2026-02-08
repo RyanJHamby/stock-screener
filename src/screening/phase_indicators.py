@@ -617,12 +617,35 @@ def detect_vcp_pattern(price_data: pd.DataFrame, current_price: float,
     low = price_data['Low']
     volume = price_data.get('Volume', pd.Series([]))
 
-    # 1. Find pullbacks/contractions in the base
-    # Look back up to 65 weeks (325 days) for base formation
+    # 1. Identify the CURRENT/MOST RECENT base formation
+    # A base starts after a significant uptrend, so find the most recent major low
+    # then look for contractions from that point forward
+
+    # Look back up to 65 weeks (325 days) maximum
     lookback = min(len(price_data), 325)
     base_data = price_data.tail(lookback)
 
-    # Find local peaks and troughs (swing highs and lows)
+    # Find the start of the current base by looking for the most recent major low
+    # A major low is followed by at least 20% recovery
+    base_start_idx = 0
+    for i in range(len(base_data) - 20, 0, -1):  # Work backwards from recent
+        low_price = base_data['Low'].iloc[i]
+        future_high = base_data['High'].iloc[i:].max()
+        recovery_pct = ((future_high - low_price) / low_price * 100) if low_price > 0 else 0
+
+        if recovery_pct >= 20:  # Found a major low with 20%+ recovery
+            base_start_idx = i
+            break
+
+    # Limit base to last 65 weeks from the base start
+    if base_start_idx > 0:
+        base_data = base_data.iloc[base_start_idx:]
+
+    # Only analyze the most recent 65 weeks (325 days) even if base is longer
+    if len(base_data) > 325:
+        base_data = base_data.tail(325)
+
+    # Find local peaks and troughs (swing highs and lows) WITHIN THE CURRENT BASE
     contractions = []
     window = 10  # 10-day window for peak/trough detection
 
@@ -656,6 +679,7 @@ def detect_vcp_pattern(price_data: pd.DataFrame, current_price: float,
                 })
 
     # 2. Measure contraction sizes (peak to trough drawdowns)
+    # Only count the most recent contractions (limit to last 6)
     if len(peaks) >= 2 and len(troughs) >= 2:
         # Match peaks with their subsequent troughs
         for i, peak in enumerate(peaks[:-1]):  # Skip last peak if incomplete
@@ -779,10 +803,18 @@ def detect_vcp_pattern(price_data: pd.DataFrame, current_price: float,
         vcp_quality >= 50  # Minimum 50/100 quality score
     )
 
-    # Build pattern description
+    # Build pattern description showing OLDEST → NEWEST (left to right)
+    # Only show the most recent contractions (last 4-6)
     if len(contractions) >= min_contractions:
-        contraction_sizes = [f"{c['drawdown_pct']:.1f}%" for c in contractions[-4:]]  # Show last 4
-        pattern_details = f"{len(contractions)} contractions: {' → '.join(contraction_sizes)}"
+        # Take the most recent 4 contractions
+        recent_contractions = contractions[-4:]
+        # They're already in chronological order (oldest to newest)
+        contraction_sizes = [f"{c['drawdown_pct']:.1f}%" for c in recent_contractions]
+
+        if len(contractions) <= 4:
+            pattern_details = f"{len(contractions)} contractions: {' → '.join(contraction_sizes)}"
+        else:
+            pattern_details = f"{len(contractions)} contractions (last 4): {' → '.join(contraction_sizes)}"
     else:
         pattern_details = f"Only {len(contractions)} contraction(s) detected (need {min_contractions}+)"
 

@@ -108,7 +108,7 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
                 score_emoji = "🟡"  # Borderline - yellow
 
             output.append(f"\n{'#'*80}")
-            output.append(f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/110")
+            output.append(f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/125")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
 
