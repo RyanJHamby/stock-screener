@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DUOT",
-    "fetch_date": "2025-12-04T13:46:53.545186",
+    "fetch_date": "2026-02-09T13:44:41.486668",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3238910.0,
@@ -26,7 +26,6 @@
     "margin_change": 10.11,
     "operating_margin": -16.23,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1028387.0,
       "2024-12-31 00:00:00": 605356.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.073,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:46:53.546879"
+  "fetched_at": "2026-02-09T13:44:41.488470"
 }

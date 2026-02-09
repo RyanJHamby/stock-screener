@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ONTO",
-    "fetch_date": "2025-12-04T14:04:52.395081",
+    "fetch_date": "2026-02-09T14:08:50.672525",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 252210000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.189,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:04:52.396777"
+  "fetched_at": "2026-02-09T14:08:50.674295"
 }

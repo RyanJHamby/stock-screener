@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SKYT",
-    "fetch_date": "2025-12-04T14:11:51.638052",
+    "fetch_date": "2026-02-09T14:18:23.799811",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 93817000.0,
       "2024-12-31 00:00:00": 75487000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.135,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:11:51.639986"
+  "fetched_at": "2026-02-09T14:18:23.801765"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APPN",
-    "fetch_date": "2025-12-04T13:36:47.516300",
+    "fetch_date": "2026-02-09T13:31:00.334329",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 154052000.0,
       "2024-12-31 00:00:00": 166685000.0,
@@ -18,12 +18,12 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.1
     },
-    "eps_qoq_change": 0,
+    "eps_qoq_change": null,
     "eps_yoy_change": 433.33333333333337,
     "gross_margin": 75.78,
     "margin_change": 1.52,
     "operating_margin": 7.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:36:47.517612"
+  "fetched_at": "2026-02-09T13:31:00.335674"
 }

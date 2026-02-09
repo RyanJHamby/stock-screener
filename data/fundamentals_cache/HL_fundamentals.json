@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HL",
-    "fetch_date": "2025-12-04T13:53:32.218101",
+    "fetch_date": "2026-02-09T13:53:42.567880",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 245085000.0,
       "2024-12-31 00:00:00": 249655000.0,
@@ -19,12 +19,11 @@
       "2025-09-30 00:00:00": 0.15
     },
     "eps_qoq_change": 66.66666666666666,
-    "eps_yoy_change": 0,
+    "eps_yoy_change": null,
     "gross_margin": 44.07,
     "margin_change": 4.75,
     "operating_margin": 37.4,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 104528000.0,
       "2024-12-31 00:00:00": 104936000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.281,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:53:32.219818"
+  "fetched_at": "2026-02-09T13:53:42.569721"
 }

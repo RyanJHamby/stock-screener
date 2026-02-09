@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIGO",
-    "fetch_date": "2025-12-04T14:15:03.069968",
+    "fetch_date": "2026-02-09T14:22:38.963305",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1431000000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.99,
     "operating_margin": 26.48,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 60000000.0,
       "2024-12-31 00:00:00": 44000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.048,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:15:03.071645"
+  "fetched_at": "2026-02-09T14:22:38.965315"
 }

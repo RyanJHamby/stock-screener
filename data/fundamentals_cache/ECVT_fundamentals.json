@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECVT",
-    "fetch_date": "2025-12-04T13:47:20.852063",
+    "fetch_date": "2026-02-09T13:45:15.489563",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 153867000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.57,
     "operating_margin": 16.7,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 53709000.0,
       "2024-12-31 00:00:00": 57126000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.118,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:47:20.853816"
+  "fetched_at": "2026-02-09T13:45:15.491397"
 }

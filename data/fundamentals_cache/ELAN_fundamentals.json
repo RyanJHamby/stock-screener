@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELAN",
-    "fetch_date": "2025-12-04T13:47:46.563082",
+    "fetch_date": "2026-02-09T13:45:51.491784",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1030000000.0,
@@ -26,7 +26,6 @@
     "margin_change": -4.07,
     "operating_margin": 2.37,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1632000000.0,
       "2024-12-31 00:00:00": 1574000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.502,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:47:46.564804"
+  "fetched_at": "2026-02-09T13:45:51.493590"
 }

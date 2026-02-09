@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UPWK",
-    "fetch_date": "2025-12-04T14:17:22.127996",
+    "fetch_date": "2026-02-09T14:25:40.809105",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 193776000.0,
       "2024-12-31 00:00:00": 191483000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 14.75,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:17:22.129315"
+  "fetched_at": "2026-02-09T14:25:40.810492"
 }

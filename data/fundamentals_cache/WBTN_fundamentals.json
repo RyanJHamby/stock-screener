@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WBTN",
-    "fetch_date": "2025-12-04T14:18:59.597363",
+    "fetch_date": "2026-02-09T14:27:55.875422",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 347915000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -3.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:18:59.599319"
+  "fetched_at": "2026-02-09T14:27:55.876802"
 }

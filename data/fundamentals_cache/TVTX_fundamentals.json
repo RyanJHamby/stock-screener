@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TVTX",
-    "fetch_date": "2025-12-04T14:16:25.105475",
+    "fetch_date": "2026-02-09T14:24:27.709188",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 62898000.0,
       "2024-12-31 00:00:00": 74787000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.37,
     "operating_margin": 15.12,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 6356000.0,
       "2024-12-31 00:00:00": 6200000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.034,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:16:25.107165"
+  "fetched_at": "2026-02-09T14:24:27.711056"
 }

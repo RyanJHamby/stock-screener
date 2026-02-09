@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OUT",
-    "fetch_date": "2025-12-04T14:05:27.353101",
+    "fetch_date": "2026-02-09T14:09:38.758164",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 451900000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 19.59,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:05:27.354372"
+  "fetched_at": "2026-02-09T14:09:38.759538"
 }

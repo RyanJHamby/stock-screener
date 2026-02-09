@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FOLD",
-    "fetch_date": "2025-12-04T13:50:23.919190",
+    "fetch_date": "2026-02-09T13:49:21.491225",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 141517000.0,
@@ -26,7 +26,6 @@
     "margin_change": -1.68,
     "operating_margin": 20.27,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 115338000.0,
       "2024-12-31 00:00:00": 118782000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.052,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:50:23.920995"
+  "fetched_at": "2026-02-09T13:49:21.492994"
 }

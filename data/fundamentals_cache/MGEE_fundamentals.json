@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGEE",
-    "fetch_date": "2026-02-02T13:54:13.054905",
+    "fetch_date": "2026-02-09T14:02:58.875143",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 168480000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.388,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-02T13:54:13.056676"
+  "fetched_at": "2026-02-09T14:02:58.876916"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZETA",
-    "fetch_date": "2025-12-04T14:20:34.477759",
+    "fetch_date": "2026-02-09T14:30:10.201189",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 268295000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 4.52,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:20:34.479042"
+  "fetched_at": "2026-02-09T14:30:10.202574"
 }

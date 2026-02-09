@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WLDN",
-    "fetch_date": "2025-12-04T14:19:24.375269",
+    "fetch_date": "2026-02-09T14:28:28.803318",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 158252000.0,
       "2024-12-31 00:00:00": 144061000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 8.17,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:19:24.376566"
+  "fetched_at": "2026-02-09T14:28:28.804661"
 }

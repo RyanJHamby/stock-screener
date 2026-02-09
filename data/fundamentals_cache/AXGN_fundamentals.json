@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AXGN",
-    "fetch_date": "2025-12-04T13:38:10.879448",
+    "fetch_date": "2026-02-09T13:32:57.382055",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 48644000.0,
       "2024-12-31 00:00:00": 49405000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.675,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:38:10.881082"
+  "fetched_at": "2026-02-09T13:32:57.383822"
 }

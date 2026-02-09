@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRVI",
-    "fetch_date": "2025-12-04T14:16:01.846515",
+    "fetch_date": "2026-02-09T14:23:57.766474",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 0.0,
       "2024-12-31 00:00:00": 0.0,
@@ -9,8 +9,8 @@
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.0
     },
-    "revenue_qoq_change": 0,
-    "revenue_yoy_change": 0,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
       "2024-09-30 00:00:00": -0.13,
       "2024-12-31 00:00:00": -0.11,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:16:01.847540"
+  "fetched_at": "2026-02-09T14:23:57.767507"
 }

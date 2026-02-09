@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TSSI",
-    "fetch_date": "2025-12-04T14:16:10.267331",
+    "fetch_date": "2026-02-09T14:24:07.835539",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 70068000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:16:10.269604"
+  "fetched_at": "2026-02-09T14:24:07.837358"
 }

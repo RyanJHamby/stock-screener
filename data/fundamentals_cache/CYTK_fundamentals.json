@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CYTK",
-    "fetch_date": "2025-12-04T13:45:21.911938",
+    "fetch_date": "2026-02-09T13:42:38.553640",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 463000.0,
       "2024-12-31 00:00:00": 16927000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -8613.38,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:45:21.913238"
+  "fetched_at": "2026-02-09T13:42:38.554930"
 }

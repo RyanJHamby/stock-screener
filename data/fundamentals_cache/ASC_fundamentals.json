@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASC",
-    "fetch_date": "2025-12-04T13:37:16.824601",
+    "fetch_date": "2026-02-09T13:31:42.422097",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 96118000.0,
@@ -26,7 +26,6 @@
     "margin_change": 2.41,
     "operating_margin": 20.54,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 11574000.0,
       "2024-12-31 00:00:00": 11308000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.123,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:37:16.826353"
+  "fetched_at": "2026-02-09T13:31:42.423871"
 }

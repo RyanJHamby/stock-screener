@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RNA",
-    "fetch_date": "2025-12-04T14:09:38.364403",
+    "fetch_date": "2026-02-09T14:15:20.701580",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 2336000.0,
       "2024-12-31 00:00:00": 2973000.0,
@@ -23,5 +23,5 @@
     "operating_margin": -1513.47,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:09:38.365369"
+  "fetched_at": "2026-02-09T14:15:20.702603"
 }

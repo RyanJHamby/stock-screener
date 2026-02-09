@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLDX",
-    "fetch_date": "2025-12-04T13:42:54.289818",
+    "fetch_date": "2026-02-09T13:39:23.310658",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 3191000.0,
       "2024-12-31 00:00:00": 1175000.0,
@@ -9,8 +9,8 @@
       "2025-06-30 00:00:00": 730000.0,
       "2025-09-30 00:00:00": 0.0
     },
-    "revenue_qoq_change": -100.0,
-    "revenue_yoy_change": -100.0,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
       "2024-09-30 00:00:00": -0.64,
       "2024-12-31 00:00:00": -0.71,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:42:54.290776"
+  "fetched_at": "2026-02-09T13:39:23.311608"
 }

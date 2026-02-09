@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "SHIP",
-    "fetch_date": "2025-12-04T14:11:29.815942",
+    "fetch_date": "2026-02-09T14:17:53.862622",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 44356000.0,
       "2024-12-31 00:00:00": 41677000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": 25.382214039862323,
     "revenue_yoy_change": 5.94282622418613,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 0.61,
       "2024-12-31 00:00:00": 0.32,
@@ -35,9 +33,9 @@
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": NaN
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:11:29.817591"
+  "fetched_at": "2026-02-09T14:17:53.864392"
 }

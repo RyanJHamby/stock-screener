@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TGB",
-    "fetch_date": "2025-12-04T14:14:49.034024",
+    "fetch_date": "2026-02-09T14:22:22.831283",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 155617000.0,
@@ -21,7 +21,7 @@
       "2025-09-30 00:00:00": -0.09
     },
     "eps_qoq_change": -228.57142857142856,
-    "eps_yoy_change": 0,
+    "eps_yoy_change": null,
     "gross_margin": 22.57,
     "margin_change": 26.45,
     "operating_margin": 16.65,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.673,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:14:49.035667"
+  "fetched_at": "2026-02-09T14:22:22.833044"
 }

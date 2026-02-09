@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOV",
-    "fetch_date": "2025-12-04T14:01:06.487177",
+    "fetch_date": "2026-02-09T14:03:53.646950",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 180524000.0,
       "2025-01-31 00:00:00": 174669000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.058,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:01:06.488840"
+  "fetched_at": "2026-02-09T14:03:53.648703"
 }

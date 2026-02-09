@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACM",
-    "fetch_date": "2025-11-29T22:43:11.594651",
+    "fetch_date": "2026-02-09T13:27:33.353534",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 4110494000.0,
       "2024-12-31 00:00:00": 4014152000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 6.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-11-29T22:43:11.595821"
+  "fetched_at": "2026-02-09T13:27:33.354912"
 }

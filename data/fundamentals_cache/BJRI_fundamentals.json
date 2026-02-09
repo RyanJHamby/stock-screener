@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BJRI",
-    "fetch_date": "2025-12-04T13:39:35.123986",
+    "fetch_date": "2026-02-09T13:34:49.493489",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 325702000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.038,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:39:35.125928"
+  "fetched_at": "2026-02-09T13:34:49.495311"
 }

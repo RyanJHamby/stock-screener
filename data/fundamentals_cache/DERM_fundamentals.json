@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DERM",
-    "fetch_date": "2025-12-04T13:45:53.711726",
+    "fetch_date": "2026-02-09T13:43:18.392461",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 14629000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.27,
     "operating_margin": -8.67,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 11788000.0,
       "2024-12-31 00:00:00": 14431000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.67,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:45:53.713430"
+  "fetched_at": "2026-02-09T13:43:18.394165"
 }

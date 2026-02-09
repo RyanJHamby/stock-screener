@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECPG",
-    "fetch_date": "2025-12-04T13:47:19.663061",
+    "fetch_date": "2026-02-09T13:45:14.454674",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 367071000.0,
       "2024-12-31 00:00:00": 265619000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 37.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:47:19.664372"
+  "fetched_at": "2026-02-09T13:45:14.455992"
 }

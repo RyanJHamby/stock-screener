@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LIND",
-    "fetch_date": "2025-12-04T13:58:31.400025",
+    "fetch_date": "2026-02-09T14:00:19.558606",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 206005000.0,
       "2024-12-31 00:00:00": 148609000.0,
@@ -18,12 +18,12 @@
       "2025-06-30 00:00:00": -0.18,
       "2025-09-30 00:00:00": 0.0
     },
-    "eps_qoq_change": 100.0,
+    "eps_qoq_change": null,
     "eps_yoy_change": -100.0,
     "gross_margin": 48.22,
     "margin_change": 2.63,
     "operating_margin": 14.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:58:31.401336"
+  "fetched_at": "2026-02-09T14:00:19.559954"
 }

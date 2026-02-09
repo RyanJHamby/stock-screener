@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCSI",
-    "fetch_date": "2025-12-04T13:41:55.303422",
+    "fetch_date": "2026-02-09T13:38:05.359993",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 87753000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 43.22,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:41:55.304705"
+  "fetched_at": "2026-02-09T13:38:05.361348"
 }

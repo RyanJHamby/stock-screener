@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OIS",
-    "fetch_date": "2025-12-04T14:04:31.700743",
+    "fetch_date": "2026-02-09T14:08:22.739825",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 174348000.0,
       "2024-12-31 00:00:00": 164595000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.349,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:04:31.702449"
+  "fetched_at": "2026-02-09T14:08:22.741574"
 }

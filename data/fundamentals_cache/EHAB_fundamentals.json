@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EHAB",
-    "fetch_date": "2025-12-04T13:47:36.647282",
+    "fetch_date": "2026-02-09T13:45:37.482402",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 253600000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 6.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:47:36.648574"
+  "fetched_at": "2026-02-09T13:45:37.483720"
 }

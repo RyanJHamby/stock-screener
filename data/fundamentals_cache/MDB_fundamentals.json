@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "MDB",
-    "fetch_date": "2025-12-04T14:00:04.577726",
+    "fetch_date": "2026-02-09T14:02:30.677296",
     "quarterly_revenue": {
-      "2024-07-31 00:00:00": 478109000.0,
       "2024-10-31 00:00:00": 529375000.0,
       "2025-01-31 00:00:00": 548398000.0,
       "2025-04-30 00:00:00": 549014000.0,
       "2025-07-31 00:00:00": 591402000.0,
-      "2025-10-31 00:00:00": NaN
+      "2025-10-31 00:00:00": 628309000.0
     },
-    "revenue_qoq_change": NaN,
-    "revenue_yoy_change": NaN,
+    "revenue_qoq_change": 6.24059438419214,
+    "revenue_yoy_change": 18.688831168831168,
     "quarterly_eps": {
-      "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": -0.13,
       "2025-01-31 00:00:00": 0.19,
       "2025-04-30 00:00:00": -0.46,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 96.55172413793103,
     "eps_yoy_change": 84.61538461538461,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 71.48,
+    "margin_change": 0.47,
+    "operating_margin": -2.93,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:00:04.579049"
+  "fetched_at": "2026-02-09T14:02:30.678617"
 }

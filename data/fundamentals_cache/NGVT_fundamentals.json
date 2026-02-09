@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NGVT",
-    "fetch_date": "2025-12-04T14:02:45.092248",
+    "fetch_date": "2026-02-09T14:06:02.693595",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 333800000.0,
@@ -26,7 +26,6 @@
     "margin_change": 2.43,
     "operating_margin": 24.86,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 261000000.0,
       "2024-12-31 00:00:00": 226800000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.582,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T14:02:45.093961"
+  "fetched_at": "2026-02-09T14:06:02.695421"
 }
