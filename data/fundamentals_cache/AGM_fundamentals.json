@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AGM",
-    "fetch_date": "2026-01-27T13:09:35.440146",
+    "fetch_date": "2026-02-10T13:44:15.515297",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 90094000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 15.02590673575131,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-01-27T13:09:35.440883"
+  "fetched_at": "2026-02-10T13:44:15.515935"
 }

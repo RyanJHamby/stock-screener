@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCBP",
-    "fetch_date": "2026-02-03T13:25:36.635874",
+    "fetch_date": "2026-02-10T13:49:24.598860",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 26172000.0,
       "2024-12-31 00:00:00": 23132000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -556.25,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-03T13:25:36.636566"
+  "fetched_at": "2026-02-10T13:49:24.599521"
 }

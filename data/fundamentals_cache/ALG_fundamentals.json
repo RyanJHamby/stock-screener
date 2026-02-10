@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALG",
-    "fetch_date": "2026-02-03T13:21:09.847289",
+    "fetch_date": "2026-02-10T13:44:58.482710",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 401301000.0,
       "2024-12-31 00:00:00": 385323000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-03T13:21:09.849307"
+  "fetched_at": "2026-02-10T13:44:58.484230"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPRT",
-    "fetch_date": "2026-02-03T13:32:46.612514",
+    "fetch_date": "2026-02-10T13:56:35.433595",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 1146829000.0,
       "2025-01-31 00:00:00": 1163316000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-03T13:32:46.614277"
+  "fetched_at": "2026-02-10T13:56:35.435088"
 }
