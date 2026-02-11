@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VTS",
-    "fetch_date": "2026-02-04T14:18:39.513763",
+    "fetch_date": "2026-02-11T14:40:15.391945",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 58280000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 0.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-04T14:18:39.515084"
+  "fetched_at": "2026-02-11T14:40:15.393259"
 }

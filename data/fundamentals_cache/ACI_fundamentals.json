@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACI",
-    "fetch_date": "2026-02-04T13:18:47.245957",
+    "fetch_date": "2026-02-11T13:40:18.999879",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.287,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-04T13:18:47.248168"
+  "fetched_at": "2026-02-11T13:40:19.001764"
 }
