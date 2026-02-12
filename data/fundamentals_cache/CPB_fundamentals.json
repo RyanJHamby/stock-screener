@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPB",
-    "fetch_date": "2026-02-05T13:34:25.085989",
+    "fetch_date": "2026-02-12T13:40:43.020502",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 2772000000.0,
       "2025-01-31 00:00:00": 2685000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.562,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-05T13:34:25.087758"
+  "fetched_at": "2026-02-12T13:40:43.022211"
 }
