@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SXI",
-    "fetch_date": "2026-02-06T14:11:51.908816",
+    "fetch_date": "2026-02-13T14:13:22.981762",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.593,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:11:51.910310"
+  "fetched_at": "2026-02-13T14:13:22.983418"
 }

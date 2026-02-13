@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BWXT",
-    "fetch_date": "2026-02-06T13:27:16.656331",
+    "fetch_date": "2026-02-13T13:28:48.387335",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 671956000.0,
       "2024-12-31 00:00:00": 746267000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.067,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:27:16.657771"
+  "fetched_at": "2026-02-13T13:28:48.388985"
 }

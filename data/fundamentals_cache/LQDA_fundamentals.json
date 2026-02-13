@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LQDA",
-    "fetch_date": "2026-02-06T13:51:34.428177",
+    "fetch_date": "2026-02-13T13:53:04.675432",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 4448000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.451,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:51:34.429652"
+  "fetched_at": "2026-02-13T13:53:04.677082"
 }

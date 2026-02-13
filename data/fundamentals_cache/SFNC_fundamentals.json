@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SFNC",
-    "fetch_date": "2026-02-06T14:08:04.780034",
+    "fetch_date": "2026-02-13T14:09:37.282234",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 171641000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 42.10526315789475,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:08:04.780702"
+  "fetched_at": "2026-02-13T14:09:37.282830"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RLI",
-    "fetch_date": "2026-02-06T14:05:38.667672",
+    "fetch_date": "2026-02-13T14:07:10.007303",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 469995000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 125.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:05:38.668310"
+  "fetched_at": "2026-02-13T14:07:10.007974"
 }

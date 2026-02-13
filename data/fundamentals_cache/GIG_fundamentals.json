@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GIG",
-    "fetch_date": "2026-02-06T13:41:44.316723",
+    "fetch_date": "2026-02-13T13:43:13.375798",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 0.0,
       "2025-03-31 00:00:00": 0.0,
@@ -19,5 +19,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:41:44.317570"
+  "fetched_at": "2026-02-13T13:43:13.376719"
 }

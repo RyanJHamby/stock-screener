@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADI",
-    "fetch_date": "2026-02-06T13:18:22.080293",
+    "fetch_date": "2026-02-13T13:19:52.299922",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": 2443205000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.538,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:18:22.082137"
+  "fetched_at": "2026-02-13T13:19:52.301630"
 }

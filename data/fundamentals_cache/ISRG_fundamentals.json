@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ISRG",
-    "fetch_date": "2026-02-06T13:47:33.545746",
+    "fetch_date": "2026-02-13T13:49:02.657408",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2413500000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.642,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:47:33.547214"
+  "fetched_at": "2026-02-13T13:49:02.659069"
 }

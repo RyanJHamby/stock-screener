@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVY",
-    "fetch_date": "2026-02-06T13:23:22.151931",
+    "fetch_date": "2026-02-13T13:24:53.378302",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2183400000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:23:22.153433"
+  "fetched_at": "2026-02-13T13:24:53.379934"
 }

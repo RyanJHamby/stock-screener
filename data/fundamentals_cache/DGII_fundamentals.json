@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DGII",
-    "fetch_date": "2026-02-06T13:34:00.239523",
+    "fetch_date": "2026-02-13T13:35:33.418849",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 103866000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.323,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:34:00.240967"
+  "fetched_at": "2026-02-13T13:35:33.420510"
 }

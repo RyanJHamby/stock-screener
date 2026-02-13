@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MNKD",
-    "fetch_date": "2026-02-06T13:54:09.787705",
+    "fetch_date": "2026-02-13T13:55:39.597607",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 70079000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.328,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:54:09.789155"
+  "fetched_at": "2026-02-13T13:55:39.599248"
 }

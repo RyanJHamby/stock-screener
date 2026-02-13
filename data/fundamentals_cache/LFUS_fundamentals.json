@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LFUS",
-    "fetch_date": "2026-02-06T13:50:31.511138",
+    "fetch_date": "2026-02-13T13:52:00.773684",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 567390000.0,
       "2024-12-31 00:00:00": 529505000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:50:31.512636"
+  "fetched_at": "2026-02-13T13:52:00.775382"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VTRS",
-    "fetch_date": "2026-02-06T14:17:59.994692",
+    "fetch_date": "2026-02-13T14:19:29.221483",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 3751200000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.093,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:17:59.996191"
+  "fetched_at": "2026-02-13T14:19:29.223124"
 }

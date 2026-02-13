@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPG",
-    "fetch_date": "2026-02-06T14:10:16.981103",
+    "fetch_date": "2026-02-13T14:11:49.248625",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1480710000.0,
       "2024-12-31 00:00:00": 1582232000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:10:16.982355"
+  "fetched_at": "2026-02-13T14:11:49.249899"
 }

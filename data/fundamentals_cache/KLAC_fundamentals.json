@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KLAC",
-    "fetch_date": "2026-02-06T13:48:58.017200",
+    "fetch_date": "2026-02-13T13:50:26.596805",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3076851000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.996,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:48:58.018695"
+  "fetched_at": "2026-02-13T13:50:26.598560"
 }

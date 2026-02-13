@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WHD",
-    "fetch_date": "2026-02-06T14:18:49.116553",
+    "fetch_date": "2026-02-13T14:20:18.048212",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 293181000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.028,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:18:49.118024"
+  "fetched_at": "2026-02-13T14:20:18.049838"
 }

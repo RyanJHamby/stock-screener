@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VZ",
-    "fetch_date": "2026-02-06T14:18:15.100791",
+    "fetch_date": "2026-02-13T14:19:44.253558",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 33330000000.0,
       "2024-12-31 00:00:00": 35681000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:18:15.102303"
+  "fetched_at": "2026-02-13T14:19:44.255472"
 }

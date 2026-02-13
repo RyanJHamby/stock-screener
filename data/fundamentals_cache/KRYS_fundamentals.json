@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRYS",
-    "fetch_date": "2026-02-06T13:49:35.497321",
+    "fetch_date": "2026-02-13T13:51:04.639734",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 83841000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.385,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:49:35.498797"
+  "fetched_at": "2026-02-13T13:51:04.641391"
 }

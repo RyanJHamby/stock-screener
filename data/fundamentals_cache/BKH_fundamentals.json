@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BKH",
-    "fetch_date": "2026-02-06T13:25:25.174896",
+    "fetch_date": "2026-02-13T13:26:56.381327",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 401600000.0,
       "2024-12-31 00:00:00": 597100000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:25:25.176471"
+  "fetched_at": "2026-02-13T13:26:56.382949"
 }

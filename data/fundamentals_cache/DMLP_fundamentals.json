@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DMLP",
-    "fetch_date": "2026-02-06T13:34:28.285006",
+    "fetch_date": "2026-02-13T13:36:01.430122",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 53472000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 31.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:34:28.286138"
+  "fetched_at": "2026-02-13T13:36:01.431375"
 }

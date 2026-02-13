@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CME",
-    "fetch_date": "2026-02-06T13:30:20.493903",
+    "fetch_date": "2026-02-13T13:31:52.280922",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1584400000.0,
       "2024-12-31 00:00:00": 1525300000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:30:20.495521"
+  "fetched_at": "2026-02-13T13:31:52.282175"
 }

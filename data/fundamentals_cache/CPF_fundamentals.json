@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPF",
-    "fetch_date": "2026-02-06T13:31:21.257939",
+    "fetch_date": "2026-02-13T13:32:53.604248",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 65333000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 102.38095238095238,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:31:21.258594"
+  "fetched_at": "2026-02-13T13:32:53.605064"
 }

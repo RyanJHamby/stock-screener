@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SKY",
-    "fetch_date": "2026-02-06T14:08:48.968351",
+    "fetch_date": "2026-02-13T14:10:21.859297",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.52,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:08:48.971326"
+  "fetched_at": "2026-02-13T14:10:21.860960"
 }

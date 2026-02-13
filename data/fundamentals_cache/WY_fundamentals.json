@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WY",
-    "fetch_date": "2026-02-06T14:19:43.287787",
+    "fetch_date": "2026-02-13T14:21:12.186958",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1681000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:19:43.289259"
+  "fetched_at": "2026-02-13T14:21:12.188607"
 }

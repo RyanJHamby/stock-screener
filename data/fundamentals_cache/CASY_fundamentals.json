@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CASY",
-    "fetch_date": "2026-02-06T13:27:55.246634",
+    "fetch_date": "2026-02-13T13:29:27.491738",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 3946771000.0,
       "2025-01-31 00:00:00": 3903633000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:27:55.248086"
+  "fetched_at": "2026-02-13T13:29:27.493390"
 }

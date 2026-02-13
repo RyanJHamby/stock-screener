@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "MBC",
-    "fetch_date": "2026-02-06T13:52:33.582475",
+    "fetch_date": "2026-02-13T13:54:03.680548",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 718100000.0,
       "2024-12-31 00:00:00": 667700000.0,
       "2025-03-31 00:00:00": 660300000.0,
       "2025-06-30 00:00:00": 730900000.0,
-      "2025-09-30 00:00:00": 698900000.0
+      "2025-09-30 00:00:00": 698900000.0,
+      "2025-12-31 00:00:00": NaN
     },
-    "revenue_qoq_change": -4.378163907511287,
-    "revenue_yoy_change": -2.673722322796268,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": 0.22,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.11,
       "2025-03-31 00:00:00": 0.1,
       "2025-06-30 00:00:00": 0.29,
-      "2025-09-30 00:00:00": 0.14
+      "2025-09-30 00:00:00": 0.14,
+      "2025-12-31 00:00:00": -0.33
     },
-    "eps_qoq_change": -51.72413793103448,
-    "eps_yoy_change": -36.36363636363636,
-    "gross_margin": 31.22,
-    "margin_change": -1.57,
-    "operating_margin": 6.34,
+    "eps_qoq_change": -335.7142857142857,
+    "eps_yoy_change": -400.0,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 299400000.0,
@@ -32,8 +34,8 @@
       "2025-09-30 00:00:00": 272400000.0
     },
     "inventory_qoq_change": -1.66,
-    "inventory_to_sales_ratio": 0.39,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:52:33.583932"
+  "fetched_at": "2026-02-13T13:54:03.682205"
 }

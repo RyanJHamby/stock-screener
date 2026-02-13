@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "GOOG",
-    "fetch_date": "2026-02-06T13:42:25.361270",
+    "fetch_date": "2026-02-13T13:43:54.625874",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 88268000000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 96469000000.0,
       "2025-03-31 00:00:00": 90234000000.0,
       "2025-06-30 00:00:00": 96428000000.0,
       "2025-09-30 00:00:00": 102346000000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 113829000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 11.219783870400407,
+    "revenue_yoy_change": 17.99541821725114,
     "quarterly_eps": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -1.7421602787456538,
     "eps_yoy_change": 31.162790697674414,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 59.79,
+    "margin_change": 0.21,
+    "operating_margin": 31.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:42:25.362524"
+  "fetched_at": "2026-02-13T13:43:54.627153"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LAD",
-    "fetch_date": "2026-02-06T13:49:53.422762",
+    "fetch_date": "2026-02-13T13:51:22.715174",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 9221000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.614,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:49:53.424226"
+  "fetched_at": "2026-02-13T13:51:22.716823"
 }

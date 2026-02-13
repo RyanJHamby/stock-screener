@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STZ",
-    "fetch_date": "2026-02-06T14:11:30.962583",
+    "fetch_date": "2026-02-13T14:13:01.993499",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:11:30.964063"
+  "fetched_at": "2026-02-13T14:13:01.995157"
 }

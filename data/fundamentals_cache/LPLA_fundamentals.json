@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LPLA",
-    "fetch_date": "2026-02-06T13:51:29.573175",
+    "fetch_date": "2026-02-13T13:52:59.825071",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 3108394000.0,
       "2024-12-31 00:00:00": 3512351000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:51:29.574325"
+  "fetched_at": "2026-02-13T13:52:59.826845"
 }

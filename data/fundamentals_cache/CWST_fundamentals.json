@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CWST",
-    "fetch_date": "2026-02-06T13:32:58.333886",
+    "fetch_date": "2026-02-13T13:34:30.498210",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 411627000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.05,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:32:58.335366"
+  "fetched_at": "2026-02-13T13:34:30.499847"
 }

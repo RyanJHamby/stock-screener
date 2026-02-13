@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RVTY",
-    "fetch_date": "2026-02-06T14:06:27.916183",
+    "fetch_date": "2026-02-13T14:07:59.864643",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 684049000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:06:27.918370"
+  "fetched_at": "2026-02-13T14:07:59.866391"
 }

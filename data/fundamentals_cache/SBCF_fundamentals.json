@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBCF",
-    "fetch_date": "2026-02-06T14:07:08.815702",
+    "fetch_date": "2026-02-13T14:08:40.849729",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 130344000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": -22.500000000000007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:07:08.816348"
+  "fetched_at": "2026-02-13T14:08:40.850468"
 }

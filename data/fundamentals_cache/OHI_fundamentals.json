@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "OHI",
-    "fetch_date": "2026-02-06T13:58:48.736833",
+    "fetch_date": "2026-02-13T14:00:20.895508",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 276028000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 279318000.0,
       "2025-03-31 00:00:00": 276785000.0,
       "2025-06-30 00:00:00": 282506000.0,
       "2025-09-30 00:00:00": 311591000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 319217000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 2.4474391108857447,
+    "revenue_yoy_change": 14.284435661146077,
     "quarterly_eps": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -6.77966101694914,
     "eps_yoy_change": 34.14634146341465,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 98.63,
+    "margin_change": -0.25,
+    "operating_margin": 63.19,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:58:48.737979"
+  "fetched_at": "2026-02-13T14:00:20.896768"
 }

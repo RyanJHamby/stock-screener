@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JEF",
-    "fetch_date": "2026-02-06T13:48:04.625936",
+    "fetch_date": "2026-02-13T13:49:33.735094",
     "quarterly_revenue": {
       "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 40.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:48:04.627694"
+  "fetched_at": "2026-02-13T13:49:33.736356"
 }

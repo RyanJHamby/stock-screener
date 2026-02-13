@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IOSP",
-    "fetch_date": "2026-02-06T13:47:09.467344",
+    "fetch_date": "2026-02-13T13:48:37.897595",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 443400000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.781,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:47:09.468813"
+  "fetched_at": "2026-02-13T13:48:37.899281"
 }

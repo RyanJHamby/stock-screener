@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGRC",
-    "fetch_date": "2026-02-06T13:53:35.771955",
+    "fetch_date": "2026-02-13T13:55:05.868166",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 266758000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.052,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:53:35.773431"
+  "fetched_at": "2026-02-13T13:55:05.870053"
 }

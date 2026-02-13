@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KBH",
-    "fetch_date": "2026-02-06T13:48:32.610352",
+    "fetch_date": "2026-02-13T13:50:01.805862",
     "quarterly_revenue": {
       "2024-08-31 00:00:00": NaN,
       "2024-11-30 00:00:00": 1999899000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 3.347,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:48:32.611825"
+  "fetched_at": "2026-02-13T13:50:01.807807"
 }

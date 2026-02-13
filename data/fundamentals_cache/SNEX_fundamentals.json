@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNEX",
-    "fetch_date": "2026-02-06T14:09:44.819088",
+    "fetch_date": "2026-02-13T14:11:18.006127",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 27935300000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.035,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:09:44.820604"
+  "fetched_at": "2026-02-13T14:11:18.007768"
 }

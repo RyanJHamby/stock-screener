@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTG",
-    "fetch_date": "2026-02-06T13:55:05.513646",
+    "fetch_date": "2026-02-13T13:56:36.780030",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 306649000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 4.1666666666666705,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:55:05.514289"
+  "fetched_at": "2026-02-13T13:56:36.780705"
 }

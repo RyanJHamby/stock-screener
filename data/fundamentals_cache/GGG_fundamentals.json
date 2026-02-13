@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GGG",
-    "fetch_date": "2026-02-06T13:41:36.605028",
+    "fetch_date": "2026-02-13T13:43:05.642876",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 519212000.0,
       "2024-12-31 00:00:00": 548672000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:41:36.606545"
+  "fetched_at": "2026-02-13T13:43:05.644601"
 }

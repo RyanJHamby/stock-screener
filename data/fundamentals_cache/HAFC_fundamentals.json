@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAFC",
-    "fetch_date": "2026-02-06T13:43:25.379937",
+    "fetch_date": "2026-02-13T13:44:54.594260",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 57629000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 20.689655172413794,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:43:25.380585"
+  "fetched_at": "2026-02-13T13:44:54.594856"
 }

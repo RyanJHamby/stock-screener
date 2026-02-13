@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NHI",
-    "fetch_date": "2026-02-06T13:56:34.691154",
+    "fetch_date": "2026-02-13T13:58:06.817308",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 82944000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 49.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:56:34.692298"
+  "fetched_at": "2026-02-13T13:58:06.818623"
 }

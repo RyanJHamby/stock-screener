@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTSH",
-    "fetch_date": "2026-02-06T13:32:26.325720",
+    "fetch_date": "2026-02-13T13:33:58.519386",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 5044000000.0,
@@ -29,5 +29,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:32:26.326876"
+  "fetched_at": "2026-02-13T13:33:58.520634"
 }

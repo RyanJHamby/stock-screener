@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCO",
-    "fetch_date": "2026-02-06T13:24:23.138481",
+    "fetch_date": "2026-02-13T13:25:54.560531",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1258500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:24:23.139930"
+  "fetched_at": "2026-02-13T13:25:54.562173"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KBDC",
-    "fetch_date": "2026-02-06T13:48:31.379445",
+    "fetch_date": "2026-02-13T13:50:00.625203",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 32831000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -33.962264150943405,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:48:31.380049"
+  "fetched_at": "2026-02-13T13:50:00.625813"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IFF",
-    "fetch_date": "2026-02-06T13:46:08.528385",
+    "fetch_date": "2026-02-13T13:47:36.668262",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 2925000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.909,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:46:08.529871"
+  "fetched_at": "2026-02-13T13:47:36.669898"
 }

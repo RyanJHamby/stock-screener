@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BMRN",
-    "fetch_date": "2026-02-06T13:25:54.046447",
+    "fetch_date": "2026-02-13T13:27:25.246091",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 745740000.0,
       "2024-12-31 00:00:00": 747313000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.781,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:25:54.047893"
+  "fetched_at": "2026-02-13T13:27:25.247740"
 }

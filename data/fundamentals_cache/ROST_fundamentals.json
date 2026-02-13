@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROST",
-    "fetch_date": "2026-02-06T14:06:04.835059",
+    "fetch_date": "2026-02-13T14:07:35.890215",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": 5071354000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.559,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:06:04.836539"
+  "fetched_at": "2026-02-13T14:07:35.891921"
 }

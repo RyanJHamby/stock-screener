@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POWL",
-    "fetch_date": "2026-02-06T14:02:30.829026",
+    "fetch_date": "2026-02-13T14:04:02.820998",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 241431000.0,
       "2025-03-31 00:00:00": 278631000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.338,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:02:30.830493"
+  "fetched_at": "2026-02-13T14:04:02.822665"
 }

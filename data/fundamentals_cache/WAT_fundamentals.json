@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "WAT",
-    "fetch_date": "2026-02-06T14:18:20.974890",
+    "fetch_date": "2026-02-13T14:19:50.239208",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 740305000.0,
       "2024-12-31 00:00:00": 872714000.0,
       "2025-03-31 00:00:00": 661705000.0,
       "2025-06-30 00:00:00": 771332000.0,
-      "2025-09-30 00:00:00": 799887000.0
+      "2025-09-30 00:00:00": 799887000.0,
+      "2025-12-31 00:00:00": NaN
     },
-    "revenue_qoq_change": 3.702037514325868,
-    "revenue_yoy_change": 8.048304415072167,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": 2.71,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3.88,
       "2025-03-31 00:00:00": 2.03,
       "2025-06-30 00:00:00": 2.47,
-      "2025-09-30 00:00:00": 2.5
+      "2025-09-30 00:00:00": 2.5,
+      "2025-12-31 00:00:00": 3.77
     },
-    "eps_qoq_change": 1.214574898785417,
-    "eps_yoy_change": -7.749077490774907,
-    "gross_margin": 59.02,
-    "margin_change": 0.69,
-    "operating_margin": 24.02,
+    "eps_qoq_change": 50.8,
+    "eps_yoy_change": -2.8350515463917496,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 518994000.0,
@@ -32,8 +34,8 @@
       "2025-09-30 00:00:00": 572941000.0
     },
     "inventory_qoq_change": 5.95,
-    "inventory_to_sales_ratio": 0.716,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:18:20.976356"
+  "fetched_at": "2026-02-13T14:19:50.240815"
 }

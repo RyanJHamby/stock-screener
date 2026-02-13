@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AL",
-    "fetch_date": "2026-02-06T13:19:42.017835",
+    "fetch_date": "2026-02-13T13:21:13.389801",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 690164000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 18.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:19:42.018971"
+  "fetched_at": "2026-02-13T13:21:13.391054"
 }

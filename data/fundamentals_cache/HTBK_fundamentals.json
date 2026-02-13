@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HTBK",
-    "fetch_date": "2026-02-06T13:45:06.676773",
+    "fetch_date": "2026-02-13T13:46:34.579126",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 41346000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 47.058823529411754,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:45:06.677477"
+  "fetched_at": "2026-02-13T13:46:34.579717"
 }

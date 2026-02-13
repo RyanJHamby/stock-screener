@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "THO",
-    "fetch_date": "2026-02-06T14:13:02.819299",
+    "fetch_date": "2026-02-13T14:14:34.101761",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": 2142784000.0,
       "2025-01-31 00:00:00": 2018107000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.613,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:13:02.820777"
+  "fetched_at": "2026-02-13T14:14:34.103422"
 }

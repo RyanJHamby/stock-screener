@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "MSCI",
-    "fetch_date": "2026-02-06T13:54:51.566548",
+    "fetch_date": "2026-02-13T13:56:21.654532",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 724705000.0,
       "2024-12-31 00:00:00": 743509000.0,
       "2025-03-31 00:00:00": 745826000.0,
       "2025-06-30 00:00:00": 772679000.0,
       "2025-09-30 00:00:00": 793426000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 822528000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 3.667890893416651,
+    "revenue_yoy_change": 10.6278471410568,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3.9,
       "2025-03-31 00:00:00": 3.71,
       "2025-06-30 00:00:00": 3.92,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -10.352941176470587,
     "eps_yoy_change": -2.307692307692304,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 82.57,
+    "margin_change": -0.73,
+    "operating_margin": 56.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:54:51.567735"
+  "fetched_at": "2026-02-13T13:56:21.655807"
 }

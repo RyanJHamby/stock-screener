@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UVSP",
-    "fetch_date": "2026-02-06T14:16:33.841107",
+    "fetch_date": "2026-02-13T14:18:04.230547",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 73354000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 21.53846153846154,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:16:33.841751"
+  "fetched_at": "2026-02-13T14:18:04.231159"
 }

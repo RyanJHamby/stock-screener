@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BKV",
-    "fetch_date": "2026-02-06T13:25:29.966968",
+    "fetch_date": "2026-02-13T13:27:01.219029",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 131778000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.033,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:25:29.968474"
+  "fetched_at": "2026-02-13T13:27:01.220732"
 }

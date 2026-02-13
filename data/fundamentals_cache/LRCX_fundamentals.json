@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LRCX",
-    "fetch_date": "2026-02-06T13:51:36.563712",
+    "fetch_date": "2026-02-13T13:53:06.818732",
     "quarterly_revenue": {
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.755,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T13:51:36.565187"
+  "fetched_at": "2026-02-13T13:53:06.820426"
 }
