@@ -8642,5 +8642,21 @@
   "TRNS": {
     "last_updated": "2026-02-13T14:15:49.008547",
     "in_earnings_season": true
+  },
+  "PKBK": {
+    "last_updated": "2026-02-16T14:05:57.754695",
+    "in_earnings_season": false
+  },
+  "SND": {
+    "last_updated": "2026-02-16T14:13:48.839905",
+    "in_earnings_season": false
+  },
+  "SOC": {
+    "last_updated": "2026-02-16T14:14:04.591006",
+    "in_earnings_season": false
+  },
+  "USLM": {
+    "last_updated": "2026-02-16T14:20:30.947527",
+    "in_earnings_season": false
   }
 }
