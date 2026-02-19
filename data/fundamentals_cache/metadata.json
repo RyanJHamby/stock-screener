@@ -8678,5 +8678,29 @@
   "VAC": {
     "last_updated": "2026-02-18T14:23:00.434672",
     "in_earnings_season": false
+  },
+  "CEPT": {
+    "last_updated": "2026-02-19T13:36:35.405850",
+    "in_earnings_season": false
+  },
+  "GPN": {
+    "last_updated": "2026-02-19T13:50:10.819440",
+    "in_earnings_season": false
+  },
+  "GTN": {
+    "last_updated": "2026-02-19T13:50:44.793335",
+    "in_earnings_season": false
+  },
+  "NATH": {
+    "last_updated": "2026-02-19T14:03:21.872198",
+    "in_earnings_season": false
+  },
+  "UAA": {
+    "last_updated": "2026-02-19T14:22:52.945514",
+    "in_earnings_season": false
+  },
+  "WEN": {
+    "last_updated": "2026-02-19T14:26:08.103400",
+    "in_earnings_season": false
   }
 }
