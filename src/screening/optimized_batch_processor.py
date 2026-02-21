@@ -243,7 +243,8 @@ class OptimizedBatchProcessor:
                 drawdown = (closes - running_max) / running_max
                 max_drawdown = drawdown.min()  # Most negative value
 
-                if max_drawdown < -0.90:  # Dropped more than 90%
+                # Check for valid drawdown value before comparison
+                if pd.notna(max_drawdown) and max_drawdown < -0.90:  # Dropped more than 90%
                     self.filtered_count += 1
                     self.filter_reasons['severe_drawdown_90pct'] = self.filter_reasons.get('severe_drawdown_90pct', 0) + 1
                     logger.debug(f"{ticker}: Filtered - {max_drawdown*100:.1f}% max drawdown in 5y")
