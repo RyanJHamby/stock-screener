@@ -8710,5 +8710,21 @@
   "SIF": {
     "last_updated": "2026-02-20T14:07:24.496041",
     "in_earnings_season": false
+  },
+  "CCRN": {
+    "last_updated": "2026-02-23T13:34:29.433036",
+    "in_earnings_season": false
+  },
+  "IBTA": {
+    "last_updated": "2026-02-23T13:51:41.483983",
+    "in_earnings_season": false
+  },
+  "TFX": {
+    "last_updated": "2026-02-23T14:18:42.811296",
+    "in_earnings_season": false
+  },
+  "TLSI": {
+    "last_updated": "2026-02-23T14:19:17.822195",
+    "in_earnings_season": false
   }
 }
