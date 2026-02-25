@@ -8730,5 +8730,21 @@
   "ARCT": {
     "last_updated": "2026-02-24T13:29:10.889125",
     "in_earnings_season": false
+  },
+  "ELMD": {
+    "last_updated": "2026-02-25T13:43:16.646370",
+    "in_earnings_season": false
+  },
+  "HSTM": {
+    "last_updated": "2026-02-25T13:51:49.865738",
+    "in_earnings_season": false
+  },
+  "NAT": {
+    "last_updated": "2026-02-25T14:02:31.831795",
+    "in_earnings_season": false
+  },
+  "XOMA": {
+    "last_updated": "2026-02-25T14:26:42.993681",
+    "in_earnings_season": false
   }
 }
