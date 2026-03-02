@@ -8786,5 +8786,21 @@
   "UDMY": {
     "last_updated": "2026-02-27T14:14:09.165097",
     "in_earnings_season": false
+  },
+  "BWIN": {
+    "last_updated": "2026-03-02T13:27:02.672884",
+    "in_earnings_season": false
+  },
+  "DV": {
+    "last_updated": "2026-03-02T13:35:03.954560",
+    "in_earnings_season": false
+  },
+  "NRXS": {
+    "last_updated": "2026-03-02T13:57:11.011301",
+    "in_earnings_season": false
+  },
+  "NWPX": {
+    "last_updated": "2026-03-02T13:57:55.938581",
+    "in_earnings_season": false
   }
 }
