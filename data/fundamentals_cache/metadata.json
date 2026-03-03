@@ -8802,5 +8802,25 @@
   "NWPX": {
     "last_updated": "2026-03-02T13:57:55.938581",
     "in_earnings_season": false
+  },
+  "ASTH": {
+    "last_updated": "2026-03-03T13:20:51.298050",
+    "in_earnings_season": false
+  },
+  "FRHC": {
+    "last_updated": "2026-03-03T13:38:25.443699",
+    "in_earnings_season": false
+  },
+  "SSTI": {
+    "last_updated": "2026-03-03T14:09:15.657909",
+    "in_earnings_season": false
+  },
+  "WRLD": {
+    "last_updated": "2026-03-03T14:17:40.696501",
+    "in_earnings_season": false
+  },
+  "XRN": {
+    "last_updated": "2026-03-03T14:18:26.731090",
+    "in_earnings_season": false
   }
 }
