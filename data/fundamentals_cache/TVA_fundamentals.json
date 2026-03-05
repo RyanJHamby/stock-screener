@@ -1,0 +1,21 @@
+{
+  "data": {
+    "ticker": "TVA",
+    "fetch_date": "2026-03-05T14:15:37.799741",
+    "quarterly_revenue": {
+      "2025-03-31 00:00:00": 0.0,
+      "2025-06-30 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0
+    },
+    "revenue_qoq_change": null,
+    "quarterly_eps": {
+      "2025-03-31 00:00:00": -0.001485,
+      "2025-06-30 00:00:00": 0.13,
+      "2025-09-30 00:00:00": -0.04
+    },
+    "eps_qoq_change": -130.76923076923077,
+    "operating_margin": 0,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-03-05T14:15:37.800724"
+}

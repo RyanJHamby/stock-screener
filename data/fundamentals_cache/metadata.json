@@ -6848,7 +6848,7 @@
     "in_earnings_season": true
   },
   "WLY": {
-    "last_updated": "2025-12-04T14:19:27.546575",
+    "last_updated": "2026-03-05T14:19:48.859418",
     "in_earnings_season": false
   },
   "WM": {
@@ -6972,7 +6972,7 @@
     "in_earnings_season": true
   },
   "XYZ": {
-    "last_updated": "2025-12-04T14:20:18.551759",
+    "last_updated": "2026-03-05T14:21:01.927427",
     "in_earnings_season": false
   },
   "YETI": {
@@ -7040,7 +7040,7 @@
     "in_earnings_season": true
   },
   "ZVRA": {
-    "last_updated": "2025-12-04T14:20:46.148646",
+    "last_updated": "2026-03-05T14:21:39.912437",
     "in_earnings_season": false
   },
   "ZYME": {
@@ -8821,6 +8821,30 @@
   },
   "XRN": {
     "last_updated": "2026-03-03T14:18:26.731090",
+    "in_earnings_season": false
+  },
+  "AVXL": {
+    "last_updated": "2026-03-05T13:24:06.305126",
+    "in_earnings_season": false
+  },
+  "DAC": {
+    "last_updated": "2026-03-05T13:34:03.540506",
+    "in_earnings_season": false
+  },
+  "GOGO": {
+    "last_updated": "2026-03-05T13:43:04.714993",
+    "in_earnings_season": false
+  },
+  "NMAX": {
+    "last_updated": "2026-03-05T13:57:32.596554",
+    "in_earnings_season": false
+  },
+  "RYZ": {
+    "last_updated": "2026-03-05T14:07:28.704904",
+    "in_earnings_season": false
+  },
+  "TVA": {
+    "last_updated": "2026-03-05T14:15:37.802197",
     "in_earnings_season": false
   }
 }
