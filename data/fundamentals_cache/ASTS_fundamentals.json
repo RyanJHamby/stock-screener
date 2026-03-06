@@ -1,9 +1,8 @@
 {
   "data": {
     "ticker": "ASTS",
-    "fetch_date": "2025-12-04T13:37:29.627482",
+    "fetch_date": "2026-03-06T13:19:19.454231",
     "quarterly_revenue": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": 1100000.0,
       "2024-12-31 00:00:00": 1918000.0,
@@ -14,7 +13,6 @@
     "revenue_qoq_change": 1175.0,
     "revenue_yoy_change": 1239.9090909090908,
     "quarterly_eps": {
-      "2024-03-31 00:00:00": NaN,
       "2024-06-30 00:00:00": -0.51,
       "2024-09-30 00:00:00": -1.1,
       "2024-12-31 00:00:00": NaN,
@@ -28,16 +26,15 @@
     "margin_change": NaN,
     "operating_margin": -540.58,
     "quarterly_inventory": {
-      "2024-03-31 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 10885000.0
     },
-    "inventory_qoq_change": NaN,
+    "inventory_qoq_change": null,
     "inventory_to_sales_ratio": 0.739,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2025-12-04T13:37:29.629229"
+  "fetched_at": "2026-03-06T13:19:19.455921"
 }
