@@ -1352,7 +1352,7 @@
     "in_earnings_season": true
   },
   "CIA": {
-    "last_updated": "2025-12-04T13:42:40.254822",
+    "last_updated": "2026-03-11T13:31:35.728965",
     "in_earnings_season": false
   },
   "CIEN": {
@@ -1952,7 +1952,7 @@
     "in_earnings_season": false
   },
   "DJCO": {
-    "last_updated": "2025-12-04T13:46:12.860582",
+    "last_updated": "2026-03-11T13:36:13.895174",
     "in_earnings_season": false
   },
   "DK": {
@@ -4176,7 +4176,7 @@
     "in_earnings_season": true
   },
   "MLAB": {
-    "last_updated": "2025-12-04T14:00:43.681541",
+    "last_updated": "2026-03-11T13:55:51.027806",
     "in_earnings_season": false
   },
   "MLI": {
@@ -4776,7 +4776,7 @@
     "in_earnings_season": true
   },
   "ORCL": {
-    "last_updated": "2025-12-04T14:05:06.761048",
+    "last_updated": "2026-03-11T14:01:40.203588",
     "in_earnings_season": false
   },
   "ORIC": {
@@ -7132,7 +7132,7 @@
     "in_earnings_season": true
   },
   "QCRH": {
-    "last_updated": "2025-12-09T14:08:09.906226",
+    "last_updated": "2026-03-11T14:05:45.095356",
     "in_earnings_season": false
   },
   "RBRK": {
@@ -8881,6 +8881,10 @@
   },
   "RCEL": {
     "last_updated": "2026-03-10T14:06:50.730820",
+    "in_earnings_season": false
+  },
+  "BFC": {
+    "last_updated": "2026-03-11T13:26:44.799829",
     "in_earnings_season": false
   }
 }
