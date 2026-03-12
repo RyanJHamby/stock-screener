@@ -5220,7 +5220,7 @@
     "in_earnings_season": false
   },
   "PZZA": {
-    "last_updated": "2025-12-04T14:08:07.685103",
+    "last_updated": "2026-03-12T14:05:54.224294",
     "in_earnings_season": false
   },
   "QCOM": {
@@ -8885,6 +8885,22 @@
   },
   "BFC": {
     "last_updated": "2026-03-11T13:26:44.799829",
+    "in_earnings_season": false
+  },
+  "ACTG": {
+    "last_updated": "2026-03-12T13:20:22.724107",
+    "in_earnings_season": false
+  },
+  "CAMP": {
+    "last_updated": "2026-03-12T13:29:54.676602",
+    "in_earnings_season": false
+  },
+  "MNTN": {
+    "last_updated": "2026-03-12T13:56:23.936204",
+    "in_earnings_season": false
+  },
+  "SNDA": {
+    "last_updated": "2026-03-12T14:11:51.990537",
     "in_earnings_season": false
   }
 }
