@@ -5852,7 +5852,7 @@
     "in_earnings_season": false
   },
   "SPAI": {
-    "last_updated": "2025-12-04T14:12:48.537206",
+    "last_updated": "2026-03-13T14:10:03.918631",
     "in_earnings_season": false
   },
   "SPB": {
@@ -7288,7 +7288,7 @@
     "in_earnings_season": true
   },
   "SKWD": {
-    "last_updated": "2025-12-11T02:46:07.362108",
+    "last_updated": "2026-03-13T14:08:39.631589",
     "in_earnings_season": false
   },
   "STRK": {
@@ -8901,6 +8901,10 @@
   },
   "SNDA": {
     "last_updated": "2026-03-12T14:11:51.990537",
+    "in_earnings_season": false
+  },
+  "UAN": {
+    "last_updated": "2026-03-13T14:15:08.907543",
     "in_earnings_season": false
   }
 }
