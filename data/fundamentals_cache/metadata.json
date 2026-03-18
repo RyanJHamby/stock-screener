@@ -3232,7 +3232,7 @@
     "in_earnings_season": false
   },
   "HVT": {
-    "last_updated": "2025-12-04T13:54:28.588792",
+    "last_updated": "2026-03-18T14:11:37.947092",
     "in_earnings_season": false
   },
   "HWC": {
@@ -4544,7 +4544,7 @@
     "in_earnings_season": true
   },
   "NRIX": {
-    "last_updated": "2025-12-04T14:03:23.957618",
+    "last_updated": "2026-03-18T14:23:32.875640",
     "in_earnings_season": false
   },
   "NSC": {
@@ -5888,7 +5888,7 @@
     "in_earnings_season": true
   },
   "SRI": {
-    "last_updated": "2025-12-04T14:13:06.277633",
+    "last_updated": "2026-03-18T14:36:49.380283",
     "in_earnings_season": false
   },
   "SRPT": {
@@ -8905,6 +8905,18 @@
   },
   "UAN": {
     "last_updated": "2026-03-13T14:15:08.907543",
+    "in_earnings_season": false
+  },
+  "PENN": {
+    "last_updated": "2026-03-18T14:27:30.092824",
+    "in_earnings_season": false
+  },
+  "RAAQ": {
+    "last_updated": "2026-03-18T14:30:25.074155",
+    "in_earnings_season": false
+  },
+  "ZENA": {
+    "last_updated": "2026-03-18T14:46:45.127325",
     "in_earnings_season": false
   }
 }
