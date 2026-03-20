@@ -3304,7 +3304,7 @@
     "in_earnings_season": true
   },
   "IDN": {
-    "last_updated": "2025-12-04T13:54:54.959703",
+    "last_updated": "2026-03-20T13:46:09.467175",
     "in_earnings_season": false
   },
   "IDXX": {
@@ -8917,6 +8917,14 @@
   },
   "ZENA": {
     "last_updated": "2026-03-18T14:46:45.127325",
+    "in_earnings_season": false
+  },
+  "CCBG": {
+    "last_updated": "2026-03-20T13:28:33.479412",
+    "in_earnings_season": false
+  },
+  "ELA": {
+    "last_updated": "2026-03-20T13:36:32.473846",
     "in_earnings_season": false
   }
 }
