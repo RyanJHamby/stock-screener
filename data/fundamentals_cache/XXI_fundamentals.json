@@ -1,0 +1,19 @@
+{
+  "data": {
+    "ticker": "XXI",
+    "fetch_date": "2026-03-23T14:28:57.394311",
+    "quarterly_revenue": {
+      "2025-06-30 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0
+    },
+    "revenue_qoq_change": null,
+    "quarterly_eps": {
+      "2025-06-30 00:00:00": -2.3e-05,
+      "2025-09-30 00:00:00": -0.000172
+    },
+    "eps_qoq_change": -647.8260869565217,
+    "operating_margin": 0,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-03-23T14:28:57.395195"
+}
