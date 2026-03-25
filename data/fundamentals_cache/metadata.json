@@ -1068,7 +1068,7 @@
     "in_earnings_season": true
   },
   "BRZE": {
-    "last_updated": "2025-12-04T13:40:33.595872",
+    "last_updated": "2026-03-25T13:50:14.652100",
     "in_earnings_season": false
   },
   "BSAC": {
@@ -4744,7 +4744,7 @@
     "in_earnings_season": false
   },
   "ONTF": {
-    "last_updated": "2025-12-04T14:04:51.760138",
+    "last_updated": "2026-03-25T14:22:53.783825",
     "in_earnings_season": false
   },
   "ONTO": {
@@ -8965,6 +8965,22 @@
   },
   "RBNE": {
     "last_updated": "2026-03-24T14:29:13.587251",
+    "in_earnings_season": false
+  },
+  "AVBH": {
+    "last_updated": "2026-03-25T13:46:42.543982",
+    "in_earnings_season": false
+  },
+  "HPQ": {
+    "last_updated": "2026-03-25T14:08:16.947297",
+    "in_earnings_season": false
+  },
+  "KVHI": {
+    "last_updated": "2026-03-25T14:13:17.887924",
+    "in_earnings_season": false
+  },
+  "STRD": {
+    "last_updated": "2026-03-25T14:34:46.983314",
     "in_earnings_season": false
   }
 }
