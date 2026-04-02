@@ -4952,7 +4952,7 @@
     "in_earnings_season": true
   },
   "PENG": {
-    "last_updated": "2025-12-04T14:06:15.753199",
+    "last_updated": "2026-04-02T14:29:02.168078",
     "in_earnings_season": false
   },
   "PEPG": {
@@ -5896,7 +5896,7 @@
     "in_earnings_season": false
   },
   "SRRK": {
-    "last_updated": "2025-12-04T14:13:08.445503",
+    "last_updated": "2026-04-02T14:38:25.102799",
     "in_earnings_season": false
   },
   "SRZN": {
@@ -9029,6 +9029,10 @@
   },
   "ROP": {
     "last_updated": "2026-04-01T14:43:56.829875",
+    "in_earnings_season": false
+  },
+  "JILL": {
+    "last_updated": "2026-04-02T14:15:53.924624",
     "in_earnings_season": false
   }
 }
