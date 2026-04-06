@@ -6336,7 +6336,7 @@
     "in_earnings_season": true
   },
   "TRIP": {
-    "last_updated": "2025-12-04T14:15:51.806195",
+    "last_updated": "2026-04-06T14:23:47.945189",
     "in_earnings_season": false
   },
   "TRMB": {
@@ -9053,6 +9053,14 @@
   },
   "NTNX": {
     "last_updated": "2026-04-03T14:01:13.605363",
+    "in_earnings_season": false
+  },
+  "PYPL": {
+    "last_updated": "2026-04-06T14:13:22.769190",
+    "in_earnings_season": false
+  },
+  "SLDE": {
+    "last_updated": "2026-04-06T14:18:39.764807",
     "in_earnings_season": false
   }
 }
