@@ -6084,7 +6084,7 @@
     "in_earnings_season": false
   },
   "TBRG": {
-    "last_updated": "2025-12-04T14:14:23.670033",
+    "last_updated": "2026-04-13T14:55:03.852231",
     "in_earnings_season": false
   },
   "TCMD": {
@@ -9121,6 +9121,18 @@
   },
   "SLG": {
     "last_updated": "2026-04-10T14:32:00.086374",
+    "in_earnings_season": false
+  },
+  "ALTO": {
+    "last_updated": "2026-04-13T14:03:09.458253",
+    "in_earnings_season": false
+  },
+  "JCAP": {
+    "last_updated": "2026-04-13T14:30:51.623998",
+    "in_earnings_season": false
+  },
+  "SVCO": {
+    "last_updated": "2026-04-13T14:54:27.885870",
     "in_earnings_season": false
   }
 }
