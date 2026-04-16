@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "CACC",
-    "fetch_date": "2026-02-09T13:37:01.414630",
+    "fetch_date": "2026-04-16T14:15:18.169341",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 543600000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 557700000.0,
       "2025-03-31 00:00:00": 562300000.0,
       "2025-06-30 00:00:00": 575600000.0,
       "2025-09-30 00:00:00": 576400000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 573600000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -0.4857737682165163,
+    "revenue_yoy_change": 2.850995158687466,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 12.26,
       "2025-03-31 00:00:00": 8.66,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": 16.54294803817604,
     "eps_yoy_change": -10.358890701468185,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 63.34,
+    "margin_change": 1.57,
+    "operating_margin": 40.67,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T13:37:01.415959"
+  "fetched_at": "2026-04-16T14:15:18.170551"
 }

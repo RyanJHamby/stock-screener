@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "RDDT",
-    "fetch_date": "2026-02-09T14:14:09.690685",
+    "fetch_date": "2026-04-16T14:52:20.522953",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 348351000.0,
       "2024-12-31 00:00:00": 427707000.0,
       "2025-03-31 00:00:00": 392361000.0,
       "2025-06-30 00:00:00": 499627000.0,
       "2025-09-30 00:00:00": 584911000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 725607000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 24.05425782725919,
+    "revenue_yoy_change": 69.65048502830209,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.36,
       "2025-03-31 00:00:00": 0.13,
       "2025-06-30 00:00:00": 0.45,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 54.99999999999999,
     "eps_yoy_change": 244.44444444444446,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 91.91,
+    "margin_change": 0.89,
+    "operating_margin": 31.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T14:14:09.692031"
+  "fetched_at": "2026-04-16T14:52:20.524091"
 }

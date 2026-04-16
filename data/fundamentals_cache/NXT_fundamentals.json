@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NXT",
-    "fetch_date": "2026-02-10T14:23:22.552894",
+    "fetch_date": "2026-04-16T14:45:59.370961",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 679363000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.67,
     "operating_margin": 19.37,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 217301000.0,
       "2025-03-31 00:00:00": 209432000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.303,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-10T14:23:22.554401"
+  "fetched_at": "2026-04-16T14:45:59.372461"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LTRX",
-    "fetch_date": "2026-02-09T14:01:17.616933",
+    "fetch_date": "2026-04-16T14:39:31.352563",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 31161000.0,
       "2025-03-31 00:00:00": 28500000.0,
@@ -24,7 +24,6 @@
     "margin_change": -1.24,
     "operating_margin": -3.33,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 29070000.0,
       "2025-03-31 00:00:00": 28151000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.909,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T14:01:17.618685"
+  "fetched_at": "2026-04-16T14:39:31.354012"
 }

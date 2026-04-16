@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "IAC",
-    "fetch_date": "2026-02-09T13:55:06.645719",
+    "fetch_date": "2026-04-16T14:33:20.825461",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 642000000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 989307000.0,
       "2025-03-31 00:00:00": 570489000.0,
       "2025-06-30 00:00:00": 586928000.0,
       "2025-09-30 00:00:00": 589793000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 645979000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 9.526393158277566,
+    "revenue_yoy_change": -34.70388868167313,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": -2.39,
       "2025-03-31 00:00:00": -2.64,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -266.66666666666663,
     "eps_yoy_change": 58.57740585774059,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 69.8,
+    "margin_change": 4.98,
+    "operating_margin": 14.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T13:55:06.647049"
+  "fetched_at": "2026-04-16T14:33:20.826632"
 }

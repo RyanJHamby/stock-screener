@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XXI",
-    "fetch_date": "2026-03-23T14:28:57.394311",
+    "fetch_date": "2026-04-16T15:07:44.247337",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.0
@@ -15,5 +15,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-03-23T14:28:57.395195"
+  "fetched_at": "2026-04-16T15:07:44.248133"
 }

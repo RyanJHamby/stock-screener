@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "SPG",
-    "fetch_date": "2026-02-13T14:11:49.248625",
+    "fetch_date": "2026-04-16T14:57:59.013659",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 1480710000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1582232000.0,
       "2025-03-31 00:00:00": 1473012000.0,
       "2025-06-30 00:00:00": 1498459000.0,
       "2025-09-30 00:00:00": 1601572000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 1791462000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 11.856476012317897,
+    "revenue_yoy_change": 13.223724460129741,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2.04,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": 402.6881720430107,
     "eps_yoy_change": 358.3333333333333,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 82.39,
+    "margin_change": 0.55,
+    "operating_margin": 49.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T14:11:49.249899"
+  "fetched_at": "2026-04-16T14:57:59.015527"
 }

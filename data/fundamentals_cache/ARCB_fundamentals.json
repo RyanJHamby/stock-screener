@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "ARCB",
-    "fetch_date": "2026-02-09T13:31:12.470083",
+    "fetch_date": "2026-04-16T14:09:30.163238",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 1063124000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1001645000.0,
       "2025-03-31 00:00:00": 967077000.0,
       "2025-06-30 00:00:00": 1022256000.0,
       "2025-09-30 00:00:00": 1048137000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 972688000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -7.1983910500249495,
+    "revenue_yoy_change": -2.8909443964678103,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.24,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": -120.93023255813955,
     "eps_yoy_change": -129.03225806451616,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 5.09,
+    "margin_change": -3.12,
+    "operating_margin": 2.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T13:31:12.471466"
+  "fetched_at": "2026-04-16T14:09:30.164916"
 }

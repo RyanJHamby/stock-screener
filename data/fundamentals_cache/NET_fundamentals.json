@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "NET",
-    "fetch_date": "2026-03-06T13:53:04.017545",
+    "fetch_date": "2026-04-16T14:44:04.409898",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 430082000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 459946000.0,
       "2025-03-31 00:00:00": 479087000.0,
       "2025-06-30 00:00:00": 512316000.0,
       "2025-09-30 00:00:00": 562027000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 614507000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 9.337629686829992,
+    "revenue_yoy_change": 33.60416222773978,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": -0.04,
       "2025-03-31 00:00:00": -0.11,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": null,
     "eps_yoy_change": 25.000000000000007,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 73.64,
+    "margin_change": -0.32,
+    "operating_margin": -8.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-03-06T13:53:04.019118"
+  "fetched_at": "2026-04-16T14:44:04.411049"
 }

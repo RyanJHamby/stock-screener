@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "SITM",
-    "fetch_date": "2026-02-09T14:18:11.669011",
+    "fetch_date": "2026-04-16T14:56:23.684353",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 57698000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 68111000.0,
       "2025-03-31 00:00:00": 60314000.0,
       "2025-06-30 00:00:00": 69494000.0,
       "2025-09-30 00:00:00": 83567000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 113285000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 35.561884475929496,
+    "revenue_yoy_change": 66.32408862004668,
     "quarterly_eps": {
       "2024-09-30 00:00:00": -0.83,
       "2024-12-31 00:00:00": NaN,
@@ -22,20 +22,20 @@
     },
     "eps_qoq_change": 209.6774193548387,
     "eps_yoy_change": null,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 56.39,
+    "margin_change": 2.88,
+    "operating_margin": 4.21,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 71880000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 76741000.0,
       "2025-03-31 00:00:00": 82632000.0,
       "2025-06-30 00:00:00": 84126000.0,
-      "2025-09-30 00:00:00": 86743000.0
+      "2025-09-30 00:00:00": 86743000.0,
+      "2025-12-31 00:00:00": 81557000.0
     },
-    "inventory_qoq_change": 3.11,
-    "inventory_to_sales_ratio": NaN,
+    "inventory_qoq_change": -5.98,
+    "inventory_to_sales_ratio": 0.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T14:18:11.670788"
+  "fetched_at": "2026-04-16T14:56:23.685817"
 }

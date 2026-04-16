@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SYNA",
-    "fetch_date": "2026-02-09T14:21:30.766403",
+    "fetch_date": "2026-04-16T14:59:37.899501",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 267200000.0,
@@ -26,7 +26,6 @@
     "margin_change": 0.94,
     "operating_margin": -4.96,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 119500000.0,
       "2025-03-31 00:00:00": 132900000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.522,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T14:21:30.768124"
+  "fetched_at": "2026-04-16T14:59:37.900971"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESEA",
-    "fetch_date": "2026-04-03T13:40:59.502036",
+    "fetch_date": "2026-04-16T14:25:05.507558",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 54146161.0,
       "2024-12-31 00:00:00": 53308192.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-03T13:40:59.503539"
+  "fetched_at": "2026-04-16T14:25:05.509056"
 }

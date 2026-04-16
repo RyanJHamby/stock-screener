@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "PFSI",
-    "fetch_date": "2026-02-13T14:03:01.770499",
+    "fetch_date": "2026-04-16T14:49:12.743671",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 629363000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 698316000.0,
       "2025-03-31 00:00:00": 1069756000.0,
       "2025-06-30 00:00:00": 931582000.0,
       "2025-09-30 00:00:00": 882813000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 2214229000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 150.81517829936803,
+    "revenue_yoy_change": 217.08123542923263,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.95,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": -41.54302670623146,
     "eps_yoy_change": 1.0256410256410264,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 77.4,
+    "margin_change": 30.61,
+    "operating_margin": 6.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T14:03:01.771742"
+  "fetched_at": "2026-04-16T14:49:12.744902"
 }

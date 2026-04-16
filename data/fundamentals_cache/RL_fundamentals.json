@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RL",
-    "fetch_date": "2026-02-13T14:07:06.931749",
+    "fetch_date": "2026-04-16T14:53:16.822579",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2143500000.0,
@@ -26,7 +26,6 @@
     "margin_change": 1.94,
     "operating_margin": 20.91,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 998600000.0,
       "2025-03-31 00:00:00": 949600000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.478,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T14:07:06.933490"
+  "fetched_at": "2026-04-16T14:53:16.824043"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LPG",
-    "fetch_date": "2026-02-09T14:00:57.617435",
+    "fetch_date": "2026-04-16T14:39:11.191406",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 80666779.0,
       "2025-03-31 00:00:00": 75888175.0,
@@ -24,7 +24,6 @@
     "margin_change": -5.26,
     "operating_margin": 43.32,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2348389.0,
       "2025-03-31 00:00:00": 2508684.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.019,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T14:00:57.619148"
+  "fetched_at": "2026-04-16T14:39:11.192866"
 }

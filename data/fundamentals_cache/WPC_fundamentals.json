@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "WPC",
-    "fetch_date": "2026-02-13T14:20:47.184378",
+    "fetch_date": "2026-04-16T15:06:48.414032",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 397383000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 406165000.0,
       "2025-03-31 00:00:00": 409858000.0,
       "2025-06-30 00:00:00": 430777000.0,
       "2025-09-30 00:00:00": 431303000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 444547000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 3.070695079793092,
+    "revenue_yoy_change": 9.449854123324265,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.21,
       "2025-03-31 00:00:00": 0.57,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": 4.687500000000004,
     "eps_yoy_change": 219.04761904761912,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 89.86,
+    "margin_change": 0.12,
+    "operating_margin": 55.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T14:20:47.185630"
+  "fetched_at": "2026-04-16T15:06:48.415153"
 }

@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "LAZ",
-    "fetch_date": "2026-02-13T13:51:30.618958",
+    "fetch_date": "2026-04-16T14:37:43.119494",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 792409000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 824744000.0,
       "2025-03-31 00:00:00": 657502000.0,
       "2025-06-30 00:00:00": 807953000.0,
       "2025-09-30 00:00:00": 763104000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 919415000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 20.483577598859394,
+    "revenue_yoy_change": 11.478834644447247,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.8,
       "2025-03-31 00:00:00": 0.56,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -30.76923076923077,
     "eps_yoy_change": -43.75,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 30.64,
+    "margin_change": -4.07,
+    "operating_margin": 10.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:51:30.620240"
+  "fetched_at": "2026-04-16T14:37:43.120813"
 }

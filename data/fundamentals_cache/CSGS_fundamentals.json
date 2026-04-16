@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "CSGS",
-    "fetch_date": "2026-02-13T13:33:36.653184",
+    "fetch_date": "2026-04-16T14:19:51.171424",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 295143000.0,
       "2024-12-31 00:00:00": 316652000.0,
       "2025-03-31 00:00:00": 299453000.0,
       "2025-06-30 00:00:00": 297128000.0,
       "2025-09-30 00:00:00": 303615000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 323093000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 6.415361559870231,
+    "revenue_yoy_change": 2.0340942106792315,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.21,
       "2025-03-31 00:00:00": 0.57,
       "2025-06-30 00:00:00": 0.44,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -65.75342465753424,
     "eps_yoy_change": -79.33884297520662,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 50.05,
+    "margin_change": 1.93,
+    "operating_margin": 9.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:33:36.654482"
+  "fetched_at": "2026-04-16T14:19:51.172560"
 }

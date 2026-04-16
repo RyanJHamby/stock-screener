@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "AAMI",
-    "fetch_date": "2026-02-13T13:18:58.227159",
+    "fetch_date": "2026-04-16T14:05:13.771945",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 123100000.0,
       "2024-12-31 00:00:00": 167800000.0,
       "2025-03-31 00:00:00": 119900000.0,
       "2025-06-30 00:00:00": 127400000.0,
       "2025-09-30 00:00:00": 144200000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 172200000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 19.41747572815534,
+    "revenue_yoy_change": 2.622169249106079,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.13,
       "2025-03-31 00:00:00": 0.54,
       "2025-06-30 00:00:00": 0.28,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 130.95238095238096,
     "eps_yoy_change": -14.159292035398224,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 49.88,
+    "margin_change": 12.3,
+    "operating_margin": 33.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:18:58.228496"
+  "fetched_at": "2026-04-16T14:05:13.773137"
 }

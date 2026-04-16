@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "IQV",
-    "fetch_date": "2026-02-13T13:48:49.488285",
+    "fetch_date": "2026-04-16T14:35:01.909030",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 3896000000.0,
       "2024-12-31 00:00:00": 3958000000.0,
       "2025-03-31 00:00:00": 3829000000.0,
       "2025-06-30 00:00:00": 4017000000.0,
       "2025-09-30 00:00:00": 4100000000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 4364000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 6.439024390243903,
+    "revenue_yoy_change": 10.257705912076807,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2.42,
       "2025-03-31 00:00:00": 1.4,
       "2025-06-30 00:00:00": 1.54,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 54.92227979274613,
     "eps_yoy_change": 23.553719008264476,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 32.91,
+    "margin_change": -0.58,
+    "operating_margin": 14.92,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:48:49.489530"
+  "fetched_at": "2026-04-16T14:35:01.910173"
 }

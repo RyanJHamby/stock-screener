@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTCT",
-    "fetch_date": "2026-02-13T13:59:01.781324",
+    "fetch_date": "2026-04-16T14:45:13.574301",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 252019000.0,
@@ -26,7 +26,6 @@
     "margin_change": 1.55,
     "operating_margin": 25.67,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 11156000.0,
       "2025-03-31 00:00:00": 11109000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.042,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:59:01.782974"
+  "fetched_at": "2026-04-16T14:45:13.575757"
 }

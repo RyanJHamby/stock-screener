@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TXN",
-    "fetch_date": "2026-02-13T14:16:37.174920",
+    "fetch_date": "2026-04-16T15:02:40.184002",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 4007000000.0,
@@ -26,7 +26,6 @@
     "margin_change": -1.53,
     "operating_margin": 34.03,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 4527000000.0,
       "2025-03-31 00:00:00": 4687000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 1.086,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T14:16:37.176602"
+  "fetched_at": "2026-04-16T15:02:40.186089"
 }

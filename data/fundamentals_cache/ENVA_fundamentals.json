@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "ENVA",
-    "fetch_date": "2026-02-13T13:38:24.477933",
+    "fetch_date": "2026-04-16T14:24:37.528327",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 689924000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 729551000.0,
       "2025-03-31 00:00:00": 745541000.0,
       "2025-06-30 00:00:00": 764043000.0,
       "2025-09-30 00:00:00": 802678000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 839391000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 4.573814157109077,
+    "revenue_yoy_change": 15.055835712650659,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2.3,
       "2025-03-31 00:00:00": 2.69,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -0.9900990099009837,
     "eps_yoy_change": 30.43478260869566,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 49.19,
+    "margin_change": 2.62,
+    "operating_margin": 12.42,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:38:24.479190"
+  "fetched_at": "2026-04-16T14:24:37.529504"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IBEX",
-    "fetch_date": "2026-02-10T14:10:48.824289",
+    "fetch_date": "2026-04-16T14:33:25.034012",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 140682000.0,
       "2025-03-31 00:00:00": 140736000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 9.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-10T14:10:48.826230"
+  "fetched_at": "2026-04-16T14:33:25.035781"
 }

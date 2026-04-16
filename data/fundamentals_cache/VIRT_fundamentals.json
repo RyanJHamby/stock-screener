@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "VIRT",
-    "fetch_date": "2026-02-13T14:18:38.009919",
+    "fetch_date": "2026-04-16T15:04:40.055473",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 706840000.0,
       "2024-12-31 00:00:00": 834285000.0,
       "2025-03-31 00:00:00": 837869000.0,
       "2025-06-30 00:00:00": 999573000.0,
       "2025-09-30 00:00:00": 824789000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 969887000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 17.592135685611716,
+    "revenue_yoy_change": 16.253678299382106,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.03,
       "2025-03-31 00:00:00": 1.08,
       "2025-06-30 00:00:00": 1.65,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 79.06976744186048,
     "eps_yoy_change": 49.51456310679612,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 70.88,
+    "margin_change": 11.61,
+    "operating_margin": 58.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T14:18:38.011199"
+  "fetched_at": "2026-04-16T15:04:40.056622"
 }
