@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RCEL",
-    "fetch_date": "2026-03-10T14:06:50.727672",
+    "fetch_date": "2026-04-17T14:35:21.488487",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 18406000.0,
       "2025-03-31 00:00:00": 18514000.0,
@@ -24,7 +24,6 @@
     "margin_change": -0.08,
     "operating_margin": -59.09,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 7269000.0,
       "2025-03-31 00:00:00": 8395000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.393,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-03-10T14:06:50.729145"
+  "fetched_at": "2026-04-17T14:35:21.490253"
 }

@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "SEIC",
-    "fetch_date": "2026-02-06T14:07:45.987436",
+    "fetch_date": "2026-04-17T14:38:36.149520",
     "quarterly_revenue": {
-      "2024-06-30 00:00:00": NaN,
-      "2024-09-30 00:00:00": 537396000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 557190000.0,
       "2025-03-31 00:00:00": 551344000.0,
       "2025-06-30 00:00:00": 559601000.0,
       "2025-09-30 00:00:00": 578511000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 607925000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 5.084432275272207,
+    "revenue_yoy_change": 9.105511584917174,
     "quarterly_eps": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1.19,
       "2025-03-31 00:00:00": 1.17,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": 6.153846153846142,
     "eps_yoy_change": 15.966386554621845,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 51.59,
+    "margin_change": -2.04,
+    "operating_margin": 26.59,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-06T14:07:45.988598"
+  "fetched_at": "2026-04-17T14:38:36.150903"
 }
