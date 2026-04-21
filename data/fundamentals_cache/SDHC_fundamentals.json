@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SDHC",
-    "fetch_date": "2026-04-10T14:30:33.729668",
+    "fetch_date": "2026-04-21T14:51:27.315183",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 287486000.0,
       "2025-03-31 00:00:00": 224722000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.147,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-10T14:30:33.731343"
+  "fetched_at": "2026-04-21T14:51:27.316640"
 }

@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "APAM",
-    "fetch_date": "2026-02-13T13:22:50.378083",
+    "fetch_date": "2026-04-21T14:05:13.960562",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": 279582000.0,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 297051000.0,
       "2025-03-31 00:00:00": 277147000.0,
       "2025-06-30 00:00:00": 282749000.0,
       "2025-09-30 00:00:00": 301287000.0,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": 335505000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 11.357277280466798,
+    "revenue_yoy_change": 12.945251825444116,
     "quarterly_eps": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.97,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": 41.935483870967744,
     "eps_yoy_change": 36.08247422680414,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 50.73,
+    "margin_change": 4.91,
+    "operating_margin": 39.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-13T13:22:50.379325"
+  "fetched_at": "2026-04-21T14:05:13.961813"
 }

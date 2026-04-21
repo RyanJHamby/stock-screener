@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APOG",
-    "fetch_date": "2026-02-09T13:30:57.395509",
+    "fetch_date": "2026-04-21T14:05:25.156493",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": 341344000.0,
       "2025-02-28 00:00:00": 345694000.0,
@@ -24,7 +24,6 @@
     "margin_change": 0.75,
     "operating_margin": 7.14,
     "quarterly_inventory": {
-      "2024-05-31 00:00:00": NaN,
       "2024-08-31 00:00:00": NaN,
       "2024-11-30 00:00:00": 97003000.0,
       "2025-02-28 00:00:00": 92305000.0,
@@ -36,5 +35,5 @@
     "inventory_to_sales_ratio": 0.294,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T13:30:57.397276"
+  "fetched_at": "2026-04-21T14:05:25.157999"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BZH",
-    "fetch_date": "2026-02-09T13:36:55.444855",
+    "fetch_date": "2026-04-21T14:11:23.058321",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 468953000.0,
@@ -26,7 +26,6 @@
     "margin_change": -3.26,
     "operating_margin": -8.76,
     "quarterly_inventory": {
-      "2024-06-30 00:00:00": NaN,
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2164074000.0,
       "2025-03-31 00:00:00": 2233407000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 5.889,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-02-09T13:36:55.446646"
+  "fetched_at": "2026-04-21T14:11:23.059817"
 }
