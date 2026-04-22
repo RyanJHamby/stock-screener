@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NNE",
-    "fetch_date": "2026-04-14T14:42:54.994910",
+    "fetch_date": "2026-04-22T14:40:57.030185",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-14T14:42:54.995781"
+  "fetched_at": "2026-04-22T14:40:57.031088"
 }

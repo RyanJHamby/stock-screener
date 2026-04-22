@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FISV",
-    "fetch_date": "2026-04-14T14:25:13.026596",
+    "fetch_date": "2026-04-22T14:23:14.015451",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 5251000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 24.38,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-14T14:25:13.027818"
+  "fetched_at": "2026-04-22T14:23:14.016689"
 }

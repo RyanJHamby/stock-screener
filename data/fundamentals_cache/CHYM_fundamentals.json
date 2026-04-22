@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHYM",
-    "fetch_date": "2026-04-14T14:15:38.938284",
+    "fetch_date": "2026-04-22T14:13:40.915939",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 475212000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -9.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-14T14:15:38.939439"
+  "fetched_at": "2026-04-22T14:13:40.917188"
 }

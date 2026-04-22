@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CBZ",
-    "fetch_date": "2026-04-14T14:14:19.980327",
+    "fetch_date": "2026-04-22T14:12:21.866574",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 460279000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -15.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-14T14:14:19.981512"
+  "fetched_at": "2026-04-22T14:12:21.867760"
 }
