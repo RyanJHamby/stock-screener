@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IDT",
-    "fetch_date": "2026-04-16T14:33:42.932152",
+    "fetch_date": "2026-04-24T14:25:22.390757",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 8.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:33:42.933363"
+  "fetched_at": "2026-04-24T14:25:22.392407"
 }

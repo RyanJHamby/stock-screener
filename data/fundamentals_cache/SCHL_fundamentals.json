@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SCHL",
-    "fetch_date": "2026-04-16T14:55:03.867824",
+    "fetch_date": "2026-04-24T14:46:44.530890",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": 335400000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.858,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:55:03.869264"
+  "fetched_at": "2026-04-24T14:46:44.532367"
 }

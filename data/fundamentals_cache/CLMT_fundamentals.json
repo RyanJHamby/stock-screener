@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLMT",
-    "fetch_date": "2026-04-16T14:17:46.375611",
+    "fetch_date": "2026-04-24T14:09:26.583731",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 949500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.371,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:17:46.377090"
+  "fetched_at": "2026-04-24T14:09:26.585176"
 }

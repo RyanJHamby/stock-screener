@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RELL",
-    "fetch_date": "2026-04-16T14:52:36.744668",
+    "fetch_date": "2026-04-24T14:44:17.401764",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": 53804000.0,
       "2025-05-31 00:00:00": 51889000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:52:36.746121"
+  "fetched_at": "2026-04-24T14:44:17.403407"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STRK",
-    "fetch_date": "2026-04-17T14:42:08.632582",
+    "fetch_date": "2026-04-24T14:50:36.743898",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 120697000.0,
@@ -17,5 +17,5 @@
     "operating_margin": -8.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:42:08.633777"
+  "fetched_at": "2026-04-24T14:50:36.744910"
 }

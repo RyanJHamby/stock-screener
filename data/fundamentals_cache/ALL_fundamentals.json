@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALL",
-    "fetch_date": "2026-04-16T14:07:43.919336",
+    "fetch_date": "2026-04-24T13:59:24.192212",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 16342000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 103.25318246110325,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:07:43.920432"
+  "fetched_at": "2026-04-24T13:59:24.192841"
 }

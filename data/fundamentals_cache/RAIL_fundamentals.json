@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAIL",
-    "fetch_date": "2026-04-16T14:51:54.771743",
+    "fetch_date": "2026-04-24T14:43:35.249885",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 137696000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.544,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:51:54.774003"
+  "fetched_at": "2026-04-24T14:43:35.251357"
 }

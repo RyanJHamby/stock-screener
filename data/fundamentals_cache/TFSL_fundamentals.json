@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TFSL",
-    "fetch_date": "2026-04-16T15:00:24.084005",
+    "fetch_date": "2026-04-24T14:52:02.050538",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 74831000.0,
       "2025-03-31 00:00:00": 79117000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:00:24.084639"
+  "fetched_at": "2026-04-24T14:52:02.051214"
 }

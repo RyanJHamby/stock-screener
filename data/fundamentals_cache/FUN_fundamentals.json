@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FUN",
-    "fetch_date": "2026-04-16T14:28:19.614982",
+    "fetch_date": "2026-04-24T14:20:00.432373",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 687310000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.105,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:28:19.616489"
+  "fetched_at": "2026-04-24T14:20:00.433810"
 }

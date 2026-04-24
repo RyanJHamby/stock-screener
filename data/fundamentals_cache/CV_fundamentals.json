@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CV",
-    "fetch_date": "2026-04-17T14:03:31.596589",
+    "fetch_date": "2026-04-24T14:12:05.523223",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3452000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.762,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:03:31.598368"
+  "fetched_at": "2026-04-24T14:12:05.524725"
 }

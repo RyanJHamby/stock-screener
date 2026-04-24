@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MYRG",
-    "fetch_date": "2026-04-16T14:43:19.515944",
+    "fetch_date": "2026-04-24T14:35:00.878896",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 829795000.0,
       "2025-03-31 00:00:00": 833620000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.67,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:43:19.517095"
+  "fetched_at": "2026-04-24T14:35:00.880171"
 }

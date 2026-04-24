@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TDC",
-    "fetch_date": "2026-04-16T15:00:04.136447",
+    "fetch_date": "2026-04-24T14:51:41.623650",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 409000000.0,
       "2025-03-31 00:00:00": 418000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.031,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:00:04.137904"
+  "fetched_at": "2026-04-24T14:51:41.625145"
 }

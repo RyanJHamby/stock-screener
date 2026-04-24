@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LZB",
-    "fetch_date": "2026-04-17T14:22:57.599455",
+    "fetch_date": "2026-04-24T14:31:30.637664",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": 521777000.0,
       "2025-04-30 00:00:00": 570871000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.434,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:22:57.601248"
+  "fetched_at": "2026-04-24T14:31:30.639838"
 }

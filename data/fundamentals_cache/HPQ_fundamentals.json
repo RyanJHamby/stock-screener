@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HPQ",
-    "fetch_date": "2026-04-16T14:32:27.954653",
+    "fetch_date": "2026-04-24T14:24:08.308108",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 13504000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.605,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:32:27.956478"
+  "fetched_at": "2026-04-24T14:24:08.309569"
 }

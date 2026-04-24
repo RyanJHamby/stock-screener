@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IMXI",
-    "fetch_date": "2026-04-16T14:34:09.868784",
+    "fetch_date": "2026-04-24T14:25:49.407786",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 164759000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:34:09.870006"
+  "fetched_at": "2026-04-24T14:25:49.408973"
 }

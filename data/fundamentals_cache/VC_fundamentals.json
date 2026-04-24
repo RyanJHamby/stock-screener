@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VC",
-    "fetch_date": "2026-04-17T14:47:21.699360",
+    "fetch_date": "2026-04-24T14:55:52.097570",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 939000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.284,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:47:21.701273"
+  "fetched_at": "2026-04-24T14:55:52.099087"
 }

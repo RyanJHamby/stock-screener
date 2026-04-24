@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BC",
-    "fetch_date": "2026-04-16T14:11:57.173639",
+    "fetch_date": "2026-04-24T14:03:37.243967",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1154900000.0,
       "2025-03-31 00:00:00": 1221800000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.894,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:11:57.175086"
+  "fetched_at": "2026-04-24T14:03:37.245410"
 }

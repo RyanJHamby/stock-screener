@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QRVO",
-    "fetch_date": "2026-04-16T14:51:39.644367",
+    "fetch_date": "2026-04-24T14:43:22.088617",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 916317000.0,
       "2025-03-31 00:00:00": 869474000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.534,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:51:39.645818"
+  "fetched_at": "2026-04-24T14:43:22.090127"
 }

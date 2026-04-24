@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VREX",
-    "fetch_date": "2026-04-16T15:05:07.342518",
+    "fetch_date": "2026-04-24T14:56:45.251580",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 199800000.0,
       "2025-03-31 00:00:00": 212900000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.565,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:05:07.344718"
+  "fetched_at": "2026-04-24T14:56:45.253051"
 }

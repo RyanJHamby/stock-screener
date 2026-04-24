@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CX",
-    "fetch_date": "2026-04-16T14:20:45.459592",
+    "fetch_date": "2026-04-24T14:12:25.753331",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 4055028000.0,
       "2024-12-31 00:00:00": 3811173000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:20:45.461104"
+  "fetched_at": "2026-04-24T14:12:25.755583"
 }

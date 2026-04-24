@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MLKN",
-    "fetch_date": "2026-04-16T14:41:41.299870",
+    "fetch_date": "2026-04-24T14:33:22.896998",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": 876200000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.531,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:41:41.301369"
+  "fetched_at": "2026-04-24T14:33:22.898451"
 }

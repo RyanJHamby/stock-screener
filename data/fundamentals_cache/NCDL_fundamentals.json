@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NCDL",
-    "fetch_date": "2026-04-16T14:43:43.276967",
+    "fetch_date": "2026-04-24T14:35:24.693749",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 29047000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:43:43.277609"
+  "fetched_at": "2026-04-24T14:35:24.694342"
 }

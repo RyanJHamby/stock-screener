@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MMI",
-    "fetch_date": "2026-04-16T14:41:47.403030",
+    "fetch_date": "2026-04-24T14:33:28.666159",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 240078000.0,
       "2025-03-31 00:00:00": 145038000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 6.32,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:41:47.404776"
+  "fetched_at": "2026-04-24T14:33:28.667923"
 }

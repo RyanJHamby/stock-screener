@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VOYG",
-    "fetch_date": "2026-04-16T15:05:01.141356",
+    "fetch_date": "2026-04-24T14:56:39.042648",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 34507000.0,
       "2025-06-30 00:00:00": 45674000.0,
@@ -30,5 +30,5 @@
     "inventory_to_sales_ratio": 0.082,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:05:01.142776"
+  "fetched_at": "2026-04-24T14:56:39.044176"
 }

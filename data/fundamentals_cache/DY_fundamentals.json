@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DY",
-    "fetch_date": "2026-04-16T14:23:13.395565",
+    "fetch_date": "2026-04-24T14:14:51.946776",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 1084525000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.088,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:23:13.397060"
+  "fetched_at": "2026-04-24T14:14:51.948231"
 }

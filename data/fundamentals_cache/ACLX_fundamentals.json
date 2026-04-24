@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACLX",
-    "fetch_date": "2026-04-16T14:05:49.739069",
+    "fetch_date": "2026-04-24T13:57:29.804303",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 15266000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -3850.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:05:49.739997"
+  "fetched_at": "2026-04-24T13:57:29.805209"
 }

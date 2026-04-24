@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OCC",
-    "fetch_date": "2026-04-16T14:46:12.479187",
+    "fetch_date": "2026-04-24T14:37:54.822691",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 1.272,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:46:12.480732"
+  "fetched_at": "2026-04-24T14:37:54.824182"
 }

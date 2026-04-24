@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DHT",
-    "fetch_date": "2026-04-16T14:21:55.398636",
+    "fetch_date": "2026-04-24T14:13:33.896467",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 131391000.0,
       "2025-03-31 00:00:00": 118574000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.171,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:21:55.400107"
+  "fetched_at": "2026-04-24T14:13:33.897964"
 }

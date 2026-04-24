@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EA",
-    "fetch_date": "2026-04-16T14:23:18.497801",
+    "fetch_date": "2026-04-24T14:14:56.982898",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1883000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 6.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:23:18.499041"
+  "fetched_at": "2026-04-24T14:14:56.984024"
 }

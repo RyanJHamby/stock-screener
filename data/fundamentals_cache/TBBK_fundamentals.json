@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TBBK",
-    "fetch_date": "2026-04-16T14:59:50.865248",
+    "fetch_date": "2026-04-24T14:51:28.969019",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 149226000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 11.304347826086968,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:59:50.865879"
+  "fetched_at": "2026-04-24T14:51:28.969757"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVNS",
-    "fetch_date": "2026-04-16T14:10:59.888122",
+    "fetch_date": "2026-04-24T14:02:40.160913",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 179600000.0,
       "2025-03-31 00:00:00": 167500000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.818,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:10:59.889594"
+  "fetched_at": "2026-04-24T14:02:40.162595"
 }

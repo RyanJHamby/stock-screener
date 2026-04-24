@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALGM",
-    "fetch_date": "2026-04-16T14:07:34.835111",
+    "fetch_date": "2026-04-24T13:59:14.905693",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 177872000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.777,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:07:34.836640"
+  "fetched_at": "2026-04-24T13:59:14.907192"
 }

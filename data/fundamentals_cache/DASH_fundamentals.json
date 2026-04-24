@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DASH",
-    "fetch_date": "2026-04-16T14:21:09.307683",
+    "fetch_date": "2026-04-24T14:12:49.710833",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2873000000.0,
       "2025-03-31 00:00:00": 3032000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:21:09.308824"
+  "fetched_at": "2026-04-24T14:12:49.711983"
 }

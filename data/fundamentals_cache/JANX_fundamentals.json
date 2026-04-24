@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JANX",
-    "fetch_date": "2026-04-16T14:35:34.754040",
+    "fetch_date": "2026-04-24T14:27:14.201437",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 0.0,
       "2025-03-31 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:35:34.754897"
+  "fetched_at": "2026-04-24T14:27:14.202294"
 }

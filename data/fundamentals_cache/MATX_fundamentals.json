@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MATX",
-    "fetch_date": "2026-04-16T14:40:10.416408",
+    "fetch_date": "2026-04-24T14:31:51.510604",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 890300000.0,
       "2025-03-31 00:00:00": 782000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 15.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:40:10.417555"
+  "fetched_at": "2026-04-24T14:31:51.511780"
 }

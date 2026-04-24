@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RSI",
-    "fetch_date": "2026-04-16T14:53:58.846393",
+    "fetch_date": "2026-04-24T14:45:39.449001",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 254167000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:53:58.847579"
+  "fetched_at": "2026-04-24T14:45:39.450149"
 }

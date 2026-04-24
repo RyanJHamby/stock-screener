@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NGL",
-    "fetch_date": "2026-04-16T14:44:13.399557",
+    "fetch_date": "2026-04-24T14:35:54.738769",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 982414000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.087,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:44:13.401031"
+  "fetched_at": "2026-04-24T14:35:54.740234"
 }

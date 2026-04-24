@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRC",
-    "fetch_date": "2026-04-16T14:37:06.208626",
+    "fetch_date": "2026-04-24T14:28:46.592746",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 286379000.0,
       "2025-03-31 00:00:00": 270844000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:37:06.210134"
+  "fetched_at": "2026-04-24T14:28:46.594193"
 }

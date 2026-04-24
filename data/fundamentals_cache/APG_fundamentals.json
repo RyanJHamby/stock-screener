@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APG",
-    "fetch_date": "2026-04-16T14:09:08.015785",
+    "fetch_date": "2026-04-24T14:00:48.108016",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1861000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.068,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:09:08.018264"
+  "fetched_at": "2026-04-24T14:00:48.109455"
 }

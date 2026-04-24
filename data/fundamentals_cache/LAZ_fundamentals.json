@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LAZ",
-    "fetch_date": "2026-04-16T14:37:43.119494",
+    "fetch_date": "2026-04-24T14:29:24.615796",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 824744000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:37:43.120813"
+  "fetched_at": "2026-04-24T14:29:24.616934"
 }

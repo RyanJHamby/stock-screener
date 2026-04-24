@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PACS",
-    "fetch_date": "2026-04-16T14:48:08.603600",
+    "fetch_date": "2026-04-24T14:39:52.058415",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1207888000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 6.97,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:48:08.604760"
+  "fetched_at": "2026-04-24T14:39:52.059552"
 }

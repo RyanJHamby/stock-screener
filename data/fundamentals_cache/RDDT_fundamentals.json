@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RDDT",
-    "fetch_date": "2026-04-16T14:52:20.522953",
+    "fetch_date": "2026-04-24T14:44:01.259430",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 427707000.0,
       "2025-03-31 00:00:00": 392361000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 31.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:52:20.524091"
+  "fetched_at": "2026-04-24T14:44:01.260586"
 }

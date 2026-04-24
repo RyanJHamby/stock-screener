@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WWD",
-    "fetch_date": "2026-04-16T15:07:12.421722",
+    "fetch_date": "2026-04-24T14:58:50.261969",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 772725000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.692,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:07:12.423220"
+  "fetched_at": "2026-04-24T14:58:50.263425"
 }

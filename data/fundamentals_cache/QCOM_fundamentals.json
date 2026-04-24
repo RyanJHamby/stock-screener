@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QCOM",
-    "fetch_date": "2026-04-17T14:34:36.947068",
+    "fetch_date": "2026-04-24T14:43:12.432599",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 11669000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.544,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:34:36.948914"
+  "fetched_at": "2026-04-24T14:43:12.434118"
 }

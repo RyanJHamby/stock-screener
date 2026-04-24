@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WMK",
-    "fetch_date": "2026-04-16T15:06:41.301414",
+    "fetch_date": "2026-04-24T14:58:19.285072",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1245128000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.222,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:06:41.302878"
+  "fetched_at": "2026-04-24T14:58:19.286526"
 }

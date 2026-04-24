@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HSTM",
-    "fetch_date": "2026-04-16T14:32:45.766433",
+    "fetch_date": "2026-04-24T14:24:26.314547",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 74235000.0,
       "2025-03-31 00:00:00": 73485000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:32:45.767589"
+  "fetched_at": "2026-04-24T14:24:26.315659"
 }

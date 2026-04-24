@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ENGN",
-    "fetch_date": "2026-04-16T14:24:29.469794",
+    "fetch_date": "2026-04-24T14:16:08.941899",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -27,5 +27,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:24:29.470718"
+  "fetched_at": "2026-04-24T14:16:08.942770"
 }

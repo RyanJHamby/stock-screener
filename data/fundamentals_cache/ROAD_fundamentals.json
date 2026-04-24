@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ROAD",
-    "fetch_date": "2026-04-16T14:53:39.748714",
+    "fetch_date": "2026-04-24T14:45:20.347876",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 561580000.0,
       "2025-03-31 00:00:00": 571650000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.21,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:53:39.750195"
+  "fetched_at": "2026-04-24T14:45:20.349322"
 }

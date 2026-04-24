@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAHC",
-    "fetch_date": "2026-04-16T14:48:10.739087",
+    "fetch_date": "2026-04-24T14:39:54.233003",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 309261000.0,
       "2025-03-31 00:00:00": 347825000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.384,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:48:10.740561"
+  "fetched_at": "2026-04-24T14:39:54.234417"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRDN",
-    "fetch_date": "2026-04-16T14:30:23.705660",
+    "fetch_date": "2026-04-24T14:22:03.924468",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 338569000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.109,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:30:23.707140"
+  "fetched_at": "2026-04-24T14:22:03.925959"
 }

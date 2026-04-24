@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RUSHA",
-    "fetch_date": "2026-04-16T14:54:04.785079",
+    "fetch_date": "2026-04-24T14:45:45.393124",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2009586000.0,
       "2025-03-31 00:00:00": 1850830000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.866,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:54:04.786566"
+  "fetched_at": "2026-04-24T14:45:45.394582"
 }

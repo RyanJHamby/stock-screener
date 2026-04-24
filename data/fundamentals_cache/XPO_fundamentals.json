@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XPO",
-    "fetch_date": "2026-04-16T15:07:33.264079",
+    "fetch_date": "2026-04-24T14:59:12.348078",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1922000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:07:33.265234"
+  "fetched_at": "2026-04-24T14:59:12.349227"
 }

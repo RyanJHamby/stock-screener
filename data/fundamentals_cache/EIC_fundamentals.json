@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EIC",
-    "fetch_date": "2026-04-16T14:23:58.336626",
+    "fetch_date": "2026-04-24T14:15:36.850095",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 13984613.0
     },
@@ -10,5 +10,5 @@
     },
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:23:58.337018"
+  "fetched_at": "2026-04-24T14:15:36.850456"
 }

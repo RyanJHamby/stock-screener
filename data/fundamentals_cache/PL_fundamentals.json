@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PL",
-    "fetch_date": "2026-04-16T14:49:36.740471",
+    "fetch_date": "2026-04-24T14:41:20.149614",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 61554000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:49:36.741951"
+  "fetched_at": "2026-04-24T14:41:20.151061"
 }

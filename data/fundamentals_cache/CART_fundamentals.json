@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CART",
-    "fetch_date": "2026-04-16T14:15:37.182397",
+    "fetch_date": "2026-04-24T14:07:17.287103",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 883000000.0,
       "2025-03-31 00:00:00": 897000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 9.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:15:37.183586"
+  "fetched_at": "2026-04-24T14:07:17.288232"
 }

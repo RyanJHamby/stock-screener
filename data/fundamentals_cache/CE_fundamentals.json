@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CE",
-    "fetch_date": "2026-04-16T14:16:35.188523",
+    "fetch_date": "2026-04-24T14:08:15.466198",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2370000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.007,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:16:35.190022"
+  "fetched_at": "2026-04-24T14:08:15.467662"
 }

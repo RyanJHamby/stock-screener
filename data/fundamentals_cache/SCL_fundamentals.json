@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SCL",
-    "fetch_date": "2026-04-16T14:55:07.896446",
+    "fetch_date": "2026-04-24T14:46:48.629882",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 525609000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.54,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:55:07.897904"
+  "fetched_at": "2026-04-24T14:46:48.631644"
 }

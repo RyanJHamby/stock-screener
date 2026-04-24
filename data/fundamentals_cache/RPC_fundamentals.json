@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RPC",
-    "fetch_date": "2026-04-17T14:36:58.189490",
+    "fetch_date": "2026-04-24T14:45:30.507117",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 85014000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 32.73,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:36:58.190877"
+  "fetched_at": "2026-04-24T14:45:30.508262"
 }

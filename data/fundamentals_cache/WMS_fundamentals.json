@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WMS",
-    "fetch_date": "2026-04-16T15:06:42.304171",
+    "fetch_date": "2026-04-24T14:58:20.353745",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 690538000.0,
       "2025-03-31 00:00:00": 615761000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.622,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:06:42.305633"
+  "fetched_at": "2026-04-24T14:58:20.355188"
 }

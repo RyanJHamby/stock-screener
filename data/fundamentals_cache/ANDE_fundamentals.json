@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ANDE",
-    "fetch_date": "2026-04-16T14:08:44.172033",
+    "fetch_date": "2026-04-24T14:00:24.220721",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3123138000.0,
@@ -22,8 +22,8 @@
     },
     "eps_qoq_change": 233.89830508474577,
     "eps_yoy_change": 50.38167938931297,
-    "gross_margin": NaN,
-    "margin_change": NaN,
+    "gross_margin": 9.13,
+    "margin_change": 2.75,
     "operating_margin": 3.91,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": NaN,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.538,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:08:44.173526"
+  "fetched_at": "2026-04-24T14:00:24.222340"
 }

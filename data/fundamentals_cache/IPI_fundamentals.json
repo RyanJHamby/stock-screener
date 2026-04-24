@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IPI",
-    "fetch_date": "2026-04-16T14:34:55.940970",
+    "fetch_date": "2026-04-24T14:26:35.404130",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 55803000.0,
       "2025-03-31 00:00:00": 97760000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.48,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:34:55.942469"
+  "fetched_at": "2026-04-24T14:26:35.405577"
 }

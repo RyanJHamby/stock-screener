@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BEP",
-    "fetch_date": "2026-04-16T14:12:31.175435",
+    "fetch_date": "2026-04-24T14:04:11.227000",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1432000000.0,
       "2025-03-31 00:00:00": 1580000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.115,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:12:31.176909"
+  "fetched_at": "2026-04-24T14:04:11.228456"
 }

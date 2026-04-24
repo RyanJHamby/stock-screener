@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GATX",
-    "fetch_date": "2026-04-16T14:28:39.774752",
+    "fetch_date": "2026-04-24T14:20:20.175193",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 413500000.0,
       "2025-03-31 00:00:00": 421600000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.187,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:28:39.776194"
+  "fetched_at": "2026-04-24T14:20:20.176697"
 }

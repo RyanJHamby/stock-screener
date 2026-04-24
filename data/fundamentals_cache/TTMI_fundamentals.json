@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTMI",
-    "fetch_date": "2026-04-16T15:02:19.007989",
+    "fetch_date": "2026-04-24T14:53:56.953972",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 650965000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.323,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:02:19.009480"
+  "fetched_at": "2026-04-24T14:53:56.956259"
 }

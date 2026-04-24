@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VRNS",
-    "fetch_date": "2026-04-17T14:48:17.089544",
+    "fetch_date": "2026-04-24T14:56:48.138472",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 158514000.0,
       "2025-03-31 00:00:00": 136423000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -17.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:48:17.090891"
+  "fetched_at": "2026-04-24T14:56:48.139589"
 }

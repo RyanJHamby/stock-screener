@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KFY",
-    "fetch_date": "2026-04-16T14:36:28.099703",
+    "fetch_date": "2026-04-24T14:28:07.566333",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 676538000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 12.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:36:28.100915"
+  "fetched_at": "2026-04-24T14:28:07.567520"
 }

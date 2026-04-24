@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WYNN",
-    "fetch_date": "2026-04-16T15:07:14.312689",
+    "fetch_date": "2026-04-24T14:58:52.380084",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1838797000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.047,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:07:14.314175"
+  "fetched_at": "2026-04-24T14:58:52.381578"
 }

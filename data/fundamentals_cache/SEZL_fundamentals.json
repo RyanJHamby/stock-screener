@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SEZL",
-    "fetch_date": "2026-04-16T14:55:38.781732",
+    "fetch_date": "2026-04-24T14:47:19.378178",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 98223060.0,
@@ -27,5 +27,5 @@
     "operating_margin": 39.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:55:38.782928"
+  "fetched_at": "2026-04-24T14:47:19.380852"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRDA",
-    "fetch_date": "2026-04-16T15:01:42.156074",
+    "fetch_date": "2026-04-24T14:53:19.774734",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 37398000.0,
       "2025-03-31 00:00:00": 20558000.0,
@@ -23,5 +23,5 @@
     "operating_margin": -3249.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:01:42.157561"
+  "fetched_at": "2026-04-24T14:53:19.775621"
 }

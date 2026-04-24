@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUI",
-    "fetch_date": "2026-04-16T14:59:11.102987",
+    "fetch_date": "2026-04-24T14:50:48.813661",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 740600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.283,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:59:11.104495"
+  "fetched_at": "2026-04-24T14:50:48.815139"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MORN",
-    "fetch_date": "2026-04-16T14:42:04.403151",
+    "fetch_date": "2026-04-24T14:33:45.815218",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 591000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 21.35,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:42:04.404319"
+  "fetched_at": "2026-04-24T14:33:45.816378"
 }

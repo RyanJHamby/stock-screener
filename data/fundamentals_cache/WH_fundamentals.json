@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WH",
-    "fetch_date": "2026-04-16T15:06:19.112376",
+    "fetch_date": "2026-04-24T14:57:57.400140",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 341000000.0,
       "2025-03-31 00:00:00": 316000000.0,
@@ -23,5 +23,5 @@
     "operating_margin": 15.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:06:19.113243"
+  "fetched_at": "2026-04-24T14:57:57.401417"
 }

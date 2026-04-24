@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCRX",
-    "fetch_date": "2026-04-16T14:12:10.990652",
+    "fetch_date": "2026-04-24T14:03:51.299253",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 131534000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.013,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:12:10.992092"
+  "fetched_at": "2026-04-24T14:03:51.300711"
 }

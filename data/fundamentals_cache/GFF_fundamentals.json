@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GFF",
-    "fetch_date": "2026-04-16T14:29:13.703780",
+    "fetch_date": "2026-04-24T14:20:54.200716",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 632371000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.678,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:29:13.705382"
+  "fetched_at": "2026-04-24T14:20:54.202186"
 }

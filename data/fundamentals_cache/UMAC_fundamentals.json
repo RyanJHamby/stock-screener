@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UMAC",
-    "fetch_date": "2026-04-16T15:03:21.108085",
+    "fetch_date": "2026-04-24T14:54:58.845423",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2004016.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.085,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:03:21.109573"
+  "fetched_at": "2026-04-24T14:54:58.846917"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRTH",
-    "fetch_date": "2026-04-17T14:33:57.306965",
+    "fetch_date": "2026-04-24T14:42:32.269879",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 227067000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:33:57.308344"
+  "fetched_at": "2026-04-24T14:42:32.271043"
 }

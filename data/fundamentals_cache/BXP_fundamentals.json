@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BXP",
-    "fetch_date": "2026-04-16T14:15:04.249522",
+    "fetch_date": "2026-04-24T14:06:44.309366",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 858571000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 29.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:15:04.250777"
+  "fetched_at": "2026-04-24T14:06:44.310515"
 }

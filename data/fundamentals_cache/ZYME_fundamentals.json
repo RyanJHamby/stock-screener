@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZYME",
-    "fetch_date": "2026-04-16T15:08:25.380652",
+    "fetch_date": "2026-04-24T15:00:05.367574",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 31031000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -1754.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:08:25.381551"
+  "fetched_at": "2026-04-24T15:00:05.368455"
 }

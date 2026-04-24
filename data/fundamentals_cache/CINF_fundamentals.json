@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CINF",
-    "fetch_date": "2026-04-16T14:17:28.281128",
+    "fetch_date": "2026-04-24T14:09:08.509649",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2538000000.0,
       "2025-03-31 00:00:00": 2566000000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 67.578125,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:17:28.281933"
+  "fetched_at": "2026-04-24T14:09:08.510321"
 }

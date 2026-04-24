@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AAP",
-    "fetch_date": "2026-04-16T14:05:16.700766",
+    "fetch_date": "2026-04-24T13:56:57.179441",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1996025000.0,
       "2025-03-31 00:00:00": 2583000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.848,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:05:16.702289"
+  "fetched_at": "2026-04-24T13:56:57.180908"
 }

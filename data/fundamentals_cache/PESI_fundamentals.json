@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PESI",
-    "fetch_date": "2026-04-16T14:49:02.580057",
+    "fetch_date": "2026-04-24T14:40:46.020695",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 14702000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.099,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:49:02.581532"
+  "fetched_at": "2026-04-24T14:40:46.022140"
 }

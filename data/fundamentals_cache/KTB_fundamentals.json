@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KTB",
-    "fetch_date": "2026-04-16T14:37:19.945463",
+    "fetch_date": "2026-04-24T14:29:00.557186",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 699284000.0,
       "2025-03-31 00:00:00": 622901000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.557,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:37:19.946931"
+  "fetched_at": "2026-04-24T14:29:00.558851"
 }

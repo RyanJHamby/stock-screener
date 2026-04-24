@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UNH",
-    "fetch_date": "2026-04-16T15:03:29.158571",
+    "fetch_date": "2026-04-24T14:55:07.134423",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 100807000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 0.34,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:03:29.159742"
+  "fetched_at": "2026-04-24T14:55:07.135554"
 }

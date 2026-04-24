@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FLOC",
-    "fetch_date": "2026-04-16T14:27:12.361143",
+    "fetch_date": "2026-04-24T14:18:51.895664",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": -11989000.0,
       "2025-03-31 00:00:00": 192350000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.759,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:27:12.362648"
+  "fetched_at": "2026-04-24T14:18:51.897174"
 }

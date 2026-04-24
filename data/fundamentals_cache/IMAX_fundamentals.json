@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IMAX",
-    "fetch_date": "2026-04-16T14:33:59.801329",
+    "fetch_date": "2026-04-24T14:25:39.295488",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 92672000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.26,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:33:59.802781"
+  "fetched_at": "2026-04-24T14:25:39.296969"
 }

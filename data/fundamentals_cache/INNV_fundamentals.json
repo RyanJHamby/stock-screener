@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INNV",
-    "fetch_date": "2026-04-16T14:34:28.813734",
+    "fetch_date": "2026-04-24T14:26:08.275948",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 208999000.0,
       "2025-03-31 00:00:00": 218142000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 5.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:34:28.814889"
+  "fetched_at": "2026-04-24T14:26:08.277096"
 }

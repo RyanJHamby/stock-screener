@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STEP",
-    "fetch_date": "2026-04-16T14:58:42.982124",
+    "fetch_date": "2026-04-24T14:50:20.573365",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 339023000.0,
       "2025-03-31 00:00:00": 377729000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -37.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:58:42.983291"
+  "fetched_at": "2026-04-24T14:50:20.574556"
 }

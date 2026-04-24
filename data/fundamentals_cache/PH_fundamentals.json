@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PH",
-    "fetch_date": "2026-04-16T14:49:18.792985",
+    "fetch_date": "2026-04-24T14:41:02.393664",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 4743000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.609,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:49:18.795137"
+  "fetched_at": "2026-04-24T14:41:02.395161"
 }

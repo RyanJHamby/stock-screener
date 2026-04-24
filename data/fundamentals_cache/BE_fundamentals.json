@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BE",
-    "fetch_date": "2026-04-16T14:12:22.159229",
+    "fetch_date": "2026-04-24T14:04:02.356052",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 572393000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.827,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:12:22.160898"
+  "fetched_at": "2026-04-24T14:04:02.357538"
 }

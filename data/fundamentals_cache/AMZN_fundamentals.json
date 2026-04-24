@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMZN",
-    "fetch_date": "2026-04-16T14:08:39.800511",
+    "fetch_date": "2026-04-24T14:00:21.073841",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 187792000000.0,
       "2025-03-31 00:00:00": 155667000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:08:39.801928"
+  "fetched_at": "2026-04-24T14:00:21.075288"
 }

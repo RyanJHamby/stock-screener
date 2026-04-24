@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATRO",
-    "fetch_date": "2026-04-16T14:10:45.020471",
+    "fetch_date": "2026-04-24T14:02:24.373103",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 208540000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:10:45.021943"
+  "fetched_at": "2026-04-24T14:02:24.374523"
 }

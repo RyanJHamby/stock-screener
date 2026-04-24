@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UAMY",
-    "fetch_date": "2026-04-16T15:02:54.104453",
+    "fetch_date": "2026-04-24T14:54:31.886138",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 6871772.0,
@@ -24,7 +24,6 @@
     "eps_yoy_change": null,
     "gross_margin": 20.34,
     "margin_change": -2.8,
-    "operating_margin": -29.62,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1245724.0,
@@ -37,5 +36,5 @@
     "inventory_to_sales_ratio": 0.961,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:02:54.105945"
+  "fetched_at": "2026-04-24T14:54:31.887640"
 }

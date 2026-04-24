@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRNT",
-    "fetch_date": "2026-04-16T14:30:31.803474",
+    "fetch_date": "2026-04-24T14:22:12.191163",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 106307000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:30:31.805109"
+  "fetched_at": "2026-04-24T14:22:12.192355"
 }

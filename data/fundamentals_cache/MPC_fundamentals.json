@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MPC",
-    "fetch_date": "2026-04-16T14:42:11.502103",
+    "fetch_date": "2026-04-24T14:33:52.820563",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 33137000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.311,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:42:11.503579"
+  "fetched_at": "2026-04-24T14:33:52.822091"
 }

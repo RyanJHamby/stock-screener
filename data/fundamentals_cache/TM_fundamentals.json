@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TM",
-    "fetch_date": "2026-04-16T15:01:01.241473",
+    "fetch_date": "2026-04-24T14:52:38.962050",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 12391095000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.344,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:01:01.242945"
+  "fetched_at": "2026-04-24T14:52:38.963560"
 }

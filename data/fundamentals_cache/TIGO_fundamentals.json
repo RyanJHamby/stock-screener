@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TIGO",
-    "fetch_date": "2026-04-16T15:00:41.033162",
+    "fetch_date": "2026-04-24T14:52:18.871906",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1428000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.042,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:00:41.034655"
+  "fetched_at": "2026-04-24T14:52:18.873410"
 }

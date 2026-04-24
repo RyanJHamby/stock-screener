@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NDAQ",
-    "fetch_date": "2026-04-16T14:43:50.450656",
+    "fetch_date": "2026-04-24T14:35:31.965430",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 2030000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 30.65,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:43:50.451804"
+  "fetched_at": "2026-04-24T14:35:31.966760"
 }

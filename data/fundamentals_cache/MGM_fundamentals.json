@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGM",
-    "fetch_date": "2026-04-16T14:41:13.449032",
+    "fetch_date": "2026-04-24T14:32:54.644637",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 4346562000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.027,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:41:13.450813"
+  "fetched_at": "2026-04-24T14:32:54.646106"
 }

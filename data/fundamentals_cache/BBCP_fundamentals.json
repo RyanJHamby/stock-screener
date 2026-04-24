@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BBCP",
-    "fetch_date": "2026-04-16T14:11:45.132748",
+    "fetch_date": "2026-04-24T14:03:25.433162",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.093,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:11:45.134224"
+  "fetched_at": "2026-04-24T14:03:25.434618"
 }

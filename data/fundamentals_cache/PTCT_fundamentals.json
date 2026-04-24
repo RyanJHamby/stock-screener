@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PTCT",
-    "fetch_date": "2026-04-16T14:51:05.722065",
+    "fetch_date": "2026-04-24T14:42:48.174094",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 213172000.0,
       "2025-03-31 00:00:00": 1176096000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.484,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:51:05.723540"
+  "fetched_at": "2026-04-24T14:42:48.176197"
 }

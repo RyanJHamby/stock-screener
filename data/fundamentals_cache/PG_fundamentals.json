@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PG",
-    "fetch_date": "2026-04-16T14:49:14.737308",
+    "fetch_date": "2026-04-24T14:40:58.496533",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 21882000000.0,
       "2025-03-31 00:00:00": 19776000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.352,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:49:14.738755"
+  "fetched_at": "2026-04-24T14:40:58.498729"
 }

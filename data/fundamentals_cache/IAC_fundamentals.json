@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IAC",
-    "fetch_date": "2026-04-16T14:33:20.825461",
+    "fetch_date": "2026-04-24T14:25:00.309265",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 989307000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 14.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:33:20.826632"
+  "fetched_at": "2026-04-24T14:25:00.310412"
 }

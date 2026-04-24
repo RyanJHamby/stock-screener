@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TREX",
-    "fetch_date": "2026-04-16T15:01:44.179621",
+    "fetch_date": "2026-04-24T14:53:21.713797",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 167627000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.481,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:01:44.181397"
+  "fetched_at": "2026-04-24T14:53:21.715300"
 }

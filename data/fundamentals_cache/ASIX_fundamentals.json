@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASIX",
-    "fetch_date": "2026-04-16T14:10:05.981713",
+    "fetch_date": "2026-04-24T14:01:45.157036",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 329062000.0,
       "2025-03-31 00:00:00": 377791000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.657,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:10:05.983153"
+  "fetched_at": "2026-04-24T14:01:45.158463"
 }

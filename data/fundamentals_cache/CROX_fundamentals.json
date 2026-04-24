@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CROX",
-    "fetch_date": "2026-04-16T14:19:39.140463",
+    "fetch_date": "2026-04-24T14:11:19.526728",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 989773000.0,
       "2025-03-31 00:00:00": 937333000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.385,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:19:39.141931"
+  "fetched_at": "2026-04-24T14:11:19.528181"
 }

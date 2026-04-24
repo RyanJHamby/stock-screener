@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLFS",
-    "fetch_date": "2026-04-16T14:13:20.145108",
+    "fetch_date": "2026-04-24T14:05:00.167381",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": -3424000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.605,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:13:20.148040"
+  "fetched_at": "2026-04-24T14:05:00.169916"
 }

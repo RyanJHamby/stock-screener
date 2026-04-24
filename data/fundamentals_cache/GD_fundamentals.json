@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GD",
-    "fetch_date": "2026-04-16T14:28:49.762861",
+    "fetch_date": "2026-04-24T14:20:30.342751",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 13338000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.642,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:28:49.764419"
+  "fetched_at": "2026-04-24T14:20:30.344199"
 }

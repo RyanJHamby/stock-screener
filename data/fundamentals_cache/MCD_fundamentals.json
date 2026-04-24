@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCD",
-    "fetch_date": "2026-04-16T14:40:28.512260",
+    "fetch_date": "2026-04-24T14:32:09.962023",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 6388000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.009,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:40:28.514033"
+  "fetched_at": "2026-04-24T14:32:09.963485"
 }

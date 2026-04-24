@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLMN",
-    "fetch_date": "2026-04-16T14:13:25.175362",
+    "fetch_date": "2026-04-24T14:05:05.260763",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 597511000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.063,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:13:25.176851"
+  "fetched_at": "2026-04-24T14:05:05.262202"
 }

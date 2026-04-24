@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EYE",
-    "fetch_date": "2026-04-16T14:25:47.652387",
+    "fetch_date": "2026-04-24T14:17:27.022908",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 437278000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.177,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:25:47.654628"
+  "fetched_at": "2026-04-24T14:17:27.024508"
 }

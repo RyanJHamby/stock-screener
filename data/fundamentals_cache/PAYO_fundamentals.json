@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAYO",
-    "fetch_date": "2026-04-16T14:48:24.569421",
+    "fetch_date": "2026-04-24T14:40:08.166634",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 201144000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -12.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:48:24.570668"
+  "fetched_at": "2026-04-24T14:40:08.167795"
 }

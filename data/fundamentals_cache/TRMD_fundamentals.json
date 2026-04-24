@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRMD",
-    "fetch_date": "2026-04-16T15:01:49.105818",
+    "fetch_date": "2026-04-24T14:53:26.764976",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 305400000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.189,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:01:49.107255"
+  "fetched_at": "2026-04-24T14:53:26.766477"
 }

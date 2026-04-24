@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IDYA",
-    "fetch_date": "2026-04-16T14:33:44.813593",
+    "fetch_date": "2026-04-24T14:25:24.108050",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 7000000.0,
       "2025-03-31 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": -869.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:33:44.814484"
+  "fetched_at": "2026-04-24T14:25:24.108944"
 }

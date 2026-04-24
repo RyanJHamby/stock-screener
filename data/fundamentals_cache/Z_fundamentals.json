@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "Z",
-    "fetch_date": "2026-04-17T14:51:08.514496",
+    "fetch_date": "2026-04-24T14:59:41.213067",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 554000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -1.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:51:08.515905"
+  "fetched_at": "2026-04-24T14:59:41.214205"
 }

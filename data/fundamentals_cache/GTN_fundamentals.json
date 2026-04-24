@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GTN",
-    "fetch_date": "2026-04-16T14:30:50.900905",
+    "fetch_date": "2026-04-24T14:22:31.334268",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1045000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 14.65,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:30:50.902329"
+  "fetched_at": "2026-04-24T14:22:31.335584"
 }

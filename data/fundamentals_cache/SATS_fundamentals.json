@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SATS",
-    "fetch_date": "2026-04-16T14:54:47.828881",
+    "fetch_date": "2026-04-24T14:46:28.540984",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3966938000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:54:47.830353"
+  "fetched_at": "2026-04-24T14:46:28.542457"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STKL",
-    "fetch_date": "2026-04-16T14:58:47.922315",
+    "fetch_date": "2026-04-24T14:50:25.765115",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 193669000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.488,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:58:47.923782"
+  "fetched_at": "2026-04-24T14:50:25.766612"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAVA",
-    "fetch_date": "2026-04-16T14:15:46.145646",
+    "fetch_date": "2026-04-24T14:07:26.339890",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 227395000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.033,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:15:46.147155"
+  "fetched_at": "2026-04-24T14:07:26.341407"
 }

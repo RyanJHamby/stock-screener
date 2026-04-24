@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "C",
-    "fetch_date": "2026-04-16T14:15:13.164416",
+    "fetch_date": "2026-04-24T14:06:53.542913",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 19586000000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 56.122448979591844,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:15:13.165057"
+  "fetched_at": "2026-04-24T14:06:53.543524"
 }

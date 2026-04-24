@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LKQ",
-    "fetch_date": "2026-04-17T14:21:49.798065",
+    "fetch_date": "2026-04-24T14:30:23.606343",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 3357000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.034,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:21:49.799786"
+  "fetched_at": "2026-04-24T14:30:23.607794"
 }

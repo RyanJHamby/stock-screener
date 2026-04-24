@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "E",
-    "fetch_date": "2026-04-16T14:23:17.536106",
+    "fetch_date": "2026-04-24T14:14:55.907939",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 23488000000.0,
@@ -22,8 +22,6 @@
     },
     "eps_qoq_change": -95.83333333333333,
     "eps_yoy_change": -85.71428571428571,
-    "gross_margin": 5.45,
-    "margin_change": -3.7,
     "operating_margin": -0.97,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": 6259000000.0,
@@ -36,5 +34,5 @@
     "inventory_to_sales_ratio": 0.249,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:23:17.538257"
+  "fetched_at": "2026-04-24T14:14:55.909155"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VECO",
-    "fetch_date": "2026-04-16T15:04:18.150021",
+    "fetch_date": "2026-04-24T14:55:56.167186",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 182131000.0,
       "2025-03-31 00:00:00": 167292000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.668,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:04:18.151557"
+  "fetched_at": "2026-04-24T14:55:56.168625"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTX",
-    "fetch_date": "2026-04-16T14:42:59.409561",
+    "fetch_date": "2026-04-24T14:34:40.897094",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 518100000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.674,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:42:59.411027"
+  "fetched_at": "2026-04-24T14:34:40.898565"
 }

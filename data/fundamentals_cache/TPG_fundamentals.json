@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TPG",
-    "fetch_date": "2026-04-16T15:01:34.954540",
+    "fetch_date": "2026-04-24T14:53:12.804374",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 721447000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:01:34.955156"
+  "fetched_at": "2026-04-24T14:53:12.805160"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GRBK",
-    "fetch_date": "2026-04-16T14:30:20.779964",
+    "fetch_date": "2026-04-24T14:22:01.202704",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 567314000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 3.799,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:30:20.781523"
+  "fetched_at": "2026-04-24T14:22:01.204177"
 }

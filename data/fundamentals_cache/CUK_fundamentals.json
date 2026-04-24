@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CUK",
-    "fetch_date": "2026-04-16T14:20:19.417833",
+    "fetch_date": "2026-04-24T14:11:59.847424",
     "quarterly_revenue": {
       "2024-08-31 00:00:00": NaN,
       "2024-11-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.083,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:20:19.420074"
+  "fetched_at": "2026-04-24T14:11:59.848916"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HUN",
-    "fetch_date": "2026-04-16T14:33:00.859540",
+    "fetch_date": "2026-04-24T14:24:40.131784",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 1540000000.0,
       "2024-12-31 00:00:00": 1452000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:33:00.861040"
+  "fetched_at": "2026-04-24T14:24:40.133261"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TH",
-    "fetch_date": "2026-04-16T15:00:32.973240",
+    "fetch_date": "2026-04-24T14:52:10.813193",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 83688000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -18.74,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:00:32.974398"
+  "fetched_at": "2026-04-24T14:52:10.814393"
 }

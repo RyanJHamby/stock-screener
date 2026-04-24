@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRMN",
-    "fetch_date": "2026-04-16T14:37:08.122078",
+    "fetch_date": "2026-04-24T14:28:48.633664",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 91237969.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.079,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:37:08.123578"
+  "fetched_at": "2026-04-24T14:28:48.635867"
 }

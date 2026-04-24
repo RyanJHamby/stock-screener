@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FOXA",
-    "fetch_date": "2026-04-16T14:27:39.661464",
+    "fetch_date": "2026-04-24T14:19:19.964225",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 5078000000.0,
       "2025-03-31 00:00:00": 4371000000.0,
@@ -33,5 +33,5 @@
     "inventory_to_sales_ratio": 0.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:27:39.662711"
+  "fetched_at": "2026-04-24T14:19:19.965482"
 }

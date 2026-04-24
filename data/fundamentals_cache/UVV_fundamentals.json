@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UVV",
-    "fetch_date": "2026-04-17T14:47:14.148716",
+    "fetch_date": "2026-04-24T14:55:45.021718",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 937193000.0,
       "2025-03-31 00:00:00": 702279000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.397,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:47:14.150471"
+  "fetched_at": "2026-04-24T14:55:45.023179"
 }

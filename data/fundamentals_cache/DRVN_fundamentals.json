@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DRVN",
-    "fetch_date": "2026-04-17T14:05:48.264452",
+    "fetch_date": "2026-04-24T14:14:18.735409",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 502339000.0,
       "2024-12-31 00:00:00": 564117000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.122,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:05:48.266197"
+  "fetched_at": "2026-04-24T14:14:18.736883"
 }

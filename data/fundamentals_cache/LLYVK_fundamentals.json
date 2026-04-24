@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LLYVK",
-    "fetch_date": "2026-04-16T14:38:45.210910",
+    "fetch_date": "2026-04-24T14:30:26.563415",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 0.0,
       "2024-12-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": -8.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:38:45.212030"
+  "fetched_at": "2026-04-24T14:30:26.564578"
 }

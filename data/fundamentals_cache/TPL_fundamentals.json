@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TPL",
-    "fetch_date": "2026-04-16T15:01:37.184099",
+    "fetch_date": "2026-04-24T14:53:15.368351",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 185784000.0,
       "2025-03-31 00:00:00": 195983000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 70.54,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:01:37.185249"
+  "fetched_at": "2026-04-24T14:53:15.369531"
 }

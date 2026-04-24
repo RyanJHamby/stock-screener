@@ -1,30 +1,32 @@
 {
   "data": {
     "ticker": "LBRT",
-    "fetch_date": "2026-04-16T14:37:47.076335",
+    "fetch_date": "2026-04-24T14:29:28.613422",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 943574000.0,
       "2025-03-31 00:00:00": 977461000.0,
       "2025-06-30 00:00:00": 1042521000.0,
       "2025-09-30 00:00:00": 947397000.0,
-      "2025-12-31 00:00:00": 1038737000.0
+      "2025-12-31 00:00:00": 1038737000.0,
+      "2026-03-31 00:00:00": NaN
     },
-    "revenue_qoq_change": 9.641153602977422,
-    "revenue_yoy_change": 10.08537751146174,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": 0.44,
+      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 0.31,
       "2025-03-31 00:00:00": 0.12,
       "2025-06-30 00:00:00": 0.43,
       "2025-09-30 00:00:00": 0.26,
-      "2025-12-31 00:00:00": NaN
+      "2025-12-31 00:00:00": NaN,
+      "2026-03-31 00:00:00": 0.14
     },
     "eps_qoq_change": null,
-    "eps_yoy_change": null,
-    "gross_margin": 9.04,
-    "margin_change": 3.27,
-    "operating_margin": 2.78,
+    "eps_yoy_change": 16.666666666666682,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 203469000.0,
@@ -34,8 +36,8 @@
       "2025-12-31 00:00:00": 188125000.0
     },
     "inventory_qoq_change": 2.01,
-    "inventory_to_sales_ratio": 0.181,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:37:47.077806"
+  "fetched_at": "2026-04-24T14:29:28.614889"
 }

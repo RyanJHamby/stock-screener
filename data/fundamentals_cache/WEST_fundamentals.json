@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WEST",
-    "fetch_date": "2026-04-16T15:06:09.336932",
+    "fetch_date": "2026-04-24T14:57:47.250616",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 228977000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.589,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:06:09.338407"
+  "fetched_at": "2026-04-24T14:57:47.252068"
 }

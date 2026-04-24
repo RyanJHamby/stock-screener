@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EPC",
-    "fetch_date": "2026-04-16T14:24:46.557949",
+    "fetch_date": "2026-04-24T14:16:25.933724",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 415100000.0,
       "2025-03-31 00:00:00": 580700000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.091,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:24:46.559434"
+  "fetched_at": "2026-04-24T14:16:25.935403"
 }

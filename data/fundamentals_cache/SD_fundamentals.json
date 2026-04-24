@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SD",
-    "fetch_date": "2026-04-16T14:55:15.747379",
+    "fetch_date": "2026-04-24T14:46:56.398450",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 38973000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 34.68,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:55:15.748516"
+  "fetched_at": "2026-04-24T14:46:56.399591"
 }

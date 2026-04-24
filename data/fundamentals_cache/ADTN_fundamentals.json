@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADTN",
-    "fetch_date": "2026-04-16T14:06:14.803889",
+    "fetch_date": "2026-04-24T13:57:54.989801",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 242852000.0,
       "2025-03-31 00:00:00": 247744000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.74,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:06:14.805416"
+  "fetched_at": "2026-04-24T13:57:54.991249"
 }

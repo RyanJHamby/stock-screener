@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTRA",
-    "fetch_date": "2026-04-16T14:45:19.591023",
+    "fetch_date": "2026-04-24T14:37:01.859567",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 476061000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.103,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:45:19.592501"
+  "fetched_at": "2026-04-24T14:37:01.862404"
 }

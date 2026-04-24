@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VIRT",
-    "fetch_date": "2026-04-16T15:04:40.055473",
+    "fetch_date": "2026-04-24T14:56:18.004773",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 834285000.0,
       "2025-03-31 00:00:00": 837869000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 58.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T15:04:40.056622"
+  "fetched_at": "2026-04-24T14:56:18.005916"
 }
