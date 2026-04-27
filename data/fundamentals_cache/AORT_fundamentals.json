@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AORT",
-    "fetch_date": "2026-04-16T14:08:58.938464",
+    "fetch_date": "2026-04-27T14:21:36.949773",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 97308000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.797,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:08:58.940209"
+  "fetched_at": "2026-04-27T14:21:36.952031"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CBRL",
-    "fetch_date": "2026-04-20T14:13:27.836053",
+    "fetch_date": "2026-04-27T14:28:38.026279",
     "quarterly_revenue": {
       "2024-07-31 00:00:00": NaN,
       "2024-10-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.206,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:13:27.837793"
+  "fetched_at": "2026-04-27T14:28:38.027971"
 }

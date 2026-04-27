@@ -1,0 +1,29 @@
+{
+  "data": {
+    "ticker": "GLIBK",
+    "fetch_date": "2026-04-27T14:42:14.037198",
+    "quarterly_revenue": {
+      "2024-09-30 00:00:00": NaN,
+      "2025-03-31 00:00:00": 242000000.0,
+      "2025-06-30 00:00:00": 238000000.0,
+      "2025-09-30 00:00:00": NaN,
+      "2025-12-31 00:00:00": 239000000.0
+    },
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
+    "quarterly_eps": {
+      "2024-09-30 00:00:00": 0.68716,
+      "2025-03-31 00:00:00": 1.22,
+      "2025-06-30 00:00:00": 0.883491,
+      "2025-09-30 00:00:00": -13.34,
+      "2025-12-31 00:00:00": NaN
+    },
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
+    "gross_margin": 71.97,
+    "margin_change": NaN,
+    "operating_margin": 13.39,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-04-27T14:42:14.038469"
+}

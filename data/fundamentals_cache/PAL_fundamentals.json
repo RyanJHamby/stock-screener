@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAL",
-    "fetch_date": "2026-04-20T14:45:38.987081",
+    "fetch_date": "2026-04-27T15:00:49.190576",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": 91505501.0,
       "2024-12-31 00:00:00": NaN,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.016,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:45:38.988809"
+  "fetched_at": "2026-04-27T15:00:49.192419"
 }

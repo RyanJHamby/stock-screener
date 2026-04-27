@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HOV",
-    "fetch_date": "2026-04-20T14:29:47.901264",
+    "fetch_date": "2026-04-27T14:44:57.024137",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": 673623000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 2.608,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:29:47.903016"
+  "fetched_at": "2026-04-27T14:44:57.026216"
 }

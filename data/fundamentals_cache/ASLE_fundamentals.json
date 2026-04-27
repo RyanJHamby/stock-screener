@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASLE",
-    "fetch_date": "2026-04-16T14:10:06.934095",
+    "fetch_date": "2026-04-27T14:22:43.880228",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 94741000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 2.258,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:10:06.935571"
+  "fetched_at": "2026-04-27T14:22:43.881930"
 }

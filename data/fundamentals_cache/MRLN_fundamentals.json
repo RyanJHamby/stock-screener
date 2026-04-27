@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MRLN",
-    "fetch_date": "2026-04-20T14:39:49.780519",
+    "fetch_date": "2026-04-27T14:54:59.169227",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 862000.0
     },
@@ -9,5 +9,5 @@
     "operating_margin": -1428.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:39:49.781124"
+  "fetched_at": "2026-04-27T14:54:59.169795"
 }

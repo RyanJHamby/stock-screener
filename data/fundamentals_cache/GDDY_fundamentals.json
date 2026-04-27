@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GDDY",
-    "fetch_date": "2026-04-20T14:26:18.970768",
+    "fetch_date": "2026-04-27T14:41:28.110562",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 1192600000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 25.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:26:18.972186"
+  "fetched_at": "2026-04-27T14:41:28.111861"
 }

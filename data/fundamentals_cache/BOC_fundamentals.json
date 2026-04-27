@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BOC",
-    "fetch_date": "2026-04-20T14:11:18.956495",
+    "fetch_date": "2026-04-27T14:26:29.056456",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 27933451.0,
@@ -27,5 +27,5 @@
     "operating_margin": -4.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:11:18.957865"
+  "fetched_at": "2026-04-27T14:26:29.057764"
 }

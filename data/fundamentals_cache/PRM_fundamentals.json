@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRM",
-    "fetch_date": "2026-04-16T14:50:39.583235",
+    "fetch_date": "2026-04-27T15:03:17.286459",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 86231000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.359,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-16T14:50:39.584761"
+  "fetched_at": "2026-04-27T15:03:17.288160"
 }

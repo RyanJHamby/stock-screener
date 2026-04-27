@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FWRG",
-    "fetch_date": "2026-04-20T14:25:54.764469",
+    "fetch_date": "2026-04-27T14:41:03.940959",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 263291000.0,
       "2025-03-31 00:00:00": 282240000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.023,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:25:54.766238"
+  "fetched_at": "2026-04-27T14:41:03.942649"
 }
