@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-black.svg)](https://github.com/psf/black)
+[![Daily Scan](https://github.com/RyanJHamby/stock-screener/actions/workflows/daily_screening_git_storage.yml/badge.svg)](https://github.com/RyanJHamby/stock-screener/actions/workflows/daily_screening_git_storage.yml)
 
 ---
 
@@ -321,7 +322,7 @@ Every buy signal includes:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/stock-screener.git
+git clone https://github.com/RyanJHamby/stock-screener.git
 cd stock-screener
 
 # Create virtual environment
@@ -614,7 +615,15 @@ stock-screener/
 ├── manage_positions.py                 # Position management CLI
 ├── automated_position_report.py        # GitHub Actions position report
 │
+├── docs/                               # Extended documentation
+│   ├── GITHUB_ACTIONS_SETUP.md
+│   ├── ROBINHOOD_SETUP.md
+│   ├── SMART_CACHING_STRATEGY.md
+│   └── ...
+│
 ├── README.md                           # This file
+├── CHANGELOG.md                        # Version history
+├── LICENSE                             # MIT License
 ├── requirements.txt                    # Python dependencies
 └── .env                                # Local configuration (gitignored)
 ```
@@ -887,10 +896,8 @@ The author is not responsible for any financial losses incurred using this syste
 ## Contact
 
 **Ryan Hamby**
-Email: ryanhamby22@gmail.com
+GitHub: [github.com/RyanJHamby](https://github.com/RyanJHamby)
 LinkedIn: [linkedin.com/in/ryanhamby](https://linkedin.com/in/ryanhamby)
-
-For Robinhood employees reviewing this project: I'm happy to discuss the technical architecture, design decisions, and potential applications for institutional trading systems. Feel free to reach out!
 
 ---
 

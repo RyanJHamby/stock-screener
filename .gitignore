@@ -1,11 +1,46 @@
-
-# .gitignore
+# Environment
 .env
 .env.local
-*.log
-__pycache__/
+.env.*.local
 
-# Ignore all data/* except fundamentals_cache
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Data (keep cache and scan archives)
 data/*
 !data/fundamentals_cache/
 !data/fundamentals_cache/**
+!data/daily_scans/
+!data/daily_scans/**
+!data/position_reports/
+!data/position_reports/**
