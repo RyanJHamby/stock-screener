@@ -6588,8 +6588,8 @@
     "in_earnings_season": true
   },
   "USPH": {
-    "last_updated": "2026-02-13T14:17:58.129332",
-    "in_earnings_season": true
+    "last_updated": "2026-06-25T15:46:10.574402",
+    "in_earnings_season": false
   },
   "UTL": {
     "last_updated": "2026-05-15T15:24:22.376904",
@@ -6968,8 +6968,8 @@
     "in_earnings_season": false
   },
   "XYL": {
-    "last_updated": "2026-02-13T14:21:45.150613",
-    "in_earnings_season": true
+    "last_updated": "2026-06-25T15:49:59.699246",
+    "in_earnings_season": false
   },
   "XYZ": {
     "last_updated": "2026-05-11T16:32:18.330725",
@@ -7448,8 +7448,8 @@
     "in_earnings_season": true
   },
   "CAG": {
-    "last_updated": "2026-02-13T13:29:08.535060",
-    "in_earnings_season": true
+    "last_updated": "2026-06-25T14:57:48.370398",
+    "in_earnings_season": false
   },
   "CAKE": {
     "last_updated": "2026-05-11T15:40:05.655298",
@@ -7616,7 +7616,7 @@
     "in_earnings_season": true
   },
   "SMBK": {
-    "last_updated": "2025-12-19T13:49:27.543936",
+    "last_updated": "2026-06-25T15:39:25.592633",
     "in_earnings_season": false
   },
   "BGC": {
@@ -7788,8 +7788,8 @@
     "in_earnings_season": false
   },
   "OTIS": {
-    "last_updated": "2026-02-12T14:09:27.118774",
-    "in_earnings_season": true
+    "last_updated": "2026-06-25T15:30:11.610791",
+    "in_earnings_season": false
   },
   "UTI": {
     "last_updated": "2026-05-11T16:28:30.272733",
@@ -8560,8 +8560,8 @@
     "in_earnings_season": true
   },
   "KRUS": {
-    "last_updated": "2026-02-10T14:14:40.553327",
-    "in_earnings_season": true
+    "last_updated": "2026-06-25T15:19:38.422298",
+    "in_earnings_season": false
   },
   "NRC": {
     "last_updated": "2026-05-15T15:05:23.946508",
@@ -8968,7 +8968,7 @@
     "in_earnings_season": false
   },
   "AVBH": {
-    "last_updated": "2026-03-25T13:46:42.543982",
+    "last_updated": "2026-06-25T14:53:18.086138",
     "in_earnings_season": false
   },
   "HPQ": {
@@ -9625,6 +9625,14 @@
   },
   "RBCAA": {
     "last_updated": "2026-06-23T16:04:14.639549",
+    "in_earnings_season": false
+  },
+  "ONT": {
+    "last_updated": "2026-06-25T15:29:28.390054",
+    "in_earnings_season": false
+  },
+  "THFF": {
+    "last_updated": "2026-06-25T15:42:51.524008",
     "in_earnings_season": false
   }
 }
