@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "YEXT",
-    "fetch_date": "2026-07-09T16:29:37.843887",
+    "fetch_date": "2026-07-21T15:12:03.077255",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 109483000.0,
       "2025-07-31 00:00:00": 113094000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 5.17,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-09T16:29:37.845074"
+  "fetched_at": "2026-07-21T15:12:03.078647"
 }

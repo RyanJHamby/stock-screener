@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRCB",
-    "fetch_date": "2026-07-13T15:00:39.693035",
+    "fetch_date": "2026-07-21T14:18:46.547971",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 44820000.0,
       "2025-06-30 00:00:00": 50394000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.059,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-13T15:00:39.694775"
+  "fetched_at": "2026-07-21T14:18:46.549780"
 }
