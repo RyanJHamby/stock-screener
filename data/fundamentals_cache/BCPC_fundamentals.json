@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCPC",
-    "fetch_date": "2026-07-15T14:06:19.325181",
+    "fetch_date": "2026-07-22T14:23:21.530469",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 250519000.0,
       "2025-06-30 00:00:00": 255467000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.542,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:06:19.327344"
+  "fetched_at": "2026-07-22T14:23:21.532343"
 }

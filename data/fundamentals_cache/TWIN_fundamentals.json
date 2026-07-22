@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TWIN",
-    "fetch_date": "2026-07-15T15:02:11.755038",
+    "fetch_date": "2026-07-22T15:24:37.191571",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 81242000.0,
       "2025-06-30 00:00:00": 96678000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.658,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:02:11.756719"
+  "fetched_at": "2026-07-22T15:24:37.195662"
 }

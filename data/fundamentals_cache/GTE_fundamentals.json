@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GTE",
-    "fetch_date": "2026-07-15T14:26:13.949957",
+    "fetch_date": "2026-07-22T14:47:06.865085",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 168173000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.271,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:26:13.951426"
+  "fetched_at": "2026-07-22T14:47:06.867110"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBH",
-    "fetch_date": "2026-07-15T14:53:27.934478",
+    "fetch_date": "2026-07-22T15:17:13.430580",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 883146000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.092,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:53:27.935940"
+  "fetched_at": "2026-07-22T15:17:13.432379"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SWBI",
-    "fetch_date": "2026-07-15T14:58:19.473325",
+    "fetch_date": "2026-07-22T15:21:32.785711",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.876,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:58:19.474814"
+  "fetched_at": "2026-07-22T15:21:32.787759"
 }

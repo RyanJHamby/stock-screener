@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADT",
-    "fetch_date": "2026-07-15T13:59:55.705075",
+    "fetch_date": "2026-07-22T14:15:13.540258",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1267491000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.148,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:55.706570"
+  "fetched_at": "2026-07-22T14:15:13.542095"
 }

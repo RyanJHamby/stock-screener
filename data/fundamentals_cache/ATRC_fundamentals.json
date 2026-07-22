@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATRC",
-    "fetch_date": "2026-07-15T14:04:43.415243",
+    "fetch_date": "2026-07-22T14:21:26.195529",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 123620000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.574,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:04:43.416697"
+  "fetched_at": "2026-07-22T14:21:26.197283"
 }

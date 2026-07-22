@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRGY",
-    "fetch_date": "2026-07-15T14:14:04.781714",
+    "fetch_date": "2026-07-22T14:32:24.858441",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 950172000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 28.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:14:04.782891"
+  "fetched_at": "2026-07-22T14:32:24.859826"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WTS",
-    "fetch_date": "2026-07-15T15:07:20.278120",
+    "fetch_date": "2026-07-22T15:29:08.384363",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 558000000.0,
       "2025-06-30 00:00:00": 643700000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.802,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:07:20.279579"
+  "fetched_at": "2026-07-22T15:29:08.386115"
 }

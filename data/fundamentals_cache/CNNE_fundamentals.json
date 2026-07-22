@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CNNE",
-    "fetch_date": "2026-07-15T14:12:58.193249",
+    "fetch_date": "2026-07-22T14:31:02.992207",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 103200000.0,
       "2025-06-30 00:00:00": 110200000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -22.97,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:12:58.194421"
+  "fetched_at": "2026-07-22T14:31:02.993644"
 }

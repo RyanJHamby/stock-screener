@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PINS",
-    "fetch_date": "2026-07-15T14:47:29.349843",
+    "fetch_date": "2026-07-22T15:11:41.233262",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 854988000.0,
       "2025-06-30 00:00:00": 998227000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -3.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:47:29.350975"
+  "fetched_at": "2026-07-22T15:11:41.234545"
 }

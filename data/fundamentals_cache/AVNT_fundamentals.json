@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVNT",
-    "fetch_date": "2026-07-15T14:05:02.657620",
+    "fetch_date": "2026-07-22T14:22:11.519225",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 826600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.456,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:05:02.659071"
+  "fetched_at": "2026-07-22T14:22:11.521094"
 }

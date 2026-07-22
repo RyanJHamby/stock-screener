@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DLX",
-    "fetch_date": "2026-07-15T14:16:59.529738",
+    "fetch_date": "2026-07-22T14:35:05.784234",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 536500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.065,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:16:59.531235"
+  "fetched_at": "2026-07-22T14:35:05.786020"
 }

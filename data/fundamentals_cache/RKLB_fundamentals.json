@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RKLB",
-    "fetch_date": "2026-07-15T14:51:36.268880",
+    "fetch_date": "2026-07-22T15:15:30.116284",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 122569000.0,
       "2025-06-30 00:00:00": 144498000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.914,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:51:36.270371"
+  "fetched_at": "2026-07-22T15:15:30.118018"
 }

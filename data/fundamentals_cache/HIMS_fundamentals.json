@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HIMS",
-    "fetch_date": "2026-07-15T14:27:26.822879",
+    "fetch_date": "2026-07-22T14:48:18.705844",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 586010000.0,
       "2025-06-30 00:00:00": 544833000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.13,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:27:26.824358"
+  "fetched_at": "2026-07-22T14:48:18.707673"
 }

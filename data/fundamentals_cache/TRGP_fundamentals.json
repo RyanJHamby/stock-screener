@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRGP",
-    "fetch_date": "2026-07-15T15:01:00.632051",
+    "fetch_date": "2026-07-22T15:23:47.985624",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4561500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.082,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:01:00.633551"
+  "fetched_at": "2026-07-22T15:23:47.987645"
 }

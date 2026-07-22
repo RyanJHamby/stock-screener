@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAH",
-    "fetch_date": "2026-07-15T14:09:40.653556",
+    "fetch_date": "2026-07-22T14:27:38.385076",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 54878000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.295,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:09:40.655010"
+  "fetched_at": "2026-07-22T14:27:38.386963"
 }

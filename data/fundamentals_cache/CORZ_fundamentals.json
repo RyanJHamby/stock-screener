@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CORZ",
-    "fetch_date": "2026-07-15T14:13:35.152577",
+    "fetch_date": "2026-07-22T14:31:55.847134",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 79525000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -26.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:13:35.153743"
+  "fetched_at": "2026-07-22T14:31:55.848526"
 }

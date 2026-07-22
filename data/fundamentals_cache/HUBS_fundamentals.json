@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HUBS",
-    "fetch_date": "2026-07-15T14:28:34.143208",
+    "fetch_date": "2026-07-22T14:50:04.618159",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 714137000.0,
       "2025-06-30 00:00:00": 760866000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:28:34.144328"
+  "fetched_at": "2026-07-22T14:50:04.619537"
 }

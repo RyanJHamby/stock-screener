@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GPK",
-    "fetch_date": "2026-07-15T14:25:39.675779",
+    "fetch_date": "2026-07-22T14:45:43.148680",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2120000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.797,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:25:39.677281"
+  "fetched_at": "2026-07-22T14:45:43.150421"
 }

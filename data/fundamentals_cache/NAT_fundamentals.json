@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NAT",
-    "fetch_date": "2026-07-15T14:40:37.392366",
+    "fetch_date": "2026-07-22T15:05:17.204291",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 37945000.0,
       "2025-06-30 00:00:00": 40153000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.205,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:40:37.393830"
+  "fetched_at": "2026-07-22T15:05:17.206072"
 }

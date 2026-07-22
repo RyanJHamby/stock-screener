@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "META",
-    "fetch_date": "2026-07-15T14:37:42.109982",
+    "fetch_date": "2026-07-22T15:02:46.492294",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 42314000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 40.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:37:42.111141"
+  "fetched_at": "2026-07-22T15:02:46.493603"
 }

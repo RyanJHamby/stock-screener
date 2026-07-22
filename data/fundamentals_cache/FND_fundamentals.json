@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FND",
-    "fetch_date": "2026-07-15T14:22:44.639481",
+    "fetch_date": "2026-07-22T14:41:33.927422",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1160740000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.997,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:22:44.640941"
+  "fetched_at": "2026-07-22T14:41:33.929478"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTRN",
-    "fetch_date": "2026-07-15T14:14:50.556327",
+    "fetch_date": "2026-07-22T14:33:05.745522",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.499,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:14:50.557817"
+  "fetched_at": "2026-07-22T14:33:05.747327"
 }

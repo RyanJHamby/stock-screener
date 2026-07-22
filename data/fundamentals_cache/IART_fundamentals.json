@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IART",
-    "fetch_date": "2026-07-15T14:29:00.812703",
+    "fetch_date": "2026-07-22T14:50:49.562477",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 382653000.0,
       "2025-06-30 00:00:00": 415605000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.263,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:29:00.814156"
+  "fetched_at": "2026-07-22T14:50:49.564391"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NXPI",
-    "fetch_date": "2026-07-15T14:43:28.296656",
+    "fetch_date": "2026-07-22T15:08:07.238152",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2835000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.793,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:43:28.298190"
+  "fetched_at": "2026-07-22T15:08:07.240072"
 }

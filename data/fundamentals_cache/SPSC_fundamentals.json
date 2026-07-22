@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPSC",
-    "fetch_date": "2026-07-15T14:56:59.129841",
+    "fetch_date": "2026-07-22T15:20:16.692313",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 181549000.0,
       "2025-06-30 00:00:00": 187400000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:56:59.131008"
+  "fetched_at": "2026-07-22T15:20:16.693693"
 }

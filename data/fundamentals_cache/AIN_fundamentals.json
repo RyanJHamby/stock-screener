@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AIN",
-    "fetch_date": "2026-07-15T14:01:00.839930",
+    "fetch_date": "2026-07-22T14:16:24.170352",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 288774000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.449,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:01:00.841429"
+  "fetched_at": "2026-07-22T14:16:24.173182"
 }

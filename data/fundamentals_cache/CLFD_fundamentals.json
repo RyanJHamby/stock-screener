@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLFD",
-    "fetch_date": "2026-07-15T14:12:15.683072",
+    "fetch_date": "2026-07-22T14:30:19.877511",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 40621000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.074,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:12:15.684599"
+  "fetched_at": "2026-07-22T14:30:19.879385"
 }

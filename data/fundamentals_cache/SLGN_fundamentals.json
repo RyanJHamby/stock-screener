@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLGN",
-    "fetch_date": "2026-07-15T14:55:34.437746",
+    "fetch_date": "2026-07-22T15:18:59.692396",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1466661000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.723,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:55:34.439251"
+  "fetched_at": "2026-07-22T15:18:59.695109"
 }

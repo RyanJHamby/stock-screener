@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DMAC",
-    "fetch_date": "2026-07-15T14:16:59.795445",
+    "fetch_date": "2026-07-22T14:35:06.898706",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:16:59.796345"
+  "fetched_at": "2026-07-22T14:35:06.899662"
 }

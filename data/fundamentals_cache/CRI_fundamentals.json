@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRI",
-    "fetch_date": "2026-07-15T14:14:06.547774",
+    "fetch_date": "2026-07-22T14:32:25.908678",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 629827000.0,
       "2025-06-30 00:00:00": 585313000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.684,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:14:06.549282"
+  "fetched_at": "2026-07-22T14:32:25.911193"
 }

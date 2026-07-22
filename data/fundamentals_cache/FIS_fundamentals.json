@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FIS",
-    "fetch_date": "2026-07-15T14:22:03.855972",
+    "fetch_date": "2026-07-22T14:40:58.358106",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2532000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.99,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:22:03.857133"
+  "fetched_at": "2026-07-22T14:40:58.359571"
 }

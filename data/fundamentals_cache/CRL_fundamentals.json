@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRL",
-    "fetch_date": "2026-07-15T14:14:08.563747",
+    "fetch_date": "2026-07-22T14:32:28.759590",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 984168000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.361,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:14:08.565431"
+  "fetched_at": "2026-07-22T14:32:28.761351"
 }

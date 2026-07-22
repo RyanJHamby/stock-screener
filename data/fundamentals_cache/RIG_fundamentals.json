@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RIG",
-    "fetch_date": "2026-07-15T14:51:25.794075",
+    "fetch_date": "2026-07-22T15:15:19.169099",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 906000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.354,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:51:25.795578"
+  "fetched_at": "2026-07-22T15:15:19.171767"
 }

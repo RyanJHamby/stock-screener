@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RYZ",
-    "fetch_date": "2026-07-15T14:52:56.067709",
+    "fetch_date": "2026-07-22T15:16:40.122729",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1135700000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.722,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:52:56.069241"
+  "fetched_at": "2026-07-22T15:16:40.124550"
 }

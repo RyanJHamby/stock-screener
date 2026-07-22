@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CACC",
-    "fetch_date": "2026-07-15T14:09:37.004612",
+    "fetch_date": "2026-07-22T14:27:57.902801",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 562300000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 29.54,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:09:37.005906"
+  "fetched_at": "2026-07-22T14:27:57.904194"
 }

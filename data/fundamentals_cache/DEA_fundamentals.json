@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DEA",
-    "fetch_date": "2026-07-15T14:16:15.895681",
+    "fetch_date": "2026-07-22T14:34:21.877768",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 78675000.0,
       "2025-06-30 00:00:00": 84234000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 22.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:16:15.896836"
+  "fetched_at": "2026-07-22T14:34:21.879102"
 }

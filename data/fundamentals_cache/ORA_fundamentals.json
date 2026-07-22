@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORA",
-    "fetch_date": "2026-07-15T14:45:07.159772",
+    "fetch_date": "2026-07-22T15:09:35.057915",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 229762000.0,
       "2025-06-30 00:00:00": 234018000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.113,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:45:07.161396"
+  "fetched_at": "2026-07-22T15:09:35.059690"
 }

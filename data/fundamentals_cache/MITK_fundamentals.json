@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MITK",
-    "fetch_date": "2026-07-15T14:38:22.682512",
+    "fetch_date": "2026-07-22T15:03:17.120085",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 51929000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 24.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:38:22.683684"
+  "fetched_at": "2026-07-22T15:03:17.121422"
 }

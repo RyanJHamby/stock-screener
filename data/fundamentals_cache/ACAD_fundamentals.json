@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACAD",
-    "fetch_date": "2026-07-15T13:59:14.890937",
+    "fetch_date": "2026-07-22T14:14:36.206675",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 244317000.0,
       "2025-06-30 00:00:00": 264566000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.118,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:14.892422"
+  "fetched_at": "2026-07-22T14:14:36.208424"
 }

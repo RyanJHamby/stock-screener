@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GTX",
-    "fetch_date": "2026-07-15T14:26:20.959460",
+    "fetch_date": "2026-07-22T14:46:53.770061",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 878000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.318,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:26:20.961033"
+  "fetched_at": "2026-07-22T14:46:53.772022"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UCTT",
-    "fetch_date": "2026-07-15T15:02:36.117882",
+    "fetch_date": "2026-07-22T15:25:03.137233",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 518600000.0,
       "2025-06-30 00:00:00": 518800000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.903,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:02:36.119386"
+  "fetched_at": "2026-07-22T15:25:03.139637"
 }

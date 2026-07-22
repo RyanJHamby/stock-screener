@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FHTX",
-    "fetch_date": "2026-07-15T14:21:54.341042",
+    "fetch_date": "2026-07-22T14:40:49.236240",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 5952000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -660.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:21:54.341991"
+  "fetched_at": "2026-07-22T14:40:49.237414"
 }

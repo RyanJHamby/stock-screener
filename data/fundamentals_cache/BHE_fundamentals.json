@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BHE",
-    "fetch_date": "2026-07-15T14:07:01.546508",
+    "fetch_date": "2026-07-22T14:24:02.554757",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 631764000.0,
       "2025-06-30 00:00:00": 642335000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.749,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:07:01.547962"
+  "fetched_at": "2026-07-22T14:24:02.556530"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRWD",
-    "fetch_date": "2026-07-15T14:14:24.255363",
+    "fetch_date": "2026-07-22T14:32:42.154093",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1103434000.0,
       "2025-07-31 00:00:00": 1168952000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -2.21,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:14:24.256613"
+  "fetched_at": "2026-07-22T14:32:42.156046"
 }

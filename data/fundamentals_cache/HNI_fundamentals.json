@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HNI",
-    "fetch_date": "2026-07-15T14:27:46.096235",
+    "fetch_date": "2026-07-22T14:48:52.764955",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 599800000.0,
       "2025-06-30 00:00:00": 667100000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.364,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:27:46.097976"
+  "fetched_at": "2026-07-22T14:48:52.766954"
 }

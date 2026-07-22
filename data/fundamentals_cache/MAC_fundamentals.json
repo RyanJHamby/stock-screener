@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAC",
-    "fetch_date": "2026-07-15T14:36:30.930433",
+    "fetch_date": "2026-07-22T15:01:27.749478",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 249224000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 12.83,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:36:30.931638"
+  "fetched_at": "2026-07-22T15:01:27.750862"
 }

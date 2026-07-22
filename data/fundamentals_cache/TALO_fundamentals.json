@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TALO",
-    "fetch_date": "2026-07-15T14:58:40.218047",
+    "fetch_date": "2026-07-22T15:21:51.752993",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 513059000.0,
       "2025-06-30 00:00:00": 424721000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 5.42,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:58:40.219196"
+  "fetched_at": "2026-07-22T15:21:51.754343"
 }

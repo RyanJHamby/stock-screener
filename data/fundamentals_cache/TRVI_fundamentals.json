@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRVI",
-    "fetch_date": "2026-07-15T15:01:21.371514",
+    "fetch_date": "2026-07-22T15:24:02.981357",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:01:21.372399"
+  "fetched_at": "2026-07-22T15:24:02.982562"
 }

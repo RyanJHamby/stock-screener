@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VSH",
-    "fetch_date": "2026-07-15T15:05:17.117263",
+    "fetch_date": "2026-07-22T15:27:21.145302",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 715236000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.942,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:05:17.118751"
+  "fetched_at": "2026-07-22T15:27:21.147087"
 }

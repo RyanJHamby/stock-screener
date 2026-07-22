@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BKD",
-    "fetch_date": "2026-07-15T14:07:19.464578",
+    "fetch_date": "2026-07-22T14:24:38.123817",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 813864000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:07:19.465751"
+  "fetched_at": "2026-07-22T14:24:38.125225"
 }

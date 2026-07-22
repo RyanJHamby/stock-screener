@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTRX",
-    "fetch_date": "2026-07-15T14:39:59.075859",
+    "fetch_date": "2026-07-22T15:04:42.854154",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 200161000.0,
       "2025-06-30 00:00:00": 216377000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.029,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:39:59.077358"
+  "fetched_at": "2026-07-22T15:04:42.856030"
 }

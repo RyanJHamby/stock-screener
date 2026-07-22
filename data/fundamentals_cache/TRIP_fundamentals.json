@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRIP",
-    "fetch_date": "2026-07-15T15:01:04.035847",
+    "fetch_date": "2026-07-22T15:23:50.064702",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 398200000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -5.73,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:01:04.037015"
+  "fetched_at": "2026-07-22T15:23:50.066217"
 }

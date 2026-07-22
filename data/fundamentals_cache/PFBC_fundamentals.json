@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PFBC",
-    "fetch_date": "2026-07-15T14:47:01.258790",
+    "fetch_date": "2026-07-22T15:11:17.119982",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 66656000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 13.452914798206269,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:47:01.259428"
+  "fetched_at": "2026-07-22T15:11:17.120645"
 }

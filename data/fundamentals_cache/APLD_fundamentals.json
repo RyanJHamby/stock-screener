@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APLD",
-    "fetch_date": "2026-07-15T14:03:25.911954",
+    "fetch_date": "2026-07-22T14:19:19.721911",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": 52921000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -20.47,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:03:25.913124"
+  "fetched_at": "2026-07-22T14:19:19.723360"
 }

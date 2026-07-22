@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MFG",
-    "fetch_date": "2026-07-15T14:37:50.600257",
+    "fetch_date": "2026-07-22T15:02:51.513464",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 810685000000.0,
       "2025-06-30 00:00:00": 890231000000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:37:50.600927"
+  "fetched_at": "2026-07-22T15:02:51.514179"
 }

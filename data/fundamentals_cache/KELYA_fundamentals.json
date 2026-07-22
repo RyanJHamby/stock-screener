@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KELYA",
-    "fetch_date": "2026-07-15T14:32:27.098832",
+    "fetch_date": "2026-07-22T14:55:06.062892",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1164900000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -0.28,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:32:27.100006"
+  "fetched_at": "2026-07-22T14:55:06.064202"
 }

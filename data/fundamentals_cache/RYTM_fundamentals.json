@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RYTM",
-    "fetch_date": "2026-07-15T14:52:52.969830",
+    "fetch_date": "2026-07-22T15:16:39.266570",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 32704000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.477,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:52:52.971321"
+  "fetched_at": "2026-07-22T15:16:39.268282"
 }

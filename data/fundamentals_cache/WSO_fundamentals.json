@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WSO",
-    "fetch_date": "2026-07-15T15:07:11.356125",
+    "fetch_date": "2026-07-22T15:29:00.618517",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1531086000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.119,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:07:11.357612"
+  "fetched_at": "2026-07-22T15:29:00.620556"
 }

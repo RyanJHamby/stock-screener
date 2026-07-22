@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WAT",
-    "fetch_date": "2026-07-15T15:05:49.229458",
+    "fetch_date": "2026-07-22T15:27:52.107820",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 662000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.181,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:05:49.230940"
+  "fetched_at": "2026-07-22T15:27:52.109572"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHWY",
-    "fetch_date": "2026-07-15T14:11:52.248624",
+    "fetch_date": "2026-07-22T14:29:57.509787",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:11:52.250156"
+  "fetched_at": "2026-07-22T14:29:57.511762"
 }

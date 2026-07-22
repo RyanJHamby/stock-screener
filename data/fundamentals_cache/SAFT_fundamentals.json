@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SAFT",
-    "fetch_date": "2026-07-15T14:53:00.236268",
+    "fetch_date": "2026-07-22T15:17:15.999022",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 299638000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -166.89189189189187,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:53:00.236893"
+  "fetched_at": "2026-07-22T15:17:15.999888"
 }

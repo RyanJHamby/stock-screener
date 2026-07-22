@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELA",
-    "fetch_date": "2026-07-15T14:18:58.254032",
+    "fetch_date": "2026-07-22T14:37:58.975054",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 48255829.0,
       "2025-06-30 00:00:00": 54876833.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.346,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:18:58.255515"
+  "fetched_at": "2026-07-22T14:37:58.976968"
 }

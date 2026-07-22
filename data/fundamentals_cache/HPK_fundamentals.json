@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HPK",
-    "fetch_date": "2026-07-15T14:28:02.994790",
+    "fetch_date": "2026-07-22T14:49:09.244947",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 272311000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:28:02.996282"
+  "fetched_at": "2026-07-22T14:49:09.246807"
 }

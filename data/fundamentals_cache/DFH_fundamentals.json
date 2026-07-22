@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DFH",
-    "fetch_date": "2026-07-15T14:16:25.399699",
+    "fetch_date": "2026-07-22T14:34:31.457602",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 989871000.0,
       "2025-06-30 00:00:00": 1150505000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 2.411,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:16:25.401178"
+  "fetched_at": "2026-07-22T14:34:31.459287"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FICO",
-    "fetch_date": "2026-07-15T14:21:58.235470",
+    "fetch_date": "2026-07-22T14:40:51.372898",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 498735000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 58.19,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:21:58.236624"
+  "fetched_at": "2026-07-22T14:40:51.374386"
 }

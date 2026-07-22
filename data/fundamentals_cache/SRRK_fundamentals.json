@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SRRK",
-    "fetch_date": "2026-07-15T14:57:13.530026",
+    "fetch_date": "2026-07-22T15:20:30.756021",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:57:13.530907"
+  "fetched_at": "2026-07-22T15:20:30.757359"
 }

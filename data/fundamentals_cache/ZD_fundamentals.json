@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZD",
-    "fetch_date": "2026-07-15T15:08:17.743204",
+    "fetch_date": "2026-07-22T15:30:04.421074",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 272816000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 1.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:08:17.744528"
+  "fetched_at": "2026-07-22T15:30:04.422644"
 }

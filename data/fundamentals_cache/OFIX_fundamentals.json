@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OFIX",
-    "fetch_date": "2026-07-15T14:44:01.051398",
+    "fetch_date": "2026-07-22T15:08:34.881293",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 193646000.0,
       "2025-06-30 00:00:00": 203121000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.904,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:44:01.052882"
+  "fetched_at": "2026-07-22T15:08:34.883085"
 }

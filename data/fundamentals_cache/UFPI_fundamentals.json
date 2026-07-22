@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UFPI",
-    "fetch_date": "2026-07-15T15:02:46.194672",
+    "fetch_date": "2026-07-22T15:25:08.020890",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1595519000.0,
       "2025-06-30 00:00:00": 1835374000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.525,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:02:46.196165"
+  "fetched_at": "2026-07-22T15:25:08.023626"
 }

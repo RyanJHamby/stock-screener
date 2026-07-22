@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EVCM",
-    "fetch_date": "2026-07-15T14:20:20.958947",
+    "fetch_date": "2026-07-22T14:39:21.648795",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 142273000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.62,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:20:20.960279"
+  "fetched_at": "2026-07-22T14:39:21.650311"
 }

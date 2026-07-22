@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VET",
-    "fetch_date": "2026-07-15T15:04:11.540595",
+    "fetch_date": "2026-07-22T15:26:27.142332",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 484968000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.075,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:04:11.542068"
+  "fetched_at": "2026-07-22T15:26:27.145876"
 }

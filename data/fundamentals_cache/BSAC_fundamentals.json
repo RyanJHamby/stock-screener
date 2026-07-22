@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BSAC",
-    "fetch_date": "2026-07-15T14:08:43.285564",
+    "fetch_date": "2026-07-22T14:26:42.681697",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 728073000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -4.761904761904762,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:08:43.286211"
+  "fetched_at": "2026-07-22T14:26:42.682390"
 }

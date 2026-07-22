@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLPT",
-    "fetch_date": "2026-07-15T14:12:24.864040",
+    "fetch_date": "2026-07-22T14:30:28.826898",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 8485000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.707,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:12:24.865556"
+  "fetched_at": "2026-07-22T14:30:28.828716"
 }

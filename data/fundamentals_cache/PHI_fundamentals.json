@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PHI",
-    "fetch_date": "2026-07-15T14:47:21.274742",
+    "fetch_date": "2026-07-22T15:11:33.740425",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 55277000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.041,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:47:21.276260"
+  "fetched_at": "2026-07-22T15:11:33.742164"
 }

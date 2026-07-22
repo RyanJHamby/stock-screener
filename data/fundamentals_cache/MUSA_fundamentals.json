@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MUSA",
-    "fetch_date": "2026-07-15T14:40:11.177206",
+    "fetch_date": "2026-07-22T15:04:50.039299",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4525400000.0,
       "2025-06-30 00:00:00": 5005000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.075,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:40:11.178701"
+  "fetched_at": "2026-07-22T15:04:50.041052"
 }

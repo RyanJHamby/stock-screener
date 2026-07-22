@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WAB",
-    "fetch_date": "2026-07-15T15:05:43.975990",
+    "fetch_date": "2026-07-22T15:27:48.194804",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2610000000.0,
       "2025-06-30 00:00:00": 2706000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.966,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:05:43.977458"
+  "fetched_at": "2026-07-22T15:27:48.197006"
 }

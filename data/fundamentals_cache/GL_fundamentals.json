@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GL",
-    "fetch_date": "2026-07-15T14:24:58.095686",
+    "fetch_date": "2026-07-22T14:45:04.076452",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1480422000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 12.624584717607986,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:24:58.096308"
+  "fetched_at": "2026-07-22T14:45:04.077161"
 }

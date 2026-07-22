@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OSS",
-    "fetch_date": "2026-07-15T14:45:29.794507",
+    "fetch_date": "2026-07-22T15:09:53.063661",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 5206810.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.839,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:45:29.795989"
+  "fetched_at": "2026-07-22T15:09:53.065380"
 }

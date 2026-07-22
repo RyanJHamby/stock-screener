@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAKO",
-    "fetch_date": "2026-07-15T14:36:37.518022",
+    "fetch_date": "2026-07-22T15:01:31.858666",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 31788000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.481,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:36:37.519522"
+  "fetched_at": "2026-07-22T15:01:31.860460"
 }

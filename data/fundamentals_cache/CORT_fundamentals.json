@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CORT",
-    "fetch_date": "2026-07-15T14:13:33.956875",
+    "fetch_date": "2026-07-22T14:31:54.866171",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 157214000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.078,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:13:33.958607"
+  "fetched_at": "2026-07-22T14:31:54.867977"
 }

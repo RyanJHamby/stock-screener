@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRUP",
-    "fetch_date": "2026-07-15T15:01:18.156763",
+    "fetch_date": "2026-07-22T15:24:01.033054",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 341975000.0,
       "2025-06-30 00:00:00": 353557000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 7.13,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:01:18.158440"
+  "fetched_at": "2026-07-22T15:24:01.034395"
 }

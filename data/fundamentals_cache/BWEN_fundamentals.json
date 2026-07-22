@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BWEN",
-    "fetch_date": "2026-07-15T14:09:14.868527",
+    "fetch_date": "2026-07-22T14:27:12.024265",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 36838000.0,
       "2025-06-30 00:00:00": 39235000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.255,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:09:14.869987"
+  "fetched_at": "2026-07-22T14:27:12.027837"
 }

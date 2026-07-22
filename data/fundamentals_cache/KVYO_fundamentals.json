@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KVYO",
-    "fetch_date": "2026-07-15T14:33:50.468139",
+    "fetch_date": "2026-07-22T14:58:27.100038",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 279827000.0,
       "2025-06-30 00:00:00": 293117000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:33:50.469497"
+  "fetched_at": "2026-07-22T14:58:27.101504"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DBI",
-    "fetch_date": "2026-07-15T14:15:59.308726",
+    "fetch_date": "2026-07-22T14:34:05.987599",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 686909000.0,
       "2025-07-31 00:00:00": 739762000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.842,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:15:59.310214"
+  "fetched_at": "2026-07-22T14:34:05.989359"
 }

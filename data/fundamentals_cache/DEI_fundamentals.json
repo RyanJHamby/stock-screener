@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DEI",
-    "fetch_date": "2026-07-15T14:16:19.295189",
+    "fetch_date": "2026-07-22T14:34:26.037133",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 251535000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 19.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:16:19.297043"
+  "fetched_at": "2026-07-22T14:34:26.038535"
 }

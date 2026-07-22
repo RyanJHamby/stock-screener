@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FRST",
-    "fetch_date": "2026-07-15T14:23:13.786562",
+    "fetch_date": "2026-07-22T14:42:04.078771",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 58699000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 200.00000000000006,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:23:13.787360"
+  "fetched_at": "2026-07-22T14:42:04.079478"
 }

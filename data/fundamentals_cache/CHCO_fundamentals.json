@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHCO",
-    "fetch_date": "2026-07-15T14:11:32.030822",
+    "fetch_date": "2026-07-22T14:29:21.434891",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 72337000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 6.796116504854374,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:11:32.031509"
+  "fetched_at": "2026-07-22T14:29:21.435696"
 }

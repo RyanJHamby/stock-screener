@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GDOT",
-    "fetch_date": "2026-07-15T14:24:14.669941",
+    "fetch_date": "2026-07-22T14:43:27.250435",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 558874000.0,
       "2025-06-30 00:00:00": 504176000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 10.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:24:14.671087"
+  "fetched_at": "2026-07-22T14:43:27.251851"
 }

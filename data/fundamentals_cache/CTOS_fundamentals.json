@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTOS",
-    "fetch_date": "2026-07-15T14:14:53.609873",
+    "fetch_date": "2026-07-22T14:33:03.327581",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 422232000.0,
       "2025-06-30 00:00:00": 511483000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 2.215,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:14:53.611367"
+  "fetched_at": "2026-07-22T14:33:03.329738"
 }

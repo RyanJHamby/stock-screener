@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AESI",
-    "fetch_date": "2026-07-15T14:00:18.949931",
+    "fetch_date": "2026-07-22T14:15:32.800717",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 297591000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.249,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:00:18.951429"
+  "fetched_at": "2026-07-22T14:15:32.802444"
 }

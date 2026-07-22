@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALLY",
-    "fetch_date": "2026-07-15T14:01:38.783602",
+    "fetch_date": "2026-07-22T14:17:02.012100",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1755000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 213.41463414634148,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:01:38.784258"
+  "fetched_at": "2026-07-22T14:17:02.013009"
 }

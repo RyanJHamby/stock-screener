@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PEN",
-    "fetch_date": "2026-07-15T14:46:50.983343",
+    "fetch_date": "2026-07-22T15:11:08.078311",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 324140000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.17,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:46:50.984861"
+  "fetched_at": "2026-07-22T15:11:08.080055"
 }

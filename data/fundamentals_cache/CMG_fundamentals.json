@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CMG",
-    "fetch_date": "2026-07-15T14:12:39.952833",
+    "fetch_date": "2026-07-22T14:30:44.034242",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2875253000.0,
       "2025-06-30 00:00:00": 3063393000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.014,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:12:39.954315"
+  "fetched_at": "2026-07-22T14:30:44.036170"
 }

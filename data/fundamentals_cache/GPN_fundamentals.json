@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GPN",
-    "fetch_date": "2026-07-15T14:25:41.610211",
+    "fetch_date": "2026-07-22T14:45:44.138858",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1820318000.0,
       "2025-06-30 00:00:00": 1956747000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -0.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:25:41.611553"
+  "fetched_at": "2026-07-22T14:45:44.140370"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RARE",
-    "fetch_date": "2026-07-15T14:50:13.985591",
+    "fetch_date": "2026-07-22T15:14:15.085018",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 139000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.404,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:50:13.987083"
+  "fetched_at": "2026-07-22T15:14:15.087036"
 }

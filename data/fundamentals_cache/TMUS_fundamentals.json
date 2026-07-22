@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TMUS",
-    "fetch_date": "2026-07-15T15:00:25.035835",
+    "fetch_date": "2026-07-22T15:23:13.928178",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 20886000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.101,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:00:25.037355"
+  "fetched_at": "2026-07-22T15:23:13.929935"
 }

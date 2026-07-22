@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESI",
-    "fetch_date": "2026-07-15T14:20:05.508257",
+    "fetch_date": "2026-07-22T14:39:04.967452",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 593700000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.502,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:20:05.509745"
+  "fetched_at": "2026-07-22T14:39:04.969209"
 }

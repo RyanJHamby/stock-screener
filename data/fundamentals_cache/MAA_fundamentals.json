@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAA",
-    "fetch_date": "2026-07-15T14:36:30.287399",
+    "fetch_date": "2026-07-22T15:01:26.741715",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 549295000.0,
@@ -22,10 +22,8 @@
     },
     "eps_qoq_change": 120.83333333333334,
     "eps_yoy_change": -31.16883116883117,
-    "gross_margin": 29.59,
-    "margin_change": -1.29,
     "operating_margin": 26.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:36:30.288576"
+  "fetched_at": "2026-07-22T15:01:26.742754"
 }

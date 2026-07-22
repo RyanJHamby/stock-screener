@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ELF",
-    "fetch_date": "2026-07-15T14:19:06.017352",
+    "fetch_date": "2026-07-22T14:38:05.114108",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 332645000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:19:06.018834"
+  "fetched_at": "2026-07-22T14:38:05.116007"
 }

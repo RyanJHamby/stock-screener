@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TITN",
-    "fetch_date": "2026-07-15T14:59:55.667761",
+    "fetch_date": "2026-07-22T15:22:50.847129",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 594336000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.751,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:59:55.669341"
+  "fetched_at": "2026-07-22T15:22:50.848939"
 }

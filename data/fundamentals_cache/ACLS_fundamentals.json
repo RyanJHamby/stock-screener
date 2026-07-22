@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACLS",
-    "fetch_date": "2026-07-15T13:59:30.276604",
+    "fetch_date": "2026-07-22T14:14:48.802432",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 192563000.0,
       "2025-06-30 00:00:00": 194544000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.639,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:30.278060"
+  "fetched_at": "2026-07-22T14:14:48.804949"
 }

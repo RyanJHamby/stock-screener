@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AIZ",
-    "fetch_date": "2026-07-15T14:01:14.729862",
+    "fetch_date": "2026-07-22T14:16:39.093766",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3074000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 91.16607773851591,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:01:14.730504"
+  "fetched_at": "2026-07-22T14:16:39.094437"
 }

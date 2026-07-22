@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAPP",
-    "fetch_date": "2026-07-15T14:50:12.771140",
+    "fetch_date": "2026-07-22T15:14:14.144183",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": -121.08,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:50:12.772035"
+  "fetched_at": "2026-07-22T15:14:14.145249"
 }

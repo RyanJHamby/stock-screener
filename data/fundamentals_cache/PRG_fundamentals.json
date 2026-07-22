@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRG",
-    "fetch_date": "2026-07-15T14:48:34.112490",
+    "fetch_date": "2026-07-22T15:12:42.128724",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 668428000.0,
       "2025-06-30 00:00:00": 604663000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.719,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:48:34.114001"
+  "fetched_at": "2026-07-22T15:12:42.130453"
 }

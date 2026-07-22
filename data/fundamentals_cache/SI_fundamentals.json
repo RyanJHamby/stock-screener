@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SI",
-    "fetch_date": "2026-07-15T14:54:42.815781",
+    "fetch_date": "2026-07-22T15:18:24.987638",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 10132000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.306,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:54:42.817267"
+  "fetched_at": "2026-07-22T15:18:24.989724"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ETON",
-    "fetch_date": "2026-07-15T14:20:12.620946",
+    "fetch_date": "2026-07-22T14:39:22.434392",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 17282000.0,
       "2025-06-30 00:00:00": 18928000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.596,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:20:12.622432"
+  "fetched_at": "2026-07-22T14:39:22.436318"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DINO",
-    "fetch_date": "2026-07-15T14:16:43.640855",
+    "fetch_date": "2026-07-22T14:34:49.972793",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 6370000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.459,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:16:43.642388"
+  "fetched_at": "2026-07-22T14:34:49.975005"
 }

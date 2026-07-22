@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HBCP",
-    "fetch_date": "2026-07-15T14:26:50.834641",
+    "fetch_date": "2026-07-22T14:47:23.018912",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 35758000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 5.839416058394149,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:26:50.835280"
+  "fetched_at": "2026-07-22T14:47:23.019716"
 }

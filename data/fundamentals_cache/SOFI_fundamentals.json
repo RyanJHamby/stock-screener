@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOFI",
-    "fetch_date": "2026-07-15T14:56:32.033940",
+    "fetch_date": "2026-07-22T15:19:52.710731",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 771759000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 100.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:56:32.034587"
+  "fetched_at": "2026-07-22T15:19:52.711506"
 }

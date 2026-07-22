@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RDNT",
-    "fetch_date": "2026-07-15T14:50:40.119661",
+    "fetch_date": "2026-07-22T15:14:39.410371",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 471399000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -3.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:50:40.120825"
+  "fetched_at": "2026-07-22T15:14:39.412723"
 }

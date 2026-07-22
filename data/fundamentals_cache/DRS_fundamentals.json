@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DRS",
-    "fetch_date": "2026-07-15T14:17:25.036372",
+    "fetch_date": "2026-07-22T14:35:36.693847",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 799000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.439,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:17:25.037869"
+  "fetched_at": "2026-07-22T14:35:36.695653"
 }

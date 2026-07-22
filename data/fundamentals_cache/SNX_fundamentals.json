@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNX",
-    "fetch_date": "2026-07-15T14:56:27.835490",
+    "fetch_date": "2026-07-22T15:19:48.769962",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:56:27.837023"
+  "fetched_at": "2026-07-22T15:19:48.771842"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOLV",
-    "fetch_date": "2026-07-15T14:56:33.413686",
+    "fetch_date": "2026-07-22T15:19:54.572583",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2070000000.0,
       "2025-06-30 00:00:00": 2161000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.543,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:56:33.415161"
+  "fetched_at": "2026-07-22T15:19:54.574467"
 }

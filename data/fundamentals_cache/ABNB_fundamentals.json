@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABNB",
-    "fetch_date": "2026-07-15T13:59:07.781834",
+    "fetch_date": "2026-07-22T14:14:05.154273",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2272000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 3.21,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:59:07.783012"
+  "fetched_at": "2026-07-22T14:14:05.155674"
 }

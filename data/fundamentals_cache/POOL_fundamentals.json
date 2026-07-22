@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "POOL",
-    "fetch_date": "2026-07-15T14:48:13.501964",
+    "fetch_date": "2026-07-22T15:12:22.561874",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1071526000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.459,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:48:13.503536"
+  "fetched_at": "2026-07-22T15:12:22.563622"
 }
