@@ -1,7 +1,7 @@
 {
   "data": {
-    "ticker": "GLIBK",
-    "fetch_date": "2026-07-23T14:46:50.578960",
+    "ticker": "GLIBA",
+    "fetch_date": "2026-07-23T14:46:49.459583",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 242000000.0,
       "2025-06-30 00:00:00": 238000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 14.22,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T14:46:50.580293"
+  "fetched_at": "2026-07-23T14:46:49.460942"
 }

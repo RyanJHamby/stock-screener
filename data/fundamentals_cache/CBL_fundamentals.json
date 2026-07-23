@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CBL",
-    "fetch_date": "2026-07-15T14:10:19.030015",
+    "fetch_date": "2026-07-23T14:33:14.507252",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 141768000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 23.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:10:19.031174"
+  "fetched_at": "2026-07-23T14:33:14.508708"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LNN",
-    "fetch_date": "2026-07-15T14:35:26.328565",
+    "fetch_date": "2026-07-23T14:56:09.894153",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.908,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:35:26.330743"
+  "fetched_at": "2026-07-23T14:56:09.895917"
 }

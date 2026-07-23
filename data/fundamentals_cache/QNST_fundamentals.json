@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QNST",
-    "fetch_date": "2026-07-16T14:57:01.687205",
+    "fetch_date": "2026-07-23T15:08:55.748542",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 269842000.0,
       "2025-06-30 00:00:00": 262054000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 2.97,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T14:57:01.688375"
+  "fetched_at": "2026-07-23T15:08:55.749926"
 }

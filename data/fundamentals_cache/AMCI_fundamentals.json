@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMCI",
-    "fetch_date": "2026-07-16T14:13:36.549671",
+    "fetch_date": "2026-07-23T14:25:32.285824",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 2190485.0,
       "2025-03-31 00:00:00": 1792525.0,
@@ -26,5 +26,5 @@
     "inventory_to_sales_ratio": 0.772,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T14:13:36.551142"
+  "fetched_at": "2026-07-23T14:25:32.287531"
 }

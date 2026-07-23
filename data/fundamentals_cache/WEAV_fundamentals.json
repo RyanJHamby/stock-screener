@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WEAV",
-    "fetch_date": "2026-07-16T15:11:09.802023",
+    "fetch_date": "2026-07-23T15:23:02.020858",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 55809000.0,
       "2025-06-30 00:00:00": 58470000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -9.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T15:11:09.803194"
+  "fetched_at": "2026-07-23T15:23:02.022219"
 }

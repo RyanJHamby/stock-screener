@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DWSN",
-    "fetch_date": "2026-07-03T14:43:26.431443",
+    "fetch_date": "2026-07-23T14:40:15.606508",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 16078000.0,
       "2025-06-30 00:00:00": 9851000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 22.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-03T14:43:26.432826"
+  "fetched_at": "2026-07-23T14:40:15.607842"
 }
