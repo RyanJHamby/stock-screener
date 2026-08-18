@@ -1,0 +1,27 @@
+{
+  "data": {
+    "ticker": "BSEM",
+    "fetch_date": "2026-08-18T13:08:13.485983",
+    "quarterly_revenue": {
+      "2024-12-31 00:00:00": 102874353.0,
+      "2025-09-30 00:00:00": 10473402.0
+    },
+    "revenue_qoq_change": -89.81922928837278,
+    "quarterly_eps": {
+      "2024-12-31 00:00:00": NaN,
+      "2025-09-30 00:00:00": 0.03
+    },
+    "eps_qoq_change": null,
+    "gross_margin": 88.5,
+    "margin_change": -8.07,
+    "operating_margin": 13.83,
+    "quarterly_inventory": {
+      "2024-12-31 00:00:00": 1824001.0,
+      "2025-09-30 00:00:00": 2728981.0
+    },
+    "inventory_qoq_change": 49.62,
+    "inventory_to_sales_ratio": 0.261,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-08-18T13:08:13.487422"
+}
