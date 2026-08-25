@@ -1,0 +1,25 @@
+{
+  "data": {
+    "ticker": "SUNC",
+    "fetch_date": "2026-08-25T13:53:57.345386",
+    "quarterly_revenue": {
+      "2025-12-31 00:00:00": NaN,
+      "2026-03-31 00:00:00": 10690000000.0
+    },
+    "revenue_qoq_change": null,
+    "quarterly_eps": {
+      "2025-12-31 00:00:00": 0.09,
+      "2026-03-31 00:00:00": 2.85
+    },
+    "eps_qoq_change": 3066.666666666667,
+    "gross_margin": 13.12,
+    "margin_change": NaN,
+    "operating_margin": 8.09,
+    "quarterly_inventory": {
+      "2026-03-31 00:00:00": 2347000000.0
+    },
+    "inventory_to_sales_ratio": 0.22,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-08-25T13:53:57.346787"
+}

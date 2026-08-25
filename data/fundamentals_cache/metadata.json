@@ -8382,5 +8382,25 @@
   "XZO": {
     "last_updated": "2026-08-24T14:05:35.541367",
     "in_earnings_season": false
+  },
+  "BETA": {
+    "last_updated": "2026-08-25T13:07:20.026144",
+    "in_earnings_season": false
+  },
+  "PMI": {
+    "last_updated": "2026-08-25T13:44:43.463943",
+    "in_earnings_season": false
+  },
+  "SATA": {
+    "last_updated": "2026-08-25T13:49:38.321661",
+    "in_earnings_season": false
+  },
+  "SUNC": {
+    "last_updated": "2026-08-25T13:53:57.348243",
+    "in_earnings_season": false
+  },
+  "UI": {
+    "last_updated": "2026-08-25T13:57:45.597552",
+    "in_earnings_season": false
   }
 }
