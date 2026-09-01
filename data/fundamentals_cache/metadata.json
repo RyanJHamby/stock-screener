@@ -8426,5 +8426,9 @@
   "TSLA": {
     "last_updated": "2026-08-31T20:00:46.524825",
     "in_earnings_season": false
+  },
+  "PXS": {
+    "last_updated": "2026-09-01T17:14:06.204602",
+    "in_earnings_season": false
   }
 }
