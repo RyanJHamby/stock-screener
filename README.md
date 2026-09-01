@@ -346,8 +346,11 @@ pip install robin-stocks
 # Copy environment template
 cp .env.example .env
 
-# Edit .env (only needed for manual position management)
-# Add: ROBINHOOD_USERNAME=your_email@example.com
+# Edit .env to enable optional integrations (FMP fundamentals, email/Slack
+# alerts, Robinhood position tracking) - none are required for a basic scan.
+
+# Check what's configured
+python scripts/check_setup.py
 ```
 
 ### Run Your First Scan
