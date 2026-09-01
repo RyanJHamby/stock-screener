@@ -32,7 +32,6 @@ git add data/fundamentals_cache/
 
 # Add documentation
 git add REVISED_SMART_CACHING_STRATEGY.md
-git add LOCAL_TEST_RESULTS.md
 git add DEPLOYMENT_CHECKLIST.md
 git add test_git_storage_fetcher.py
 
@@ -167,7 +166,7 @@ After first week, verify:
 
 If you encounter issues:
 1. Check GitHub Actions logs
-2. Review `LOCAL_TEST_RESULTS.md` for expected behavior
+2. Review [Rate Limit Solution](RATE_LIMIT_SOLUTION.md) and [Detecting Rate Limits](DETECTING_RATE_LIMITS.md)
 3. Verify YAML syntax at: https://www.yamllint.com/
 4. Check rate limiting in logs
 

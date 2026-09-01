@@ -9,7 +9,7 @@ Your autonomous Quant Analysis & Execution Engine is ready to use!
 ### 1. Run a Quick Test
 
 ```bash
-cd ~/Documents/stock-screener
+cd /path/to/stock-screener
 ./run_test.sh
 ```
 
