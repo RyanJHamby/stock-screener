@@ -263,8 +263,10 @@ class GitStorageFetcher:
             try:
                 with open(self.metadata_file, 'r') as f:
                     metadata = json.load(f)
-            except Exception:
-                pass
+            except Exception as e:
+                logger.warning(
+                    f"Could not read {self.metadata_file}, rebuilding from scratch: {e}"
+                )
 
         metadata[ticker] = {
             'last_updated': datetime.now().isoformat(),
