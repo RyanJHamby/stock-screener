@@ -262,7 +262,7 @@ class TestFetchPriceHistory:
 
             assert not result.empty
             assert len(result) == len(mock_price_history)
-            assert 'Date' in result.columns
+            assert result.index.name == 'Date'
             assert 'Open' in result.columns
             assert 'High' in result.columns
             assert 'Low' in result.columns

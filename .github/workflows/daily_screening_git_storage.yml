@@ -120,23 +120,24 @@ jobs:
             echo "No metadata file found"
           fi
 
-      - name: Commit updated fundamental cache
+      - name: Commit updated fundamental cache and scan results
         id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Add fundamental cache directory
+          # Add fundamental cache directory and daily scan reports
           git add data/fundamentals_cache/
+          git add data/daily_scans/
 
           # Check if there are changes
           if git diff --staged --quiet; then
-            echo "No fundamental cache changes to commit"
+            echo "No fundamental cache or scan changes to commit"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             CHANGED_FILES=$(git diff --staged --name-only | wc -l)
-            echo "Committing $CHANGED_FILES updated fundamental files"
-            git commit -m "chore: update fundamental cache ($CHANGED_FILES stocks) - ${{ steps.date.outputs.date }}"
+            echo "Committing $CHANGED_FILES updated files"
+            git commit -m "chore: update fundamental cache and daily scan - ${{ steps.date.outputs.date }}"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
