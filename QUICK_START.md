@@ -1,8 +1,15 @@
 # Quick Start Guide - Quant Analysis Engine
 
-## Problem You Encountered
+> This guide covers the `config.yaml` / `run_screen.sh` workflow (the earlier
+> "quant engine" scanner, `scripts/run_quant_engine.py`). For the main
+> full-market scanner used by the daily GitHub Actions automation, see the
+> [top-level README](README.md#quick-start) instead.
 
-You got `ModuleNotFoundError: No module named 'numpy'` because you were using the system Python instead of the project's virtual environment where all dependencies are installed.
+## Common Setup Issue: `ModuleNotFoundError`
+
+If you see `ModuleNotFoundError: No module named 'numpy'` (or any other
+dependency), it's because you're using the system Python instead of the
+project's virtual environment where dependencies are installed.
 
 ## Solution: Always Use the Virtual Environment
 
@@ -54,8 +61,8 @@ deactivate
 ### Daily Screening
 
 ```bash
-# Navigate to project directory
-cd ~/Documents/stock-screener
+# Navigate to project directory (wherever you cloned it)
+cd /path/to/stock-screener
 
 # Run screening (uses virtual environment automatically)
 ./run_screen.sh

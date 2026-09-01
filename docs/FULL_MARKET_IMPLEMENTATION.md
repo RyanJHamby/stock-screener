@@ -140,7 +140,7 @@ See `SETUP_CRON_JOB.md` for detailed instructions.
 
 ### Documentation
 
-5. **FULL_MARKET_SCANNER_README.md** - Complete usage guide
+5. **OPTIMIZED_SCANNER_README.md** - Complete usage guide
 6. **SETUP_CRON_JOB.md** - Cron setup instructions
 7. **FULL_MARKET_IMPLEMENTATION.md** - This file
 
@@ -493,7 +493,7 @@ Before setting up cron:
 ## 📞 Support & Documentation
 
 - **Quick Start**: See `START_HERE.md`
-- **Full Scanner Guide**: See `FULL_MARKET_SCANNER_README.md`
+- **Full Scanner Guide**: See `OPTIMIZED_SCANNER_README.md`
 - **Cron Setup**: See `SETUP_CRON_JOB.md`
 - **Original System**: See `QUANT_ENGINE_README.md`
 - **Implementation**: See `IMPLEMENTATION_SUMMARY.md`
