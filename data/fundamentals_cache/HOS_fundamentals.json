@@ -1,0 +1,16 @@
+{
+  "data": {
+    "ticker": "HOS",
+    "fetch_date": "2026-09-09T16:53:01.125009",
+    "quarterly_revenue": {
+      "2024-12-31 00:00:00": 160869000.0,
+      "2025-09-30 00:00:00": 199116000.0
+    },
+    "revenue_qoq_change": 23.775245696809204,
+    "gross_margin": 82.81,
+    "margin_change": 0.06,
+    "operating_margin": 30.34,
+    "inventory_breakdown_available": false
+  },
+  "fetched_at": "2026-09-09T16:53:01.125854"
+}
