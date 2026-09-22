@@ -1,6 +1,6 @@
 yfinance==1.7.0
 pandas==3.0.5
-sqlalchemy==2.0.52
+sqlalchemy==2.0.54
 psycopg2-binary==2.9.12
 python-dotenv==1.2.3
 pytest==9.1.1
