@@ -8566,5 +8566,21 @@
   "WLTH": {
     "last_updated": "2026-10-01T19:21:52.759746",
     "in_earnings_season": false
+  },
+  "CBNK": {
+    "last_updated": "2026-10-02T17:57:09.992412",
+    "in_earnings_season": false
+  },
+  "NEO": {
+    "last_updated": "2026-10-02T18:24:50.214567",
+    "in_earnings_season": false
+  },
+  "NTWK": {
+    "last_updated": "2026-10-02T18:26:16.127028",
+    "in_earnings_season": false
+  },
+  "PRIM": {
+    "last_updated": "2026-10-02T18:31:30.328224",
+    "in_earnings_season": false
   }
 }
