@@ -8594,5 +8594,13 @@
   "MDLN": {
     "last_updated": "2026-10-06T18:50:10.263375",
     "in_earnings_season": false
+  },
+  "INGN": {
+    "last_updated": "2026-10-09T18:44:58.252105",
+    "in_earnings_season": false
+  },
+  "SOTK": {
+    "last_updated": "2026-10-09T19:08:17.604576",
+    "in_earnings_season": false
   }
 }
