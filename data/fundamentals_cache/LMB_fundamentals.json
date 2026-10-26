@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LMB",
-    "fetch_date": "2026-10-16T17:02:40.906612",
+    "fetch_date": "2026-10-26T19:09:29.306434",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 142241000.0,
       "2025-09-30 00:00:00": 184583000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T17:02:40.908074"
+  "fetched_at": "2026-10-26T19:09:29.307734"
 }
