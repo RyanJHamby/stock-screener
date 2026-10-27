@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TCMD",
-    "fetch_date": "2026-10-20T17:39:14.568527",
+    "fetch_date": "2026-10-27T18:45:40.511808",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 78905000.0,
       "2025-09-30 00:00:00": 85755000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.197,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T17:39:14.570490"
+  "fetched_at": "2026-10-27T18:45:40.512782"
 }

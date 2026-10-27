@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ODFL",
-    "fetch_date": "2026-10-20T17:25:38.536277",
+    "fetch_date": "2026-10-27T18:32:06.358597",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1407724000.0,
       "2025-09-30 00:00:00": 1406511000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 29.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T17:25:38.537833"
+  "fetched_at": "2026-10-27T18:32:06.359808"
 }

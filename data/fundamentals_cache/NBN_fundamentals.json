@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NBN",
-    "fetch_date": "2026-10-15T17:24:45.653113",
+    "fetch_date": "2026-10-27T18:29:27.406784",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 59767000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T17:24:45.653653"
+  "fetched_at": "2026-10-27T18:29:27.407267"
 }

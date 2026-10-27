@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VYX",
-    "fetch_date": "2026-10-19T19:38:36.885530",
+    "fetch_date": "2026-10-27T18:51:17.313184",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 660000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.245,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T19:38:36.887462"
+  "fetched_at": "2026-10-27T18:51:17.314169"
 }

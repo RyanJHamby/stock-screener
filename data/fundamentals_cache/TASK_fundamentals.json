@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TASK",
-    "fetch_date": "2026-10-19T19:32:51.856202",
+    "fetch_date": "2026-10-27T18:45:32.509489",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 294086000.0,
       "2025-09-30 00:00:00": 298713000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 11.63,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T19:32:51.857814"
+  "fetched_at": "2026-10-27T18:45:32.510262"
 }

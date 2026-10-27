@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SYK",
-    "fetch_date": "2026-10-19T19:32:39.884727",
+    "fetch_date": "2026-10-27T18:45:20.451693",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 6022000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.838,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T19:32:39.886646"
+  "fetched_at": "2026-10-27T18:45:20.452627"
 }

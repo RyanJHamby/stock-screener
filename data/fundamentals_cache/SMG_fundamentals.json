@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMG",
-    "fetch_date": "2026-10-20T17:36:27.692099",
+    "fetch_date": "2026-10-27T18:42:54.475864",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1159300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.411,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T17:36:27.694084"
+  "fetched_at": "2026-10-27T18:42:54.476828"
 }

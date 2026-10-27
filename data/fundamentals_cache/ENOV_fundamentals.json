@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ENOV",
-    "fetch_date": "2026-10-20T17:04:00.324785",
+    "fetch_date": "2026-10-27T18:10:27.071319",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 564545000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.032,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T17:04:00.326875"
+  "fetched_at": "2026-10-27T18:10:27.072306"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ON",
-    "fetch_date": "2026-10-20T17:26:14.447468",
+    "fetch_date": "2026-10-27T18:32:42.318423",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1468700000.0,
       "2025-09-30 00:00:00": 1550900000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.277,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T17:26:14.449451"
+  "fetched_at": "2026-10-27T18:32:42.319399"
 }

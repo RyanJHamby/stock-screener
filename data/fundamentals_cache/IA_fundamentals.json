@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IA",
-    "fetch_date": "2026-10-19T19:06:33.949048",
+    "fetch_date": "2026-10-27T18:19:14.922045",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 24144832.0,
       "2025-09-30 00:00:00": 22247114.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T19:06:33.950917"
+  "fetched_at": "2026-10-27T18:19:14.923042"
 }
