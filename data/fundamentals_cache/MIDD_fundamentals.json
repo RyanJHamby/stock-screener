@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MIDD",
-    "fetch_date": "2026-10-21T17:37:39.940064",
+    "fetch_date": "2026-10-28T18:52:05.562820",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 796799000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.842,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T17:37:39.941703"
+  "fetched_at": "2026-10-28T18:52:05.564831"
 }

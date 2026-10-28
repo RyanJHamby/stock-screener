@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OABI",
-    "fetch_date": "2026-09-02T17:06:58.172725",
+    "fetch_date": "2026-10-28T18:56:40.499710",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3897000.0,
       "2025-09-30 00:00:00": 2239000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.076,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-09-02T17:06:58.173865"
+  "fetched_at": "2026-10-28T18:56:40.501711"
 }

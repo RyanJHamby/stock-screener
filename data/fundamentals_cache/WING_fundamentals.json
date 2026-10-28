@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WING",
-    "fetch_date": "2026-10-21T18:02:25.714368",
+    "fetch_date": "2026-10-28T19:16:41.739797",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 174329000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 29.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T18:02:25.715669"
+  "fetched_at": "2026-10-28T19:16:41.741389"
 }

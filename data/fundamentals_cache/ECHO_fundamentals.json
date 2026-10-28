@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ECHO",
-    "fetch_date": "2026-10-21T17:19:49.667854",
+    "fetch_date": "2026-10-28T18:34:15.330165",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3724959000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T17:19:49.669486"
+  "fetched_at": "2026-10-28T18:34:15.332184"
 }

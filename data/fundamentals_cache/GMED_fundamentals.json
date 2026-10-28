@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GMED",
-    "fetch_date": "2026-10-21T17:26:05.692643",
+    "fetch_date": "2026-10-28T18:40:30.472436",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 745342000.0,
       "2025-09-30 00:00:00": 769048000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.027,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-21T17:26:05.694268"
+  "fetched_at": "2026-10-28T18:40:30.474448"
 }
