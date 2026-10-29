@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLNT",
-    "fetch_date": "2026-10-22T17:44:58.551898",
+    "fetch_date": "2026-10-29T19:05:45.465812",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 340879000.0,
       "2025-09-30 00:00:00": 330345000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.025,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:44:58.553815"
+  "fetched_at": "2026-10-29T19:05:45.467173"
 }

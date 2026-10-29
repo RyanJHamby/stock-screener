@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHOE",
-    "fetch_date": "2026-10-22T17:51:21.649166",
+    "fetch_date": "2026-10-29T19:12:08.499692",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 1.501,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:51:21.651121"
+  "fetched_at": "2026-10-29T19:12:08.500666"
 }

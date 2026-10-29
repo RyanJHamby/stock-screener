@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DAC",
-    "fetch_date": "2026-10-22T17:16:28.056501",
+    "fetch_date": "2026-10-29T18:37:16.682551",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 262154000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.082,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:16:28.058483"
+  "fetched_at": "2026-10-29T18:37:16.683437"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PBF",
-    "fetch_date": "2026-10-22T17:43:40.631283",
+    "fetch_date": "2026-10-29T19:04:28.132688",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 7475300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.248,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:43:40.633280"
+  "fetched_at": "2026-10-29T19:04:28.133521"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MYE",
-    "fetch_date": "2026-10-22T17:38:25.381023",
+    "fetch_date": "2026-10-29T18:59:15.245281",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 163232000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.43,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:38:25.382963"
+  "fetched_at": "2026-10-29T18:59:15.246191"
 }

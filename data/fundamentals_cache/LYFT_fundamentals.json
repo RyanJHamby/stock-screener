@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LYFT",
-    "fetch_date": "2026-10-22T17:34:58.342544",
+    "fetch_date": "2026-10-29T18:55:47.995934",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1588183000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 2.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:34:58.344060"
+  "fetched_at": "2026-10-29T18:55:47.996711"
 }

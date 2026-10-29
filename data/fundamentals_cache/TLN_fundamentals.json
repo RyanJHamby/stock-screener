@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TLN",
-    "fetch_date": "2026-10-22T17:56:00.918315",
+    "fetch_date": "2026-10-29T19:16:47.519496",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 454000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.311,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:56:00.920351"
+  "fetched_at": "2026-10-29T19:16:47.520401"
 }

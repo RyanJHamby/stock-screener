@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FIVE",
-    "fetch_date": "2026-10-22T17:22:19.193508",
+    "fetch_date": "2026-10-29T18:43:06.728679",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 1026847000.0,
       "2025-10-31 00:00:00": 1038293000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.746,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:22:19.195471"
+  "fetched_at": "2026-10-29T18:43:06.729635"
 }

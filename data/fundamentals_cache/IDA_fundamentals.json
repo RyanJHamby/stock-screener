@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IDA",
-    "fetch_date": "2026-10-22T17:28:56.460072",
+    "fetch_date": "2026-10-29T18:49:45.050585",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 450880000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.486,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:28:56.461968"
+  "fetched_at": "2026-10-29T18:49:45.051626"
 }

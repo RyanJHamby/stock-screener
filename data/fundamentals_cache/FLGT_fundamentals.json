@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FLGT",
-    "fetch_date": "2026-10-22T17:22:27.302694",
+    "fetch_date": "2026-10-29T18:43:14.714798",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 81803000.0,
       "2025-09-30 00:00:00": 84069000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.137,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:22:27.304682"
+  "fetched_at": "2026-10-29T18:43:14.715727"
 }

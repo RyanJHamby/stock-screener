@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KVUE",
-    "fetch_date": "2026-10-22T17:32:47.333506",
+    "fetch_date": "2026-10-29T18:53:35.922606",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3839000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.435,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:32:47.335424"
+  "fetched_at": "2026-10-29T18:53:35.923486"
 }

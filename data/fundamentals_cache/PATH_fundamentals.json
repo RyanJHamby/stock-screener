@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PATH",
-    "fetch_date": "2026-10-22T17:43:31.599836",
+    "fetch_date": "2026-10-29T19:04:19.140597",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 361728000.0,
       "2025-10-31 00:00:00": 411113000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 7.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:43:31.601405"
+  "fetched_at": "2026-10-29T19:04:19.141323"
 }

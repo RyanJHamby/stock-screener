@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRC",
-    "fetch_date": "2026-10-22T17:56:43.993245",
+    "fetch_date": "2026-10-29T19:17:30.527857",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8307000.0,
       "2025-09-30 00:00:00": 11969000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.659,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:56:43.995253"
+  "fetched_at": "2026-10-29T19:17:30.528669"
 }

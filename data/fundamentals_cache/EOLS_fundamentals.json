@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EOLS",
-    "fetch_date": "2026-10-22T17:20:01.140203",
+    "fetch_date": "2026-10-29T18:40:48.959150",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 69387000.0,
       "2025-09-30 00:00:00": 68967000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.486,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:20:01.142120"
+  "fetched_at": "2026-10-29T18:40:48.960015"
 }

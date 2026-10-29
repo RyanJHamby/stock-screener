@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INTC",
-    "fetch_date": "2026-10-22T17:29:54.333739",
+    "fetch_date": "2026-10-29T18:50:42.957680",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 12859000000.0,
       "2025-09-30 00:00:00": 13653000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.775,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:29:54.335735"
+  "fetched_at": "2026-10-29T18:50:42.958539"
 }

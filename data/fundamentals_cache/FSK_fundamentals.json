@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FSK",
-    "fetch_date": "2026-10-22T17:23:21.149727",
+    "fetch_date": "2026-10-29T18:44:08.667063",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": -184000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 82.66666666666667,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:23:21.150466"
+  "fetched_at": "2026-10-29T18:44:08.667598"
 }

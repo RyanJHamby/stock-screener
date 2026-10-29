@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CNQ",
-    "fetch_date": "2026-10-22T17:14:01.971496",
+    "fetch_date": "2026-10-29T18:34:50.636981",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 9675000000.0,
       "2025-09-30 00:00:00": 11070000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.162,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:14:01.973436"
+  "fetched_at": "2026-10-29T18:34:50.637893"
 }

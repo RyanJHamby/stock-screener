@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STRA",
-    "fetch_date": "2026-10-22T17:54:04.859608",
+    "fetch_date": "2026-10-29T19:14:51.580563",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 321471000.0,
       "2025-09-30 00:00:00": 319949000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 15.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:54:04.861066"
+  "fetched_at": "2026-10-29T19:14:51.581723"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GOLF",
-    "fetch_date": "2026-08-14T13:46:27.145953",
+    "fetch_date": "2026-10-29T18:46:08.830662",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 720476000.0,
@@ -26,7 +26,6 @@
     "margin_change": 7.19,
     "operating_margin": 21.54,
     "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 533709000.0,
       "2025-09-30 00:00:00": 513695000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.649,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:46:27.147720"
+  "fetched_at": "2026-10-29T18:46:08.831590"
 }

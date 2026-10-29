@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ED",
-    "fetch_date": "2026-10-22T17:18:54.391460",
+    "fetch_date": "2026-10-29T18:39:42.739929",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3595000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.131,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:18:54.394136"
+  "fetched_at": "2026-10-29T18:39:42.740827"
 }

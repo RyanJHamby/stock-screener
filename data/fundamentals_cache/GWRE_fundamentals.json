@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GWRE",
-    "fetch_date": "2026-10-22T17:26:12.268698",
+    "fetch_date": "2026-10-29T18:47:01.012659",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 356570000.0,
       "2025-10-31 00:00:00": 332639000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 15.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:26:12.270175"
+  "fetched_at": "2026-10-29T18:47:01.013379"
 }

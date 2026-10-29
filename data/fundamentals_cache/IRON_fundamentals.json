@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IRON",
-    "fetch_date": "2026-10-22T17:30:28.797204",
+    "fetch_date": "2026-10-29T18:51:16.849666",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:30:28.798310"
+  "fetched_at": "2026-10-29T18:51:16.850214"
 }

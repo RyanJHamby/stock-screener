@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DVN",
-    "fetch_date": "2026-10-22T17:18:24.081066",
+    "fetch_date": "2026-10-29T18:39:12.575319",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 4284000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.048,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:18:24.083003"
+  "fetched_at": "2026-10-29T18:39:12.576174"
 }

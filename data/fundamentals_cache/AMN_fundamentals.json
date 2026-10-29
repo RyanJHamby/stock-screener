@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMN",
-    "fetch_date": "2026-10-22T17:03:50.905042",
+    "fetch_date": "2026-10-29T18:24:39.707097",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 658175000.0,
       "2025-09-30 00:00:00": 634496000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:03:50.906522"
+  "fetched_at": "2026-10-29T18:24:39.707787"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AI",
-    "fetch_date": "2026-10-22T17:02:32.076714",
+    "fetch_date": "2026-10-29T18:23:20.575242",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 70261000.0,
       "2025-10-31 00:00:00": 75147000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -186.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:02:32.078202"
+  "fetched_at": "2026-10-29T18:23:20.576381"
 }

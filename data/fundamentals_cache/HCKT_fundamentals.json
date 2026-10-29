@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HCKT",
-    "fetch_date": "2026-10-22T17:26:41.321434",
+    "fetch_date": "2026-10-29T18:47:29.870184",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 78899000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 11.83,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:26:41.322907"
+  "fetched_at": "2026-10-29T18:47:29.870907"
 }

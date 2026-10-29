@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INVX",
-    "fetch_date": "2026-10-22T17:30:04.432650",
+    "fetch_date": "2026-10-29T18:50:52.870763",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 240415000.0,
       "2025-06-30 00:00:00": 224234000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.081,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:30:04.434622"
+  "fetched_at": "2026-10-29T18:50:52.871674"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UTL",
-    "fetch_date": "2026-10-22T17:59:01.008496",
+    "fetch_date": "2026-10-29T19:19:47.426526",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 102600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.147,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:59:01.010517"
+  "fetched_at": "2026-10-29T19:19:47.427446"
 }

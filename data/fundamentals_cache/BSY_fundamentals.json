@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BSY",
-    "fetch_date": "2026-10-22T17:10:06.010973",
+    "fetch_date": "2026-10-29T18:30:54.728317",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 364106000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 21.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:10:06.012441"
+  "fetched_at": "2026-10-29T18:30:54.729080"
 }

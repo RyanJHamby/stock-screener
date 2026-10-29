@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SWK",
-    "fetch_date": "2026-10-22T17:54:35.760455",
+    "fetch_date": "2026-10-29T19:15:22.779384",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3945200000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.984,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:54:35.762403"
+  "fetched_at": "2026-10-29T19:15:22.780658"
 }

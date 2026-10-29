@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IDCC",
-    "fetch_date": "2026-10-22T17:28:58.168206",
+    "fetch_date": "2026-10-29T18:49:46.837233",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 300596000.0,
       "2025-09-30 00:00:00": 164682000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 53.52,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:28:58.169638"
+  "fetched_at": "2026-10-29T18:49:46.837994"
 }

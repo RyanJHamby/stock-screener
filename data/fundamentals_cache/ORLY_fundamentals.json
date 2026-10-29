@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORLY",
-    "fetch_date": "2026-10-22T17:42:44.695019",
+    "fetch_date": "2026-10-29T19:03:33.238457",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4525058000.0,
       "2025-09-30 00:00:00": 4705696000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.221,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:42:44.696942"
+  "fetched_at": "2026-10-29T19:03:33.239389"
 }

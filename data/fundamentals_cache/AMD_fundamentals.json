@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMD",
-    "fetch_date": "2026-10-22T17:03:44.787534",
+    "fetch_date": "2026-10-29T18:24:33.638403",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 7685000000.0,
       "2025-09-30 00:00:00": 9246000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.734,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:03:44.789501"
+  "fetched_at": "2026-10-29T18:24:33.639277"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IBRX",
-    "fetch_date": "2026-10-22T17:28:48.132056",
+    "fetch_date": "2026-10-29T18:49:36.957720",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 26425000.0,
       "2025-09-30 00:00:00": 32061000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.038,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:28:48.133983"
+  "fetched_at": "2026-10-29T18:49:36.958726"
 }

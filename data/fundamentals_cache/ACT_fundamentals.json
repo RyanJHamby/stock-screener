@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACT",
-    "fetch_date": "2026-10-22T17:01:31.056119",
+    "fetch_date": "2026-10-29T18:22:20.452434",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 304617000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 12.612612612612603,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:01:31.056836"
+  "fetched_at": "2026-10-29T18:22:20.452878"
 }

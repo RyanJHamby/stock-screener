@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "J",
-    "fetch_date": "2026-10-22T17:30:47.380625",
+    "fetch_date": "2026-10-29T18:51:35.982296",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3031768000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 7.03,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:30:47.382120"
+  "fetched_at": "2026-10-29T18:51:35.983851"
 }

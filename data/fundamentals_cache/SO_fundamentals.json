@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SO",
-    "fetch_date": "2026-10-22T17:52:49.732027",
+    "fetch_date": "2026-10-29T19:13:36.800392",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6973000000.0,
       "2025-09-30 00:00:00": 7823000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.474,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:52:49.734005"
+  "fetched_at": "2026-10-29T19:13:36.801369"
 }

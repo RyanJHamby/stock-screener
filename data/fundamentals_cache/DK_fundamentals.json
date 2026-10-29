@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DK",
-    "fetch_date": "2026-10-22T17:17:28.213752",
+    "fetch_date": "2026-10-29T18:38:16.888637",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2764600000.0,
       "2025-09-30 00:00:00": 2887000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.245,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:17:28.215679"
+  "fetched_at": "2026-10-29T18:38:16.889486"
 }

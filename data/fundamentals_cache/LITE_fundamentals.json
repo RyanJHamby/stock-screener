@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LITE",
-    "fetch_date": "2026-10-22T17:33:55.386589",
+    "fetch_date": "2026-10-29T18:54:44.095200",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 480700000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.687,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:33:55.388552"
+  "fetched_at": "2026-10-29T18:54:44.096173"
 }

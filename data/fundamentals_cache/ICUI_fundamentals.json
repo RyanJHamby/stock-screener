@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ICUI",
-    "fetch_date": "2026-10-22T17:28:55.335454",
+    "fetch_date": "2026-10-29T18:49:43.811810",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 548866000.0,
       "2025-09-30 00:00:00": 536990000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.101,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:28:55.337402"
+  "fetched_at": "2026-10-29T18:49:43.812664"
 }

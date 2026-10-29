@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DEC",
-    "fetch_date": "2026-10-22T17:16:56.090515",
+    "fetch_date": "2026-10-29T18:37:44.608479",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 62515000.0,
       "2025-06-30 00:00:00": 417626000.0,
@@ -29,5 +29,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:16:56.092391"
+  "fetched_at": "2026-10-29T18:37:44.609337"
 }

@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "KEX",
-    "fetch_date": "2026-10-22T17:31:40.482409",
+    "fetch_date": "2026-10-29T18:52:28.949781",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 855455000.0,
       "2025-09-30 00:00:00": 871161000.0,
       "2025-12-31 00:00:00": 851775000.0,
       "2026-03-31 00:00:00": 844099000.0,
-      "2026-06-30 00:00:00": 922399000.0
+      "2026-06-30 00:00:00": 922399000.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 9.27616310409087,
-    "revenue_yoy_change": 7.825543132017463,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 1.67,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1.65,
       "2025-12-31 00:00:00": 1.68,
       "2026-03-31 00:00:00": 1.5,
-      "2026-06-30 00:00:00": 1.67
+      "2026-06-30 00:00:00": 1.67,
+      "2026-09-30 00:00:00": 2.09
     },
-    "eps_qoq_change": 11.333333333333329,
-    "eps_yoy_change": 0.0,
-    "gross_margin": 23.9,
-    "margin_change": -1.85,
-    "operating_margin": 13.19,
+    "eps_qoq_change": 25.149700598802394,
+    "eps_yoy_change": 26.666666666666668,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 426265000.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 415941000.0
     },
     "inventory_qoq_change": -0.51,
-    "inventory_to_sales_ratio": 0.451,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:31:40.484359"
+  "fetched_at": "2026-10-29T18:52:28.950685"
 }

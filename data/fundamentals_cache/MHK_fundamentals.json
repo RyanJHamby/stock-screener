@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MHK",
-    "fetch_date": "2026-10-22T17:36:35.508443",
+    "fetch_date": "2026-10-29T18:57:24.963630",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2802100000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.864,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:36:35.510390"
+  "fetched_at": "2026-10-29T18:57:24.964573"
 }

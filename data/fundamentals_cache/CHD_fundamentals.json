@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHD",
-    "fetch_date": "2026-10-22T17:12:32.107800",
+    "fetch_date": "2026-10-29T18:33:20.689526",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1467100000.0,
       "2025-06-30 00:00:00": 1506300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:12:32.109752"
+  "fetched_at": "2026-10-29T18:33:20.691347"
 }

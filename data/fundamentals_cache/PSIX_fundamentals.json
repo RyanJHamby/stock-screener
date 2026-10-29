@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PSIX",
-    "fetch_date": "2026-10-22T17:46:07.596478",
+    "fetch_date": "2026-10-29T19:06:54.317598",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 191907000.0,
       "2025-09-30 00:00:00": 203829000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.836,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:46:07.598439"
+  "fetched_at": "2026-10-29T19:06:54.318514"
 }

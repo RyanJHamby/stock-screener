@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EPAM",
-    "fetch_date": "2026-10-22T17:20:05.169760",
+    "fetch_date": "2026-10-29T18:40:52.605218",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1353443000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.76,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:20:05.171423"
+  "fetched_at": "2026-10-29T18:40:52.605931"
 }

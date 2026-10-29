@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JRSH",
-    "fetch_date": "2026-10-15T17:17:12.659058",
+    "fetch_date": "2026-10-29T18:52:07.030851",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 39629308.0,
       "2025-09-30 00:00:00": 41968534.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.529,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T17:17:12.660319"
+  "fetched_at": "2026-10-29T18:52:07.031777"
 }

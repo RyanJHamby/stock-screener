@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CBLL",
-    "fetch_date": "2026-10-22T17:11:25.999474",
+    "fetch_date": "2026-10-29T18:32:14.651224",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 21199000.0,
       "2025-09-30 00:00:00": 22589000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:11:26.001488"
+  "fetched_at": "2026-10-29T18:32:14.652062"
 }

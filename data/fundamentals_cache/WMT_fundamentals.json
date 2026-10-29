@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WMT",
-    "fetch_date": "2026-10-22T18:01:39.062615",
+    "fetch_date": "2026-10-29T19:22:24.605788",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-07-31 00:00:00": 177402000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.328,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T18:01:39.064616"
+  "fetched_at": "2026-10-29T19:22:24.606684"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRZE",
-    "fetch_date": "2026-10-22T17:09:55.893630",
+    "fetch_date": "2026-10-29T18:30:44.505469",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 180111000.0,
       "2025-10-31 00:00:00": 190842000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -7.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:09:55.895150"
+  "fetched_at": "2026-10-29T18:30:44.506231"
 }

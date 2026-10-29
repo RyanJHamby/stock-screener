@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IRM",
-    "fetch_date": "2026-10-22T17:30:26.281817",
+    "fetch_date": "2026-10-29T18:51:14.991706",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1711948000.0,
       "2025-09-30 00:00:00": 1754093000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 19.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:30:26.283317"
+  "fetched_at": "2026-10-29T18:51:14.992401"
 }

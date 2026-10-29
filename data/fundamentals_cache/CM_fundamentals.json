@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CM",
-    "fetch_date": "2026-10-22T17:13:32.031458",
+    "fetch_date": "2026-10-29T18:34:20.616378",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 14.883720930232572,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:13:32.032276"
+  "fetched_at": "2026-10-29T18:34:20.616829"
 }

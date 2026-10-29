@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RELY",
-    "fetch_date": "2026-10-22T17:47:55.476521",
+    "fetch_date": "2026-10-29T19:08:43.335103",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 411852000.0,
       "2025-09-30 00:00:00": 419494000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 13.47,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:47:55.478072"
+  "fetched_at": "2026-10-29T19:08:43.335889"
 }

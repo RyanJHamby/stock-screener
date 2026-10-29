@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HAE",
-    "fetch_date": "2026-10-22T17:26:21.288497",
+    "fetch_date": "2026-10-29T18:47:09.801402",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 321394000.0,
       "2025-09-30 00:00:00": 327315000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.904,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:26:21.290432"
+  "fetched_at": "2026-10-29T18:47:09.802314"
 }

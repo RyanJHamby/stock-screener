@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LZ",
-    "fetch_date": "2026-10-22T17:35:02.280141",
+    "fetch_date": "2026-10-29T18:55:51.933344",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 192509000.0,
       "2025-09-30 00:00:00": 190158000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 5.19,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:35:02.281595"
+  "fetched_at": "2026-10-29T18:55:51.934097"
 }

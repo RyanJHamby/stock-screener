@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VG",
-    "fetch_date": "2026-10-22T17:59:28.922820",
+    "fetch_date": "2026-10-29T19:20:15.272201",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3101000000.0,
       "2025-09-30 00:00:00": 3329000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.063,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:59:28.924728"
+  "fetched_at": "2026-10-29T19:20:15.273081"
 }

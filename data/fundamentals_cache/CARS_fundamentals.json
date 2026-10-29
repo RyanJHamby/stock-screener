@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CARS",
-    "fetch_date": "2026-10-22T17:11:06.898691",
+    "fetch_date": "2026-10-29T18:31:55.722208",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 178739000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 15.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:11:06.900213"
+  "fetched_at": "2026-10-29T18:31:55.722947"
 }

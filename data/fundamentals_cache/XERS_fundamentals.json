@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XERS",
-    "fetch_date": "2026-10-22T18:02:20.999635",
+    "fetch_date": "2026-10-29T19:23:06.703374",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 71539000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.879,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T18:02:21.001569"
+  "fetched_at": "2026-10-29T19:23:06.704227"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HOPE",
-    "fetch_date": "2026-10-22T17:27:36.420579",
+    "fetch_date": "2026-10-29T18:48:24.735702",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 94499000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 217.53454545454548,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:27:36.421349"
+  "fetched_at": "2026-10-29T18:48:24.736173"
 }

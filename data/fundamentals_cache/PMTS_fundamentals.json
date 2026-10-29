@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PMTS",
-    "fetch_date": "2026-10-22T17:45:11.658884",
+    "fetch_date": "2026-10-29T19:05:58.341432",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 129753000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.422,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:45:11.660831"
+  "fetched_at": "2026-10-29T19:05:58.342375"
 }

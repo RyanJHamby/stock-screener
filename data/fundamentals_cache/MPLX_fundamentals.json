@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MPLX",
-    "fetch_date": "2026-10-22T17:37:25.363676",
+    "fetch_date": "2026-10-29T18:58:15.183252",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2788000000.0,
       "2025-09-30 00:00:00": 2905000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.065,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:37:25.365592"
+  "fetched_at": "2026-10-29T18:58:15.184115"
 }

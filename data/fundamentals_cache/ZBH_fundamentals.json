@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZBH",
-    "fetch_date": "2026-10-22T18:03:02.092861",
+    "fetch_date": "2026-10-29T19:23:47.741889",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2077300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.043,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T18:03:02.094798"
+  "fetched_at": "2026-10-29T19:23:47.742784"
 }

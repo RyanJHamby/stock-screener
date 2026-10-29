@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CLDX",
-    "fetch_date": "2026-10-22T17:13:13.150393",
+    "fetch_date": "2026-10-29T18:34:01.605636",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 730000.0,
       "2025-09-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": -366468.18,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:13:13.151518"
+  "fetched_at": "2026-10-29T18:34:01.606228"
 }

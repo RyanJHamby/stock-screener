@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KOP",
-    "fetch_date": "2026-10-22T17:32:17.478954",
+    "fetch_date": "2026-10-29T18:53:06.072848",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 504800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.742,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:32:17.480921"
+  "fetched_at": "2026-10-29T18:53:06.073740"
 }

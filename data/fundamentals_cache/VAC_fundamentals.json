@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VAC",
-    "fetch_date": "2026-10-22T17:59:09.002537",
+    "fetch_date": "2026-10-29T19:19:55.407881",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1246000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.51,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:59:09.004621"
+  "fetched_at": "2026-10-29T19:19:55.408783"
 }

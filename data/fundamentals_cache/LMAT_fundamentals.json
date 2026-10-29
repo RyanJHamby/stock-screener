@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LMAT",
-    "fetch_date": "2026-10-22T17:34:03.384647",
+    "fetch_date": "2026-10-29T18:54:51.944012",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 64232000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.823,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:34:03.386593"
+  "fetched_at": "2026-10-29T18:54:51.944952"
 }

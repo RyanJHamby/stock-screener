@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WES",
-    "fetch_date": "2026-10-22T18:01:04.005572",
+    "fetch_date": "2026-10-29T19:21:49.668653",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 942322000.0,
       "2025-09-30 00:00:00": 952484000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T18:01:04.007531"
+  "fetched_at": "2026-10-29T19:21:49.669688"
 }

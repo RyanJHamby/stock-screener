@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DOCN",
-    "fetch_date": "2026-10-22T17:17:46.130614",
+    "fetch_date": "2026-10-29T18:38:34.904615",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 218700000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 10.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:17:46.132104"
+  "fetched_at": "2026-10-29T18:38:34.905322"
 }

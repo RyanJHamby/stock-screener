@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NTAP",
-    "fetch_date": "2026-10-22T17:40:21.446215",
+    "fetch_date": "2026-10-29T19:01:10.034496",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 1559000000.0,
       "2025-10-31 00:00:00": 1705000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.185,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:40:21.448176"
+  "fetched_at": "2026-10-29T19:01:10.035411"
 }

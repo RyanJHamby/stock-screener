@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LDOS",
-    "fetch_date": "2026-10-22T17:33:15.493305",
+    "fetch_date": "2026-10-29T18:54:03.936922",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 4253000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.021,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:33:15.495265"
+  "fetched_at": "2026-10-29T18:54:03.937868"
 }

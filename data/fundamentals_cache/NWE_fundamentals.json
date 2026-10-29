@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NWE",
-    "fetch_date": "2026-10-22T17:40:53.564007",
+    "fetch_date": "2026-10-29T19:01:41.997560",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 342713000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.372,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:40:53.565939"
+  "fetched_at": "2026-10-29T19:01:41.998487"
 }

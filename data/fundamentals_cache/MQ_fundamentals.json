@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MQ",
-    "fetch_date": "2026-10-22T17:37:28.269638",
+    "fetch_date": "2026-10-29T18:58:18.181024",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 150392000.0,
       "2025-09-30 00:00:00": 163306000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:37:28.271523"
+  "fetched_at": "2026-10-29T18:58:18.181906"
 }

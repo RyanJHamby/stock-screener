@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ABBV",
-    "fetch_date": "2026-10-22T17:00:55.902856",
+    "fetch_date": "2026-10-29T18:21:46.466726",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 15423000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.302,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:00:55.904816"
+  "fetched_at": "2026-10-29T18:21:46.467678"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBRA",
-    "fetch_date": "2026-10-22T17:50:14.776519",
+    "fetch_date": "2026-10-29T19:11:02.506870",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 189150000.0,
       "2025-09-30 00:00:00": 190037000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -13.59,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:50:14.777983"
+  "fetched_at": "2026-10-29T19:11:02.507624"
 }

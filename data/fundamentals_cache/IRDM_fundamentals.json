@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "IRDM",
-    "fetch_date": "2026-10-22T17:30:22.384887",
+    "fetch_date": "2026-10-29T18:51:10.938476",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 216906000.0,
       "2025-09-30 00:00:00": 226935000.0,
       "2025-12-31 00:00:00": 212940000.0,
       "2026-03-31 00:00:00": 219057000.0,
-      "2026-06-30 00:00:00": 225237000.0
+      "2026-06-30 00:00:00": 225237000.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 2.821183527575015,
-    "revenue_yoy_change": 3.840834278443197,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.2,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.35,
       "2025-12-31 00:00:00": 0.236995,
       "2026-03-31 00:00:00": 0.2,
-      "2026-06-30 00:00:00": 0.09
+      "2026-06-30 00:00:00": 0.09,
+      "2026-09-30 00:00:00": 0.98
     },
-    "eps_qoq_change": -55.00000000000001,
-    "eps_yoy_change": -55.00000000000001,
-    "gross_margin": 71.23,
-    "margin_change": -0.17,
-    "operating_margin": 15.1,
+    "eps_qoq_change": 988.8888888888889,
+    "eps_yoy_change": 180.0,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 77409000.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 63470000.0
     },
     "inventory_qoq_change": -8.9,
-    "inventory_to_sales_ratio": 0.282,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:30:22.386795"
+  "fetched_at": "2026-10-29T18:51:10.939436"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRO",
-    "fetch_date": "2026-10-22T17:32:27.392325",
+    "fetch_date": "2026-10-29T18:53:16.071701",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 494400000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.893,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:32:27.394305"
+  "fetched_at": "2026-10-29T18:53:16.072567"
 }

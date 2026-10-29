@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTD",
-    "fetch_date": "2026-10-22T17:37:59.381428",
+    "fetch_date": "2026-10-29T18:58:49.036412",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 983221000.0,
       "2025-09-30 00:00:00": 1029699000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.401,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:37:59.383364"
+  "fetched_at": "2026-10-29T18:58:49.037315"
 }

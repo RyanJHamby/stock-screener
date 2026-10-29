@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MFC",
-    "fetch_date": "2026-10-22T17:36:17.676137",
+    "fetch_date": "2026-10-29T18:57:07.048541",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 41125000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 22.448979591836732,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:36:17.676855"
+  "fetched_at": "2026-10-29T18:57:07.048989"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSA",
-    "fetch_date": "2026-10-22T17:37:43.565302",
+    "fetch_date": "2026-10-29T18:58:33.098547",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 474116000.0,
       "2025-09-30 00:00:00": 468445000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.696,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:37:43.567281"
+  "fetched_at": "2026-10-29T18:58:33.099479"
 }

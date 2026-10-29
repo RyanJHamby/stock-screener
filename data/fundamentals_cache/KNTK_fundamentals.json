@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KNTK",
-    "fetch_date": "2026-10-22T17:32:12.479742",
+    "fetch_date": "2026-10-29T18:53:00.917086",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 426738000.0,
       "2025-09-30 00:00:00": 463969000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 23.04,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:32:12.481235"
+  "fetched_at": "2026-10-29T18:53:00.917837"
 }

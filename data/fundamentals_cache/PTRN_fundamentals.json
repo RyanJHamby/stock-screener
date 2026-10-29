@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PTRN",
-    "fetch_date": "2026-10-22T17:46:23.614315",
+    "fetch_date": "2026-10-29T19:07:11.615927",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 598150000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.363,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:46:23.616374"
+  "fetched_at": "2026-10-29T19:07:11.616874"
 }

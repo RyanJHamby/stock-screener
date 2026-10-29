@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PFGC",
-    "fetch_date": "2026-10-22T17:44:22.378064",
+    "fetch_date": "2026-10-29T19:05:09.073732",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 16938900000.0,
       "2025-09-30 00:00:00": 17075900000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:44:22.380037"
+  "fetched_at": "2026-10-29T19:05:09.074577"
 }

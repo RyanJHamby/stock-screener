@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SIBN",
-    "fetch_date": "2026-10-22T17:51:25.676482",
+    "fetch_date": "2026-10-29T19:12:12.413684",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 48630000.0,
       "2025-09-30 00:00:00": 48656000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.685,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:51:25.678367"
+  "fetched_at": "2026-10-29T19:12:12.414667"
 }

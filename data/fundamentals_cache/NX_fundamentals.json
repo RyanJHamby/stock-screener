@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NX",
-    "fetch_date": "2026-10-22T17:41:00.443180",
+    "fetch_date": "2026-10-29T19:01:49.300158",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 495273000.0,
       "2025-10-31 00:00:00": 489846000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.551,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:41:00.445169"
+  "fetched_at": "2026-10-29T19:01:49.301101"
 }
