@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NABL",
-    "fetch_date": "2026-10-23T17:31:19.007563",
+    "fetch_date": "2026-10-30T18:33:51.171690",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 130521000.0,
       "2025-09-30 00:00:00": 131710000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 11.92,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T17:31:19.008590"
+  "fetched_at": "2026-10-30T18:33:51.173178"
 }

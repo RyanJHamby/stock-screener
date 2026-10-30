@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRK",
-    "fetch_date": "2026-10-23T17:07:47.685964",
+    "fetch_date": "2026-10-30T18:10:23.139645",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 470262000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 5.97,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T17:07:47.686968"
+  "fetched_at": "2026-10-30T18:10:23.141166"
 }

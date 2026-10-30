@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NPK",
-    "fetch_date": "2026-10-23T17:32:45.997511",
+    "fetch_date": "2026-10-30T18:35:18.238190",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 120449000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 2.228,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T17:32:45.998791"
+  "fetched_at": "2026-10-30T18:35:18.240094"
 }

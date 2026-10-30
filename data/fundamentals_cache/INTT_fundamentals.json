@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INTT",
-    "fetch_date": "2026-10-22T17:29:57.139137",
+    "fetch_date": "2026-10-30T18:25:14.163371",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 28130000.0,
       "2025-09-30 00:00:00": 26236000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.791,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:29:57.141060"
+  "fetched_at": "2026-10-30T18:25:14.165300"
 }

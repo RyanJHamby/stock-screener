@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INGN",
-    "fetch_date": "2026-10-19T19:07:36.679972",
+    "fetch_date": "2026-10-30T18:24:56.957036",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 92277000.0,
       "2025-09-30 00:00:00": 92390000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.301,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-19T19:07:36.682681"
+  "fetched_at": "2026-10-30T18:24:56.958918"
 }

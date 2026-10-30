@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SRE",
-    "fetch_date": "2026-10-23T17:46:06.143284",
+    "fetch_date": "2026-10-30T18:48:38.456968",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3000000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.165,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T17:46:06.144625"
+  "fetched_at": "2026-10-30T18:48:38.458919"
 }

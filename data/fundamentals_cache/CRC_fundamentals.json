@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRC",
-    "fetch_date": "2026-10-23T17:07:40.211977",
+    "fetch_date": "2026-10-30T18:10:15.146751",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 821000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.102,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-23T17:07:40.213256"
+  "fetched_at": "2026-10-30T18:10:15.148743"
 }
