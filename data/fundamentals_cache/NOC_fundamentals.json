@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NOC",
-    "fetch_date": "2026-10-27T18:30:31.093586",
+    "fetch_date": "2026-11-03T20:02:37.244386",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 10423000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.122,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T18:30:31.094670"
+  "fetched_at": "2026-11-03T20:02:37.245413"
 }

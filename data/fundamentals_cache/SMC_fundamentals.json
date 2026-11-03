@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMC",
-    "fetch_date": "2026-10-27T18:42:50.448209",
+    "fetch_date": "2026-11-03T20:14:57.054032",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 140217000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 16.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T18:42:50.449463"
+  "fetched_at": "2026-11-03T20:14:57.054861"
 }

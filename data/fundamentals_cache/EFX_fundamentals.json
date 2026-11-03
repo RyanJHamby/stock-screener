@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EFX",
-    "fetch_date": "2026-10-27T18:09:46.228491",
+    "fetch_date": "2026-11-03T19:41:56.891900",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 1544900000.0,
       "2025-12-31 00:00:00": 1550600000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 20.99,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T18:09:46.229269"
+  "fetched_at": "2026-11-03T19:41:56.892599"
 }

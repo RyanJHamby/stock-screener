@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARLO",
-    "fetch_date": "2026-10-27T17:55:51.048792",
+    "fetch_date": "2026-11-03T19:28:00.861949",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 129405000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T17:55:51.049705"
+  "fetched_at": "2026-11-03T19:28:00.862848"
 }

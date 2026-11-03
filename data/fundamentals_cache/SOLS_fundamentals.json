@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOLS",
-    "fetch_date": "2026-10-26T19:28:17.365774",
+    "fetch_date": "2026-11-03T20:15:35.020340",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1033000000.0,
       "2025-09-30 00:00:00": 969000000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-26T19:28:17.367367"
+  "fetched_at": "2026-11-03T20:15:35.021389"
 }

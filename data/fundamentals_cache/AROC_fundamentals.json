@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AROC",
-    "fetch_date": "2026-10-27T17:55:56.051023",
+    "fetch_date": "2026-11-03T19:28:08.564541",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 383152000.0,
       "2025-09-30 00:00:00": 382430000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.302,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T17:55:56.051983"
+  "fetched_at": "2026-11-03T19:28:08.565461"
 }
