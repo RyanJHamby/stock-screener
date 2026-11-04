@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESAB",
-    "fetch_date": "2026-10-28T18:35:47.316803",
+    "fetch_date": "2026-11-04T19:58:31.332394",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 715586000.0,
       "2025-09-30 00:00:00": 727845000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-28T18:35:47.318792"
+  "fetched_at": "2026-11-04T19:58:31.333702"
 }

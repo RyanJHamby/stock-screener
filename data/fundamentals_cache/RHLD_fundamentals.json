@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RHLD",
-    "fetch_date": "2026-10-28T19:03:42.532422",
+    "fetch_date": "2026-11-04T20:26:22.541462",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 103900000.0,
       "2025-06-30 00:00:00": 119600000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.682,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-28T19:03:42.534395"
+  "fetched_at": "2026-11-04T20:26:22.542806"
 }

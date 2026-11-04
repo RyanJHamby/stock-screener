@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DYN",
-    "fetch_date": "2026-10-22T17:18:34.923992",
+    "fetch_date": "2026-11-04T19:56:46.965319",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:18:34.925103"
+  "fetched_at": "2026-11-04T19:56:46.966059"
 }

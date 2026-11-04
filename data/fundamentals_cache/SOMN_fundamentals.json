@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SOMN",
-    "fetch_date": "2026-10-28T19:08:18.708707",
+    "fetch_date": "2026-11-04T20:30:58.459654",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6973000000.0,
       "2025-09-30 00:00:00": 7823000000.0,
@@ -26,5 +26,5 @@
     "inventory_to_sales_ratio": 0.474,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-28T19:08:18.710486"
+  "fetched_at": "2026-11-04T20:30:58.460910"
 }
