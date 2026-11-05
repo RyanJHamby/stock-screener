@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GSBD",
-    "fetch_date": "2026-10-29T18:46:42.908951",
+    "fetch_date": "2026-11-05T20:13:40.357184",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 42456000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -38.235294117647065,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:46:42.909412"
+  "fetched_at": "2026-11-05T20:13:40.357932"
 }

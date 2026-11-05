@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EE",
-    "fetch_date": "2026-10-22T17:19:00.263997",
+    "fetch_date": "2026-11-05T20:06:47.545061",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 204556000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.096,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:19:00.265925"
+  "fetched_at": "2026-11-05T20:06:47.546949"
 }

@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "HNGE",
-    "fetch_date": "2026-10-29T18:48:13.754718",
+    "fetch_date": "2026-11-05T20:15:11.890237",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 139098000.0,
       "2025-09-30 00:00:00": 154211000.0,
       "2025-12-31 00:00:00": 170726000.0,
       "2026-03-31 00:00:00": 182307000.0,
-      "2026-06-30 00:00:00": 212817000.0
+      "2026-06-30 00:00:00": 212817000.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 16.735506590531358,
-    "revenue_yoy_change": 52.99788638226286,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": -13.1,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": -0.02,
       "2025-12-31 00:00:00": 0.37,
       "2026-03-31 00:00:00": 0.41,
-      "2026-06-30 00:00:00": 0.52
+      "2026-06-30 00:00:00": 0.52,
+      "2026-09-30 00:00:00": 0.66
     },
-    "eps_qoq_change": 26.82926829268294,
-    "eps_yoy_change": 103.96946564885496,
-    "gross_margin": 86.44,
-    "margin_change": 1.83,
-    "operating_margin": 19.0,
+    "eps_qoq_change": 26.923076923076927,
+    "eps_yoy_change": 3400.0,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 13987000.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 16769000.0
     },
     "inventory_qoq_change": 18.37,
-    "inventory_to_sales_ratio": 0.079,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:48:13.755615"
+  "fetched_at": "2026-11-05T20:15:11.892902"
 }

@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "MAN",
-    "fetch_date": "2026-10-29T18:56:04.008694",
+    "fetch_date": "2026-11-05T20:22:57.497647",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 4519300000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 4634400000.0,
       "2025-12-31 00:00:00": 4713100000.0,
       "2026-03-31 00:00:00": 4510400000.0,
       "2026-06-30 00:00:00": 4860200000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 4840000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -0.4156207563474754,
+    "revenue_yoy_change": 4.436388745037114,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -37.16814159292035,
     "eps_yoy_change": 86.84210526315789,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 15.85,
+    "margin_change": -0.2,
+    "operating_margin": 1.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:56:04.009483"
+  "fetched_at": "2026-11-05T20:22:57.499124"
 }

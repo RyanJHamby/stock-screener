@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VRA",
-    "fetch_date": "2026-10-29T19:20:53.477398",
+    "fetch_date": "2026-11-05T20:47:46.884194",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 70858000.0,
@@ -26,7 +26,6 @@
     "margin_change": 8.0,
     "operating_margin": 5.83,
     "quarterly_inventory": {
-      "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 96685000.0,
       "2025-10-31 00:00:00": 82938000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.967,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:20:53.478265"
+  "fetched_at": "2026-11-05T20:47:46.886179"
 }

@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "BLKB",
-    "fetch_date": "2026-10-29T18:29:35.609115",
+    "fetch_date": "2026-11-05T19:56:35.344840",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 282030000.0,
       "2025-09-30 00:00:00": 281143000.0,
       "2025-12-31 00:00:00": 295256000.0,
       "2026-03-31 00:00:00": 281140000.0,
       "2026-06-30 00:00:00": 290597000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 292641000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 0.7033795944211398,
+    "revenue_yoy_change": 4.0897336942410085,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.98,
       "2025-12-31 00:00:00": 0.76,
       "2026-03-31 00:00:00": 0.67,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 29.113924050632907,
     "eps_yoy_change": 4.081632653061228,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 60.75,
+    "margin_change": -0.56,
+    "operating_margin": 20.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:29:35.609848"
+  "fetched_at": "2026-11-05T19:56:35.346325"
 }

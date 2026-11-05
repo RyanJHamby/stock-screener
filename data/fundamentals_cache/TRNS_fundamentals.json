@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "TRNS",
-    "fetch_date": "2026-10-29T19:17:41.612153",
+    "fetch_date": "2026-11-05T20:44:34.840423",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 76424000.0,
       "2025-09-30 00:00:00": 82272000.0,
       "2025-12-31 00:00:00": 83856000.0,
       "2026-03-31 00:00:00": 89325000.0,
-      "2026-06-30 00:00:00": 92945000.0
+      "2026-06-30 00:00:00": 92945000.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 4.052616848586622,
-    "revenue_yoy_change": 21.617554694860253,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.35,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.14,
       "2025-12-31 00:00:00": -0.12,
       "2026-03-31 00:00:00": 0.21,
-      "2026-06-30 00:00:00": 0.14
+      "2026-06-30 00:00:00": 0.14,
+      "2026-09-30 00:00:00": 0.25
     },
-    "eps_qoq_change": -33.33333333333333,
-    "eps_yoy_change": -60.0,
-    "gross_margin": 33.07,
-    "margin_change": -1.04,
-    "operating_margin": 4.0,
+    "eps_qoq_change": 78.57142857142856,
+    "eps_yoy_change": 78.57142857142856,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 15392000.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 14777000.0
     },
     "inventory_qoq_change": 7.82,
-    "inventory_to_sales_ratio": 0.159,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:17:41.613445"
+  "fetched_at": "2026-11-05T20:44:34.842294"
 }

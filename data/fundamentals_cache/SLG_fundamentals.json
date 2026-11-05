@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLG",
-    "fetch_date": "2026-10-29T19:12:45.657273",
+    "fetch_date": "2026-11-05T20:39:38.792875",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 220867000.0,
@@ -29,5 +29,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:12:45.658016"
+  "fetched_at": "2026-11-05T20:39:38.794348"
 }

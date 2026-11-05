@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "EHC",
-    "fetch_date": "2026-10-29T18:40:04.801670",
+    "fetch_date": "2026-11-05T20:07:03.462099",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1457700000.0,
       "2025-09-30 00:00:00": 1477500000.0,
       "2025-12-31 00:00:00": 1544600000.0,
       "2026-03-31 00:00:00": 1586600000.0,
       "2026-06-30 00:00:00": 1597400000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 1609500000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 0.7574809064730187,
+    "revenue_yoy_change": 8.934010152284264,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1.24,
       "2025-12-31 00:00:00": 1.43,
       "2026-03-31 00:00:00": 1.93,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -2.5974025974025996,
     "eps_yoy_change": 20.967741935483872,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 95.96,
+    "margin_change": 0.1,
+    "operating_margin": 17.89,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:40:04.802423"
+  "fetched_at": "2026-11-05T20:07:03.463561"
 }

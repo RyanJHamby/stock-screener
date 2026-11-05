@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "IVZ",
-    "fetch_date": "2026-10-29T18:51:33.106012",
+    "fetch_date": "2026-11-05T20:18:28.558713",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1515500000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1640400000.0,
       "2025-12-31 00:00:00": 1692000000.0,
       "2026-03-31 00:00:00": 1744500000.0,
       "2026-06-30 00:00:00": 1825600000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 1873200000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 2.607361963190184,
+    "revenue_yoy_change": 14.191660570592537,
     "quarterly_eps": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.66,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": -14.473684210526313,
     "eps_yoy_change": -1.5151515151515165,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 39.28,
+    "margin_change": 3.57,
+    "operating_margin": 23.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:51:33.106716"
+  "fetched_at": "2026-11-05T20:18:28.560200"
 }

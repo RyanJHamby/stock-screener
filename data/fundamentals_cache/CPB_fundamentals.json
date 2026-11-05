@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPB",
-    "fetch_date": "2026-10-29T18:35:30.930846",
+    "fetch_date": "2026-11-05T20:02:30.427396",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 2321000000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.19,
     "operating_margin": 9.03,
     "quarterly_inventory": {
-      "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 1424000000.0,
       "2025-10-31 00:00:00": 1505000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.754,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:35:30.931810"
+  "fetched_at": "2026-11-05T20:02:30.429317"
 }

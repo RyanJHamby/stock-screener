@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESQ",
-    "fetch_date": "2026-10-29T18:41:18.748597",
+    "fetch_date": "2026-11-05T20:08:17.487336",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 35831000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": -3.0864197530864224,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:41:18.749060"
+  "fetched_at": "2026-11-05T20:08:17.488104"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RPM",
-    "fetch_date": "2026-10-29T19:09:58.292997",
+    "fetch_date": "2026-11-05T20:36:51.616049",
     "quarterly_revenue": {
       "2025-08-31 00:00:00": 2113743000.0,
       "2025-11-30 00:00:00": 1909895000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.515,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:09:58.293890"
+  "fetched_at": "2026-11-05T20:36:51.617952"
 }

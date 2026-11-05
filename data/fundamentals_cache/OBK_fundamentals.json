@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OBK",
-    "fetch_date": "2026-10-29T19:02:07.312044",
+    "fetch_date": "2026-11-05T20:29:01.496238",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 84744000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 351.8518518518518,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:02:07.312503"
+  "fetched_at": "2026-11-05T20:29:01.496989"
 }

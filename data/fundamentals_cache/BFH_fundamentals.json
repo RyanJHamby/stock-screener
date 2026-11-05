@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BFH",
-    "fetch_date": "2026-10-29T18:28:51.595996",
+    "fetch_date": "2026-11-05T19:55:51.287337",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 971000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -3.5353535353535386,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:28:51.596468"
+  "fetched_at": "2026-11-05T19:55:51.288086"
 }

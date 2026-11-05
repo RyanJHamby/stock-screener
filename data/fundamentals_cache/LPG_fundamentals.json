@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "LPG",
-    "fetch_date": "2026-10-29T18:55:16.066745",
+    "fetch_date": "2026-11-05T20:22:09.528263",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 84211966.0,
       "2025-09-30 00:00:00": 124064281.0,
       "2025-12-31 00:00:00": 119964287.0,
       "2026-03-31 00:00:00": 153270708.0,
-      "2026-06-30 00:00:00": 187884848.0
+      "2026-06-30 00:00:00": 187884848.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 22.58366288749707,
-    "revenue_yoy_change": 123.10944266519084,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.24,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1.3,
       "2025-12-31 00:00:00": 1.11,
       "2026-03-31 00:00:00": 1.9,
-      "2026-06-30 00:00:00": 3.24
+      "2026-06-30 00:00:00": 3.24,
+      "2026-09-30 00:00:00": 4.98
     },
-    "eps_qoq_change": 70.5263157894737,
-    "eps_yoy_change": 1250.0,
-    "gross_margin": 67.62,
-    "margin_change": 3.94,
-    "operating_margin": 60.8,
+    "eps_qoq_change": 53.70370370370371,
+    "eps_yoy_change": 283.0769230769231,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2410458.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 2581435.0
     },
     "inventory_qoq_change": 5.73,
-    "inventory_to_sales_ratio": 0.014,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:55:16.067686"
+  "fetched_at": "2026-11-05T20:22:09.530160"
 }

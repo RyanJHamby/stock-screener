@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MBIN",
-    "fetch_date": "2026-10-29T18:56:21.017061",
+    "fetch_date": "2026-11-05T20:23:14.522519",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 178057000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 112.37113402061856,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:56:21.017527"
+  "fetched_at": "2026-11-05T20:23:14.523279"
 }

@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "INVH",
-    "fetch_date": "2026-10-29T18:50:51.841420",
+    "fetch_date": "2026-11-05T20:17:47.423083",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 681401000.0,
       "2025-09-30 00:00:00": 688166000.0,
       "2025-12-31 00:00:00": 685250000.0,
       "2026-03-31 00:00:00": 734112000.0,
       "2026-06-30 00:00:00": 747550000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 731278000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -2.1767105879205406,
+    "revenue_yoy_change": 6.264767512489719,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.22,
       "2025-12-31 00:00:00": 0.24,
       "2026-03-31 00:00:00": 0.26,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -27.027027027027025,
     "eps_yoy_change": 22.727272727272734,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 54.14,
+    "margin_change": -0.95,
+    "operating_margin": 22.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:50:51.842153"
+  "fetched_at": "2026-11-05T20:17:47.424524"
 }

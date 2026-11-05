@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "WEX",
-    "fetch_date": "2026-10-29T19:21:52.392569",
+    "fetch_date": "2026-11-05T20:48:45.984835",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 659600000.0,
       "2025-09-30 00:00:00": 691700000.0,
       "2025-12-31 00:00:00": 672800000.0,
       "2026-03-31 00:00:00": 673800000.0,
       "2026-06-30 00:00:00": 753600000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 780100000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 3.5164543524416136,
+    "revenue_yoy_change": 12.78010698279601,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 2.3,
       "2025-12-31 00:00:00": 2.41,
       "2026-03-31 00:00:00": 2.22,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 24.758842443729908,
     "eps_yoy_change": 68.69565217391305,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 63.16,
+    "margin_change": 1.61,
+    "operating_margin": 30.61,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:21:52.393268"
+  "fetched_at": "2026-11-05T20:48:45.986281"
 }

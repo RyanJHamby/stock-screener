@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLX",
-    "fetch_date": "2026-10-29T18:29:42.778677",
+    "fetch_date": "2026-11-05T19:56:42.281259",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 82843000.0,
       "2025-12-31 00:00:00": 64988000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:29:42.779098"
+  "fetched_at": "2026-11-05T19:56:42.281988"
 }

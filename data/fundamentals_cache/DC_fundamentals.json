@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DC",
-    "fetch_date": "2026-10-29T18:37:30.627333",
+    "fetch_date": "2026-11-05T20:04:30.367455",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:37:30.627882"
+  "fetched_at": "2026-11-05T20:04:30.368531"
 }

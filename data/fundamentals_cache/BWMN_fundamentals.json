@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BWMN",
-    "fetch_date": "2026-10-29T18:31:19.612106",
+    "fetch_date": "2026-11-05T19:58:19.359968",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 122090000.0,
       "2025-09-30 00:00:00": 126033000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 5.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:31:19.612899"
+  "fetched_at": "2026-11-05T19:58:19.361444"
 }

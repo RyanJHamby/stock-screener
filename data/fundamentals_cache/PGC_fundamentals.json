@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PGC",
-    "fetch_date": "2026-10-29T19:05:17.407618",
+    "fetch_date": "2026-11-05T20:32:11.595931",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 67710000.0,
       "2025-09-30 00:00:00": 69119000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": null,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:05:17.408066"
+  "fetched_at": "2026-11-05T20:32:11.596705"
 }

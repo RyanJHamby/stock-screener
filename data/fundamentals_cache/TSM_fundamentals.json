@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TSM",
-    "fetch_date": "2026-10-29T19:17:57.684333",
+    "fetch_date": "2026-11-05T20:44:50.984177",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.286,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:17:57.685227"
+  "fetched_at": "2026-11-05T20:44:50.986093"
 }

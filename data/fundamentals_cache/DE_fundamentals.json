@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DE",
-    "fetch_date": "2026-10-29T18:37:42.702322",
+    "fetch_date": "2026-11-05T20:04:42.361023",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 11783000000.0,
@@ -26,7 +26,6 @@
     "margin_change": -1.14,
     "operating_margin": 18.91,
     "quarterly_inventory": {
-      "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 7713000000.0,
       "2025-10-31 00:00:00": 7508000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.632,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:37:42.703270"
+  "fetched_at": "2026-11-05T20:04:42.362971"
 }

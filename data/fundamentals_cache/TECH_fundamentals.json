@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TECH",
-    "fetch_date": "2026-10-29T19:16:06.391948",
+    "fetch_date": "2026-11-05T20:42:59.906608",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 316964000.0,
       "2025-09-30 00:00:00": 286555000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.609,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:16:06.392846"
+  "fetched_at": "2026-11-05T20:42:59.908539"
 }

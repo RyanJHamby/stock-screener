@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSGE",
-    "fetch_date": "2026-10-29T18:58:39.298755",
+    "fetch_date": "2026-11-05T20:25:31.497792",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 154138000.0,
       "2025-09-30 00:00:00": 158262000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.019,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:58:39.299666"
+  "fetched_at": "2026-11-05T20:25:31.499693"
 }
