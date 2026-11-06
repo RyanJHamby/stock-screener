@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TMDX",
-    "fetch_date": "2026-08-12T14:21:05.524259",
+    "fetch_date": "2026-11-06T20:09:03.144725",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 157370000.0,
@@ -26,7 +26,6 @@
     "margin_change": 1.43,
     "operating_margin": 12.5,
     "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 38868000.0,
       "2025-09-30 00:00:00": 44506000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.285,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-12T14:21:05.526042"
+  "fetched_at": "2026-11-06T20:09:03.145837"
 }

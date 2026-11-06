@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GME",
-    "fetch_date": "2026-10-30T18:20:21.083097",
+    "fetch_date": "2026-11-06T19:38:03.671041",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 972200000.0,
@@ -26,7 +26,6 @@
     "margin_change": 2.92,
     "operating_margin": 19.98,
     "quarterly_inventory": {
-      "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 484900000.0,
       "2025-10-31 00:00:00": 575500000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.556,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:20:21.085114"
+  "fetched_at": "2026-11-06T19:38:03.672215"
 }

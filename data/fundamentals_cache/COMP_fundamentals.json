@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COMP",
-    "fetch_date": "2026-10-29T18:35:16.670490",
+    "fetch_date": "2026-11-06T19:27:29.683574",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2060000000.0,
       "2025-09-30 00:00:00": 1846000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.72,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:35:16.671183"
+  "fetched_at": "2026-11-06T19:27:29.684496"
 }

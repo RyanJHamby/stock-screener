@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ATLC",
-    "fetch_date": "2026-10-29T18:26:46.511220",
+    "fetch_date": "2026-11-06T19:18:58.379359",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 89617000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 65.56291390728477,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:26:46.511707"
+  "fetched_at": "2026-11-06T19:18:58.379886"
 }
