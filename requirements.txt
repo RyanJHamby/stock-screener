@@ -1,4 +1,4 @@
-yfinance==1.7.0
+yfinance==1.8.0
 pandas==3.0.5
 sqlalchemy==2.1.1
 psycopg2-binary==2.9.12
