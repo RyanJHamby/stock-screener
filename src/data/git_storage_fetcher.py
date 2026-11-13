@@ -6,7 +6,7 @@ This module implements the optimal strategy:
   - Earnings season: Refresh if >7 days old
   - Normal: Refresh if >90 days old
 
-Reduces API calls by 74% while ensuring:
+Avoids re-fetching fundamentals that have not changed, while ensuring:
 - Latest prices always available
 - Fundamentals persist beyond GitHub Actions cache limits
 """

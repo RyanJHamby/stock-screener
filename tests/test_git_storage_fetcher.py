@@ -101,7 +101,7 @@ def main():
 
     # Test 4: Simulate daily scanning
     print("-"*80)
-    print("TEST 4: Daily Scanning with 3,800 Stocks")
+    print("TEST 4: Daily Scanning")
     print("-"*80)
     print()
 
@@ -183,7 +183,6 @@ def main():
     print("  ✓ Price data always fresh (no caching)")
     print("  ✓ Fundamental data stored in Git (90+ day persistence)")
     print("  ✓ Earnings-aware refresh (7-90 day cycles)")
-    print("  ✓ 74% fewer API calls than naive approach")
     print("  ✓ Works in GitHub Actions (no external storage)")
     print()
     print("Next steps:")
