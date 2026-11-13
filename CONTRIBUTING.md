@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Code Standards
 
-- **Python 3.13+** with type hints on all public functions
+- **Python 3.12+** with type hints on all public functions
 - **Black** for formatting (`pip install black && black .`)
 - **pytest** for tests — new features should include tests, coverage target is 80%+
 - Docstrings on public functions (one-line summary is enough for simple functions)
