@@ -20,7 +20,9 @@ jobs:
     timeout-minutes: 120
 
     permissions:
-      contents: write  # Required to commit fundamental cache
+      contents: write        # push the data branch
+      pull-requests: write   # open the PR and enable auto-merge
+      actions: write         # dispatch the test workflow on the PR branch
 
     steps:
       - name: Checkout code
@@ -121,33 +123,48 @@ jobs:
             echo "No metadata file found"
           fi
 
-      - name: Commit updated fundamental cache and scan results
+      # main is protected (PR only, required "test" check, verified signatures), so
+      # results go out as a signed PR that auto-merges once "test" passes.
+      - name: Detect cache and scan changes
         id: commit
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-          # Add fundamental cache directory and daily scan reports
-          git add data/fundamentals_cache/
-          git add data/daily_scans/
-
-          # Check if there are changes
-          if git diff --staged --quiet; then
+          CHANGED_FILES=$(git status --porcelain -- data/fundamentals_cache/ data/daily_scans/ | wc -l | tr -d ' ')
+          echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
+          if [ "$CHANGED_FILES" -eq 0 ]; then
             echo "No fundamental cache or scan changes to commit"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            CHANGED_FILES=$(git diff --staged --name-only | wc -l)
-            echo "Committing $CHANGED_FILES updated files"
-            git commit -m "chore: update fundamental cache and daily scan - ${{ steps.date.outputs.date }}"
+            echo "$CHANGED_FILES changed files"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Push changes
+      - name: Open signed PR with results
+        id: pr
         if: steps.commit.outputs.has_changes == 'true'
-        uses: ad-m/github-push-action@881a6320fdb16eb5318c5054f31c218aec2b324c # v1.3.0
+        uses: peter-evans/create-pull-request@3ffccacd46053766916f087ce41d627c0b8cf2d1 # v8.1.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          sign-commits: true
+          add-paths: |
+            data/fundamentals_cache/
+            data/daily_scans/
+          branch: data/daily-scan-${{ steps.date.outputs.date }}
+          delete-branch: true
+          commit-message: "chore: update fundamental cache and daily scan - ${{ steps.date.outputs.date }}"
+          title: "chore: update fundamental cache and daily scan - ${{ steps.date.outputs.date }}"
+          body: "Automated daily scan results. Auto-merges when the test check passes."
+
+      # A PR opened with GITHUB_TOKEN does not trigger the pull_request workflow, so
+      # run the required "test" check on the branch by hand, then enable auto-merge.
+      - name: Run test check and enable auto-merge
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
+          PR_BRANCH: ${{ steps.pr.outputs.pull-request-branch }}
+        run: |
+          gh workflow run tests.yml --ref "$PR_BRANCH"
+          gh pr merge "$PR_NUMBER" --auto --squash
 
       - name: Upload screening results
         if: always()
@@ -171,10 +188,6 @@ jobs:
             echo "Fundamental cache directory size: $CACHE_SIZE"
             echo "Total files: $CACHE_FILES"
             echo ""
-            echo "Today's commit impact:"
-            if [ "${{ steps.commit.outputs.has_changes }}" == "true" ]; then
-              git show --stat | tail -5
-            else
-              echo "  No changes committed"
-            fi
+            echo "Today's change impact:"
+            echo "  ${{ steps.commit.outputs.changed_files }} files changed"
           fi

@@ -5,6 +5,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:  # used by the daily scan to run "test" on its bot PR
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
