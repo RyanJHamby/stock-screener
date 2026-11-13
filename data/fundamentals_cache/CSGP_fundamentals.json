@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CSGP",
-    "fetch_date": "2026-11-02T21:53:28.702653",
+    "fetch_date": "2026-11-13T19:44:43.351048",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 8.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T21:53:28.703399"
+  "fetched_at": "2026-11-13T19:44:43.352451"
 }

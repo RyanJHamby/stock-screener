@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LMT",
-    "fetch_date": "2026-11-06T19:47:03.858171",
+    "fetch_date": "2026-11-13T20:03:22.511203",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 18609000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.193,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:47:03.859423"
+  "fetched_at": "2026-11-13T20:03:22.513188"
 }

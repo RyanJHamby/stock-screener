@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GXO",
-    "fetch_date": "2026-11-06T19:39:14.677469",
+    "fetch_date": "2026-11-13T19:55:35.353854",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 3.51,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:39:14.678465"
+  "fetched_at": "2026-11-13T19:55:35.355326"
 }

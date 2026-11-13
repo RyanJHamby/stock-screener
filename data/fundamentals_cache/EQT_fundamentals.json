@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "EQT",
-    "fetch_date": "2026-10-30T18:15:32.234214",
+    "fetch_date": "2026-11-13T19:49:35.314324",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 1837755000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1822787000.0,
       "2025-12-31 00:00:00": 2273906000.0,
       "2026-03-31 00:00:00": 3617005000.0,
       "2026-06-30 00:00:00": 1765300000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 1670107000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -5.392454540304764,
+    "revenue_yoy_change": -8.376184381389598,
     "quarterly_eps": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.53,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": 29.411764705882344,
     "eps_yoy_change": -16.981132075471702,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 33.49,
+    "margin_change": 0.04,
+    "operating_margin": 21.69,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-30T18:15:32.235688"
+  "fetched_at": "2026-11-13T19:49:35.315748"
 }
