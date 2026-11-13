@@ -1,6 +1,6 @@
 # Stock Screener
 
-A daily US stock screener that finds Phase 2 uptrends using Minervini's Trend Template, relative strength against SPY, and a fundamentals screen, then proposes a stop loss and risk/reward for each buy signal.
+A daily US stock screener that automates Mark Minervini's published Trend Template. It finds Phase 2 uptrends, checks relative strength against SPY and a fundamentals screen, then proposes a stop loss and risk/reward for each buy signal. The method is Minervini's, not mine; see [Credit](#credit).
 
 [![Tests](https://github.com/RyanJHamby/stock-screener/actions/workflows/tests.yml/badge.svg)](https://github.com/RyanJHamby/stock-screener/actions/workflows/tests.yml)
 [![Daily Scan](https://github.com/RyanJHamby/stock-screener/actions/workflows/daily_screening_git_storage.yml/badge.svg)](https://github.com/RyanJHamby/stock-screener/actions/workflows/daily_screening_git_storage.yml)
@@ -104,6 +104,16 @@ All optional, set in `.env` (see [.env.example](.env.example)):
 | `SLACK_WEBHOOK_URL` or `SLACK_BOT_TOKEN` | Slack notifications |
 | `FMP_API_KEY` | Financial Modeling Prep fundamentals ([setup](docs/SETUP_FMP.md)) |
 | `ROBINHOOD_USERNAME` | Read-only position tracking; the password is prompted, never stored |
+
+## Credit
+
+The ideas here are not mine.
+
+- **Mark Minervini**: the Trend Template, the Stage 2 buy criteria, pivot-point entries and the risk approach, from *Trade Like a Stock Market Wizard* (2013) and *Think & Trade Like a Champion* (2017).
+- **Stan Weinstein**: the four-stage market cycle behind the phase classification (*Secrets for Profiting in Bull and Bear Markets*).
+- **William O'Neil and IBD**: the growth-fundamentals screen (CANSLIM) and relative strength ranking.
+
+What is mine is the code that tries to automate those published criteria. I am not affiliated with or endorsed by any of these authors, and my version is an interpretation that differs in places. For example, the relative strength check uses a slope threshold where Minervini uses an RS rank. Read the books for the real method. More in [methodology](docs/METHODOLOGY.md).
 
 ## How this was built
 
