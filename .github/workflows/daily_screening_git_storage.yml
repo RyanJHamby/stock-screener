@@ -164,7 +164,7 @@ jobs:
           PR_BRANCH: ${{ steps.pr.outputs.pull-request-branch }}
         run: |
           gh workflow run tests.yml --ref "$PR_BRANCH"
-          gh pr merge "$PR_NUMBER" --auto --squash
+          gh pr merge "$PR_NUMBER" --auto --merge
 
       - name: Upload screening results
         if: always()
