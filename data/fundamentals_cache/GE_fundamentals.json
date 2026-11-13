@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GE",
-    "fetch_date": "2026-11-03T19:47:05.984710",
+    "fetch_date": "2026-11-13T04:27:16.035219",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.903,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:47:05.985714"
+  "fetched_at": "2026-11-13T04:27:16.036042"
 }

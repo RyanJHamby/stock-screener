@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LTC",
-    "fetch_date": "2026-11-05T20:22:22.455341",
+    "fetch_date": "2026-11-13T04:37:33.293933",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -15,15 +15,15 @@
     "revenue_yoy_change": 66.3241448982537,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.32,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": -0.44,
       "2025-12-31 00:00:00": 2.11,
       "2026-03-31 00:00:00": 0.48,
       "2026-06-30 00:00:00": 0.56,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 6.39
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": null,
+    "eps_qoq_change": 1041.0714285714284,
+    "eps_yoy_change": 1552.2727272727273,
     "gross_margin": 54.19,
     "margin_change": -0.99,
     "operating_margin": 35.2,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:22:22.457226"
+  "fetched_at": "2026-11-13T04:37:33.294726"
 }

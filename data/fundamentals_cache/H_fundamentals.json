@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "H",
-    "fetch_date": "2026-11-05T20:14:05.523123",
+    "fetch_date": "2026-11-13T04:29:18.013838",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 1786000000.0,
       "2025-12-31 00:00:00": 1789000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:14:05.525022"
+  "fetched_at": "2026-11-13T04:29:18.014697"
 }

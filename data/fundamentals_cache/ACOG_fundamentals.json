@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACOG",
-    "fetch_date": "2026-11-04T19:39:35.356637",
+    "fetch_date": "2026-11-13T04:04:28.790559",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1657687.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.05,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T19:39:35.357957"
+  "fetched_at": "2026-11-13T04:04:28.791486"
 }

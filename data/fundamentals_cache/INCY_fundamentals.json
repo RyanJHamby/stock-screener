@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INCY",
-    "fetch_date": "2026-11-05T20:17:17.509055",
+    "fetch_date": "2026-11-13T04:32:29.025524",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.086,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:17:17.510993"
+  "fetched_at": "2026-11-13T04:32:29.026351"
 }

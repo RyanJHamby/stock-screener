@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OKTA",
-    "fetch_date": "2026-11-05T20:29:34.567966",
+    "fetch_date": "2026-11-13T04:44:45.214619",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 728000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.29,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:29:34.569401"
+  "fetched_at": "2026-11-13T04:44:45.216556"
 }

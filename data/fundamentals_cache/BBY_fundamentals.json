@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BBY",
-    "fetch_date": "2026-11-05T19:55:10.374210",
+    "fetch_date": "2026-11-13T04:10:23.834544",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 9438000000.0,
       "2025-10-31 00:00:00": 9672000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.644,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:55:10.376120"
+  "fetched_at": "2026-11-13T04:10:23.835307"
 }

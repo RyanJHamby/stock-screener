@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DAL",
-    "fetch_date": "2026-11-05T20:04:20.450605",
+    "fetch_date": "2026-11-13T04:19:32.966654",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.131,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:04:20.452528"
+  "fetched_at": "2026-11-13T04:19:32.967428"
 }

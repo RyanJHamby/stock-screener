@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MEI",
-    "fetch_date": "2026-11-05T20:23:51.584897",
+    "fetch_date": "2026-11-13T04:39:02.145243",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 240500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.696,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:23:51.586765"
+  "fetched_at": "2026-11-13T04:39:02.146028"
 }

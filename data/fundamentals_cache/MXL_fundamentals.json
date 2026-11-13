@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MXL",
-    "fetch_date": "2026-11-05T20:26:06.575420",
+    "fetch_date": "2026-11-13T04:41:18.022022",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.522,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:26:06.577357"
+  "fetched_at": "2026-11-13T04:41:18.022839"
 }

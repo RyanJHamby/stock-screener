@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ENTG",
-    "fetch_date": "2026-11-05T20:07:42.542274",
+    "fetch_date": "2026-11-13T04:22:54.912184",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 792400000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.765,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:07:42.544200"
+  "fetched_at": "2026-11-13T04:22:54.913038"
 }

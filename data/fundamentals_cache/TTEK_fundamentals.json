@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTEK",
-    "fetch_date": "2026-11-05T20:44:59.891739",
+    "fetch_date": "2026-11-13T05:00:08.576233",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1369816000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 12.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:44:59.893207"
+  "fetched_at": "2026-11-13T05:00:08.576985"
 }

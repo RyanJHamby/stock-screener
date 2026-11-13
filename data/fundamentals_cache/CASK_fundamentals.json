@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CASK",
-    "fetch_date": "2026-11-03T19:33:59.884302",
+    "fetch_date": "2026-11-13T04:14:10.889783",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 130912000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 3.401,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-03T19:33:59.885187"
+  "fetched_at": "2026-11-13T04:14:10.890664"
 }

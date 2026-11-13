@@ -1,28 +1,30 @@
 {
   "data": {
     "ticker": "JRSH",
-    "fetch_date": "2026-11-05T20:19:02.407736",
+    "fetch_date": "2026-11-13T04:34:14.085761",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 39629308.0,
       "2025-09-30 00:00:00": 41968534.0,
       "2025-12-31 00:00:00": 41769186.0,
       "2026-03-31 00:00:00": 42896842.0,
-      "2026-06-30 00:00:00": 50229508.0
+      "2026-06-30 00:00:00": 50229508.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 17.09371985937799,
-    "revenue_yoy_change": 26.748385311194433,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.03,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.04,
       "2025-12-31 00:00:00": 0.09,
       "2026-03-31 00:00:00": 0.12,
-      "2026-06-30 00:00:00": 0.13
+      "2026-06-30 00:00:00": 0.13,
+      "2026-09-30 00:00:00": 0.16
     },
-    "eps_qoq_change": 8.333333333333341,
-    "eps_yoy_change": 333.33333333333337,
-    "gross_margin": 16.45,
-    "margin_change": -0.7,
-    "operating_margin": 5.24,
+    "eps_qoq_change": 23.076923076923077,
+    "eps_yoy_change": 300.0,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 27317026.0,
@@ -32,8 +34,8 @@
       "2026-06-30 00:00:00": 26593905.0
     },
     "inventory_qoq_change": -11.22,
-    "inventory_to_sales_ratio": 0.529,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:19:02.409611"
+  "fetched_at": "2026-11-13T04:34:14.086580"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DOC",
-    "fetch_date": "2026-11-05T20:05:33.509108",
+    "fetch_date": "2026-11-13T04:20:46.251078",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 705873000.0,
@@ -13,19 +13,19 @@
     "revenue_qoq_change": 6.391179645894976,
     "revenue_yoy_change": 16.294574236441967,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": 0.05,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": -0.17,
       "2025-12-31 00:00:00": 0.16,
       "2026-03-31 00:00:00": 0.28,
       "2026-06-30 00:00:00": 0.08,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 0.02
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": null,
+    "eps_qoq_change": -75.0,
+    "eps_yoy_change": 111.76470588235294,
     "gross_margin": 53.78,
     "margin_change": -3.04,
     "operating_margin": 14.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:05:33.510566"
+  "fetched_at": "2026-11-13T04:20:46.251809"
 }

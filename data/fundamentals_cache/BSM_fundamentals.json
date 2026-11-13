@@ -1,21 +1,19 @@
 {
   "data": {
     "ticker": "BSM",
-    "fetch_date": "2026-11-05T19:57:51.380942",
+    "fetch_date": "2026-11-13T04:13:04.815096",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 106710000.0,
       "2025-09-30 00:00:00": 105183000.0,
       "2025-12-31 00:00:00": 95182000.0,
       "2026-03-31 00:00:00": 123909000.0,
       "2026-06-30 00:00:00": 122122000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 129879000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 6.351844876435041,
+    "revenue_yoy_change": 23.479079318901345,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.4,
       "2025-12-31 00:00:00": 0.31,
       "2026-03-31 00:00:00": 0.03,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": -55.319148936170215,
     "eps_yoy_change": -47.5,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 83.14,
+    "margin_change": -2.45,
+    "operating_margin": 66.5,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:57:51.382396"
+  "fetched_at": "2026-11-13T04:13:04.815695"
 }

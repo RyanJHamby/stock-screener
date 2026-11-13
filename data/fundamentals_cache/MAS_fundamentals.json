@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MAS",
-    "fetch_date": "2026-11-05T20:23:01.590234",
+    "fetch_date": "2026-11-13T04:38:12.034165",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1917000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.534,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:23:01.592122"
+  "fetched_at": "2026-11-13T04:38:12.034959"
 }

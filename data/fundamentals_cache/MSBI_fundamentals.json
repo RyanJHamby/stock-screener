@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MSBI",
-    "fetch_date": "2026-11-05T20:25:27.648041",
+    "fetch_date": "2026-11-13T04:40:37.958297",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 295.83333333333337,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:25:27.649527"
+  "fetched_at": "2026-11-13T04:40:37.958722"
 }

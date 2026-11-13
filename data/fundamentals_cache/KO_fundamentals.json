@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KO",
-    "fetch_date": "2026-11-05T20:19:58.597574",
+    "fetch_date": "2026-11-13T04:35:10.095952",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.33,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:19:58.599504"
+  "fetched_at": "2026-11-13T04:35:10.096754"
 }

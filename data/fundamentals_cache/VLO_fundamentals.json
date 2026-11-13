@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VLO",
-    "fetch_date": "2026-11-05T20:47:28.997012",
+    "fetch_date": "2026-11-13T05:02:37.985472",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.165,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:47:28.998979"
+  "fetched_at": "2026-11-13T05:02:37.986423"
 }

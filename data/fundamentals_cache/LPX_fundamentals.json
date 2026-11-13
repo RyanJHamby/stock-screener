@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LPX",
-    "fetch_date": "2026-11-05T20:22:12.535139",
+    "fetch_date": "2026-11-13T04:37:23.052722",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -15,15 +15,15 @@
     "revenue_yoy_change": 4.223227752639517,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.77,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.13,
       "2025-12-31 00:00:00": -0.11,
       "2026-03-31 00:00:00": 0.39,
       "2026-06-30 00:00:00": 0.38,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 0.32
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": null,
+    "eps_qoq_change": -15.789473684210526,
+    "eps_yoy_change": 146.15384615384613,
     "gross_margin": 16.5,
     "margin_change": -0.97,
     "operating_margin": 5.5,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.502,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:22:12.537085"
+  "fetched_at": "2026-11-13T04:37:23.053535"
 }

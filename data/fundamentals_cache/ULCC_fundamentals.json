@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ULCC",
-    "fetch_date": "2026-11-04T20:36:19.563688",
+    "fetch_date": "2026-11-13T05:01:05.795176",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.077,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T20:36:19.564962"
+  "fetched_at": "2026-11-13T05:01:05.796228"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "USLM",
-    "fetch_date": "2026-11-05T20:46:37.040913",
+    "fetch_date": "2026-11-13T05:01:45.812286",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 91518000.0,
       "2025-09-30 00:00:00": 102016000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:46:37.042781"
+  "fetched_at": "2026-11-13T05:01:45.813282"
 }

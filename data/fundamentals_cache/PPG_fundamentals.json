@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PPG",
-    "fetch_date": "2026-11-04T20:23:34.502645",
+    "fetch_date": "2026-11-13T04:48:22.337997",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 4082000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.514,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T20:23:34.503972"
+  "fetched_at": "2026-11-13T04:48:22.338899"
 }
