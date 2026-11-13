@@ -492,7 +492,7 @@ Before setting up cron:
 
 ## 📞 Support & Documentation
 
-- **Quick Start**: See `START_HERE.md`
+- **Quick Start**: See the top-level `README.md`
 - **Full Scanner Guide**: See `OPTIMIZED_SCANNER_README.md`
 - **Cron Setup**: See `SETUP_CRON_JOB.md`
 - **Original System**: See `QUANT_ENGINE_README.md`
