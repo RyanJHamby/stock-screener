@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CAKE",
-    "fetch_date": "2026-11-05T19:58:43.301997",
+    "fetch_date": "2026-11-13T04:13:55.781802",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 955825000.0,
       "2025-09-30 00:00:00": 907226000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.05,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:58:43.303952"
+  "fetched_at": "2026-11-13T04:13:55.782561"
 }

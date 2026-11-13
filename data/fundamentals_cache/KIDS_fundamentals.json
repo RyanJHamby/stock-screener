@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KIDS",
-    "fetch_date": "2026-11-05T20:19:35.538395",
+    "fetch_date": "2026-11-13T04:34:47.092075",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 61250000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.952,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:19:35.540260"
+  "fetched_at": "2026-11-13T04:34:47.092886"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NWL",
-    "fetch_date": "2026-11-05T20:28:38.518181",
+    "fetch_date": "2026-11-13T04:43:50.304751",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1806000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.852,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:28:38.520076"
+  "fetched_at": "2026-11-13T04:43:50.305678"
 }

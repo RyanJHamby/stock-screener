@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OGN",
-    "fetch_date": "2026-11-05T20:29:24.575448",
+    "fetch_date": "2026-11-13T04:44:35.294913",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-09-30 00:00:00": 1602000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.861,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:29:24.577316"
+  "fetched_at": "2026-11-13T04:44:35.295840"
 }

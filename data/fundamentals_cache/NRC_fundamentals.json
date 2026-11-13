@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "NRC",
-    "fetch_date": "2026-11-05T20:27:47.585153",
+    "fetch_date": "2026-11-13T04:42:59.231369",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 34038000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 34608000.0,
       "2025-12-31 00:00:00": 35194000.0,
       "2026-03-31 00:00:00": 34803000.0,
       "2026-06-30 00:00:00": 35392000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 38399000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 8.49627034358047,
+    "revenue_yoy_change": 10.954114655570967,
     "quarterly_eps": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.18,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": 240.0,
     "eps_yoy_change": 16.666666666666664,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 59.95,
+    "margin_change": -1.72,
+    "operating_margin": 23.2,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:27:47.586598"
+  "fetched_at": "2026-11-13T04:42:59.232115"
 }

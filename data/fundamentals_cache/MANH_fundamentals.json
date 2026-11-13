@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MANH",
-    "fetch_date": "2026-11-05T20:22:59.329214",
+    "fetch_date": "2026-11-13T04:38:10.223793",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 275795000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 26.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:22:59.330639"
+  "fetched_at": "2026-11-13T04:38:10.224430"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLDE",
-    "fetch_date": "2026-11-05T20:39:34.666357",
+    "fetch_date": "2026-11-13T04:54:43.174900",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 265693000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 37.9746835443038,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:39:34.667126"
+  "fetched_at": "2026-11-13T04:54:43.175394"
 }

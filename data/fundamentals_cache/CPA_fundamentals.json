@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CPA",
-    "fetch_date": "2026-11-05T20:02:28.401723",
+    "fetch_date": "2026-11-13T04:17:40.737917",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 842604000.0,
       "2025-09-30 00:00:00": 913149000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.147,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:02:28.403663"
+  "fetched_at": "2026-11-13T04:17:40.738801"
 }

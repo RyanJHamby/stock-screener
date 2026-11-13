@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMAL",
-    "fetch_date": "2026-11-05T19:51:25.280205",
+    "fetch_date": "2026-11-13T04:06:40.870597",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 85011000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 36.36363636363636,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:51:25.280955"
+  "fetched_at": "2026-11-13T04:06:40.870950"
 }

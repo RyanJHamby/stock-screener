@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "CRVL",
-    "fetch_date": "2026-11-05T20:03:02.284028",
+    "fetch_date": "2026-11-13T04:18:14.871918",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 234711000.0,
       "2025-09-30 00:00:00": 239643000.0,
       "2025-12-31 00:00:00": 235625000.0,
       "2026-03-31 00:00:00": 248548000.0,
       "2026-06-30 00:00:00": 259925000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 267129000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 2.7715687217466574,
+    "revenue_yoy_change": 11.46956097194577,
     "quarterly_eps": {
-      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.54,
       "2025-12-31 00:00:00": 0.47,
       "2026-03-31 00:00:00": 0.61,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 6.349206349206354,
     "eps_yoy_change": 24.074074074074073,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 27.07,
+    "margin_change": 0.98,
+    "operating_margin": 17.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:03:02.285479"
+  "fetched_at": "2026-11-13T04:18:14.872562"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TXT",
-    "fetch_date": "2026-11-05T20:45:27.061309",
+    "fetch_date": "2026-11-13T05:00:35.816504",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 3602000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 1.296,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:45:27.063275"
+  "fetched_at": "2026-11-13T05:00:35.817392"
 }

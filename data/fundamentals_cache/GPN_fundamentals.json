@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "GPN",
-    "fetch_date": "2026-11-05T20:13:18.493573",
+    "fetch_date": "2026-11-13T04:28:30.995179",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1969287000.0,
-      "2025-09-30 00:00:00": 2007637000.0,
+      "2025-06-30 00:00:00": NaN,
+      "2025-09-30 00:00:00": 2019509000.0,
       "2025-12-31 00:00:00": 1932807000.0,
       "2026-03-31 00:00:00": 2969682000.0,
       "2026-06-30 00:00:00": 3320791000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 3306284000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -0.43685374960363355,
+    "revenue_yoy_change": 63.71722037386315,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 2020.0,
     "eps_yoy_change": -59.84848484848485,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 60.78,
+    "margin_change": -0.26,
+    "operating_margin": 7.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:13:18.495038"
+  "fetched_at": "2026-11-13T04:28:30.995950"
 }

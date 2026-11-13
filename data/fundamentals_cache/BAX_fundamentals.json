@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BAX",
-    "fetch_date": "2026-11-05T19:54:55.421814",
+    "fetch_date": "2026-11-13T04:10:08.970011",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 2835000000.0,
       "2025-12-31 00:00:00": 2974000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.773,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:54:55.423757"
+  "fetched_at": "2026-11-13T04:10:08.970811"
 }

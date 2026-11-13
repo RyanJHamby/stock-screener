@@ -1,30 +1,32 @@
 {
   "data": {
     "ticker": "CLFD",
-    "fetch_date": "2026-11-04T19:51:25.427631",
+    "fetch_date": "2026-11-13T04:16:15.862224",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 38755000.0,
       "2025-09-30 00:00:00": 17587000.0,
       "2025-12-31 00:00:00": 34341000.0,
       "2026-03-31 00:00:00": 34391000.0,
-      "2026-06-30 00:00:00": 43864000.0
+      "2026-06-30 00:00:00": 43864000.0,
+      "2026-09-30 00:00:00": NaN
     },
-    "revenue_qoq_change": 27.544997237649383,
-    "revenue_yoy_change": 13.182815120629595,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": 0.09,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.11,
       "2025-09-30 00:00:00": NaN,
       "2025-12-31 00:00:00": -0.04,
       "2026-03-31 00:00:00": -0.04,
-      "2026-06-30 00:00:00": 0.22
+      "2026-06-30 00:00:00": 0.22,
+      "2026-09-30 00:00:00": 0.0
     },
-    "eps_qoq_change": 650.0,
-    "eps_yoy_change": 100.0,
-    "gross_margin": 31.79,
-    "margin_change": -0.66,
-    "operating_margin": 5.86,
+    "eps_qoq_change": null,
+    "eps_yoy_change": null,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 53753000.0,
@@ -34,8 +36,8 @@
       "2026-06-30 00:00:00": 33391000.0
     },
     "inventory_qoq_change": -9.56,
-    "inventory_to_sales_ratio": 0.761,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T19:51:25.428895"
+  "fetched_at": "2026-11-13T04:16:15.863034"
 }

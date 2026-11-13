@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BIO",
-    "fetch_date": "2026-11-05T19:56:12.371268",
+    "fetch_date": "2026-11-13T04:11:26.221549",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 653000000.0,
       "2025-12-31 00:00:00": 693200000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.194,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:56:12.373168"
+  "fetched_at": "2026-11-13T04:11:26.222454"
 }

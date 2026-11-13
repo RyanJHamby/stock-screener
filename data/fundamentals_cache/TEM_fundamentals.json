@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEM",
-    "fetch_date": "2026-11-05T20:43:03.818105",
+    "fetch_date": "2026-11-13T04:58:12.383265",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 334206000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.131,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:43:03.820266"
+  "fetched_at": "2026-11-13T04:58:12.384192"
 }

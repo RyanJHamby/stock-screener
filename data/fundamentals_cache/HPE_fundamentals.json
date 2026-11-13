@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HPE",
-    "fetch_date": "2026-11-05T20:15:28.459621",
+    "fetch_date": "2026-11-13T04:30:39.982039",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 9136000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.968,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:15:28.461577"
+  "fetched_at": "2026-11-13T04:30:39.982921"
 }

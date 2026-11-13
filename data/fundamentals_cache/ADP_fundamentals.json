@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ADP",
-    "fetch_date": "2026-11-05T19:49:30.226684",
+    "fetch_date": "2026-11-13T04:04:45.874093",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 5175200000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 26.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:49:30.228223"
+  "fetched_at": "2026-11-13T04:04:45.874804"
 }

@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "SLG",
-    "fetch_date": "2026-11-05T20:39:38.792875",
+    "fetch_date": "2026-11-13T04:54:47.309770",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 220867000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 233979000.0,
       "2025-12-31 00:00:00": 261601000.0,
       "2026-03-31 00:00:00": 238431000.0,
       "2026-06-30 00:00:00": 249258000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 258338000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 3.6428118656171513,
+    "revenue_yoy_change": 10.410763359104877,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 365.7894736842106,
     "eps_yoy_change": 197.05882352941174,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 41.42,
+    "margin_change": -3.89,
+    "operating_margin": 7.79,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:39:38.794348"
+  "fetched_at": "2026-11-13T04:54:47.310501"
 }

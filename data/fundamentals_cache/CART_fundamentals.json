@@ -1,17 +1,17 @@
 {
   "data": {
     "ticker": "CART",
-    "fetch_date": "2026-11-05T19:58:56.242306",
+    "fetch_date": "2026-11-13T04:14:08.908057",
     "quarterly_revenue": {
-      "2025-06-30 00:00:00": 914000000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 939000000.0,
       "2025-12-31 00:00:00": 992000000.0,
       "2026-03-31 00:00:00": 1019000000.0,
       "2026-06-30 00:00:00": 1043000000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 1095000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 4.985618408437201,
+    "revenue_yoy_change": 16.61341853035144,
     "quarterly_eps": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.51,
@@ -22,10 +22,10 @@
     },
     "eps_qoq_change": 33.33333333333333,
     "eps_yoy_change": 17.647058823529406,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 71.78,
+    "margin_change": -0.22,
+    "operating_margin": 15.89,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:58:56.243779"
+  "fetched_at": "2026-11-13T04:14:08.908743"
 }

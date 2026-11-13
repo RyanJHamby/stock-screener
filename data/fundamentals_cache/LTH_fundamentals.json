@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LTH",
-    "fetch_date": "2026-11-05T20:22:24.402086",
+    "fetch_date": "2026-11-13T04:37:35.126650",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 782649000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:22:24.403981"
+  "fetched_at": "2026-11-13T04:37:35.127448"
 }

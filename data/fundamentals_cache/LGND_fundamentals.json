@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LGND",
-    "fetch_date": "2026-11-05T20:21:20.494578",
+    "fetch_date": "2026-11-13T04:36:31.089818",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 115461000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.164,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:21:20.496488"
+  "fetched_at": "2026-11-13T04:36:31.090705"
 }

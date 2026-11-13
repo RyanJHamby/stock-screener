@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ODC",
-    "fetch_date": "2026-11-05T20:29:11.502497",
+    "fetch_date": "2026-11-13T04:44:22.290069",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 115501000.0,
       "2025-10-31 00:00:00": 120486000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.414,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:29:11.504374"
+  "fetched_at": "2026-11-13T04:44:22.290946"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BTSG",
-    "fetch_date": "2026-11-05T19:58:04.392984",
+    "fetch_date": "2026-11-13T04:13:17.845161",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.159,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:58:04.394986"
+  "fetched_at": "2026-11-13T04:13:17.845953"
 }

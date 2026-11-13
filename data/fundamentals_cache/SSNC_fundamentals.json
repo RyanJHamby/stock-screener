@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "SSNC",
-    "fetch_date": "2026-11-05T20:41:19.786059",
+    "fetch_date": "2026-11-13T04:56:28.565768",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 1536800000.0,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1568000000.0,
       "2025-12-31 00:00:00": 1653500000.0,
       "2026-03-31 00:00:00": 1647100000.0,
       "2026-06-30 00:00:00": 1695700000.0,
-      "2026-09-30 00:00:00": NaN
+      "2026-09-30 00:00:00": 1690000000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -0.3361443651589314,
+    "revenue_yoy_change": 7.780612244897959,
     "quarterly_eps": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -14.432989690721651,
     "eps_yoy_change": 0.0,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 48.15,
+    "margin_change": -0.1,
+    "operating_margin": 24.22,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:41:19.787531"
+  "fetched_at": "2026-11-13T04:56:28.566577"
 }

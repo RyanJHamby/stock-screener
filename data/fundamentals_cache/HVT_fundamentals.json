@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HVT",
-    "fetch_date": "2026-11-05T20:16:09.572319",
+    "fetch_date": "2026-11-13T04:31:21.107599",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 181025000.0,
       "2025-09-30 00:00:00": 194484000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.427,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:16:09.574203"
+  "fetched_at": "2026-11-13T04:31:21.108529"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARMK",
-    "fetch_date": "2026-11-05T19:53:02.242285",
+    "fetch_date": "2026-11-13T04:08:16.834406",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4626451000.0,
       "2025-09-30 00:00:00": 5048464000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.086,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:53:02.244174"
+  "fetched_at": "2026-11-13T04:08:16.835249"
 }

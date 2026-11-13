@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HOOD",
-    "fetch_date": "2026-11-05T20:15:20.496041",
+    "fetch_date": "2026-11-13T04:30:31.932273",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 48.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:15:20.497548"
+  "fetched_at": "2026-11-13T04:30:31.932925"
 }

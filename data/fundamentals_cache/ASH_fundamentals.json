@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASH",
-    "fetch_date": "2026-11-05T19:53:19.401780",
+    "fetch_date": "2026-11-13T04:08:33.834474",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 463000000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:53:19.403775"
+  "fetched_at": "2026-11-13T04:08:33.835349"
 }

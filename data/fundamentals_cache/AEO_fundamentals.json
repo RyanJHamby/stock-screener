@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AEO",
-    "fetch_date": "2026-11-05T19:49:47.251423",
+    "fetch_date": "2026-11-13T04:05:03.124667",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 1283675000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.593,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:49:47.253278"
+  "fetched_at": "2026-11-13T04:05:03.125568"
 }

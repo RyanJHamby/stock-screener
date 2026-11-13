@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMHI",
-    "fetch_date": "2026-11-02T22:30:22.820975",
+    "fetch_date": "2026-11-13T04:55:10.229043",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 59194000.0,
       "2025-12-31 00:00:00": 52329000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.036,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T22:30:22.821907"
+  "fetched_at": "2026-11-13T04:55:10.229929"
 }
