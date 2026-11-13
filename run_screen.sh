@@ -3,4 +3,4 @@
 
 cd "$(dirname "$0")"
 [ -f venv/bin/activate ] && source venv/bin/activate
-python scripts/run_quant_engine.py "$@"
+PYTHONPATH="$PWD" python scripts/run_quant_engine.py "$@"
