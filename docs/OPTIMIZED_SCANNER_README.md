@@ -1,10 +1,10 @@
-# Optimized Full Market Scanner - 10-25x Faster + Enhanced Fundamentals
+# Optimized Full Market Scanner
 
-## 🚀 Performance Upgrade
+A parallel full-market scanner (`run_optimized_scan.py`) with a rate-limited worker pool.
+Measured runtimes come from `data/daily_scans/`: the daily conservative scan takes about
+63 minutes. The speed estimates this page used to carry were not measured, so they were removed.
 
-I've created an **optimized version** that's **10-25x faster** than the original scanner using parallel processing.
-
-## 📊 New Feature: Enhanced Fundamentals (FMP Integration)
+## Enhanced fundamentals (FMP integration)
 
 The scanner now supports **enhanced quarterly fundamentals** via Financial Modeling Prep:
 - ✅ **Net margins** (not available in yfinance!)
@@ -14,15 +14,6 @@ The scanner now supports **enhanced quarterly fundamentals** via Financial Model
 - ✅ Smart usage: Only fetches for buy signals (~50-100 stocks)
 
 **See**: `ENHANCED_FUNDAMENTALS_USAGE.md` for setup and usage details.
-
-### Speed Comparison
-
-| Version | Workers | TPS | Runtime (3,800 stocks) |
-|---------|---------|-----|------------------------|
-| **Original** | 1 | 1 | ~1-2 hours |
-| **Balanced** | 5 | ~25 | **15-20 minutes** ⚡ |
-| **Conservative** | 3 | ~9 | ~25-30 minutes |
-| **Aggressive** | 10 | ~100 | ~5-10 minutes (risky!) |
 
 ## How It Works
 

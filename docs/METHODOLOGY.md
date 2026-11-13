@@ -50,5 +50,5 @@ Buy signals trigger only for Phase 2 stocks that pass 7 of 8:
 ## Caveat on the caching claim
 
 An earlier README said the Git-based cache gives a "74% reduction in API calls".
-That figure appears only as a checked box in `DEPLOYMENT_CHECKLIST.md` (15,200 to
-3,926 calls) and has no captured run behind it, so it was removed from the README.
+That figure came from a deployment checklist (15,200 to 3,926 calls), since removed,
+and has no captured run behind it, so it was dropped from the README and the code.

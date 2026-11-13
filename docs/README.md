@@ -1,37 +1,26 @@
 # Documentation
 
-Extended reference documentation for the Intelligent Stock Screener.
+Extended reference for the stock screener. Start with the top-level [README](../README.md).
 
-## About
+## How it works
 
-- [About This Project](ABOUT.md) — What this is and why it was built this way
+- [Methodology](METHODOLOGY.md): Trend Template criteria, phases, design choices
+- [Technical details](TECHNICAL_DETAILS.md): scoring and stop-loss, matched to the code
+- [Position management](POSITION_MANAGEMENT.md): read-only Robinhood analysis and stop recommendations
+- [Roadmap](ROADMAP.md): ideas, none built
 
-## Setup Guides
+## Setup guides
 
-- [GitHub Actions Setup](GITHUB_ACTIONS_SETUP.md) — Automate daily scans via GitHub Actions
-- [Cron Job Setup](SETUP_CRON_JOB.md) — Alternative to GitHub Actions: run locally on a schedule
-- [Robinhood Setup](ROBINHOOD_SETUP.md) — Configure read-only position management
-- [FMP Integration](SETUP_FMP.md) — Optional Financial Modeling Prep API integration
+- [GitHub Actions setup](GITHUB_ACTIONS_SETUP.md): automate daily scans
+- [Cron job setup](SETUP_CRON_JOB.md): run locally on a schedule instead
+- [Robinhood setup](ROBINHOOD_SETUP.md): read-only position management
+- [FMP integration](SETUP_FMP.md): optional Financial Modeling Prep fundamentals
+- [Notifications setup](NOTIFICATIONS_SETUP.md): email and Slack alerts
 
-## Architecture & Design
+## Other
 
-- [Smart Caching Strategy](REVISED_SMART_CACHING_STRATEGY.md) — Git-based storage, earnings-aware refresh, 74% fewer API calls
-- [Optimized Scanner](OPTIMIZED_SCANNER_README.md) — Parallel processing design (10-25x faster than the original scanner)
-- [Full Market Implementation](FULL_MARKET_IMPLEMENTATION.md) — Scanning 3,800+ stocks at scale
-- [Quant Engine](QUANT_ENGINE_README.md) — Phase-based screening engine (`scripts/run_quant_engine.py`)
-- [Rate Limit Solution](RATE_LIMIT_SOLUTION.md) — Handling yfinance rate limits
-- [Detecting Rate Limits](DETECTING_RATE_LIMITS.md) — Diagnosing throttling issues
-
-## Feature Docs
-
-- [Notifications Setup](NOTIFICATIONS_SETUP.md) — Email/Slack alerts configuration
-- [Position Automation](POSITION_AUTOMATION.md) — Automated stop-loss reporting
-- [Enhanced Fundamentals](ENHANCED_FUNDAMENTALS_USAGE.md) — FMP fundamental data usage
-- [Trade Tracking](TRADE_TRACKING_SPREADSHEET.md) — Manual trade log template
-
-## Internal Summaries
-
-- [Project Summary](PROJECT_SUMMARY.md)
-- [Implementation Summary](IMPLEMENTATION_SUMMARY.md)
-- [Screening Module Summary](SCREENING_MODULE_SUMMARY.md)
-- [Deployment Checklist](DEPLOYMENT_CHECKLIST.md)
+- [Optimized scanner](OPTIMIZED_SCANNER_README.md): parallel scanner design
+- [Detecting rate limits](DETECTING_RATE_LIMITS.md): diagnosing throttling
+- [Position automation](POSITION_AUTOMATION.md): automated stop-loss reporting
+- [Enhanced fundamentals](ENHANCED_FUNDAMENTALS_USAGE.md): using FMP data
+- [Trade tracking](TRADE_TRACKING_SPREADSHEET.md): manual trade log template
