@@ -6,7 +6,7 @@ python-dotenv==1.2.3
 pytest==9.2.0
 pytest-mock==3.15.1
 requests==2.34.2
-slack-sdk==3.44.0
+slack-sdk==3.46.0
 pyyaml==6.0.3
 flask==3.1.3  # dashboard.py
 numpy==2.5.2
