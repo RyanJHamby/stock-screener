@@ -49,10 +49,6 @@ Without `just`, the recipes are in the [justfile](justfile). Reports are written
 
 Run the tests with `pytest tests/ --ignore=tests/test_email_full.py`.
 
-`run_test.sh` and `run_screen.sh` run the older 30-ticker engine from `config.yaml`
-(`tests/test_quant_engine.py`, `scripts/run_quant_engine.py`). Known issue: that engine
-currently crashes at `src/screening/quant_engine.py:289`. Use the `just` recipes instead.
-
 ## How it works
 
 ```mermaid

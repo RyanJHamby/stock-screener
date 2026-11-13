@@ -8,7 +8,7 @@ avoiding rate limits through:
 - Adaptive backoff on errors
 - Session pooling
 
-Expected runtime: 15-30 minutes for 3,800+ stocks
+Runtime: the daily GitHub Actions scans in data/daily_scans/ take about 63 minutes.
 
 Usage:
     python run_optimized_scan.py
@@ -340,7 +340,7 @@ def main():
         )
 
         if args.git_storage:
-            logger.info("Git-based fundamental storage enabled - 74% API call reduction!")
+            logger.info("Git-based fundamental storage enabled")
 
         if args.clear_progress:
             processor.clear_progress()
