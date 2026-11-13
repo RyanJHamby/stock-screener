@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RCI",
-    "fetch_date": "2026-11-02T22:25:32.074961",
+    "fetch_date": "2026-11-13T20:16:41.707779",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 5348000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-02T22:25:32.075892"
+  "fetched_at": "2026-11-13T20:16:41.709752"
 }

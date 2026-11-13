@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PODD",
-    "fetch_date": "2026-11-06T19:58:15.955354",
+    "fetch_date": "2026-11-13T20:14:34.458786",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.656,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:58:15.956540"
+  "fetched_at": "2026-11-13T20:14:34.460816"
 }

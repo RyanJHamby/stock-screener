@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MWA",
-    "fetch_date": "2026-11-06T19:51:13.826877",
+    "fetch_date": "2026-11-13T20:07:33.496690",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 380300000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:51:13.827995"
+  "fetched_at": "2026-11-13T20:07:33.498673"
 }
