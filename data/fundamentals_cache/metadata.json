@@ -2556,8 +2556,8 @@
     "in_earnings_season": true
   },
   "SVRA": {
-    "last_updated": "2026-08-14T14:15:46.632719",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T21:17:18.747474",
+    "in_earnings_season": false
   },
   "SVV": {
     "last_updated": "2026-11-13T04:57:20.298294",
@@ -3376,8 +3376,8 @@
     "in_earnings_season": true
   },
   "WPC": {
-    "last_updated": "2026-08-14T14:23:02.945889",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T21:24:35.011573",
+    "in_earnings_season": false
   },
   "WRB": {
     "last_updated": "2026-11-13T05:04:34.789786",
@@ -5404,8 +5404,8 @@
     "in_earnings_season": true
   },
   "CALM": {
-    "last_updated": "2026-08-13T13:37:23.214784",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T20:34:05.466901",
+    "in_earnings_season": false
   },
   "CALY": {
     "last_updated": "2026-11-13T04:14:00.795647",
@@ -6268,8 +6268,8 @@
     "in_earnings_season": true
   },
   "ELA": {
-    "last_updated": "2026-08-13T13:45:50.334465",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T20:42:28.535734",
+    "in_earnings_season": false
   },
   "ELAN": {
     "last_updated": "2026-11-13T04:22:25.148697",
@@ -7956,8 +7956,8 @@
     "in_earnings_season": true
   },
   "EVI": {
-    "last_updated": "2026-08-13T13:47:12.266961",
-    "in_earnings_season": true
+    "last_updated": "2026-11-19T20:43:51.489413",
+    "in_earnings_season": false
   },
   "HRZN": {
     "last_updated": "2026-08-13T13:54:26.340795",
@@ -8798,5 +8798,37 @@
   "WFRD": {
     "last_updated": "2026-11-13T14:27:14.676605",
     "in_earnings_season": true
+  },
+  "ABSI": {
+    "last_updated": "2026-11-19T20:24:14.478961",
+    "in_earnings_season": false
+  },
+  "BILL": {
+    "last_updated": "2026-11-19T20:31:32.437536",
+    "in_earnings_season": false
+  },
+  "BOBS": {
+    "last_updated": "2026-11-19T20:32:23.645735",
+    "in_earnings_season": false
+  },
+  "HZN": {
+    "last_updated": "2026-11-19T20:51:39.712737",
+    "in_earnings_season": false
+  },
+  "MANE": {
+    "last_updated": "2026-11-19T20:58:15.553352",
+    "in_earnings_season": false
+  },
+  "SG": {
+    "last_updated": "2026-11-19T21:13:53.667689",
+    "in_earnings_season": false
+  },
+  "TWST": {
+    "last_updated": "2026-11-19T21:20:28.676152",
+    "in_earnings_season": false
+  },
+  "VRSA": {
+    "last_updated": "2026-11-19T21:23:02.614629",
+    "in_earnings_season": false
   }
 }
